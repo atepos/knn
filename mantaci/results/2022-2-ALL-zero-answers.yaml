@@ -1,0 +1,247 @@
+20729bed8a76d6f6f3fb387acc7f6087:
+  4:
+    pred: 0
+    text: -> potřebuje vědět, kde se zrovna nachází ani nemusí vědět, kde je cíl
+      -> jedná se o faktorizovanou regrez. stavu je vázaný na prostředí (ten stav)
+      � nějak se v něm pohybuje � musí vědět, kde je
+    truth: 1
+  8:
+    pred: 0
+    text: KAZ;� nebudeme scho;generalizo;vat;-> způsobem tím, že jsme se naučili
+      křivku přesně, kde není zaveden gauss. šum;t;te;po zavedení gauss. šumu budeme
+      schopni pěkně generalizovat
+    truth: 0
+28820ed35e5098a689435823adf2e4e2:
+  2:
+    pred: 0
+    text: 'keď ho vyřešíme popostroch pro hledání normálních hodnot - tak naja najčastějším
+      Algoritmy ktory hladajú míníme hodnotu najčastějšie hladajú parametry rodelu
+      prí ktorem chyba je ním malná, alebo hladuju zřešenie z mínímalnou cenou.
+      Aby sme mohli použít mínínax hra ma splňovat take vlastnosti: e) Možeme ohodnotiť
+      každu akcích v hry, a čím vatšíe bude hodnota hodnocení a tím lepšíe bude
+      pre hračá ktory tu akcí a v robíl 2) Hra musí byt znulovym sučtom. Aby Lebo
+      Mín Max funguje tak že maximalizujeme svoj užitek a mínímalizujeme užitek
+      Tvých hračov'
+    truth: 1
+2999da745d9319388937680319e94ef8:
+  5:
+    pred: 0
+    text: Gausovský blazifikátor je popsán pomocí střední hodnoty, bevorianční matice
+      pro každou třídu, a vah jedno- tlivých tříd
+    truth: 0
+2ea99fefbc421672603c520f6165d18f:
+  14:
+    pred: 0
+    text: Při deep-learningu modeluje neuronová síť funkci, která vstup dostává
+      akce, které lze v provést a po výstup vrací velikost odměny pro agenta, která
+      udává, že danou akci je nejlepší provést právě nyní. Agent se poté rozhoduje
+      ve svém chování na základě velikostí odměny.;m;domén stavu
+    truth: 3
+2fcfde5bdeca3406910a9f82585f5a99:
+  13:
+    pred: 0
+    text: chceme aby sloví s potokním významem boličo naibližšie k sebe. Exchlilovská
+      vzdiaknusť takéchlo vektorov je co naimenšia. Vlak kord vector aritmetike
+      môže hialat“ sécisiace/polohré slová napr. Hlavně mesta a štát v ktorou sa
+      nachálka alebo robil oporácie ako král = muž = královná
+    truth: 4
+4675df389dab25469cf2879db941e2af:
+  7:
+    pred: 0
+    text: NS/=;PINS) P(NS);P(P|epis);P(s|P);P(S|P) = P P(P|S|P|S) + P(P|NS) P(ne)
+      9:02 P(SIP) =;P(s|P) =;P(S|P) = 0,9 . 02 + 0,035.08;0,9 . 02;P(PIS) P (s);(PIS)
+      P(s);P(P);P(s|P) =;P(s, P) = P(S|P) PIP) = P(P|P|S) P(s);P(S|P) =;0,9 02 +
+      0,035.08 0,45;0,73;0,45 + 0,28
+    truth: 3
+  10:
+    pred: 0
+    text: '- loss funkce udává jak moc se získaný výstup prodaný vzorek vyší od
+      požadovaného výstupu udává tady chybu klasifikace/predikce atd. vstupem je
+      nejčastěji výstup našeho daného modelu nad nějakým vzorkem a požadovaná cílová
+      hodnota (výstupní hodnota) pro tento vzorek.'
+    truth: 3
+510077e41f24942dfd5a8da94fba89da:
+  3:
+    pred: 0
+    text: (M BFS - OB buď) = O(mLan) DFS - OLIF) - OLN);(2) BFS - O (n2) DFS - O
+      (new n);70
+    truth: 1
+515a0274ee53fe5a4fd634d0589bec73:
+  5:
+    pred: 0
+    text: 'čítame a-posteriori P pomocou Bayesovho vzorca: P;P(y) je) (model P(yk)
+      je v tomto prípade gaussovské rozlož. pravdepodobnosti, P(x) je prior pravdepodobnosť
+      tridy x a P(y) je tzv. evidence a to je súčet súčinu všetkých pravdepodobností
+      éměř je popísan jednou studnou hodnotou a jednou kovariančnou maticou (E).
+      Využijú sa pri výpočte vierohodnosti P(ylx kde P(y|x) pravdepodobnosť je hodnota
+      gaussovskej funkcie pre dané dat Tuto hodnotu vypočítame dosadením do předpisu
+      že rozloženia hust. P, v ktorej sú aj parametru ju a E. kde x, a x2 sú hodnoty
+      pozorované 1 a 2, 31 (32) boch í data roztrhnuté v si z své hodnoty určujúce
+      koreláciu dát (tvar gauss rozložen'
+    truth: 2
+  7:
+    pred: 0
+    text: =) 1- P(Nal.) = P(Zdrav) = 0,8;P(Pozi Nak.) = 0,9 p(Neg.|/zdrav.) - 0,
+      975 � P(Poz/Zdrav.) = 0,025 1- P(Neg.|Zdrav.) P(NAR. / Poz.) = x ?;P(NALI/POZ.)
+      =;P(Poz.) Nek.). P(Nat.;P(Poz.);SUM RULE;P(Poz) = P(Poz / Zdrav.). P(Zdrav.)
+      + P(Poz.|Nak.). P(Nak.) 0,2 P(Poz) = 0,025 . 0,8;P(Nak/Poz);kat
+    truth: 4
+5369915f58938b8046fd891fd93ecd2f:
+  7:
+    pred: 0
+    text: P(z) =;P(N|=0,2;N - nemocný;zdraví;P(X|Y);P;P(poz / N) = 0,9 P(negl 2)
+      = 0,975 den P(N|poz) -2 P(roz/z) = 1-8 (reglz);= 9025;P(N|(poz);P(n);P(po2);P(POZ|N);P(poz)
+      = P(z) . P(poz|z) t P(v) . P(roz |N);P(roz) = 0,8.0,025 + 92.0,9;P(w|+ poz)
+      =;0,2;0,8 0,025 + 0,2 . 09;Pravděpodobnost natíženosti pozitivní osoby je;0,2
+      . 0,9;0,8. 0,029 + 0,2 . 0,9
+    truth: 4
+  10:
+    pred: 0
+    text: Toss funkce říká jak moc se predikce leší od validačního řešení a s její
+      pomocí upravujeme perametr modelu;vstupem je prodikce modelu na validačních
+      vstupech a validační řešení výstupem je míra chyby
+    truth: 2
+554f1cfee56cf20c2f51a5331933eb85:
+  10:
+    pred: 0
+    text: Jej rola je určiť chybu na 1 vzorke /1 datu - porovnamie očekávaného výstupu
+      s reálným výstupem který sme získali. Jej vstupom je očekávaný výstup a výstup
+      ktorý sme získali. Jej výstup je vzdělenosť (chyba medií týmito hodnotami
+    truth: 4
+  13:
+    pred: 0
+    text: Chceme aby slová používané v podobnom kontexte alebo slová s torov podobným
+      či rovnakým významom mali menšin vzdialenost významová vektorov, které ich
+      reprezentují. Nord vektor aritmetika - slová reprezentujeme vektormi, ich
+      hmot podobnost môžeme určiť vypočítaním ich vzdialenosti.
+    truth: 3
+5c55ddf6cabad401d3e98d861f0c8205:
+  8:
+    pred: 0
+    text: 1,5;Tento model negeneralizuje � nebude přiřazovat správný výstup [4],
+      na správný vstup [�].;0,5 .;K = hyperbola, parabola... atd. (x);Problém byl
+      způsoben málo daty. Napravil by se více daty.
+    truth: 4
+  12:
+    pred: 0
+    text: Mi;300 10/3;o;= EVI = 3-3 = 0 � 1 pixel má hodnotu;Násobení matic;sečtení
+      všech bodů výsledné matice
+    truth: 1
+  13:
+    pred: 0
+    text: 'Chceme aby vektor měl vlastnosti významu slova => synonyma mají podobný
+      vektor (nebo např. slovo v jiném jazyce day a pes);Word Vector artmetika znamená
+      že: můžeme od sebe slova odečítat, sčítat a ty vektory budou dávat smysl.
+      king-man = queen nebo že král a monarcha jsou k sobě vektorově blíž než monarcha
+      a řidič.'
+    truth: 4
+8310871a91f6396928f7e50acd47c2d3:
+  8:
+    pred: 0
+    text: 2;ako možný problém by mohlo byť že mě je generalizujúci vysoké k a málo
+      dát ideálne by bylo zváčšit množstvo dát
+    truth: 1
+  14:
+    pred: 0
+    text: '- jedná sa o sami-supervised larning;sú tam 2 prístupy, buď on-policy
+      alebo Off-policy;v prípade on-polici využíva agent policy funkci, bez využívánia
+      nějakej histórie off-policy - úprava policy na základe histórie'
+    truth: 1
+845c61b8d1361a7636cf773d6064cb46:
+  3:
+    pred: 0
+    text: bez;DPS;1000;elsel bez BES Ot. 69;BFS s elsem O (log (b);go od 60 let
+      PFS 1 1/2 člověk KART. Olbrat DFS Ak chole olomu
+    truth: 1
+9fae5964355733843daa9b7668b03bed:
+  8:
+    pred: 0
+    text: Sp;vzniku;Jelikož máme málo vstupních dat, . dochází k přetrénování, kdy
+      regresní křika je dokonalá pro trénovací Body, ale jakmile přijde nový vstup
+      je pro něj nepoužitelná;Parabola vede skrz tyto trénovací vstupy křivka se
+      vytvoří, tak aby se minimalizovala, velikost čtverců (vzdálenost od křivky
+      pro jednotlivé;body
+    truth: 3
+  9:
+    pred: 0
+    text: Cílem je zjistit, zda je stroj inteligentní, závěr 1- je inteligentní,
+      závěr 2 - není.;Nedostatek je například v paradoxu čínského pokoje, kdy dáme
+      do místnosti papírek s čínskými znaky a někdo nám dá potom přeložený papír,
+      ale již nevíme, že tento člověk vůbec čínsky nemluví (nerozumí), má v místnosti
+      pouze pravidla pro přeložení všech znaků. Tedy pokud máme v programu velký
+      počet If / IV může se stroj jevit unteligentů, i když má pouze jednoduchá
+      pravidla / podmínku na všechny vstupy;Test má chce použít pouze jako 1. z
+      vícero testů, které prokážou inteligenci stroje, takový předpiktor
+    truth: 3
+a2ea1b9fdebff19434d6aebe076014c3:
+  9:
+    pred: 0
+    text: cílem je ověřit teda lze stroj považovat za inteligenční vychází z toho,
+      že pokud jej nerozeznáme od člověka, tak ho lze považovat za inteligentního.
+      Tento test naráží na problém, že pokud zavřeme člověka do místnosti a budeme
+      na něj mluvit jazykem, kterému nerozumí, tak nám také nebude moct odpovědět
+      případně, pokud by tam měl činskou knížku, my na něj mluvili činsky a on činsky
+      neuměl, tak by mu odpověď trvale dlou a nekonec by stejně bylo „stopové trény
+    truth: 3
+acdc7ccf1fd0d9dd2873bd437ec92729:
+  3:
+    pred: 0
+    text: jelikož jde o C notaci, pak řešení se musí nacházet v kloubce D v posledním
+      uzlu aby bylo nejhorší možné;(2);BTS - o (2°) DFS-OLD);BFS - o;DES - O (RP)
+    truth: 2
+  10:
+    pred: 0
+    text: '- lon určuje kvalitu odpovědi algoritmu v porovnání strénovací sadou
+      - je to hlavní součást algoritmu, podle kterého se stroj učí - vstup: odpověď
+      stroje, předem známá odpověď, daný vstup výstup: reálné číslo kde: čím větší
+      = špatná odpověď čím blíž k 0 = dobrá odpověď'
+    truth: 3
+ce1e0e61482d8d323c9af9f6dddd0a6b:
+  10:
+    pred: 0
+    text: 'vstupem jsou: očekávaný výstup pro danou hodnotu a výstup, který jsme
+      od modelu dostali výstupem je: jak moc se naše hodnota a očekávaná hodnota
+      liší tyto loss fce pro dané množství dat se pak mohou sečíst a tato hodnota
+      - celková chyba - určí, zda je model správně natrénovaný, či nikoliv'
+    truth: 3
+  14:
+    pred: 0
+    text: 'modeluje Q-funkci - vstupy jsou: aktuální stav, daná akce - výstupem
+      je: ohodnocení dané akce;Funkce tedy ohodnocuje akce pro dané stavy. Používá
+      se pak ke zvolení chtěné strategie (max ohodnocení, samoling...).'
+    truth: 4
+d47558962966c8b741426336d3ebfe9c:
+  8:
+    pred: 0
+    text: 7;= a � x = 1, y = 1, 5 �x=0; y = 015 ax2 + 6 x 0,5 = 1,5 0,5 = 0 +0 +
+      C a + b = 1 C = 0,5 a = 1 - 6;x2 + 6x C (polynom 2. řádu);a = 1 - 1,75;1 =
+      49 + 25 + 0,5 4-46 + 26 _0,5 26 = 3,5 b = 1,75;-0,75 x 2;a = 0,75;1,75 x 0,5;1,75x2
+      1,75x + 0,5;Model se naučí řešení pomoc polynomu 2. stupně. Dat je příliš
+      málo pro takovou regr. úryvku, model je přetrénovaný Napravit by se dal zvýšením
+      množství dat
+    truth: 3
+fd4c95ac222b1b1ce4780a446a0662ff:
+  3:
+    pred: 0
+    text: 0 (2) EXPIORED BFS - EXPLORED DFS - O(ď byď) BFS - 0 (20) DFS - o (a)
+    truth: 2
+  4:
+    pred: 0
+    text: '- reprezentácia stavu: atomická'
+    truth: 1
+fdd9ca784e674c04aa5436a352eb8651:
+  10:
+    pred: 0
+    text: 'loss funkce určuje, jak moc se výstup neuronové sítě liší od reálné hodnoty.
+      Výstup loss funkce je pak použít k přetrénování (dotrénování) NS.;vstupem:
+      vektor hodnot výstupem: je to číslo'
+    truth: 3
+ffd524f75656215b0379cb7da3820608:
+  5:
+    pred: 0
+    text: 'Alg. P(g);bayes;(G);p(realic);potrebujeme vypočítať posteriorní pravděpodobnost
+      každé ze 3 tříd. P(4) určit pro každou třídu grusovské rozložení: M - střední
+      hodnota 2 rozměrný vektor � rozptil ve 2D � 2x2 matice N a využijeme pro výpočet
+      hodnot gaussovského rozložení každé třídy tieto z parametre odhadneme pomocí
+      gradientního sestupu s využitím loss t-ce v každé iteraci trénovaní.'
+    truth: 1

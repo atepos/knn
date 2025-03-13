@@ -1,0 +1,4 @@
+openai api fine_tunes.create -t "trainingData2_prepared_train.jsonl" -v "trainingData2_prepared_valid.jsonl" --compute_classification_metrics --classification_n_classes 5 -m ada
+
+Ada trenovana, 2 random otazky za 0 bodov.
+Data su aj s textovou otazkou

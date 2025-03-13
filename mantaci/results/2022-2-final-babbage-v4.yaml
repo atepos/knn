@@ -1,0 +1,376 @@
+00d52da93a2ea09d33d9c34959629374:
+  1:
+    pred: 1
+    text: vím-li, že v určitém stavu;lze pouze provedenim jedné akce se dostat do
+      výsledku, pokud tento stav navštívím znova, mohu jít přímo k výsledku (tzv.
+      zkratka)
+    truth: 1
+  2:
+    pred: 3
+    text: hodnot. Vysvětlete tento rozpor a pojmenujte odpovídající vlastnost her,
+      pro něž minimax lze použít.;valita;v jednom Protože člověk není stroj, který
+      okamžiku si správně uvědomit stav hry nebo držet v hlavě široky a hluboký
+      strom možnosti Někdy stačí vyhrát (ale ne nutně s nejvyšším skóre) Min. hodnoty
+      se vybírají pro protivníka, neboť minimax strom se počítá pro každého hrače
+      a protiv jde proti hračí (pro něj max užitek, pro náš min užitek) - stuhdání
+      hračů jdoucí proti sobě (kavetní hry,
+    truth: 3
+02430be22cdd097e46bda4c98975d85d:
+  12:
+    pred: 0
+    text: ''
+    truth: 0
+  13:
+    pred: 0
+    text: ''
+    truth: 0
+0e33e15598be65ed678dd18f9f2bff79:
+  5:
+    pred: 0
+    text: dvourozměrný vektor;C = 3A B, C3;musíme odhadnout směrodatnou odchylku
+      a rozptyl pro anb pro každou třídu parametry 10
+    truth: 0
+  14:
+    pred: 2
+    text: 'NS modeluje Q funkci, která pro daný stav ohodnocuje jednotlivé akce,
+      které agent může provádět vstupy: dvojice (stavn, akcem) výstupy: ohodnocení
+      jednotlivých akcí Agent ji používá pro učení se (odměny)'
+    truth: 3
+1069b3fc4fb47f279610ef035bf163d4:
+  1:
+    pred: 0
+    text: pro prohledání AND-OR grafu vznikne sekvence if then jsem tedy schopen
+      příště již v některých stavech rozhodnout, která akce by mohla vést k řešení
+      (nebudu tedy muset prohledávat již pravý podstrom, půjdu přímo do levého
+    truth: 0
+  5:
+    pred: 0
+    text: u;- střední - rozptyl;hodnota;(x;Matice středu je vektor X - reálných
+      čísel Kovarianční matice XXX - reálných čísel Parametry odhadujeme pomocí
+      Maximum likelihood estimation:;X podle dimenze);max = arg max(ply) = arg max/fx/
+      aly
+    truth: 0
+1101bdc0b19ca8bc615b343a37e69620:
+  9:
+    pred: 2
+    text: '- Závěrem TS je zda je stroj inteligentní, nebo ne. Nedostatky - Předpoklad,
+      že jsou lidé inteligentní - čínský pokoj [nekonečna kniha přepisů vět)'
+    truth: 2
+  12:
+    pred: 0
+    text: '31;n (x n, m y m, m) [2 přestávka n x - váhy KART. - vstupní matice pixelů
+      (jedna barevná jedna barevná složka) složka,;X, ... : XIII KW, w;*n;pixel'
+    truth: 0
+  14:
+    pred: 0
+    text: n (x1, x2... xn) = 12 (xn w2) + l;- perception (jeden neuron v neuronové
+      - síti);SED FE;Modeluje funkci pravděpodobnosti vstupy - sézory okolí výstup
+      - nadcházející krok Agent ji používá k zjištění dalšího kroku, který má podniknout.
+    truth: 1
+1fe5f64c5593bf37ac6a5b332f1693fa:
+  5:
+    pred: 0
+    text: p(x|c) =;p(c);psi že vzor patří do každej triedy vypočítame pomocou Bayesovho
+      vzorca na ten potřebujeme apriorní pst. každej tricelej pic) = počet vzorok
+      v triede a celkový počet vzorov vo všechných triedach likelihood - pre každú
+      wiedu spočítame pomocov maximum likelihood odhadov parametrov parametre majú
+      podobu vektoru pre Strednú hodnotu a matice pri smerodajnej odchytke 3 reáme
+      čísla pro střední hodnotu a 9 pre odchylku;p(x|c) = p(c|x) p (x) Euplo, k)
+    truth: 0
+26a9350a320f080e23e865aa5320e0ac:
+  6:
+    pred: 2
+    text: logistická regresia, lineárna regresia;externagista pracuje na základe
+      skóre s= w1. x + b. Pomocou nebo potom napr. s použitím signorid. funkcia
+      vypočíta pravdepodobnosť p.;p(y = 1 (x, w, b) = 1+ exp( = ply= 0|x, w|b) =
+      1 - p(g=1| ...);rozdiel s generat. klasif. modelmi je v tom, že sa diskrim.
+      nesnažía najskór modelovat triedu z kt. boli dáta generované. Namiesto toho
+      klasifikujú priamo zo vstupem.
+    truth: 2
+  10:
+    pred: 3
+    text: stupce loss funkcia počíta odchylku vypočítaného od reálného. Používa
+      sa pred úpravou parametrov a pomáha zjistit, ako daleko sme od požadovaného
+      výsledku. Má k dispozicii požadovaný výstup pre každý vektor vstupov X1 jej
+      vstup je vypočítaný výstup modelu yn. Výstupem je hodnota (vektor hodnot)
+      vzdílenosti gen od tn.
+    truth: 4
+28820ed35e5098a689435823adf2e4e2:
+  7:
+    pred: 4
+    text: PINY;= 80%;20%;P(P|N) = 90% P(N|PINN) = 97,5% P(PLN|) = 2,5% p(PROKONOM);PVH;P(N|P
+      P(N|P) = PIPINI = PINJ = B. , 7o P(P) P(PI=P|P, N|) + PIP, NN) = 100 + 2/30
+      200 P(P|N|=P(P|P|A|N) = P(N) = 900 80 . 2,5 100 TOO P(P, NN|=P(P|PINN) - PINN);30/6;1000;7/100
+    truth: 4
+2999da745d9319388937680319e94ef8:
+  1:
+    pred: 0
+    text: 6;86 od V roku A vybírá tak protihráč, a jeho tahem hra končí Můžeme tedy
+      vyhodnotit tak A, a při dalších hrách, pokud máme možnost táhnout do A, už
+      víme, že pokud bychom táhli do AI hra pro nás vždy skončí kladným ohodnocením,
+      bez stolu a nemusíme už usel znovu vyhodnocovat za předpokladu, že si můžeme
+      vybrat tah a zají á výhradně musíme dr budeme mít novinou vybe- Minimax je
+      populární algoritmus pro resen- hráčových hér, kde předpokládáme, že jsou
+      oba hráči nemec racionální, tedy že maximalizují svůj užitek. Přesto hodnot.
+      Vysvětlete tento rozpor a pojmenujte odpovídající vlastnost her, pro něž r;oc
+    truth: 1
+2b1500702cc62787245e747cf6e7e907:
+  4:
+    pred: 0
+    text: Aby se pro každou akci dal;spočítat počet kroků do oíle
+    truth: 0
+  9:
+    pred: 3
+    text: '- rozpoznat člověka od AI — 1. závěr - lze rozpoznat člověka o AI = AI
+      není obecná AI je obecná -2. závěr - nelze -II-;Možna nelze rozpoznat zda
+      AI na výsledky přišla a nebo jestli funguje stylem čínské místnosti Má smysl
+      test provádět pokud se domníváme že jsme stvořily obecnou AI'
+    truth: 3
+4675df389dab25469cf2879db941e2af:
+  9:
+    pred: 4
+    text: -álem Turingova testu je zjistit, zdali inteligentní - zdali vykazuje
+      princip spočívá v tom, že nejsme schopni rozlišit stroj od člověka a vlastnosti
+      člověka kognitivní schopnosti právě na základě těchto schopností � stroj vykazuje
+      vlastnosti člověka a člověk je inteligentní � stroj je inteligentní. problementan
+      bývá čínský pokoj, který je založen na tom, že jednotlivé části stroje inteligentní
+      nejsou, z čehož plno, že ani stroj pak není, že vlastně nechápo co dělá. �
+      tento probíargument však není úplně věcný viz TT-burianů člověk jeho test
+      se mozek a neurony může provádět různě, klasicky byl však prováděn textovou
+      formou. - jeden iteoretických nedostatků jo, že může značně převyšovat schopnosti
+      člověka a na jejich základě může být v rozpoznán - chce to neznamená, že není
+      inteligentní, nicméně testem neprojde dále pokud by stroj zůstal celou dobu
+      potichu (neodpovídal by), pak odhadu. by rozhodnutí o tom, zdali je inteligentní
+      mohlo záviset na náhodném aby stroj prošel musí replikovat chování člověka
+      ten ovšem národná vždy zcela racionálně - stroj by pak muzel záměrně replikovat
+      i byhto lidské
+    truth: 4
+  12:
+    pred: 0
+    text: vrstvy;počet počet = c. d. - dr. [u. ] � počet jader;�;rozměry vstupního
+      obrázku (počet pixelů v x a y;počet kanálů vstupního obrázku;dimenze, rozměry
+      jádra - typicky d, = dych = 3;050
+    truth: 3
+495ef79db86e9a0196ac1c8f89e61f67:
+  3:
+    pred: 2
+    text: 'BFS;2) BFS: 6;DFS: 8;DFS: Dx6'
+    truth: 1
+  5:
+    pred: 0
+    text: ''
+    truth: 0
+  11:
+    pred: 3
+    text: Pri použití príliš velkého hrobu learning rote je možné preskočiť lokálne
+      (a teda aj globálne) minimum, ktoré môže výrazne ovplyvniť učenie modelu.;S
+      - krok learning rata
+    truth: 2
+510077e41f24942dfd5a8da94fba89da:
+  1:
+    pred: 0
+    text: ''
+    truth: 0
+  7:
+    pred: 0
+    text: N-MAMEŽSTVO;Pferde;P(P|NOG) = P(= P(z) =;2) 0,975;p-pozitivní MEZ - TROPIVNÍ
+      ZDRAVÍ;P(ZETIQUI P(MAG);PRAMENOM;podmasku pro- plán;P(PIN) = P(PIN) - P(N)
+      = PIND) - plod;P(N;P(v|P;P(PIN) - P(N);P(P);Parket;P(N|P) =;P(P|N) - P(M);P);P(N|P);P(MP);P(P|N)
+      - PLNIN;PIFINIT P(P|PIL) P(PIM|PUDA);P(AM) + 1-P(vekT2);P(MP);0,9 . 02;b,
+      2) - PANEM PRIVATIS - Marka Rudolf;PRAMENY P(vectř) = PALIKOLOGIe P(P) = P(P|P|PA|Z)
+      P(PILZ) - 1 - P(PhE|A|X);P(PVH);P;NI;OR + 1 - 1975;0,910,12;0,919,25 0,99,25;P(PINS-P|N)
+      = P(MP) - P(P)
+    truth: 0
+515a0274ee53fe5a4fd634d0589bec73:
+  11:
+    pred: 4
+    text: môže nastať, že pri použití zdej hodnoty sa model až nenaučí Nic. - diruguje
+      � stane sa tak pri použití vysokej hodnoty konstanty naopak nízka hodnota
+      ten predlžuje učenic. - hodnotu je tuda voliť experimentálne a poctivo, ide
+      o najdôtežitejšim hodnotu pri učení. model začne divorgovat at kroky optimalizácie
+      sú příliš velké, teda gradientný zastup neblíži k minimu, ale „beží“ hore
+      - dole, kedy výsledkom může byť až NaN alebo nekonečno.
+    truth: 4
+5369915f58938b8046fd891fd93ecd2f:
+  4:
+    pred: 1
+    text: agent potřebuje nejaké - počítání přibližné řešení;(nemusí být správné
+      (uklidní) - omezující podmínky pokud je to cSp problém;reprezentace stavu
+      je atomická
+    truth: 1
+554f1cfee56cf20c2f51a5331933eb85:
+  2:
+    pred: 0
+    text: Jde o antiagentné hry - uvažujeme, že hru hrajú dvojja súperiaci hráči/agenti.
+      Jeden s cieľom dosiahnuť čo najváčňiu bodovú hodnotu a druhý scielom dosiahnuť
+      čo najmenšiu hodnotu bodového zisku
+    truth: 0
+  7:
+    pred: 0
+    text: N - nakazeny Z - zdravý Poo - pozitivny Teg-negativny;VIPA) ?;KNIKOT =;P(POSIN)
+      - pln p(po);a 0,2;0
+    truth: 0
+  10:
+    pred: 4
+    text: Jej rola je určiť chybu na 1 vzorke /1 datu - porovnamie očekávaného výstupu
+      s reálným výstupem který sme získali. Jej vstupom je očekávaný výstup a výstup
+      ktorý sme získali. Jej výstup je vzdělenosť (chyba medií týmito hodnotami
+    truth: 4
+5c55ddf6cabad401d3e98d861f0c8205:
+  9:
+    pred: 3
+    text: Zjištění jestli stroj (umělá inteligence) se chová inteligentně (kongritivní
+      chování jako člověk) Závěry jsou ANO, NE. Nedostatky - stroj je příliš inteligentní
+      (rychlý) � nechová se jako člověk Smysl má u generické AI - rozhodnutí zda
+      se o generické AI jedná
+    truth: 3
+5dedca302522fc18e562221b1854b2cc:
+  8:
+    pred: 4
+    text: 1,5;druhý řád � parabolu;0,9;- došlo k přetrénování na málo vzorcích.
+      Pokud bychom měli více trénovacích dat, mohla by tvořit přímku. Nebo jiný
+      tvar - přímka by také vznikla, pokud bychom měli k =1 model tedy dostatečně
+      negeneralizuje - naprovení - více trénovacích dat, zvolit jiný řád — ale zde
+      nevíme jaký, protože máme málo dat
+    truth: 4
+8310871a91f6396928f7e50acd47c2d3:
+  2:
+    pred: 0
+    text: ým, že sa jedná o hru 2 hráčov, tak ak jeden hráč vyberá na základe max
+      a druhý na základe min, tak majú obaja šancu 50,50 že vyhrajú, na predpokladu,
+      že nehrajú náhodné. .. vlastnosti - hra pre z hráče jevy, že vyhá hráč č 1
+      alebo č. 2 musia byť roonaké
+    truth: 0
+a2ea1b9fdebff19434d6aebe076014c3:
+  14:
+    pred: 0
+    text: modeluje funkci sumy největších čtverců.
+    truth: 0
+ab70f7e934170236b880d9ba1b0b162a:
+  3:
+    pred: 1
+    text: 1) BFS - rozbalí všechny uzly do hloubky dt - exponenciální par náročnost
+      DFS - rozbalí jednu větev do hloubky D � lineární pam. naročnost (P (k);BFS
+      = do8, DFS = D. b 2) Pokud problém necyklí neměl by mít seznam explored zásadní
+      vliv na paměťovou složitost
+    truth: 1
+  4:
+    pred: 3
+    text: '- Agent potřebuje hodnotící funkci stavu Agent potřebuje z prostředí
+      získávat vjemy aby měl co poslat do hodnotící fce'
+    truth: 1
+  10:
+    pred: 4
+    text: loss funkce počítá s míru správnosti výstupu systému v porovnání se správným
+      výstupem. Vstupem je výstup systému a správný výsledek. Výstupem je číslo
+      udávající jak moc se tyto dva liší např. metodou mean-square error.
+    truth: 4
+acdc7ccf1fd0d9dd2873bd437ec92729:
+  1:
+    pred: 0
+    text: 6;nemusíme již vyhodnocovat
+    truth: 4
+ae04cdd739eceeae85fda0bd00049cd7:
+  13:
+    pred: 3
+    text: chceme, aby slova, která si jsou nějakým způsobem blízká (synakticky významové,
+      apod.) byla blízko sebe (euklidovská vzdálenost)
+    truth: 3
+b925207381f4c6854adc87388565073e:
+  3:
+    pred: 1
+    text: Oprší;b);2);PBFS;(není;potřeba rozgenerovat potomky);I;ODFS;-;d*;potřebuje
+      si pamatovat akorát aktuální hloubku Zanoření, velká šance že nejdřív narazí
+      na D, než na d*
+    truth: 2
+  4:
+    pred: 0
+    text: ''
+    truth: 0
+d47558962966c8b741426336d3ebfe9c:
+  13:
+    pred: 0
+    text: ''
+    truth: 0
+e3fcfce792cba2bd9b1f688e09b8636d:
+  3:
+    pred: 1
+    text: -d Db BESID = DESID = DA (b-d)
+    truth: 1
+  11:
+    pred: 4
+    text: Při velmi nízkých hodnotách se může stát, že se bude učit až velmi pomalu
+      a třeba i nemusí dojít k řešení - neefektivní Narpsk při vyskytl hodnotěl
+      může divergovat, napři, zkřikat např. forkú , špatně tedy modeluje postup
+      úkol
+    truth: 4
+  14:
+    pred: 2
+    text: 'Funkci, která vybírá stvy, kde agent dostane největší odměnu Vstup: stav
+      agetu, případně okolí Výstup: stavy/akce, které může agent provést (pro naučivali;Aget
+      na základě předchozích zkušeností vylišná stvy;odměny,'
+    truth: 1
+ee09d9aaa8474a6513133aa8452fad6f:
+  5:
+    pred: 1
+    text: tyto parametry reprezentovány? Jak jsme tyto parametry;u - střední hodnota,
+      vektor s dvěmi hodnotami u =;- střed v grafu;[- konvoluční matice, matice
+      2x2 (as aug), kde "a", a" nám určují výšku a šířku,“ a "aj určují rotaci -
+      v grafu;20 BERN;- Pro každou třídu odhadneme parametry a vytvoříme hustotu
+      pravděpodobnosti -> tzn. máme 3 hustoty pravděpodobnosti - při přechodu nového
+      vzoru x vypočítáme pravděpodobnost příslušnosti ke každé třídě - z odhadnutých
+      hustot pravděpodobností - parametry odhadneme z trénovacích dat - klasifikace
+      - výběr nejvyšší pravděpodobnosti maximum likelihood
+    truth: 1
+fd4c95ac222b1b1ce4780a446a0662ff:
+  5:
+    pred: 0
+    text: 'Popisany: Kovariančna maxim. v tvare Vektor sú radnic v tvare;20/6 90'
+    truth: 0
+  12:
+    pred: 3
+    text: výška - obraz na šírka - obrazu počet - Kanálov výška - konvolučného jadra
+      - šířka - konvolučného - jadra
+    truth: 1
+fdb0df15e7ad924fe4403d60cca91fc6:
+  2:
+    pred: 0
+    text: 'v tomto algoritme tým, že predpokladáme že sú obedraja hráči razionálny,
+      vyberáme vždy vzor, kt. redie NIE K nášmu maximu ale súperovmu minimu, tým
+      nic nedávame 2 E možnosť dosiakrúť ráčšieho výsledku. Na obr. vidíme, že vždy
+      vyberieme minimály vzol aby sme vedeli, alú maximální podstroue. Pri odnotu
+      vie súper dosiahnúť v tomto stavovom gberaní tâta - potom Vyberieme podstrom
+      s vyššiou hodnotou MAX;Minmax: rozhodovanie;trou;SOPLAN'
+    truth: 0
+  12:
+    pred: 2
+    text: '- ct C násobení, kde c je velkosť (šírka ver výška) šablóny konvolucíe'
+    truth: 2
+fdd9ca784e674c04aa5436a352eb8651:
+  3:
+    pred: 2
+    text: Bon;S;d;BAFS;má v paměti pouze vrstvu d+1;má v paměti všechny předešlé
+      vrstvy + následující;DAFS;má pouze cestu k cíli . 1) 0 (d) 2) O (2 b?) - musí
+      udržet všechny vztahy které prošel - PFS Nepoužívá;Pokud se jedná o necyklický
+      problém, není potřeba množina CLOSED.
+    truth: 2
+  13:
+    pred: 4
+    text: chceme, aby vektory slov, které spolu souvisí byly blízko sebe. Např.
+      slovo „král" bude blízko slovu „muž“, ale daleko od slova „žena“.;World Vector
+      aritmetika nám umožňuje dělat aritmetické operace nad slovy. muž + panovník
+      = král
+    truth: 4
+ffd524f75656215b0379cb7da3820608:
+  1:
+    pred: 2
+    text: G GOAL-C;Po;6;Při prohledávaní stavu UI už nemusím prehľadávat stav �
+      lebo už vím, že vedie k cielu.
+    truth: 2
+  10:
+    pred: 3
+    text: Její vstupem je výstup modelu a výstup trénovacích dat. Výstupem je rozdíl
+      mezi týmito dátami -> napríklad mean-synared errov. V učení s učitelem je
+      její role proporování výstupu modelu s výstupem v trénovacích datech. Snažíme
+      se o její minimalizaci.
+    truth: 4

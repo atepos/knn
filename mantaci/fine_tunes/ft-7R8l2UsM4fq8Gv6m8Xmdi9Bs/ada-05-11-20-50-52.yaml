@@ -1,0 +1,2606 @@
+03ba496bc2d137a3a094d1f420246958:
+  6:
+    pred: 0
+    text: p (nakazeny) p (nakazeny) =0, 2;p (per (nakazeny) = 0,9 p (reg /nenakazený)
+      = 0,9 p (vor) = ? p (nenakazegy) = 1 = 1 (nak) = 0, 8 p (poz (nevak) = 1 - p
+      (neg(nenak) =0, 1;p(poz) = p(poz, nakazeny) + p(por, nenakaz p (par, nak) =
+      p (nak) . p (poz / nak) = 0, 18 p (poz, nenak) = p (nenak) p (poz / nenak) =
+      0,0;(p (poz) = 0,18 + 0,09 =0,27
+    truth: 3
+  7:
+    pred: INVALID
+    text: '169;Trénovacie dáta sú z polynómu 3. rádu, nie je možné ich aproximovať
+      polynómu 2. zádu: Bolo by potřebné zvýšit rád polynómu.'
+    truth: 2
+  9:
+    pred: 4
+    text: Príklady aspektor inteligencie - intuicia - motorické zručnosti / pohyb
+      - schopnosť učiť sa - schopnosť odvodsonať na základe bakta (reasoning) - má
+      vedoucie samého sebo (consciousness, self-awareness) - schopnosť ucítiť so (emputia)
+      Agent nemusí vykazovať všetky tieto aspekty, aby sme ho parašovali za inteligencní
+      Napr. hlasový asistenc nemusí mať vedouce samého sebo a schopnosť pohybu B
+    truth: 4
+  14:
+    pred: 3
+    text: Pri učení s učiteľkou máme anotácie, ktoré vyjadřujú To sa má model naučiť.
+      Model se učí vocanávaním jeho výstupov s anotáciou (cez hus fundein);Pri posilovanou
+      větní nemáme anotácie, agent akurát dostána admeny v niektorých staroch. Problémom
+      je zjistiť, která akcia vied k odmene a vůbec nejakú odmenu dostať. Výsledkem
+      je často sekvencia ako
+    truth: 4
+05417b2097b772d46de8a5f0353320e1:
+  11:
+    pred: 4
+    text: '1 vrstva;x16;vstup;x;vstup � 1 vrstva + 2 vrstva;2 vrstva;* 32;64/63 �
+      2 64/62 � 3 64/3 � 62;64x64x3 62x62x16 48x48x32;velkost v parloch vstupného
+      obrázku � velkost v preloch "aktivační mapy" první vrstvy Odpoveď: a 5x5;6215'
+    truth: 3
+05bb8bab96cd66903de8541d992ec881:
+  3:
+    pred: 4
+    text: 5 (50) l (6) = 40 h(60n) -0
+    truth: 4
+  4:
+    pred: 3
+    text: 1234567 9 10;X52x11;x 3 x 2;XI X2 XII. XI 83=8;* 3) XXXxxx x XX xxxxxx xxxxx
+      (9);xxxx e xx;x32341 x3 641 = 7 157
+    truth: 3
+  8:
+    pred: 1
+    text: Generativní - model předpokládá, že data jsou generována z nějakého rozložení
+      prav. a snaží se naučit parametry těchto rozložení - nevýhoda - využívá více
+      parametrů výhoda - lze použít ke generování - např. gaus. klasifikátor diskriminativní
+      - modeluje přímo posteriorní pravděpodobnost p(c=1|x) - výhoda - méně parametrů
+      - např. logistická regrese
+    truth: 3
+  10:
+    pred: 2
+    text: parciální derivace chybové funkce podle vektoru vah používá se při hledání
+      minima chybové funkce např. metodou gradientského sestupu
+    truth: 4
+  11:
+    pred: 4
+    text: vstupní obraz 7+7 pixelů výstup 1. vrstvy 5x5
+    truth: 4
+  13:
+    pred: 1
+    text: Používá se například při zpracování jazyko-např. překlad
+    truth: 1
+0cab81d7505839d36bcf11ca74e5baf6:
+  4:
+    pred: 3
+    text: 2 XIX X X X XIX IX;3;4/5/6/7;0 X;X X X X x IX;+;x;X2;X;x;x;x;8;x IX;o;x
+      10;x;10;x;X;x
+    truth: 4
+  5:
+    pred: 0
+    text: 'Potřebujeme: -2 Gaussovské rozdělení - pro každou třídu jeden jednání;-
+      2 apriorní pravděpodobnosti - opět pro každou třídu jednu a nebo pouze 1 pravděpodobnost
+      a druhou lze získat jako k (x|=1-6|X);Gaussovské rozložení je reprezentováno
+      rozptylení a střední hodnotou Apriorní pravděpodobnost číslem v rozmezí 0, 17.
+      a získává se podílem dat v dané třídě /celkový počet.'
+    truth: 0
+  7:
+    pred: 3
+    text: 5;Na obrázku je možné vidět funkci modelu, který negeneralizuje, jelikož
+      zjevně není schopen modelovat růst hodnot v rozsahu 0-5 na obou osách. aby byl
+      model schopen správně generalizovat tato data, musel by se zvýšit řád polynomiální
+      regrese na alespon 3. Tento model by šlo nazvat jako underfitted. Pokud bychom
+      naopak zvolili příliš vysoký řád, mohla by nastat situace, kdy bude tzv. overfitted.
+    truth: 2
+  8:
+    pred: 1
+    text: Generativní model je založen na určitém pravděpodobnostním rozložení (např.
+      normální rozdělení). Při trénování se zjišťují potřebné parametry rozložení
+      pomocí metody ML - Most Likelihood, kde chceme maximalizovat součin pravděpodobností
+      se zvolenými parametry. Dále se využívá Bayesova vzorce k určení pravděpodobnosti,
+      že daný dato spadá do dané třídy. (Příklad Gaussův klasifikátor). Model trénovaný
+      diskriminativně využívá např. logistickou regresi. Pomoci ní se určí hranice,
+      podle kterých bude klasifikátor pracovat.
+    truth: 1
+  12:
+    pred: 2
+    text: Obousměrná vrstva má k dispozici informace nejen z předchozího oshodování,
+      ale také z „budoucího“. Při generování textu má například kontex o řetězcích
+      generovaných před i po daném řeštěnci.
+    truth: 2
+0e33e15598be65ed678dd18f9f2bff79:
+  9:
+    pred: 4
+    text: 'aspekty: ovládání pohybu, uvažování, předvídání, představivost, emoce,
+      komunikace, schopnost učení, vědomí sám sebe, intuice;Agent nemusí mít všechny
+      aspekty - Turing test'
+    truth: 4
+  10:
+    pred: 2
+    text: 6 radient je vektor parciálních derivací (míra růstu);Při počítání loss
+      funkce Pro aktuální hodnotu spočítám gradient objektivní funkce -> iterativně
+      počítáme gradient a pohybujeme se proti směru růstu až najdeme O gradient (minimum
+      loss funkce)
+    truth: 2
+  12:
+    pred: 1
+    text: Sekvence se zpracovávají oběma směry
+    truth: 1
+  13:
+    pred: 1
+    text: Pro každou pozici se počítají váhy z předešlých kroků
+    truth: 1
+  14:
+    pred: 0
+    text: Posilované učení - strategie (policy) � NS říká jakou akci vybrat q-funkce
+      -> Jak je akce kvalitní value funkce -> jaké jsou odměny;učení s učitelem ->
+      mapování vstupů na výstupy
+    truth: 1
+1069b3fc4fb47f279610ef035bf163d4:
+  9:
+    pred: 3
+    text: PEAS;- musí přijímat podněty upravené - musí být v nějakém prostředí aregovat
+      na něj. - musí se na základě podnětů rozhodnout - a vykonat následně nějakou
+      akci (musí mít strategii);Ano
+    truth: 1
+  10:
+    pred: 4
+    text: '- směrnice růstu objektivní funkce - pomocí algoritmů založených na počítání
+      gradientů dokážeme najít minimum o bjektivní funkce a optimalizovat tak parametry
+      NS.;- Např. algo. Gradient descent. Při bachwards průchodu NS jsou nalezeno
+      minimax obj. funkce, slouží k optimalizaci parametrů vrstev NS.'
+    truth: 2
+  12:
+    pred: 1
+    text: 'předchozí;následující;obou - dopředné složitější, časově náročnější - výhody:
+      efektivnější předávání;i zpětné propojení;of vrstev'
+    truth: 2
+13a036ceabe98bc5840a382a0558bafc:
+  4:
+    pred: 4
+    text: 1;X;X X;2 X;X;X;3;X;X;4;X;X;X;5;X;X;X;6;X;X;X;7 X;X X;8;X;X;-;o 9;X;IX;10;X;X;X;D1
+      = {1, 2} D2 = 597 3 = 5 13
+    truth: 4
+  5:
+    pred: 1
+    text: 'jsou potřeba parametry: ja... střední hodnota poradny rozdělení naduto
+      rozdělení, na 1/2 x y = 1-2 (x) = su pravdy jen zprazdním jednu českým číslem
+      pravdy lze odhadnout naučení šerohodnosti: na [py] = E= O je odhadnaný a ono
+      je horkou mezi svojí - popřát pravděpodobnosti, kam nový vzor patří, spoutání
+      - jsou potřeba z probry: jen... střetní hodnota, skupiny sektor z řeckých čísel,
+      že je hodnotící natie 2x2 (4 radšú část), parametry lze odhodnotit netudou nacionální
+      šerohodnosti P(x|c) � � porady použijeme pro výpočet hudby pravděpodobnosti
+      TLA apriorní sociálního rozdělení, kterou pak lze použít v hubičce pot p(x|c)
+      . p(c) s Rogesovým provedlem k výpočtu pravděpodobnosti, kur patří svoj;v;p(c|x)
+      =;P(x) - hustota'
+    truth: 2
+  14:
+    pred: 4
+    text: učení s učitelem a naše třešnová data (vstupy a odpovídající výstupy), síce
+      jaký má být výstup modelu (značně výsledky, používáno je pro trénování intelu)
+      víme, jaký to týče výstup úkoly přihnání měsíce nemáme přesné výsledky, kterých
+      chceme dosáhnout k smp. chce vyhrát hra, ale serže jak), model datová aderace
+      po vyhování určitého počtu králů (někdy může dostat odměn, až když vybroje fun,
+      jak model zatím dá naučený vyhovět, takže k výhře se sedadne a vrátí se z čeho
+      učit) univerz
+    truth: 3
+1f3bbb6d06cc8023a7fba63eb4200b65:
+  1:
+    pred: 4
+    text: Prehladávací algoritmus vieši azd to, který je AND, teda ku ktorého vyriešeniu
+      je potreba redieť vyviešiť potomkov e, xxx Vyvieši teda k, který je typu OR
+      a má 2 listy, kde aspoň 1 Je bur je riešitelný � b je riešitelný. 0 - e - Priviešení
+      r sa pozne na L - neviešitelný list, no potomek R = l bol tapán čítaný ale přečitelný
+      - algoritmus ho znova nebude viešiť (Rozšitečné cisty sú pod čistoknutí.)
+    truth: 4
+  5:
+    pred: 4
+    text: 'xED2;3rozmerně normálně rozdělené;;2 druždy;Prav. rozloženie) 1. třídy;Potřebné
+      parametre klasifikátora = klasif. je popísaný param: neamejdřagonály 10, 14,
+      14 a 2, - střední hodnota a kovovianéná matica 3x3. symetrická okolo vektor
+      ER;prav. rozloženie Rud sviedy;- uz a 22 - stradná hodnota a kovovrančná matica
+      3x3, sym - "- snídaní. vektor a RF 3. prior - p(c) a p(c2) (bonány, teda pletí
+      p (cíl) = 1- p(c2) z dát srba odhadnúť: 14, 21, 142, 22, plai) (resp p(c2) 3d
+      Kolegami č. sú representované Eva, ref - vektor, E1, 22 3x3 matika, P(ca) o
+      1 reálne č. 5) V součtu 2x3 + 2x3 x 3 + 1=6 + 18 + 11 Odhad parametrov - pomocoua
+      max likelyhood, teda 10 = argmar (f(x|o) = hladáme také parametry (w, [je které
+      max. prav, že videné dáta podartované z rozloženia. p(x|c) . p (c) P(cz|x| |
+      1 = 1 - p(c|x) . výpočet p(c|x) = Dato se patří do třídy c. s max. prav. P(C|K);P(x|CA)
+      P(Ca) + P(K|C2) . p(c2)'
+    truth: 4
+  10:
+    pred: 4
+    text: gradient Vf (x1, ...) je vektor určujúci smer a veľkosť ktorým funkcím nejrýchlejších
+      nastien Te (x2. x2) = paft a xxx = x2 + 10 + 12 17 000 A + 17 A A A K A A KAME
+      A KAME 3;d*2;v kontextech NN predstavuje základ pro rádových optimalizačných
+      metód, tedy udáva smet, kterým zmeníme parametre modelu, aby sme zlepšili jako
+      puditeční schopnosť = zmenšili loss function (derivuje se teda coss function)
+      frontrátne je základom pro gradient descent - metódu optimalizujícím parametre
+      g + 9 - 7 KD dg dálej sa, využíva v policy learning - smer, kterým rostie PP
+      zvolenou akcí - teda smr, kterým ju chceme zvýšit únavu odmene.;ad � 02-20-30,000.
+      L
+    truth: 4
+  11:
+    pred: 1
+    text: II;7x pixelov;�;u;u;H;- 5x5;585;5x5;Resp. Detach;okoraje
+    truth: 4
+  12:
+    pred: 4
+    text: 'koverstva, kedy výstupy jednotlivých je to nstra kde jednotlivé výstupy
+      závisí ako na texte pred, rahaj na texte po. Je to docílené holmbiněcion 2 jednosmatných
+      · rekurentních vrstiev - jedna číta text spredu, druhé zázadu. · ako sa liší
+      od normálnej - obsahuje 2 protiřídnice normálně“ rekurentní vrstvy. sémantický
+      - výhody: číta text zákadu aj opredu = lepší kontext pri produkované výstupu.
+      nevýhody: ohrem hĺbky (problém RNN) a sekvenčního učení a.je to hlavne nemožnosť
+      generovať výstup realitime = musí mať celú vrtul text.'
+    truth: 5
+21506657c66da50152abe1ec8f832181:
+  1:
+    pred: 4
+    text: Pokud si zapamatujeme, že c3 vede k řešení, tak tuto informaci můžeme využit
+      při přešení valu B2, který ví, že C3 je řešitelný. Nemusí, tak procházet jeho
+      podstrom ani stavy CH a CS.;and;AN
+    truth: 2
+  2:
+    pred: 4
+    text: 'MAX;MIN;60 maximální: prořezávání;60;D'
+    truth: 4
+  3:
+    pred: 4
+    text: extesta A-D len Cesta A-B-B1-C-F);F - cílový vzor;HID-Y 3D HID-Y 2 e;421;lí;13;1
+      - H1B);learn A-C-D-E-FO- len (A-B-B-E) = 2 konvidila hodnoty existencí Heuristika
+      správně ohodnoti cesty na cestě A-C-D-E-FE, každá za 1. Na cestě AB-E vyhodnotí
+      APB jako 1, B- 3. Není optimální, ale náhodou nás dovede k optimálnímu řešení
+    truth: 4
+  4:
+    pred: 4
+    text: 'D1;63;J;3;X x IX X;4;l X X;5;X X X;6;X X X;7 X X;X;};a;10;Po interesanci:
+      D1 = 533 D2 = {9} D3 = 573'
+    truth: 2
+  7:
+    pred: 1
+    text: = wo + wh - x + w2 x Polynomiální regrese je jen speciální případ regrese
+      lineární.;model negeneralizuje, pokud nesobecní řešení. Může například procházet
+      přesně vstupnémi body, zdá se okrejbý, ale je úplně k ničemu pro nová data Pro
+      generalizaci je třeba více dat, nebo snížt nároky na MSE.
+    truth: 2
+  10:
+    pred: 4
+    text: gradient má v kontextu neuronových sítí na vstupu vektor a na výstupu je
+      opět vektor, který udává, jak se mají změnit váhy v jednotlivých funkcích Vradient
+      je derivace ve vícerozměrném prostoru, která hledá maximum /minimum podle jedné
+      proměnné;Pomocí gradientu se NS učí. Udává změnu vrch podle konsfunkce.
+    truth: 2
+  14:
+    pred: 2
+    text: Při učení s učitelem dáváme modelu vstupy a pro ně odpovídající výstupy.
+      V posilovaného učení algoritmus nedostane očekávaný vstup agent prochází nějakým
+      prostředím, dojde k výsledku. Ten výsledek buď hodnotíme pozitivně nebo negativně,
+      podle toho Agent updatuje svoje chování.
+    truth: 2
+2b1500702cc62787245e747cf6e7e907:
+  3:
+    pred: 0
+    text: Start
+    truth: 4
+  6:
+    pred: 4
+    text: poslnak;nat / pos;P(nab) = 0,2 P(posl. k) = 0,9 p(neg /nenak) = 0,9;PharYpsko,1
+      p (neg /nab) = 0,1 p(posluenak) =0,1;p (nab) x pl p(po) poslance phab) xp /;=
+      (pos) = plnableos) p(pos) = 02 x 0,9 dni;P(pos) = 0,26
+    truth: 3
+  11:
+    pred: 4
+    text: ponechání výstup 1. výstup 5x16 5x5x3 vstupní obrázek;1;6459216;3.;64x64x32
+    truth: 1
+  14:
+    pred: 3
+    text: učení s učitelem — síť se učí na datech s výsledky;velikonocement konviny
+      - hodnotíme kroby které síť udělala - ne každý krok je boncovy a nemá vždy jednoznačné
+      řešení
+    truth: 2
+2c0ccd57a3f729705c53275a21979d4e:
+  5:
+    pred: 4
+    text: 'parametry:;1.);matice kovariance 3x3 pro obě třídy;vektory 3x1 reprezentující
+      střední hodnoty obou tříd 2.) reálná čísla: 2x3 + 2x3x3 = 24 3.) odhad: metoda
+      maximální vševchodnosti � 4.) z Bayesova vzorce vypočítám posteriorní pst p(obs|class)
+      - p(class) p (class|obs) =;1, 5.;likelihood (obsluhos);Zp(obelass) - plelass)'
+    truth: 3
+  6:
+    pred: 0
+    text: 0,2;plnokažený) . p(Plnakaž) + p(zdravý) p(PIzdravý
+    truth: 4
+  7:
+    pred: 1
+    text: možné;model prokládá data relativně přesně, ale na okrajích nutně nemusí
+      kopírovat skutečný trend příčiny vysoký stupeň pokynomu málo trénovacích dat;ABY
+      generalizoval � více dat - snížit stupeň polynomu?
+    truth: 1
+  8:
+    pred: 1
+    text: ogenerativní - modeluje posteriorní pst i tam nepotřebujeme (p(class) diskriminativní
+      - modeluje pouze pst členství do třídy (p(c=1|X);kg otes);2.);generativní -
+      gaussovský k. diskriminativní - signalida (logistická regrese) gen - modeluje
+      rozložení, pokud ho potřebujeme dis - rychlejší, základ pro NN
+    truth: 1
+  9:
+    pred: 3
+    text: sebevnímání;STRONG AI � Turingův test;racionalita;· usuzování o vnímání
+      interakce, předvídám;učení;WEAKAI;spam Filtry vyhledala ače řízení automabilů
+      - doporučení;za inteligentní je považován systém, pokud jeho odpovědi nejsem
+      schopný odlišit od odpovědí člověka
+    truth: 3
+  10:
+    pred: 4
+    text: 'gradient je vektor parciálních derivací funkce podle jednotlivých proměnných
+      pro učení se využívají loss funkce (ohodnocení, jak moc se model „třefil“. �
+      mnou loss funkce je "objektivní fce", jejíž nadučit hodnotu se snažíme minimalizovat
+      � derivace � gradient � gradientní sestup (jako metoda gradient optimalizace
+      parametrů NN) Wish Wilson pro učení: learning rate'
+    truth: 4
+  14:
+    pred: 3
+    text: s učitelem - mám známou sadu, dat, na nichž se model trenuje (srovnává výstupy)
+      přesně ví, co klasifikovat a je jednodušší určovat určit loss funkci;o posilované
+      -;mám pouze ohodnocení kroků ve fórmě odměn, ale ne to, čeho konkrétně se má
+      dosáhnout (maximalizace odměn) algoritmus se učí až z celého výsledku, který
+      ale obecně nemusí ani nastat (výhra v 60) a i když nastane, tak je složité odvodit,
+      na základě jakých kroků se tak stalo že
+    truth: 4
+2de1ac8e1214010d396cb407a91c1f99:
+  5:
+    pred: 0
+    text: -;- M = x; - střední hodnota - bod rozložení, kde je hodnota nejvyšší o
+      = 1 - "Exi-ří- rozptyl - jak moc je rozložení "zasáhlé" oproti stř. hodnotě
+      N (h. p. r) - normální rozdělení určující genssovský klasifikátor. M, N - podoba
+      � čísla 4 čísla na třídu, ale třídy jsou 2 = celkem 8 o2- vzhledem k 3D datům
+      2 čísla. Při příchodu nového vzoru vložíme do norm. rozdělení pro obě třída
+      a vyšší číslo jako výsledek znamená že do této třídy patří.
+    truth: 1
+  9:
+    pred: 1
+    text: Nemusí všechno, stačí většina.;- Schopnost pronést správné rozhodnutí -
+      zlepšování svých výsledků.
+    truth: 2
+  10:
+    pred: 0
+    text: vektor, určující kterým směrem by být posunuty vnitřní parametry sítě tak,
+      aby dosahovala lepších výsledků. Je derivací loss;funkce. čím blíže je sradient
+      O, tím blíže jsme k naučené síti /síti, co se na trénovacích datech víc nenaučí.)
+    truth: 4
+3482488a15f00a9aad6021001c1ad921:
+  4:
+    pred: 4
+    text: XI X2 Ky;xx0 xxxxx xxxxx xxx2x3x xxxx xxx 3xX;xxx;D3 = {58
+    truth: 4
+  5:
+    pred: 0
+    text: 'Potřebujeme střední hodnotu a rozptyl gausovských rozdelení pre obe triedy.
+      Pre každá triedu dve čísla, dvojica (M, 82), spolu 4. pre dve triedy.;z trůd.;Pravdepodobnosť
+      výskytu prvku z triedy (průorná pravdepodobnosť) pre dve triedy stačí jedno
+      číslo, druhá sa dopočíta ako 1 - P(trieda 1).;Odhad pravdepodobnosti: P(trieda
+      / vlastnost) = rozborovnej);Odhad si a j pre triedu pomocou metódy maximálnej
+      nerohodnosti. Vezmeme trénovacie dáta pre triedu (sú na sebe nezávislé a předpokladá
+      ře majú gausovské rozloženie. Preto platí p (X|n) = TT p(x|n). Potom: p = arg
+      max T p(x|m);všecky tradice;třídy E, P(vlastnosť) x;prvky nad bikelstvod z gausového
+      rozloženia (vlastnosť / srieda). P(trieda);P(vlastnost);veklo;apriori'
+    truth: 1
+  12:
+    pred: 2
+    text: vstupná sekvencia je po výpočte v jednom smere otočená mon a je pre nu vykonaný
+      výpočet ešte raz (v opačnom směre može tak byť napr. často textu spracovaná
+      z oboch strán pre lepšie pochopenie. Napr. iný slovosled v roznych jazykoch
+    truth: 2
+  14:
+    pred: 3
+    text: s učitelom.;máme trénovacie dáta, ktoré majú pre každej vstup definovaný
+      výstup. Znažíme sa natrénovat podľa nich model tak, aby dával aj pre doteraz
+      nevide vstupy adekvátne výstupy. Vražívame loss funkciu gradient,;posilované
+      -;nemáme dané výstupy máme daný len ciel ktorý chceme dosiahnuť, agentovi dávame
+      odmeny za každú sekvenciu krokov ktorá vedie k cieľu (alebo bližšie z cielu).
+      Ona B)
+    truth: 3
+368727a468c4c2bd143091516e713558:
+  10:
+    pred: 4
+    text: Gradient je velkor todnot, který bez údana smer a velkť. Tento gradient
+      sa pčíha do derivácia chybnej funkcie a moží na nás na vieť do minina tejlo
+      funkce aby sme minimalizovali dýlní funk a tým pádem měli lepší model jednotlivé
+      váhy sa attralizuje podla nebo w jej, = w, -d A] I graduent - mez, kterým talla
+      upravit váhy hlavnici rate -> ale jídlo attrokie ať vály
+    truth: 4
+368de756a1007b97d767e4d76497ae92:
+  2:
+    pred: 4
+    text: MAX;MIN;S e Procházím a chci si co nejméně ublížit - vybírám co nejvyšší
+      číslo zároveň teda aby mi mohl protihráč co nejméně uškodit. Protihráč se snaží
+      o opak. Když přehodím větve a a b, a jdu 0 � 1 � 2, vím že za větev a získám
+      nejhůře 2, pokračují 3 � 4 � 5, už n 3 vím, že ve větri b dostávám pro mě horší
+      skóre, a to 3. Ks0h�5, se nemusí počítat;3
+    truth: 4
+  4:
+    pred: 4
+    text: D, = {}, 2, 3} D2 = {1, 4, 6} D2 = § 93 D3 = {8
+    truth: 4
+  6:
+    pred: 4
+    text: 20% pozitivní 90% odhalitest 80% . 10% falešně pozitivní.;p(pozt) = 0,2
+      .0,9 + 0,8 . 0,1 = 0,18 + 0,08 = 0,26
+    truth: 4
+  8:
+    pred: 1
+    text: 10;generativní;Generativní model předpokládá, že vstupní data odpovídají;ganszovskému)
+      rozložení, snaží se toto rozložení pravděpodob- 8 nosti naučit a předvídat třídu
+      příchozího data (apriori pst). Model Gaussova rozložení.;Strašná;Diskriminativní
+      - vstupní data rovnou rozděluje do třid - regrese. - lineární regrese, polynomiální
+      regrese, log. regrese... - většinou více dat Každý model má trochu jiné využití,
+      záleží na záměru. Oba potřebují nějakou míru generalizace, oba se mohou přeučit.
+    truth: 0
+  9:
+    pred: 3
+    text: Schopnost uchovávat informace Schopnost rozhodovat se (tacionálně) Schopnost
+      učit se Schopnost zpracovávat všemy Emocionální inteligence Agent není schopen
+      dokonalé práce s emocemi, někdy ani zpracovat ideálně své viemy. Jsou různé
+      nutné patřiky jak posuzovat zda je něco inteligentní, např. Turingův test -
+      někteří schopnější agenti projdou, záleží na tom, kdo a jak to posuzuje.
+    truth: 4
+  10:
+    pred: 2
+    text: Gradient, je derivace funkce v bodě, při učení neuronových sítí se iterativně
+      počítá gradient, dokud nejsme co nejblíže 0, a zdokonalujeme tak přesnost našeho
+      řešení.
+    truth: 1
+  14:
+    pred: 3
+    text: Při učení s učitelem dostává algoritmus na vstup dvojice vstup - očekávaný
+      8 výstup. U posilovaného učení přichází algoritmu na vstup mimo dvojic vstup
+      - očekávaný výstup i neodnotovaná data.
+    truth: 1
+38fa78e2f7bd7cd06dab384ef7ff8c05:
+  1:
+    pred: 4
+    text: jednotlivé stavy sú označené číslami rovnaký stav = rovnaké číslo uvažujme
+      prohladávanie do hlbký, Postupne rozbalíme stavy 2, 4, 3, zjistíme že 3 je koncový
+      stav a teda 4 uložíme do stavou, které vedú k riešeniu „dáči“ bončový steda
+      ani Rozbalíme stav 6, ktorý nie je nie je koncový, skúmame z stavy 7,1. a 4,
+      kde by je st;tož;INV.;čeniny
+    truth: 4
+  2:
+    pred: 0
+    text: MAX;MIN;6606;60;6;D
+    truth: 4
+  12:
+    pred: 3
+    text: Pri rekurentných vrstvách závysy výstup na výstupe predchádzajú celo v aktualnom
+      vstupe sme tak schopný držať kontext s vstupmi predchod zajúčimi, avšak čím
+      dalej sú vstupy od seba tato kontextová prevazba stráce na sile. pri obojmerných
+      rekurentných vrstvách sme schopný držet kontext ai s predchádzajúc. ai s následujúcimi
+      vstupmy, teda kontextové prevazba medzi vstupmi je ovel a širšia.
+    truth: 3
+4213cbc24a62d7aac83c860a66d64701:
+  9:
+    pred: 4
+    text: '- pamät - uvažovanie motorika - schopnosť komunikovat kompresia - schopnosť
+      zaučiť - schopnosť sa orientovať v priestore Nemusí ich vyhazovať všetky, stačí
+      ak vyhazuje iba tic, ktoré ní potřebné na řešenie oknej úlohy'
+    truth: 3
+4701ad87d7f1c9e2341736c8aedc6c39:
+  2:
+    pred: 4
+    text: MAX;MIN;50;6;změna uspořádaná v tomto podstromech nemá žádný efekt;MAX;mIN;ale
+      narazíme na hodnotu -> ako první, dalšie wrhy sa nebudú vyhodnoc lebo - 23 -
+      3
+    truth: 4
+  3:
+    pred: 2
+    text: počističný uzel;hodnota humistiky k nie je optimistický odhad, ale aji tak
+      bude zvolený tento vzor kvůli nižší celkovej cene z počátečního uzlu;dělový
+      uzel.
+    truth: 4
+  7:
+    pred: 1
+    text: príklad polynomiálního modlitba 2. rádu;tento model nebude pravdy podobně
+      generalizovať, protože puliš presne předpovedá trénamie dáta, protože trénovacích
+      dát je málo a všechny za dojné uměstnit na danú binku aby model lepšie generalizoval,
+      potřebovali by sme ko natrénoval vážně množstvom dát s rovnalého rozloženia,
+      které pravděpodobně primení vážně množstvo šumu
+    truth: 2
+  10:
+    pred: 2
+    text: gradient je brandách určujúca smer najvičšího rastu objektivnej funkcie
+      (v kontextu neuronových sietí);pri učení ho môžeme využíť na nájdovie hľákaho
+      měníme objektívej funkcie, a tuto parametru použijeme na alkoholizáci váh
+    truth: 2
+  11:
+    pred: 1
+    text: 3. 3. 5. 5 závislých pixelov;,;55 z prvejvský
+    truth: 2
+488161096b8f6d7fd824d74f19461a9e:
+  2:
+    pred: 0
+    text: MAX;MIN;36;o jakmile dáme - 3 jako purní jak víme, že protihráč může vybrat
+      horší jak v kerém podstromu a 1, o vůbec nemusíme vyhodnotit (odřeženě) takže
+      maximálně se odřežou 2 stavy vpravo.
+    truth: 4
+4b005bb75b23a34a6289d304ef47be74:
+  2:
+    pred: 4
+    text: MAX;MIN;S 560 od;prevežene texto dva lebo dělej nemá zmusel, hedže min.
+      -3 je menej jako min -1 z vedlajšej vetry čo by nám vnutil hráč čo minimálizy
+    truth: 4
+  5:
+    pred: 1
+    text: Nutná 3D gausová � střední hodnota � 3 čísla v každej den pre jednu tržedu
+      � rozptyl � 3 čísla v každej den � symetrická matica � 3 čísla korelácie;3D
+      dáta pepisci;2 triedy;� horelácia;� klasifikátor má 2(3-3 tř.) parametrov tř.
+      1x parametrov � reprezentované 18 reálnými číslami � metra středních hodnot
+      � pre 3 dimenzie L43 � kovovíenčná matice (5, 9, 12, 2, 2) a symetrická � obsahuje
+      korelátie " medzi jednotlivými din. 53 � Odnad parametrov pomocou metódy maximálnej
+      vierohodnosti optimalizujeme p(X) ~ N|9, ž) � výpočet pravdepodobnosti vrátáme
+      na základě apriornej ho který pravdepodobnosti, pravdepodobnostnej funkcie pre
+      dané dáta. třídu určíme podle toho Následne;te vš
+    truth: 2
+  7:
+    pred: 3
+    text: dáte sú vyznačené;as 2 thx to = o parabola � model negeneralizuje leko máme
+      málo trénovacích dát. V tomto prípadě sa jedná o interpoláciu. Ak by sme chceli
+      aby generalizoval potřebujeme víceej dát. Negeneralizuje znamená, že trénovacími
+      datami presne ale dalšie prechádza vzorky by ale odhadel
+    truth: 4
+  12:
+    pred: 0
+    text: � zložené dve rekonventně siete s tym že jedna ide "opačné" ako druhá �
+      výhody � výstup vpredu dostáva vstupy zo zadu a naopak;RNN;Styp
+    truth: 3
+4bf747ef2120d309620fbd78fe771b7f:
+  8:
+    pred: 1
+    text: generativní = učí se funkci hustoty pravděpodobnosti (rozložení dat) = například
+      pravděpodobnostní klasifikace, klasifikace do víře tříd, = výhody = nepotřebuje
+      tolik dat k učení = nevýhoda = učí se celé rozložení, i v částech, kde nás to
+      již nezajímá diskriminativní = učí se přímo funkci p(class|x), učí se parametry
+      této funkce = například logistická regrese = výhoda = výpočetně výkonnější =
+      nevýhoda = snadné přetrénování pokud málo dat
+    truth: 1
+  9:
+    pred: 3
+    text: '- intuice, schopnost učení, uvědomování si sám sebe, prožívání emocí, schopnost
+      pohybu, rozhodování, schopnost komunikace,... nemusí, zda inteligentní se zjistí
+      jiným způsobem (Turingův test např.'
+    truth: 4
+  14:
+    pred: 3
+    text: '- učení s učitelem poskytne anatovaná data a víme jaké je správné chování
+      (ihned reagujeme) posilované učení neví jaký je správný výsledek, jaké je optimální
+      chování, jsme pouze schopni říct, zda se provedlo to, co mělo, ale nevíme jestli
+      to provedlo nejlépe jak mohlo - s učitelem = klasifikace (vidím ihned zda správně
+      nebo ne) posilované = self-driving auto (vidím až později, jestli jsem dojel
+      tam měl, nebo jsem naboural)'
+    truth: 2
+4ebe757a98261ca6cf7f8809fc99cd6e:
+  3:
+    pred: 4
+    text: Mozeme vidiet, že je porušena pudmiena;u;46;4 (S2) = 9. KTODA URGIVE NEDÁvÁ
+      OPTIMISTICKÝ ODNAD NA NAPÁJEK TOMU JE TOTO RŮZNÉ;optimalnější než sa vyráb 2.
+      Cestou;kne neuristika omnisticky;6 7 8 9 10;ODNAD DAVA. „Že bude to víc st.;65;Geld
+      6 oběd! 7 8;Kronikář;K optimálnímu přesení;01= 833 D2=293 D328;2 3 4 6 9 9 9
+      10;x x x x x x x z X a V D
+    truth: 4
+  7:
+    pred: 4
+    text: 'POCTN.;REG. 2. DATUM # MENUS + WAK;tento model nezeneraczuje, presne aproximuje
+      MODEL, AVŠAK TE PRÍLIŠ ZAMERANY NA KONFIRM. RÍBIEMIE Čilo pridáním dalších dat
+      nebude schopný ICH SPRÁVNĚ KAROKINOVAT. toto moženost ať se sieť přetrénovaná;NAOPAK
+      TENTO MODEL RENEMAČINE, ČLENOVÁ PŘÍDPONÍM NOVÝCH DAT BUDE STAVE VĚDIET APROxiMOVAT
+      tetu rosto;aby jsme zabraných tomu, že mohl prestane generalizovat je můžeme
+      přestat trenovat v borce nebo krejčí js ZAČNA STUDIA NA TEST. RITACH ALE NA
+      VALIDAČNÝCH UZ NIC'
+    truth: 1
+  8:
+    pred: 1
+    text: CENERATIVNÍ MODEL � NAJPOU SA SNAŽÍ MODELOVAT PRAVDU R rozloženie dat, nam
+      možne předpokládat. ZE IDE O GAUSSIONSKÉ ROZLOŽENÍZE A AŽ NASLEDNO NA ZÁKLADE
+      BOYES DUSAHU ODHADU SA SNAŽÍ PANE BOTA S URČITOS PRAVDUBNOSTI KLASIFIKOVA VÝHODY
+      Se že sa použí narozninách od NATRÉNOVAT DOBŘE AI NA MALOM MNOZSTVE DAT Však
+      při obTlAčers model RE MODElOVA ROZLOŽENO PROVINIE NADBAJEME A NA ZÁVISLUHE
+      TOHO NASLEVNĚ zle klasifikovat nová linenaná regresia;� tento model a tento
+      krok prexantní, a primo ja snaží vstvně proto klasifikovat;� ETAMEO SA PRETIQUITE
+      NA MALOM MNOZSTVE DAT 7 NAOBAL NA VELIKÝM MNOŽSTVE DAT NIE AE CITLIVY NA chyby
+      jak neo cen. (Na outlateron);NAPR. LIGISTICKÁ REGRESE;DiskriminAtivní model
+    truth: 1
+  10:
+    pred: 2
+    text: GRADIENT JE UDALA SKION A SMEM RASTU VAH. PRIQUI SA VYUŽÍVA PÁL SÁSTNOM
+      PRECHJDE NeuMOMOTIVU SÍETŽU NA KOREACIU VÁH - PRÍCOM SPORO MASOBIMU HODNOTU
+      PRAMENTU HODNOTOU K (UZENIA SA) ZÍSKAVANÉ NOVE OHEBERISTECKÉ PAHIE ČÍM JE GRADIENT
+      AKCIELE O tYM JE RASY. POMALU, RESP. NICOJY.
+    truth: 2
+  12:
+    pred: 2
+    text: 'Cís: JA V tom, že sa v nej všem hýbať oduma;toto 16 UBEBNA CNSTUPCNÍ;SMERNÍ,
+      Dovolená mi postrať sa oborní smetani čo mi umožní, odhadnúť lepšíe kontext
+      vety (NADR. VETNÉ ČEENÍ PRI SPRACOVANÉ RAZYKA J NEBY ZA NETREBUJE M POZEDAT
+      NA CELÉ STAVBY LETÍ. PŘÍDAVANIM DALEÉHO VRSTVU SA KE FUNCOVANÉ TEATY SIETE SHOMALUJE
+      KURORATICKY;Oproti ted normalned čo, moze proces srovnalové'
+    truth: 3
+  14:
+    pred: 4
+    text: UČENIE S UČITELOM JE UČENÍK NE STUP STRODOVÉHO VZENIA PRINTURAM PRI definici
+      v úlohě Máme vstupne data ale zároveň mane a těmto vSTUPNÝm DÁTEM AJ VÝSLEDKY
+      Na které má daný vstup zobrazený;PRI REKONCEMENT LEARNING - nAM CHYBAM DATA
+      zhýbané tituo POJÍCÍ JINÉ UČENIE NAOPAK FUNGUJE NA PAINCIACE, ŽE ALENT, AT LIJE
+      V NETOHUM PROSTŘEDÍ NA MÝCE VHODU NEDALE AKCIE DOJDELA ODMĚNÍ ZATO AKO BA MU
+      PODANICO A CIELY POPRAVIT DANOU TRVOU KÉROM SO SNAŽÍ MÍČTU HODNOTY MAxIMALIZOVAT
+      (RISTINAČNÍ SO NADUÓŽEŠÍ POČET ODMĚELU) Řešeno motivuje nic príprav nebo nebo
+      je data ako při učení s učitelovy
+    truth: 3
+4f9e1fa54dccf75374f4a9b85be8a433:
+  2:
+    pred: 4
+    text: MAX;MIN;Seb;56;prohladováme naypr lavu čast podstr aby to dávalo rmy;těsto
+      dva nebude vyhodnocovat Na lavej straně nezaleží prejdeme celu, najdeme min-2,
+      a potom prohladavame pravu najdeme - 3 a nepokračujeme takže určíme 2 roky
+    truth: 4
+  5:
+    pred: 1
+    text: dve třídy. Potrepujeme apriorní pravdepodobnosť pro obé třídy, teda počet
+      v dan to sú 2 parametre, nasledne potřebujem odhadnut funkciu P(class) = alkory
+      pocit pravdepodobnosti hustoty pr gausovské trojdimezionale rozdělenie, teda
+      potrebujeme 2x tuto funkciu pre obe hriedy, a parametry rozloženia N(x, N, k)
+      kde u je vektor strednych odchyliek a E je horariačno matica, a to odhadneme
+      pomocou metody maximalnej všerohodnosti. Takže 2 realne čísla na aprior + 2.
+      (2 pre vektor odaglich- čísla hovarianná matica) a Tieto parametre využijeme
+      na odhadnutie posteriornej pravdepodobnosti že dané dato patrie do třídy pomocou
+      bayesovko vzorců;p(c|obou) = p(obsah) = p(c);p (obsazo
+    truth: 2
+  6:
+    pred: 4
+    text: PAR;p(zdrou) = 80%;P(nok) = 20% P(pozitivak) = 90% P(neg / nok) = 10% P(negl
+      zdrav) = 90% P(pozl zábavy) = 100% INV. Č. SIGN. P(poz) =? KART. G;Nový;do Brna);Vodní
+      část;P(alb|;Ab;P(neg / poz. p. l;poz /;P(poz) = ZP(roz, chasa) class;použijeme
+      pravidlo P(x|Y) =;lt;G;Plno;= 0,09 = 0,2 + 0,1. 0,8 0,16 + 0,08 = 0,64 5/2
+    truth: 3
+  7:
+    pred: 1
+    text: model;K = 2;podél negeneralizuje kvoli nedostatku dat pridaním važšího množstva
+      dát by sme zarazili generalizovanie modelu. alebo zmenšit polynóm pre danu ulohu
+      napr.;- podncionálne další ktoré nemáme k dispozicii;k = 1;- prechadza prezne
+      cez body negeneralizují ale předpokládáme že další by bolí s gauss žumom;reg;rikpa
+      věce generalizuje
+    truth: 4
+  11:
+    pred: 4
+    text: OBSAH;1633;RKSS;Philld - vztaz Pfeld - vystupil =;2 5x3x4 5x5 před 29;V;piat;PRODUKT;16
+      pf;E
+    truth: 2
+  12:
+    pred: 4
+    text: obojstrana spracujou sekvenciu z jednej vý druhej strany. Za normálno spracuju
+      len jedným směrem výhody � lepšia propagacia informacii ay z Donca sekvencie
+      napřehľad nevyhody -> naroznost vypočetná kedže su skutečně napojeně za sebou.
+      -> čakáme na propagaci
+    truth: 3
+50568a87cf2aab80a607af9913d3482c:
+  6:
+    pred: 4
+    text: 20% — v POLUDACI;nEgativní;narušený;0,1 -;Všechno;0,2;ZDRAVÍ;8;pozitivní
+      0,9 -;0,18;0,1 - pozitivní - 0,08 g - NEGATIVNÍ;pravděpodobnost pozitivity je
+      26%
+    truth: 4
+50d5da4c697fc4f98eeb652074521890:
+  1:
+    pred: 1
+    text: pokud si v 1. zapamatuji že uzel A vede k řešení poté ve 2. jej můžu zrovna
+      ozvacít ze vede k rešel a nemusím prohledávat jeho potomky znova
+    truth: 4
+  4:
+    pred: 4
+    text: XI;x|x;o;x;x;x;X2;x;X;x;X;x;x;x;X;X2;x;x;X.;X;x;x;x;O;x;x;D1 = {3, D2 =
+      E 9};D=283
+    truth: 4
+  5:
+    pred: 2
+    text: 'střední instalator;- celkem;3+ 3x3) = 24 parametrů;STÁTNÍ docházka - dvě
+      třídy � C = 2 pro z každou třídu: výstřední hodnota - vektor;postrik nebo nechce;biblikace;Ní
+      P;2x odchyka - natice 3x3 libelhod;28;odhad ML;2. 1/22 (xu-M. Chrop);45 1/2
+      x m;P(c|x) =;29;od;P(x|cí) P(c|X) L. P(přilož N|x; MIZI);p(x|c) P(c);ŽING/VALD;;obdobně
+      pro ca2 (a nebo 1-7 can/x), protože ?'
+    truth: 4
+  8:
+    pred: 0
+    text: 'Generativní model se snaží modelovat;pravděpodobnost rozložení jednotlivých
+      tříd;a poté pomocí Dapesova pravidla počítá postavovství p informací pomoc s
+      P(Y|x) =;XIV. POČTY;funkci;hustotu rozložení pravdepodobnost. p(X|I) a pravděpodobnost
+      PQ) např. pateři - klasifikátor;P(x) tandere stačí nám nově dat, můžeme perevorat
+      data nová istomiativní model nedeluje přímo proto: or tní pravděpodobnost PCX/X)
+      - potřebuje větší trenovací sadu, ale je pak rychlejší, má méně parandul než
+      perextry. end to end solution např. lin. logistická regrese;model'
+    truth: 3
+  11:
+    pred: 1
+    text: '64x64x3;64x64x (3x3e);5;3;1 pix. založí na: 5x5x3;5x5x96 545x17;-'
+    truth: 1
+520cd07ba31519b54f3f2093e83f1545:
+  4:
+    pred: 4
+    text: D1 = {1, 2, 3, 4, 5, 6, 7, 8, 10} D2 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 103 D3
+      = {1, 2, 3, 4, 5, 6, 7, 8, 10} x, = X2 D1 = {1, 2, 3} D2 = {1, 9} D3 = {1, 2,
+      3, 4, 5, 6, 7, 8, 9, 10} ; x 3 x 2 = 92,33 D2 = {4, 9} 21, 2, 30 b, 4, 5, 6,
+      7, 8;3 (x) , X? = x ʒ;X3 72X1 D1 = {2, 3} D2 = {2, 9} 5283
+    truth: 4
+  5:
+    pred: 2
+    text: potřebujeme pro obě třídy střední hodnotu a kovarianční matici gaussovského
+      rozdělení, kterým byly vygenerovány střední hodnota bude reprezentována 3 čísly,
+      kovarianční motice 9 odhadneme je metodou maximální věrohodnosti Z parametrů
+      jsme pak schopni určit p (class), p (obervation) a p (observation / dass), z
+      čehož jsme bayesovským vzorcem schopni spočísť p (class / observation) jako
+      p (cllus) - p(observation) class) p (class|observation) =;p (observation)
+    truth: 2
+  6:
+    pred: 4
+    text: p (poz) = ?;p (nak) = 20% p (pozlnak) = 90% p(neg) nak) = 10% p (negl zdr)
+      = 90% p(pozl. zdr) = 10% p (poz, nak) = 20 000 % = 18 % p (poz, zdr) = p(poz)
+      zdr) p (zdr. = 10.80% = 8% (poz) = 1/2 p (poz, 4) = 18 % + 8% = 26%;p (zdr)
+      = 80 %
+    truth: 4
+  7:
+    pred: 4
+    text: model přesně vstupní prochází vstupnímu daty, protože těchto dat je jen
+      K+1. Tím pádem negeneralizuje. Aby generalizoval, muselo by přibýt více dat,
+      aby nebylo možné model vytvořit pouze tím, že se data propojí křivkou polynomu
+      druhého řádu.
+    truth: 4
+  14:
+    pred: 3
+    text: Při učení s učitelem se může algoritmus opírat o nějaké absolutní pravdy
+      (např. při klasifikaci ví, že dané trénovací dato je v dané třídě). Při posilovaném
+      učení se může algoritmus pouze opírat o ohodnocení (užitek) akcí, které provede
+      ( např. při automatickém řízení vozidla)
+    truth: 3
+565919f2a81ff4e380cfb3cc8f51ae70:
+  3:
+    pred: 4
+    text: Směnem doprava je cena větší h(n) = 2, a proto se do hlu) je zde neoptimální
+      proutím funkty přídá první cesta do leva, to se však s dalším průchodem zvětší
+      a vybere se optimální cesta vprava, která je přes jeden úsek.
+    truth: 4
+  5:
+    pred: 1
+    text: 1. Vektor středních hodnot pro 2 třídy 2. Kovarianční matici pro 2 třídy
+      celkově 10 parametrů. Zpuion ní pravdepodobnost pro 2 třídy 4. Rozložení hustoty
+      pst. pro 2 třídy 5. posteniorní pravde pokrost pro 2 třídy. 1. Vypočítamé apriorní
+      pst, pro oběť Voktor [x, 3, 3, 3] 3 + 3 třídy např. p(med = nedo 5|6) kor. matice
+      [4. 1. 1989 2. Vypočítame rozl. hostoty prav. pro obětí. 3. Vypočteme post.
+      pst. pro obě třídy. 4 zprionní pravdepodnost p(c|x) na nově příchozí datu vypočítanou
+      3+3 pomocí post. pst. s jakou pst. nezložení hestoty postaniouní pravdepodobnost
+      velkou 30 čísel, do dané třídy patří
+    truth: 1
+  6:
+    pred: 4
+    text: p (nak) = 0,2;(naktpoz) = p(poz Ingk) . p(nok);Mark 1por;p(pozlnak) = 0,9;022/8;plusky
+      pod 0,9 . DIF;0,8 0,2 . 0,9 + 0,1. 0,8 = 0,18 + 0,08 = 0,26 %;0,4
+    truth: 2
+  7:
+    pred: 1
+    text: Nakreslena panabola, protože regrese druhého řádu mát tvou Model negeneralizuje,
+      protože poky. negrese má špatný hlad. Orénovací data mají podobu limární, tudiž
+      by správný řád byl K=1, kdy by dané body protla přízku ve tvaru f(x) = W, x
+      + w0
+    truth: 1
+  8:
+    pred: 0
+    text: 'Ge nenativní model - Modelujeme hustotu rozložení pravděpodobnosti, takové
+      aby odpovídalo vstupním datům - Gasssovský klasifikátor. - Modelujeme i tam,
+      kde to není potřeba. Ne výhoda Piskni minimativní - snažíme se pouze určit do
+      jaké třídy vstupní data patří, třída 1 nebo u bin. klasifikace. Log. nesnese.
+      vil Gen. Výhody - pro každé vstupní data jsme schopni určiť jakou pst. patří
+      do jednotlivých tříd, menší množství dat. Výhody: Disk. klasifikátor - Quuu
+      2 třídní znozměnná data (3 parametry) Gos (10) jednodušší. povýhody - neumý
+      quedikovat pst. pro jednotlivé třídy - protmenování potřebuje velké množství
+      dat.'
+    truth: 1
+  9:
+    pred: 4
+    text: Nemusí vyhazovat všechny aspekty. I někteří lidé nevykazují všechny aspekty
+      a považujeme je za inteligentní. např. expatři. Důležité je i si uvědomit, co
+      si představujeme pod pojmem inteligentní. O pes vykazuje známky inteligence
+      např. štěkání u prázdné misky;- schopnost učit se nové věcí empatie vnímavost
+      (attention) - - vědomí ( umět se rozhodnout. - alentness - pamět;- exondination
+      - schopnost vést lidi poslouchat rozkazy
+    truth: 4
+  10:
+    pred: 4
+    text: Pomocí panciálních denivací spočítame vektor (guadient) který nám určuje,
+      jak moc (dílka šipky) a jakým sněnem noste. Snažíme se najít bod, kde se parc.
+      demivie 0 V tomto bodě se nachází influe. bod (lok. max., lok. min., Dokud jsme
+      našli lok. Mezinam jsme v cíli Při počítání gradientu metodou (quadrent descent)
+      Jdeme algoritmucky a upravujeme v každém kroku hodnotu parametrů pomocí hodnoty
+      gradientu. Využívá se k nalezení optimálních panometrů pro modely DECM) Neuronových
+      sítí.
+    truth: 3
+  11:
+    pred: 0
+    text: Ex5r;ŠTORSKÝ VE;St 513 = 79
+    truth: 2
+  12:
+    pred: 4
+    text: 'Obousměrná využívá výstupy z jednotlivých vnstar v obou směrech. Známo
+      tak věci z minulosti i budoucnosti výhody — pro překlad jazyka musíme znát význam
+      cele věty - pomocí nekonoutní vnstry známe i další slova z věty.;Nevýhody -
+      zbytečné důležité tam, kde není potřeba mocení - nefunguje o nekonečné nemožné
+      z důvodu výpoč. síly;Rok: síť spěch. dopředu i dozadu;Normální jde pouze dopředu'
+    truth: 2
+59ff42c707eba1e5ec087a66fb4612ac:
+  2:
+    pred: 4
+    text: MAX;MIN;6 000;pořadí z leva doprava v MAX znova dolova o MN -1;1 a o pravého
+      problemu si vynechajú
+    truth: 4
+  5:
+    pred: 1
+    text: N(w|e) w = (as, as , ona) POSUN KOVARIAČNÍ MATICE 12 reálných čítek pro
+      1 gaussovský klasifikátor (pro 1. třídu) .. 29 reálných čísel pro 2 třídy (2
+      gazsovské klasifikátory) - parametry lze odhadnout metodou MAXIMALNÍ VĚROHODNOSTI;je;potřeba
+      ochodnout ře a ž;máme rozdělavou z garantovské klesitihodnoty pro třídy A a
+      B N(X, η, ?) a N|x, prvka) snad pravděpodobnosti, že nově podchozí vzor x byl
+      vygenerován z těcha gaussovských rozložení.;z XXIV (x +1 CA);NAROZENIN (4 000
+      ks);k) =;N(X, 04, 46);+ N(Lornika);N(LOATI);P(1) je prov, že X potřebí do třídy
+      A o patří do třídy B
+    truth: 1
+  6:
+    pred: 0
+    text: P(X|5) = 02 01;nahožen;P(X|S);pozitivní;P(X) =0, 8 P(G|X) = 01 .. P(y|x)
+      = 0,1;PV, S - 02 09;pyk P(xy) + P(R|Y);98;0,8. 09 = 7 (X, 5);P(X|9) - p(y) =
+      p(Y|X) P(X) P(X|Y) I PUD = PY|X) P(X) - PWIx) PLSD = PISIX P(X) 0,9 .002 =0,1.
+      0,8;P(F|9-8|B) = p(X|7) P(Y) - 99.0,2) = 0,1.98 ply = 0,1.0,8 + 0,9 .02 půj)
+      = 0,08 + 0,18 =0,26 PLYN = 0,26
+    truth: 4
+  9:
+    pred: 3
+    text: motorika, pohyb schopnost učit se - porozumět celku;-;- většinou je agent
+      považován za inteligentního, pokud splňuje nějakou podmetice aspektů (přip.
+      jeden a pekt) - pro text, zda je agent inteligentní (jeho člověk) lze provést
+      Turčagův Test
+    truth: 3
+  12:
+    pred: 4
+    text: obousměrná rekreační vrstva znal sekvencí z 2 strany (ze zadu) výhodou je,
+      že vrstva zná kontext z př. obou stran textu slove a může zavypočítat lepší
+      výsledek nevýhodou je, že musí být znán celá pochopnost (při celý text), nelze
+      tedy použí na streám hodnot;05-65;Malua;mele;040
+    truth: 4
+  14:
+    pred: 3
+    text: '- a učení s učitelem je v úloze detinované jaké jsou vstup a přeju to má
+      odpovídat nástupcem;posilované učení neměl přesvědčovat výsledky, pro nás ale
+      hodnotící funkci. provedeného kroku'
+    truth: 3
+5b9dc6511750b1dc138b7722ad0af615:
+  4:
+    pred: 4
+    text: 0;1;z;3;„;5;G;7;8;9;10;D1 D2;D3;x x X;X;X;X;X x;X;X /;X;X X;X X X;X;X;x;X;X;X;X;X;X;X
+    truth: 4
+  6:
+    pred: 4
+    text: N. negatívny P - pozitivny;P(CH) = 20% 90% 90% P(2) = 80%;b;z;P(P) = L,
+      P(P(P, 201, 3) P(P) = P(P, CH) + P(P, Z) P(P) = P(P|C|C|) . P(CH) + P(P|Z).
+      P(z) P(P) = 0,9 .0,2 + 0,1. 0,8 =;0,18 + 0,08 = 0,26;18;26%
+    truth: 4
+  9:
+    pred: 2
+    text: '- schopnosť komunikovať robiť rozhodnutia - cielavedomosť premýšlanie uvědomenie
+      si samého sebou - (zájezd) - emocie světem vnímanie okolia a reakcia na podnety
+      z okolí a - fantázia nové nevidené úlohy - dôvtip - schopnosť riešiť úlohy -
+      ete...;-;nemusí splňať všetky avšak čím více ich splňu tým tažšie je ho rozoznať
+      od človeka'
+    truth: 4
+  13:
+    pred: 3
+    text: '- attention nám umožňuje zvoliť kontext dvoležitý pre vyriešenie stávajícího
+      problému. používa sa napríklad pri preklade jazykov alebo detekcii textu z písaného
+      písma príkladom môže byť preklad z nemčiny do angličtiny kedy určitý člen závisí
+      na rode podstatného mena nasledujícího za ním. attention nám umožní zvoliť korektně
+      slovo a na základe nebo rozhodnúť o překladě. Rekurentné vrstvy sa rozhodujú
+      lenna základe predošlých vstupov attention (ako v príklade) sa sie pozrieť na
+      kontext aj doprédu'
+    truth: 2
+5c55ddf6cabad401d3e98d861f0c8205:
+  11:
+    pred: 4
+    text: 3x3x16 - vstup 6 5x5x32 - výstup
+    truth: 1
+5dff9e7052fea9930bd73c07a81648b0:
+  3:
+    pred: 4
+    text: 4 pluk 3-3;15;h(a) = 30;5; hlas = 10;70 KART.
+    truth: 4
+  14:
+    pred: 3
+    text: Při učení s učitelem je pevně daný výsledek, například vchazí filace člověka
+      v obrázku. Frénovací jsou anotována a dle odhalení a jednotlivé ground - tento
+      je model upraven, úloha tedy definujeme trénovacími validačními daty a vystupem
+      U posilovaného učení se úloha definice pohaltami a odměny pro rozhodnutí.
+    truth: 3
+5e6e373a14626c45fa2ca5e6ef8fc78d:
+  8:
+    pred: 1
+    text: 'GENERATIVNÍ MODEL - snaží se odhadnout hustotu pravděpodobnost;jednotlivých
+      tříd pracuje také s aprio pravděpodobnostmi. výhody: z podle GENERATIVNÍHO KLASIFIKÁTORU
+      JSME SCHOPNI GENEROVAT DATA Z DANÉHO ROZLOŽENÍ TRÉNOVACÍCH dAt. (NAPŘ. GENEROVAT
+      PoDOBné OBRÁZKY) NEVÝHODA - PLÝTVÁNÍ DAT a vÝPOČETNÍHO ČASU NAPŘ. GAUBSOVSKÝ
+      KLASIFIKÁTOR DISKRIMINATIVNÍ (LOGICKÁ REGRESE) - POČÍTají SE POUZE POGETERIORNÍ
+      PRAVDĚPODOBNOSTI JEDNOTLIVÝCH TŘÍD. TEDY S JAKOU P. BUDE daný vZorek v té a
+      nebo té třídě. V dnešní době převažuje, je rychlejší a dá nám přímo výsledek.
+      Např. BINÁRNÍ KLASIFIKÁTOR'
+    truth: 2
+  13:
+    pred: 4
+    text: '- Myšlenka je, že si pamatuji pozice;DANÉHO SLOVA/PISMENA VE VĚTĚ/SLOVĚ.;používá
+      se u překladů. Kdy slova záviset na jiných slovech ve větě. Třeba jejich správný
+      TVAR.;INAPŘ. ČASEN a, the, skloňování VE FRANCOUSTINĚ (CA ...);- Je to aUTerNativa
+      k rNN, které mají problémy s dlouhými vetami 5 Ú LÝ 35 �;TRANSL'
+    truth: 3
+60e6b9e7b1eb6d3f2de9c8763a64f929:
+  3:
+    pred: 4
+    text: D.;145000/ => výstupem jí;u;ho;125 .;2;odp.;466 5000;cu;k 4.;3./ pe po fc
+      50000 vidím že středa =100 =0 ve wxí;Jura;beim;4, potom);a loučím, iru 1 - 4
+      - 3, (2) oboru (h je akože 4 (s) prehledaný úzol)
+    truth: 4
+  4:
+    pred: 4
+    text: 1;J;X1 T2;7 7;/;20;01 = 839;7;8)
+    truth: 4
+  5:
+    pred: 0
+    text: p(c) (a), plnit plaz, ale plaz = 1 - plav;Potřebujeme číže to shalárei parametres.
+      z Čalej potřebujeme parametre pre p(x|c), moc pre rozborná N(N|X|X). Pri každou
+      je vektor 3 odh hodnot, a událne symetracká, stačí 6 čísel (0ž 0ž2 0ž3, a kovariancie
+      pre xixi (x1x1 a x3) Čištění 2x (3 + 6) = 18. reálných spolu MINIMÁLNě � spolu
+      (z oken nevyužijeme symetre ODHAD POMOCOU ML, p(c|l = ?) NA = DEX) = 21 N2 a
+      na byzde EVŽ É E CENTRALIZACE = pro eme ML - p(x|p) = arg přeporam (x|c) .p(c)
+      pleb, vyšším 3/3 (p(x|k) plk) Ivančice Využitie -> p(c|x) rem. Pro tento virus
+      máme nákresu asp. 30 Procent populace se nakazilo určitým blíže nesj. k dispozici
+      test, který je pozitivní pouze pro 90% lidí nakažených tímto virem. Pokud člověk
+      nenípa- nakažen, je šance, že mu test vyjde negativní, také 90%. Jestliže u
+      osoby náhodně vybrané z celé populace provedeme test, jaká je pravděpodobnost,
+      že výsledek testu bude pozitivní?;matica 3x5 l, ale hodně je diago;každé;tureze);ROK;platit
+      pl;plk./
+    truth: 4
+  8:
+    pred: 4
+    text: 'Pri gener. model: odhadnem p(x|c) a p(c);z toho bayesovským pravidlem (na
+      product a sumu nalezá odvodím p(c|x). Napr. gausovský klasifikátor pre 2 třídy
+      s 3dím dočítaný Výhoda, že parametre odhadnem priamo, analyticky (aspoň ak uvažujem
+      berné rozbore na úpad.) mohou tam posieno využiť informacím (ak mám) o rozložení
+      (napr. zhlédnou na CLU, na základě čeho by som použil gnasovský klasifikátor).
+      Na druhú stran na mať rodinné správa vše pre vzdialenějšie dáta, vždy musím
+      přepočítať pravdepodobnosť cíle/ pro každé trojekce, musím zvolať uvažovaná
+      funkciu pře p(c|x) Pri diskr. novelii odhadujeme přímo p(c|x). Např. logaritmická
+      regresionem (bx6+10) pre Rdinervůsudne dáta) NEVÝHODA, že (šle z triedy) 2x
+      (siakou v ta) NEMajÍ DOVSEBELLLE ANALYTICKÉ RIEŠETIE, PARA- metre dohadujeme
+      uteratívně. VÝHODa, že itex (ta)'
+    truth: 4
+  9:
+    pred: 4
+    text: UNÍMANIE, SEBA UVEDOMENIE, JAZYK, EMÓCIE, UČENIE,;INSTITUCIAT, ADAPTÍNOVÉ,
+      RACIONALITA, LOGIKA, ATO;NIE NUTNÉ SETKY SE NUTNÉ, NAPŘ BYLOM;útoká Nemá emočka
+      prežívanie, ale plné si uvedomuje svou existenci, komunikuje, vIE RIEŠIT ŠIROKÉ
+      SPECIFIKACIM PROBLÉMOV (dy naleznou tých členek) a napsaný rozumně emó všem
+      činných bytostí, podle mně soutěž do kategorie inteligentních bytostí. Rovného
+      se uvažovať pro absence
+    truth: 4
+  10:
+    pred: 4
+    text: 'RASTU ZÍSKA SA DERIVÁCIOU LOOSS FUNKCIE, využ na parametre. Podľa nebo
+      potom upravuje parametre tak, aby sa blížilo minimu pre Loss Pa: Napri gratiat
+      desient : w = w - 2 [LIb], kre Loss je funkcia volant nad trénovacími dátami
+      x, využívající LING purametru who vektor), derivovaná pedia a konstanta, a t
+      je učinna konstanta. lné aptimatizační algoritmy např s věrnou koetickou pracují
+      and (dynamicky ho nením). Brudsent sa da získať z parovázky ch derivácia podľa
+      jednotlivých parametrov, vypovindaných vo vektore'
+    truth: 4
+  11:
+    pred: 4
+    text: 500;43-1) (543-1) = 7;o;Lih pixelov;dobře zní;1. VIII. Tkanice pikolon
+    truth: 4
+  13:
+    pred: 4
+    text: SUMUJEM VÁMOVANÉ VEKTORY ČASTÍ (SLOV, KAPAR.);VSTUPNEJ SEKVENCE MÁM WA,
+      wA, hľbením těchto (únor) (Anex) matic a vektoru slova získan Q, W, podľa Q
+      a k Vypočítáme váhy (normalizované aby spolu rovnalo 1) kterými váhajem v (mluve).
+      Výhoda, že nemusím počítať sekvenčne, nožem lňkho pravalebne GPh, ale majú kvadratická
+      zložitosť vzhledem na vstup. Taktež sa dobre úraz, takže tím intimálie nepřepřeposlelam
+      celk nějaká veľká dlka sehranou. Používajíc se napr. při vcerd tagging, generonuje
+      textu (ponovou autoregrame Raktivitaci), (4čím wewxxx) 14. Taký je rozdíl mezi
+      učením s učitelem a posilovaným učením (reinforcement learning) v tom, čím?
+      definujeme úlohu, kterou se má algoritmus naučit vyřešit?
+    truth: 4
+676057f1a2cb6ed8578579152ec1452a:
+  9:
+    pred: 0
+    text: · NE
+    truth: 3
+  13:
+    pred: 0
+    text: Při zpracování textu Lépe odhaduje kontext věty
+    truth: 2
+688c2754432d58f63f516f2cf5958c11:
+  5:
+    pred: 2
+    text: parametre sú vo vektore u a matici k pre trojrozmezné normálně rozdelenie;majú
+      podobnou desativných čísel zapíraných vo vektore a matici závazková pre každú
+      triedu je osobitné trojrozmerné normálne rozdelenie preto ich je dokopy 3.2+9.2
+      = 24, ale nicktoré parametre majú rovnaké hodnoty, teda 3.2+6.2 = 18 parametrov
+      dokopy odhadneme ich nehodou maximálnej viesohodnosti pre trojrozmezné normálne
+      rozdelenie Pro výpočet pravdepodobnosti nového vzorku dosadíme jeho hodnoty
+      parametrov do oboch normálnych rozdělení a zarodíme ho do triedy pre letošní
+      je najvřeňia pravdepodobnosť z týchto rozdelení
+    truth: 3
+  14:
+    pred: 2
+    text: pri učeni s učitelou máme sadu příkladov wo formáte tieto vstupy majú také
+      také očakávanú hodnotu features � labels;v posilovanom učení máme prostředie
+      a vieme ohodnotiť, ale dobre agent splnil úlohu v danou prostredí, ale nevieme
+      ako má vypadať výsledok, a snažíme se získat čo najlepšie přesne;ohodnotenie
+      (agent sa snaží)
+    truth: 3
+691b3e014c609607f10df53d1d8cfa0b:
+  3:
+    pred: 4
+    text: 'n, h(n);A: f(h) = glonthan) U AX počítáme nejen s heuristikou, ale narozdíl
+      např. od GS i s dosavadní cenou do vybraného uzlu. K nalezení optimálního řešení
+      tak může dojít i při porušení podmínky protože i když se dostaneme do cílového
+      stavu, tak zkoušíme další uzly s nižším fin).'
+    truth: 4
+  9:
+    pred: 4
+    text: Učení, intuice, predikce, sebeuvědomnění, atd. Agent nemusí splňovat všechny
+      aspekty, abychom mohli označovat za inteligentního.
+    truth: 4
+  12:
+    pred: 0
+    text: Nemá pouze "dopřednou" razbu, ale i "zpětnou". Narozdíl od rekurentní vrstvy
+      tak můžeme např. u sekvenčně zpracovávaných slov textu můžeme ovlivňovat následující
+      slova při zpracování (můžeme např. předat užitečnou informací o kontextu).
+    truth: 2
+72819d573f479644e0f732b57bc8f13b:
+  6:
+    pred: 4
+    text: P(N) = 0, 2 P(+ IN) = 0,9 -IN) =0,1 P(-12) =0,9 -|N) = 0, 1;PlN;+;RIHL;P(4)
+      = P(4|N) + P(2) P(+|||||||||||||) 91 9,8 92
+    truth: 4
+  7:
+    pred: 1
+    text: Funkce prochází příliš přesně trénovacími daty, negeneralizuje a pravdepodobně
+      není věrným odhadem. Řešením může být zvolit jinou hodnotu polynomu, nebo v
+      tomto případě nejlépe přidat více trénovacích dat.
+    truth: 2
+822e8aa7d1298ea2436fe611946b994f:
+  3:
+    pred: 4
+    text: '- hodnoty v stavech - ceny hrán;- nednota pri hranách - neuristiky;heuristika
+      je horšía zko skutočnosť, no je únerý horší a pre všetky cesty'
+    truth: 3
+  4:
+    pred: 4
+    text: x2 = X2 x32x11 x3 x 42;No 21, 2, 33, 42 = 11, 93;x3 = 94..., 93;2 3 4 6
+      7 0 7 fixx x o xxxx x x 4x x x x xx x x 0 to xxxx xxx0x0x;x1 8233, k2er9j, tselos
+    truth: 4
+  7:
+    pred: 1
+    text: 'druhého řádu:;W2x + N1 x 1 w|x ?;negeneralizuje - teda nie je dostatočne
+      všeobecný na to, aby modeloval aj iné ako trénovacie dáto v tomto případe nemodeluje
+      správne znitie;- to že model negeneralizuje môže byť sposobeně vizovými fotekrmi
+      - môže problémom môže byť malý počet dát, k čo spôsobuje pretrénovanie - řešenie:
+      víze dát - pri polynomiálnej regresí je ale všešinou hlavný problém v zvolenom
+      ráde polynomickej funkcie, řešenie - zníženie řádu -'
+    truth: 1
+  10:
+    pred: 4
+    text: '- pod pojmom grodiem rozumieme deriváciu nejakej funkcie - toto derivocia
+      (prvého iódu) vyjadruje přírostok danej funkce - vieme z nej tedy zjistit či
+      funkcio strápo, klesá alebo či má v danom bode maximum alebo minimum (zlobí
+      je uršitenná) v úlohách ML musíme mať vyjednanú tzv. „loss“ funkciu, která hodnotí
+      správnosť referiv danej úlohy tóto funkcia většinou vyjadruje velkosť chyby,
+      a tedy sa ju snažíme minimalizovať kedže je chceme minimalizovať, hledáme v
+      podstate jej minimum, no to je možné využiť gradient pre niektoré úlohy je možné
+      danú derivácia priamo vypočítať (položiť nule) a získať tak minimum pri väčšine
+      úloh toto nie je příjmo možné, a preto využívame tzv. gradient descant, kedy
+      zůstřujeme gradient - sme nejvyššího roste a na základe neho posunieme opačným
+      smerem (teda smeron k minimu) - tento posun naší byť vykonávaný v krokoch primeronej
+      veľkosti, věkosť tohto kroku nezýváme learning roze - V NN se využíva popřísný
+      princíp gradient descent, je možné ho velmi vhodne počítať práve vďaka tzv.
+      „chránnale"'
+    truth: 3
+  11:
+    pred: 1
+    text: '1. vrstvo;vstup;16j.: 3x3x3 2. vrstva 32 j.: 5x5 x 16;64+64 � 3;Životopis
+      451 - xxx2 + 32;perceptive field zklivací 2. vrstvy:;5x5 pixelov akt. mapy 1.
+      vrstvy;7x7 pixelov vstup. obrázku'
+    truth: 4
+  13:
+    pred: 3
+    text: offention mechanizmus je založený na tom, že pri klasifikáční resp. inej
+      úlohe provincij s textem, většinou vyskytujúcích so nezáleží len na slove /
+      tokene na danej pozicii, ale aj na slovácký rovenoch pred zlobo za daným stavem
+      v selvencích - aby táto informacia bola dobre dostupná (nemusela si postupne
+      propagovať cez prvky rekurentnej vrstvy, čím se degeneruje) je možně použiť
+      attention, který spočíva v tom, že uprý prvot má přístup ku všetkým slovům/tmenou
+      daněj vstupej sekvencie, vety přímo pri affektion má každé slovo vstupnej very
+      definovanú váhu, která hovoří ako velmi slovo  ouplynuje práce určované slovo,
+      třeto váhy sú predmetam učenia;používa se nápríklad při prehradě textu do mého
+      jazyka
+    truth: 4
+  14:
+    pred: 3
+    text: učenie s učiteľom - pre každý vstup je definovaný požadovaný / očakovaný
+      výstup - pre takto ohotovované vstupy je teda jednoducho možné spočítať chybu
+      výsledku na základě kterej je možné vylepšovať model;- defínujeme vstupné děti
+      z očekávané výstupy;- posilované učenie - většinou so jedná o problémy, kde
+      je v prostředí možné vykladávať velké množstvo závisí - nie všetky mají definované,
+      že zko veľmi jí správne/vhodné - vhodnosť řešenia je oceňovaná tzv. odmenou
+      - odmenu je možné získať dosichnutím nejakého aeľa - na základe teýto odmeny
+      je možné so učiť, které zkresli k tejto odmene a získavost teda znalosť, které
+      zkde sú vhodně z noopak, které nie sú - definujeme odmeny v nějakých stavech/za
+      nějaké akce
+    truth: 3
+8310871a91f6396928f7e50acd47c2d3:
+  4:
+    pred: 4
+    text: 2;„;5;6;7;8;10;*;X;5;X;X;X;X;+;+;X;D2;X;X;X;X;X;X;X;X;O;X;D2;X;x;X;X;X;X;X;0;X;X;D1
+      = 233 23 D2 D3
+    truth: 4
+  12:
+    pred: 1
+    text: vě ako názor napovedá tak je obojstranná, čo znamená, že nou pnechádrane
+      aj opačným smerem (čiše odradu) výhoda při obličejích vetách a preklade do ineho
+      jazyka
+    truth: 2
+  13:
+    pred: 0
+    text: '- základnou myšlenkou, je pridanie určitej významnosti slov vo víte. máme
+      nejdie vstupné tokeny slov a každé slovo má svoju pravdepodobnostnú hodnotu
+      na základe, kt. sa rozhoduje, že ktoré skoro udáva význam, čo pomáha popríklad
+      pri preklade do iného jazyka, případne pochopenie kontextu na doplnenie napríklad
+      skúmanej otázky'
+    truth: 2
+  14:
+    pred: 3
+    text: učenie s učiteľem. pointa spočíva v tom, že dáta sú anotované čiže model
+      sa učí na základě toho;posilované model dostane race data a sám musí zjistiť
+      výsledek, po správnom dokončení úlohy dostáva nejakú odmenu a na základe toho
+      sa učí - dá sa využíť napríklad na hru stayeraft, šach..
+    truth: 2
+845c61b8d1361a7636cf773d6064cb46:
+  1:
+    pred: 0
+    text: zapamatování;těchto;starší;dodávky do obo-;se vydá rovnou směrem k uzlu.
+      Díky zapamatování a nevěří tudíž zbytečně levé a prostřední podstromy
+    truth: 0
+  2:
+    pred: 4
+    text: MAX;MIN;oboc;doba;5 - v terénu podstromu nezáleží na pořadí - vždy se trojice
+      musí výhodnotíc pravém se musí prvně vzít -3, díky tomu víme, že vyhoví hodnotu
+      bude menší než - 3 a ve vyšší vrstvě určitě nebude vybráno
+    truth: 4
+  6:
+    pred: 4
+    text: PINAKI = 0.2 � P(POS||NAK) = 0.9 P(NEG/Z) =0. 9. p(posla =?);P(POSIZ) =0.
+      1;p(pos) . P(NAKIPOS) P(POSINAK) = PINAKI P(POS||NAK) = PIPOSINÁL) PINAKI =
+      0, 9. 9. 92-0. P(pos, z) = PIPOSIFIZ) - P(z) =0. 1. 0,8 - P(POS) = S P(POS,
+      x) = 0, 18408-0,
+    truth: 4
+87b28a4dac30a111c366b6933f33c004:
+  9:
+    pred: 2
+    text: Intuicia, zmysly, schopnosť učiť sa, kognitívne funkcie človeka;- Nemusí,
+      ale by mal napr. dokonalú intuiciu nebola by žiadna nutnosť mať iné aspekty.
+    truth: 4
+  14:
+    pred: 2
+    text: Při učení s učiteľom zvyčujue presne vlevae aký je presný požadovan výsledek,
+      zatiať Eo pri RZ sa potřebujeme dostať do nějakého očakáva stavu ale netušíme
+      ako konkrétne, přičom RC algoritmy môžu nájsť až prekvapivý výsledek akým dosiakliciel.
+      Pri supervised learningu máme oanotované dáta, zatiať čo pri RL je aggent len
+      vedený formou odmien za vykonané akce.
+    truth: 3
+87ec428b0fefd4586143fa90a6fa0581:
+  2:
+    pred: 4
+    text: MIN;D;6;zde je to sebou;vstupné aby byl 1. dala podstromu;MAX;MIN;Se;o;počítací
+      řez;výsledky strom
+    truth: 4
+  9:
+    pred: 4
+    text: 'schopnost komprese internace (učení) - schopnost realizovat věznou setrioriální
+      úlohu na základě skušenosti - sdorost interpretovat informace - schopnost vidět
+      nemusí Př: tzv. varow AI být tyto osoby sakrem součastně. Stačí, aby algoritmus
+      realizoval nějak specibidaci Činnost dobře.'
+    truth: 3
+  12:
+    pred: 0
+    text: 3idiurational vrstva jsou v podstatě 2 rekurentní vrstvy proužící v opačném
+      směru . Tak výstup této vrstvy záleží jak na minulosti, tak na budoucnosti Proto
+      tento přístup nelze použít při vypracování real-tíme lot (nebylo by budoucnost).
+      Výhodou je nesporně lepší contestová informace (i z budoucnosti). Tedy máme
+      mír - disposici celou settencí.
+    truth: 4
+  14:
+    pred: 1
+    text: V rámci supervisovaného učení (s učitelem) máme pevně debinovomu úlohu.
+      Každý vstup má z sobě přirozen (xiz) - Naš. rozvozníci čísel z obrázků. očekávaná
+      výstup;Při posilovaném učení tento luxus nemáme. Algoritmus má pouze k dispozici
+      nějakou úlohu, kde se musí sám naučit, co má dělat. Obecně se jedná o úlohy
+      tym AKČNÍ � prostředí � REWARD. Tedy oplat se snaží svou činnost mobimalisovat
+      odměnovou ROWARD (sice) buků. Noř. souvisící auto.
+    truth: 3
+880e6fd1ec018d28c458796c730c184e:
+  1:
+    pred: 4
+    text: Agent musí splnit všechny AND uzly a aspoň 1 z 02 vztah Povedeme, že dokážeme
+      splniť stru "d" pak je nové splniť stav "b"b" a družiné splniť nejsem "o". Z
+      "co sa vieme dostat opět do "do". Tento stav už však dokážeme vyřešiť a leda
+      môžme označiť aj slov "e" se vyniesený. Ale by sme si nezapomněli úspěšně rozház
+      obnov museli by sie výpočet oporout.
+    truth: 4
+  2:
+    pred: 4
+    text: MAX;MIN;Bože!;6006 38;V Taram podstavce má Ináč Min - 2, to znamená, že
+      ak v pravo nájdeme číslo neužic ale -2, tráv max si aj tak rybovie - 2 a dalšie
+      uzly teda nie je potřebně vyhodnocovať O Nehodu nemiť porodie, takže ešte nemáme
+      žiada natrány a 3
+    truth: 4
+  4:
+    pred: 4
+    text: D1;22;D3;x;x x;x O x;x;x;x;";x;x;O;x 0 x;10;21+1 = 18 3;2. 2. 1 = 5 x 75
+      2.3+1 = 7 x37;D1 = 433;D2 = 453, D3 = 485
+    truth: 4
+  7:
+    pred: 4
+    text: dáta (tenoracie skutečná distib.;V takovomto píseme model nese pretína témacie
+      dáta, které máme k dispozicii. Skutečná distribucia však má sběr lineárny tend.
+      Pre lyžím generalizaci by sme v tomto prípadě mohli zvířiť stupeň pohynem alebo
+      dodať moc hémanésch dát, kde by sa nejevila data preténováného modelu.;více
+      dát a k =2
+    truth: 4
+  8:
+    pred: 2
+    text: P(observation / dass) a P(chass) na základe, čeho počítají P(dass/observation).
+      Modelujeme distribuciu, z ubozej dané data podrádzených Výhodou je, že do něho
+      môžeme vložit nějaké naše znalosti o denní distribucii. Palýb model sa tiež
+      na dělach. Je to však modelovat komplexně distincie jest. Napr. odhad poneveho
+      rozdělení a pomocou ML Grass. � Gunsovský klasifikátor Diskriminative - priams
+      modelujeme P(cres l'organation). Vhodné ak náze veľa dát, nemáme uhledať až
+      tolik parametru. Napr. logistická regresia.
+    truth: 4
+  9:
+    pred: 4
+    text: 'aspekty: nutou contral, intencia, učenie, odvodňovanie, kreativita, embrie,
+      mémanie (vceny), selt - anoneness, redomie, ...;Pravdepodobne nie je uché aby
+      agent vykazoval úpln všetky z týchto aspektor. Napr. určina nat ogala, který
+      funguje do datkot alebo oristent v telefóne, bez toho aby sa nijak pohyboval
+      vo sede a stále to asi budeme pomožovať za inteligentného. Taktiež vo veľce
+      nestojak, kde nám ugenti pomáhajú neočekávane, že si uvedomujú sami soleto,
+      že budú hartúry. Aspekty inteligencia závisí nech na tom čo od symba čekáme
+      Ale samé jednoť o strong AI schopné samo trugaď vo sebe, tak toho potřebuje
+      souzence voliť vice do jedny ideligentný asistent v našem mobile (v roman AI)
+      ale však tedy test aj - z nich tomu spívá naše očekávaná asi ho možne potřeba
+      za inkdyžutného.'
+    truth: 4
+  11:
+    pred: 0
+    text: con;64x64 x 3;�;o;omezený;xxx 3,3x16;BuRA 5x5x32;1 px vidí se ta;64 x 64
+      x 32;prvej vrstvy;64x64 x 16 1 pixel vidí 3x3 px a 3 honičky;1 pr vidí 7x7 px
+      z povodného vstupu
+    truth: 4
+  12:
+    pred: 4
+    text: Bidinechoval vek. vstra spravována vstup schenčie z oboch svera (od zač.
+      po horizo + od horca pro zač.) oproti běžnej vehrenkej uste, která pracuje ten
+      jednosverze. Výstupy obsah nechodou a pak hodnocené pe vyhodnotenie výsledku.
+      Nevýhodou je samozřejmě zlobitejší (neuronyjší) výpočet (více operací). Musíme
+      takhle poznať honiec danej schencie a teď schopny jie obrátit. Výhodou je, že
+      pri rozhodovaní môže spracovat širší hodlest, využit informacie z dalších „z
+      budúcnosti“, které vek. vrstva uvidí.
+    truth: 4
+  13:
+    pred: 3
+    text: Atlention mechanizmus dynamicky určuje časti vchyni, na které sa musí NNN
+      proviď (počítať s nimi) dany dospela k správenu výsledku. Hovoří nám kam je
+      nutné a použiť (napr. pri poklade z XXX) do Fv umáme na gréno určenie členov
+      získiť o dé podstatné neno a jedná — vod.) Výhodou proti vehmentným vrstvám
+      je že môžeme pracovať celý vstup a nic je potřebné ho předkávať sekvenčne. Existují
+      napr. jazykové modely (pohled), které využívajú ku mechanizmus attention a lieére
+      utry bez uchranných rodiev. Váhy jednotlivých vstupov je však potřeba sa naučiť
+      a počítať dynamicky (váhy po gveny, berj a rahel).
+    truth: 4
+89b8ce031e1483c47fb6f8f8aa150a96:
+  2:
+    pred: 4
+    text: MAX;MIN;G;6;oboc;Zde se musí projít všechny uzly;POK Uzly 0,1 se procházet
+      nemusí, kvůli předchozí - 3
+    truth: 4
+  5:
+    pred: 4
+    text: 'Pro gaussovský klasifikátor je třeba pravděpodobnost každé třídy (prior)
+      P(A), P(B) oba se počítají podílem mezi počtem prvků zdaně třídy a počtem prvků
+      celkově. Dále je třeba hustota pravděpodobností pro každou třídu: p(data) třída)
+      kterou aproximujeme pomocí gaussovského rozložení, tedy je třeba spočítat střední
+      hodnotu u a rozptyl 0? Takto máme vše co je potřebné pro výpočet Baxessova vzorce
+      P(class) P(dato Htída) P(cluss|duto) = P(dato) Celkově tedy 6 reálnými čísly
+      2x prior, 2x ju, 2x0? Parametry je, o odhadu Ze vzorců, které se dají vypočítat
+      metodou maximální věrohodnosti. Poté co přijde dato, pravděpodobnost pro všechny
+      třídy a poté zaleží, jaký přístup volíme - Jestli nám stačí P větší než 50%
+      nebo potřebuje nic toto.'
+    truth: 2
+  11:
+    pred: 4
+    text: '3. 16. 3. 32.32 - 5.3;= 322.25.27.2 = 32 50.27;3.16.3.32 = 27.16.3;2;Perceptive
+      field: 64x64 x (27.16.32)'
+    truth: 1
+  12:
+    pred: 3
+    text: 'Obousměrná rekurentní tříd umožňuje neuron. sítim vnímat lépe kontext v
+      textu, jelikož narozdíl od normálních bere v potaz i části textu po aktuálně
+      "počítaném" slově. Výhody: Lépe vnímá význam celé věty, či delšího textu Nevýhody:
+      Náročnější výpočet'
+    truth: 4
+  14:
+    pred: 3
+    text: Učení s učitelem - učitel zde doopravdy učí neuronovou síť a ví co je správný
+      postup cone;U posilovaného učení neuronová síť dostává odměny za postup, které
+      se více blíží k řešení
+    truth: 2
+8da82df4606715cb145f7f979908efc1:
+  4:
+    pred: 3
+    text: x1, 2 = X2 => x, ex 1, 2, 33, x2 + 1, 4, 93 x3 x 1 x 2 = � 6 � 12, 3, 83,
+      x2 + 4, 93, x1 �2, 33 3 224 + 1 =) x3 c 6, 7, 83, x2 6 893, x1 c 833;x3 x 2
+      x 1 = 3 x 3 x 6 8;x
+    truth: 3
+  5:
+    pred: 1
+    text: 'Pro každou třídu (2x): Pro každou dimenzi (3x): střední hodnota u Rozptyl;pro
+      rozdělení;celkem 12 parametrů;Parametry odhadneme např. metodou maximální věrohodnosti
+      Pravděpodobnost je určena na základě hustoty pravděpodobnosti'
+    truth: 1
+  9:
+    pred: 1
+    text: self-aworeness schopnost se učit komunikace Smysly Empotie Recionální rozhodování;záleží
+      na typu inteligence, (chatbot nepotřebuje zrak, aby se jevil jako reálný člověk,...)
+    truth: 4
+  14:
+    pred: 1
+    text: Při učení s učitelem jsou dány příklady a jejich řešení, zatímco v reinforcement
+      learningu jsou stavy hodnoceny dle určité metriky/ zdatnosti
+    truth: 2
+8e74b62c6d2cfebfb003da2801a4b51c:
+  10:
+    pred: 3
+    text: Jedná se o výpočech chyby pro danou neuronovou vrstvu a využívá se následně
+      pro přepočet daných noh ve vrstvě
+    truth: 1
+  12:
+    pred: 1
+    text: Jedná se o vestu které jsou symetricky napojeny to znamená, že je obousměrně
+      propojena. Výhoda je že prochází se více napojení, tedy jednotlivé vstupy mají
+      mezi sebou více informací nevyhodou je, že se prodlužuje trevování takovéto
+      vrsty a je náročná na vypočetní zdroje
+    truth: 1
+  13:
+    pred: 2
+    text: Jedná se o nechanismus kde jsou zakomponovávány kontextové informace. Výhoda
+      oproti rekurentním vrstvám Je taková že nejsou přímo na sebe napojeny pozorně.
+      Používá se třeba u klasifikace textu protože zde můžou být jednotlivá slova
+      na sebe napojeny skeze kontext věty a né čistě pozičně jednotlivá slova je tedy
+      potřeba brát v potaz kontext jednotlivých slov vůči ostatním
+    truth: 2
+95170a66b5c9d563dbc0e4b54257ce21:
+  2:
+    pred: 4
+    text: MAX;MIN;56;o 6;66
+    truth: 4
+  3:
+    pred: 4
+    text: počet hran do konečného stavu;x
+    truth: 4
+  6:
+    pred: 0
+    text: nalezeno - protože test 7 potvrdí text � 4/5 zdraví -;22 Abgetivní;50;Datum
+      5 - 50;50
+    truth: 4
+  10:
+    pred: 0
+    text: Vektor parametrů neuronové sítě pro ,který dojde k nejlepšímu zlepšení Loss
+      funkce. změny
+    truth: 3
+  11:
+    pred: 0
+    text: B
+    truth: 4
+9781c25581b0bc5fc82354b7451d0ecb:
+  2:
+    pred: 4
+    text: MAX;MIN;6606;366;6;Zde se bude urourávat.
+    truth: 4
+  8:
+    pred: 4
+    text: Generativní;- taplosův k.;Disknimidaliní;Trénujeme model hustoky rozložení
+      neuvděpodobnosti každé třídy. a polí klasifikujeme, kam třída takže u bisánního
+      k. se může stál, že dalo bude vyhodnoceno jako aut-lager.;logistická regrese
+      - Trénované funkci na rozdělení marděrdohodi DV dnešní době používanější i v
+      NN (rukavi) nadýlí na ušetřenování, neiditělikost out-lazeny. - Studiím;Plótová
+      parametry;Oddělený dluk dal od zbytku třídy sám může rozhodit model -;O lepší
+      použitelnost uži nevších datech. (vstupní sadě dat);Data, které se oddylejí
+      od tříd nemají vliv
+    truth: 2
+  9:
+    pred: 4
+    text: '- Schoanool se Mozhedoval - Schopnost si pamatovat - Schopnost zhodnotit
+      nezavislost, autonomie - Schounost se učil;Ne, například automanie, někteří
+      agenti potřebují nápovědu, řízení, plán. Přesto se dají povinnost za inteligentní'
+    truth: 3
+  10:
+    pred: 4
+    text: Vysvětlím na alg. suudient descent, který se používá ve dávi;optimalizace
+      při ladění parametrů NS. Paunelu je n- raněný vektor (souřadnice) v nějakém
+      x - rozměrném prostoru, resurentně fci ve kterém je fce NS. Pomocí derivace
+      - hledání lok. max/min můžeme říci, jakým sněhem se máme ubírat. se Parciální
+      derivace � gradient � sněm růdu Puchtický p. Spočítáme součástí derivace a odečteme
+      od souřadnic summetrů daný vektor Hledáme totiž minimum.
+    truth: 4
+  11:
+    pred: 2
+    text: 3x3x16 � 32x64 32x5x5;64;+ SRPENS;6;25,75 ux
+    truth: 2
+a09c8d53abd337abc16d29197cdb3114:
+  3:
+    pred: 4
+    text: start;(harr-8);S;1-cena (heur-4) (heur-2) díl 1. (heur-2);Curr.;heuristika
+      je sice negotinistická (pro každý stav = 2x délka cesty k cíli) přesto nalezne
+      optimální řešení (S_> B�)
+    truth: 4
+  4:
+    pred: 3
+    text: x x X;z;X x X;/4/5/6/7/8 /9 10 Ox x XXXIX XIX x IX X 01x XXX x X 0X x;X;x1
+      = 233;x2= 293 x3 x 283
+    truth: 4
+  5:
+    pred: 4
+    text: '- klasifikátor je popsán rozdělením pravděpodobnosti pro každou třídu +
+      jejími apůjčování pravděpodobnostmi (P(P|x|c) a P(c) pro každou třídu) s;na
+      datech je tedy nutné odhadnout dané P(x|c) a P(C) pravděpodobnostní rozdělení
+      každé třídy je popsáno Gaussovskou funkcí (která se získá odhadem jejich parametrů
+      - střední hodnota + rozptyl z metody max-likely hood) (2 čísla) pravděpodobnost
+      třídy je jen jedna čísla (jedno číslo) odhad zjistíme z dat pomocí metody max-likelyhood
+      (prav. rozdělení P(X|C) a odhadem p(c) jednoduchým výpočtem poč. prvků dané
+      třídy;P(C|X) =;oslavný poč. prvků;využití parametrů k výpočtu, že x patří do
+      dané třídy;P(X|C) P(c) 5 PLXIY; PIYSTOL;o třídy'
+    truth: 2
+  7:
+    pred: 1
+    text: overfitting / underfitting (třeba - osobní poznámky );není dobrý církve;-
+      ve stupni do poslední doby dopisu;funkce na dovážku nemusí generalizovat - pro
+      testovací data se sice podařilo správně „nasměrovat“ funkci, ale můžou přijít
+      reálná data, která budou spíše odpovídat té čárkované funkce - pro generalizaci
+      v tomto případě bude potřeba více dat (na trénování jich totiž zjevně bylo málo)
+      obecně pokud negeneralizuje, můžeme - zvětšit množství dat, upravit stupeň polynomu,
+      případně poladit jakékoli jiné parametry...
+    truth: 2
+  8:
+    pred: 1
+    text: '- generativní model = snažíme se vytvořit model, který co nejlépe představuje
+      rozložení dat a pomocí modelu odhadovat pravděpodobnost příslušnosti do dané
+      třídy;- diskriminativní model = snažíme se vytvořit model, který s největší
+      jistotou odlišuje data přísluších dané třídy od zbytku dat generativní př.:
+      gaussovský klasifikátor diskrim. př.: logistická regrese výhody, výhody gener.
+      - potřebuje více dat aby správně aproximoval rozdělení;nevýh diskrim. - poměrně
+      rychle se naučí - stačí mu méně dat, ale není až tak stabilní'
+    truth: 1
+  9:
+    pred: 4
+    text: '- ovládání motorických fcí - improvizace - emoce - logické odvozování;nemusí
+      splňovat všechny, stačí jen některé;.... mnoho dalších'
+    truth: 4
+  10:
+    pred: 4
+    text: '- gradient slouží k úpravě vah při učení - počítá se parciálními derivacemi
+      - ukazuje směr „posunu“ vah tak, aby lépe odhadovaly“ (aby odhad s jejich pomocí
+      byl přesnější pomocí gradientu se hledá v „hodnotící“ funkci při úpravě vah
+      se dělají drobné kroky dle směru gradientu (často proti směru)'
+    truth: 4
+  14:
+    pred: 3
+    text: '- obecně při učení s učitelem definujeme vstup a požadovaný výstup („při
+      každém kra - posilovanému učení naproti tomu dáváme pouze cíl (ohodnocení),
+      kterého chceme dosáhnout zatímco jednotlivé kroky postupu nijak nehodnotíme;konkrétní
+      příklad:;predikce nějakého jevu vs. ovládání jednotlivých svalů nějaké postavičky
+      aby byla schopna splnit nějakou úlohu'
+    truth: 3
+a2ea1b9fdebff19434d6aebe076014c3:
+  3:
+    pred: 2
+    text: huj=13;3+13 = 16;hon/=12 - zr2 = 19;1 hen = q;K;a + 8 - 17;12 619;6;h(n)
+      = 9 soused 10+9=19 nalezli jsme o primální řešení, i když odtud nebyl o primistický.
+      ne vždy ale tomu tak bude, můžeme nalézt řešení (pokud by jich bylo víc), které
+      nebude o primální Proto je lepší dodržovat, aby byl odhad oprimistický ozn menší,
+      než cena zbývající
+    truth: 4
+  6:
+    pred: 4
+    text: 20 je nemocných;nakážených;+10 20 = 18;P(polizirnú/naktors) � P(negativní|pokažený)
+      � p(pozicivní (tedy ví) 1/10 P(negocioní/zdraví);10;tvrdému výjde pozitivní
+      a 1/20. 50 400 z celé popule nakaženému vyjde pozicivní � 3. 2 = 28 10 4/10
+      100 pravděpodobnost že náhodný člověk z celé populace bude pozitivní je 21,00
+      = 26 %;1
+    truth: 4
+  9:
+    pred: 4
+    text: Musí být schopen samostatné práce, samovolně vykonávat nejrůznější činnosti
+      Rotvijer se vklanném Nerozeznatelný od člověka � Turingův test � ten slouží
+      jako test tak je AI inteligentní, ale rozporuje mu to test s historický s činskou
+      knihou Dněšní AI spíše nástroje v jednotlivých úlohách. lepší než lidé (hra
+      šachy), ale ta inteligentní je všeobecně nepovažujeme, protože je to to jedině
+      co dokážou
+    truth: 2
+  11:
+    pred: 2
+    text: '...;ObA =;32;192 :32 = 6;12;2;Bluma;ANSEZL: 2 = 4;u 1. na oblasti 12 x
+      12 u 2. na oblasti 6x6'
+    truth: 1
+a361f97e453d3152ae439fc90420519d:
+  1:
+    pred: 4
+    text: OOR;AND;Z uzlu AND musí všechny poduzly vést k řešení. Je tedy nutné si
+      zapamatovat, zda jeho podvzty k řešení vedou. Pokud výme, že vzel 1 k řešení
+      vede, není nutné ho vyhodnocovat
+    truth: 2
+  5:
+    pred: 1
+    text: 'gaussovský klasifikátor: u... střední hodnota o2... směrodatná odchylka
+      data: pro třídimenzionální;odhad (p, 2) (u, or) = arg max p(x|p, or) = arg max
+      n (x|p, or);T2To e;u... vektor délky 3 o2... umístěna v kovariační matici 3x3;Využití:
+      pro obě třídy odhadneme parametry gauss. klasifikátory nasledně jejich hodnoty
+      a testované data dosadíme do rovnice klasifikátoru => získáme pravděpodobnosti
+      příslušnosti dat do obou tříd.'
+    truth: 1
+  7:
+    pred: 0
+    text: trenovací data - taky, model polynom regrese - křivka m Model negeneralizuje,
+      protože není dostačně silný (nemá dostatečný řád) pro trenovací dat. Aby generalizoval,
+      musel by s žvetšit řád k =3
+    truth: 2
+  11:
+    pred: 1
+    text: pix obrázku;16x3x3;aktivační mapy;Dein;strana na počátku 4 des Ausganges
+      der Gegner po nich na konci roku 1950.
+    truth: 2
+  13:
+    pred: 2
+    text: NS si při zpracování vstup udržuje informace o předchozích krocích vypočtu.;Používá
+      se např. při čtení ručně psaného textu.
+    truth: 1
+  14:
+    pred: 2
+    text: Učení s učitelem - sada oanotovaných trenovacích příkladů posilované učení
+      - pouze cílový stav a funkce hodnotící akvální stav/posloupnost kroků
+    truth: 3
+a445e40a2ec10752c52981cc84406d80:
+  7:
+    pred: 1
+    text: k=2 = kvadratická fca;je nakreslená perfektní parabola, která přechádza
+      všetkými trénovacími bodmi a správa sa perfektně na třénovacích dátach - aby
+      generalizoval (správal sa rovnako dobré aj na novích dátach) tak by sme museli
+      pridať veľ a dalších trénovacích dát alebo napr zvířat stupeň polynomu (pri
+      vysokých palmonu)
+    truth: 4
+  9:
+    pred: 4
+    text: -aspektr inteligencie - emocie, intuicia, sebauredomovanie sa ; mať cieie,
+      předvídanie, - rozhodovanie sa;nie; stačí keď agent vykazuje aspoň jednu z těchto
+      vlastností a můžme povedať že je inteligentní
+    truth: 3
+  13:
+    pred: 2
+    text: používa sa napríklad při přepise ručného písma na tlačené pozera sa na aktuálnu
+      poziciu a řeši tú � pozerá sa aj na predoště váhy v representative � R reprezentative
+      � E;-> oproti rekurentněj môže brť výhoda to, že su informacia nepředává medzi
+      jednotlivými vrstvami kde může dojít k strate kontextu
+    truth: 2
+a9136ac9b16f7ea1952a9452789ba685:
+  1:
+    pred: 3
+    text: '- při prohledávání leného podstromu vzkří 1 si nalezl vzel A, který jede
+      kvůli.. pri pohledávky prvého podstavu (vzal 2) již musíme pohlednictvý podstavci
+      (A), o čemž vím, že vede k řešení (neschlíme o pothekání vztř. F2 a 3'
+    truth: 3
+  5:
+    pred: 2
+    text: P(x|= p (x|x|c) = to) = N|X|XIX - parametry pro tento klasifikátor jsou
+      N a Z odhadnu je pomocí rozumu likelihood (M2);VEROJE IST;z 3 pometry pro střed
+      navrátilého rozdělení ve 3D;-střed i korespondenční matici napočítáme pro každou
+      za dvou tříd (ML odhad z dat) tím získám rozdělení pravdepodobností oken tříd
+      K výpočtu než příchozího nám využijí Byasin navec;- odhad;pt;100 I;ekonomické
+      ratio 3x3 diagnúlně spatrická přišuš koroptvou mezi jednotlivými složkami;Ex
+      y Erz ĚNY EXY ETY Str 927 ka ka - NDALE - NDT - odhad;P(třída|x) = p(x|třída)
+      . p(třída,;žili z;Pfrücke) - 2 dat NF, da;P(x);P(X|třída) - zde využijí ML odhad
+      P(x) = E. Pix|trina) P(třída)
+    truth: 4
+  12:
+    pred: 2
+    text: '- data v ní provádí oběma směry, nejdřív a poté se propagují zpět nevýhody
+      - pri učení se rychleji ztrácí gradienty a nemohou být příliš dlouhé;z jedné
+      strany na druhou'
+    truth: 1
+  14:
+    pred: 3
+    text: učení s učitelem ním datova sadu, která má vstupy a požadovací výstupy,
+      algoritmy učí s učitelem se učí napodobovat očekávané výstupy;- posilovací učení
+      nevá žádnou datovou sochu, místo toho se jedná o genty které procují přímo s
+      nějakým prostředím, typicky vykorávají akce za ně dostávají odvěry, poté se
+      snaží verst, která akce vedla k odměně a ty vykonávají častěji - dotvořují ji
+      tedy prostředím souzory a odvěšenní
+    truth: 3
+ae33cbac77078f1eda59f172d652d171:
+  1:
+    pred: 4
+    text: 530;Nejprve se začne vyhodnocovat větev uzlu? Větev uzlu 3 se vyhodnotí
+      a uzel 3. se uloží jako řešitelný. Obdobně i u větve a uzlu 4. Uzel 5 následně
+      zamítne 2. jako řešitelnou a začne se vyhodnocovat 9. Ta vyhodnotí uzel 10,
+      ale následně 3. a 4. již nemusí, protože jsou uloženy v seznamu řešitelných.
+      Tím je uzel 9 označen jako řešitelný a tím i celý strom
+    truth: 4
+  2:
+    pred: 4
+    text: MAX;MIN;6606;B;O;O;G;nebudou vyhodnoceny
+    truth: 4
+  3:
+    pred: 4
+    text: e = 2 h = 10;e-2 h - 8;R=2 h = 15 e=2 h= 20;/2 = 1. R = 5
+    truth: 2
+  4:
+    pred: 4
+    text: j;5;6;x X X2 X2 x X1 = 633 12 = 59 3= 285;XI;X X x;X X X XX;X;x;X X +;x
+      x;+;X;x
+    truth: 4
+  9:
+    pred: 4
+    text: intuice, představivost, kreativita, sebeuvědomnění, schopnost komunikace,
+      porozumění textu;Rozhodně nemusí, obsahuje jen ty které potřebuje ke své úloze
+      a už jenom plnění dané úlohy lze považovat za inteligentní chování. Např. agent
+      který pro pojišťovnu vyhodnocuje rizikovost potenciál ního klienta nepotřebuje
+      kreativitu jako např. agent pro tvorbu obrázků na základě textového popisu nebo
+      třeba chatkot
+    truth: 4
+aeef4c7ede8edca955193889aacf551d:
+  4:
+    pred: 3
+    text: 'x, =1 � x2 =;X3;= 1;x3 = 2;IX3=3/ X3=4 poručení controinu to samé to samé
+      pro všechny porušení prvky doměny. podmínky x22x2;dělat porušení x2 = x, pro
+      všechny 7, - 3 pro všechny 2 x 2;x3 2x1;= 2 A x 1 = 2 A = 1|x2 = 2/x2 = 3 t�
+      = 1|x2|x3| x3 lX3 = 4|x3=6;povýšení x32x11;porušení;x2,3 x x 2;x1=3 x 1 x 1
+      x 2 1 x ... |x2 = 9 x2 = 1 ... x3 = 8;�;-;ostatní: porušení;X3 LX2;x2;x 2 =
+      X2 � 3 hod v x32x11 � 832 3 + 1 8y7 v X3LX2 � 8L9 V'
+    truth: 3
+  10:
+    pred: 2
+    text: gradient je změna hodnoty mezi dvěma body. Gradient se Využívá u neuronových
+      sítí pro úpravu vah srodient parametrů v jednotlivých neuronech.;Přesněji se
+      využívá při sradient descent (snaha o nalezení dobálního minimu � většino najde
+      lokální minimum.);je důležitý i pro chain rule.
+    truth: 2
+  12:
+    pred: 2
+    text: obousměnná retrurentní vrstva povoluje zpracování dějina směry dl;normální
+      referentní vrstva dokáže pouze dopředné zpracování ->;nevýhody - je komplexnější
+      výběr
+    truth: 2
+  14:
+    pred: 3
+    text: mezi ŘL a učení s učitelem je ten, že;u učení s učitelem jasně koný cíl
+      kterého chceme;donáhnout KL;Učení s učitelem prvně natrénujeme na;Úlohu definujeme
+      v KL pomocí dat u loss funkce. která určuje jak moc jsme vzdáleni od požadované
+      výsledku. U učení s učitelem definujeme úlohu přesnými dvojicemi. vstup � výsledek,
+      který se musí rovnat již předzjištěnému
+    truth: 1
+b1d20c748b7d25f2fd7a96cd3b7b8658:
+  1:
+    pred: 5
+    text: M když přijdeme do stavu tak už víme, že stav x má řešení => nemusíme prohledávat
+      hlouběji pod Y, už máme řešení v hloubce 4.;špatný HND/GIR strom?, ale principielně
+      to ukazuje snad dobře...
+    truth: 2
+  3:
+    pred: 4
+    text: hib;=2100;999;665;h(0) = 3 � nadhodnocení (má být max. 1 KART.;� heuristika
+      -> pokud se stane, že je heuristika nadhodnocená „rovnoměrně“ (tedy navíc tak,
+      aby se zachovalo pořadí hodnot fIl) jako u vhodné heuristické funkce), pak to
+      obecně nemusí tolik radit...
+    truth: 4
+  4:
+    pred: 1
+    text: X a 9;10;D3 = 84
+    truth: 4
+  6:
+    pred: 4
+    text: p(observation) class);p(class|observation);p (observation);p(pozitivní)
+      � 2?;- obsahující pouze testy podivné;prezidiavant;p(class);p class = nakažený;observation
+      = pozitivní;p(nakažený) = 20% p(pozitivní (nakažený) = 90% p(nezatažený|negativní)
+      - 90% p(negativní|nezakažený) = 90%;(pozitivní, nakažení) = p(pozitivní) nakažení)
+      x p(na) p(přízna) z 09. = 20% 90% = 18% plánovacích loss p(pozitivní, nenakažený)
+      = p(pozitivní|nenakažený). p(nenakažen p(pozitivní|nenakažený) =10% = 10% (100%
+      - 20%) = = 0,8.0,1 = 89 o (pozitivní) = p(pozit, nakaž) + p(pozitivní, nenákaž)
+      =
+    truth: 4
+  8:
+    pred: 1
+    text: 'generativní model se snaží odhadnout hustotu pravděpodobnosti, např. pro
+      dané třídy a jejich sledované znaky = garanesovská klasifikace model trénovaný
+      diskriminativně se naopak snaží najít pouze Obecnou funkci, která dokáže nejlépe
+      oddělit třídy a klasifikovat je logistická regrese;Výhody generativního + funguje
+      dobře i pro malou sadu trénovacích dat + skládá se ze samostatných podmodelů
+      - při jednoduchém modelu je snadno uchopitelný, ale model se obtížně škáluje
+      diskriminativní: - potřebuje relativně více dat aby se naučil přesně klasifikovat
+      + poskytuje end-to-end řešení, lépe se skaluje, protože neobsahuje submodely
+      nemůže ani tolik narůstat jeho komplexita více používaný'
+    truth: 2
+  9:
+    pred: 4
+    text: '- emocionální inteligence - sebeuvědomění - vmění předvídat - umění odvozovat
+      - motorická inteligence - schopnost se učit z vjemů schopnost vyházet nové objekty.
+      - víc. � trochu filozofické otázka, jak aspekty kategorizovat. Aspektů může
+      být klidně Inteligentní agent nemusí vykazovat všechny aspekty inteligence.
+      Pokud by je vykazoval všechny na kognitivní úrovni člověka, pak by se dokonce
+      jednalo o silnou inteligenci (Strong AI). Narrow AI agenti jsou ale také inteligentní
+      a stačí jim k tomu jen nějakým způsobem naplňovat alespoň 1 aspekt'
+    truth: 3
+  11:
+    pred: 4
+    text: Velikost perceptiva;fild aktivací 2 vrstvy;je 7x7 pixelů;5x5 1. vrstvy;5
+      tit. 1) x (5+11) =77
+    truth: 4
+  12:
+    pred: 1
+    text: V bidioectional vrstvě, probíhá a zpět přes jednotlivé iterace Sobota de
+      výhody - umí zpěnně propagovat hodnoty předchozím iteracím � vhodné např. u
+      složitějších překladů, kde existuje více variant slovo sledu -> pomalejší než
+      „normální“ rekorentní vrstvy. Ne vždy je použitelno pro danou úlohu, ne vždy
+      chceme, aby následující iterace ovlivňovaly výpočet u předchozích;výpočet průchodu
+      tam
+    truth: 2
+  13:
+    pred: 2
+    text: � používá se v úlohách pro zpracování textu, jazyka.;� myšlenka je taková,
+      že NS má přehled o pozici znaku/slova ve zpracovávaném slovu/větě;Výhody a nevýhody
+      tlépe funguje na dlouhé víty / slova, které musí procházet mnoha úrovněmi rekurentních
+      vrstev Může se hůře implementovat než RV, je pomalejší a nani nemusí být tak
+      přesný.
+    truth: 2
+  14:
+    pred: 3
+    text: '- úlohu učení s učitelem detihuje na příkladech cílových hodnot z daných
+      vstupních hodnot. Algoritmus se tak učí, jak se co nejvíce přiblížit k předem
+      danému a jasně definovanému cíli. posilované učení nemá jasně definovaný cíl.
+      Cílů může být více a dostat se do cílového stavu může znamenat vykonání sekvence
+      nějakých akcí. Vživatel algoritmu nemusí ani předem vědět, co je cílový stav
+      (stavy), algoritmu předá podmínky pro vyhodnocení stavu, zda nalezený stav vyhovuje
+      jako cílový. Z toho algoritmus počítá tz. odměnu Algoritmus se tedy snaží nalézt
+      sekvenci akcí a stavů, která by maximalizovala průměrnou odměnu - tedy posilované
+      učení (odměnou) pro jakýkoliv stav lakci nejen pro cílové'
+    truth: 4
+bc5bddaab7c3d9e082e47cbf3ff88fb8:
+  6:
+    pred: 4
+    text: 0,2. 0,9 + 0,8. 0,1 = 0,18 + 0,08 = 26%
+    truth: 2
+  9:
+    pred: 1
+    text: Musí jednat racionálně Musí pro akci vyhodnotit všechny dostupné vstupy;Nemusí
+      splňovat všechny aspekty
+    truth: 1
+  14:
+    pred: 2
+    text: POSILOVNÉ UČENÍ MÁ ÚLOHY TVOŘENÉ VELKÝM SOUBOREM AKCÍ, A JEJICH VÝSLEDEK
+      SE PAK OHODNOTÍ UČENÍ S UČITELEM MAPUJE VSTUP NA VÝSTUP.
+    truth: 1
+be96c674bbbb81dd11ef4e2551e7e813:
+  5:
+    pred: 0
+    text: 'regrese;Aby model generalisoval: - použít více trénovacích dat. nebo nižší
+      stupeň polynomu;reálný způsob regrese;Máme jenom 3 testovací body, tedy parabola
+      je proloží přesně, problém ale je, že tyto 3 body jsem generoval z nějaké přímky
+      + gaussovský šum. Pokud bysme tedy vygenerovali více trénovacích dat, tak by
+      se toho dala pohybovala holem nakreslené přímky a naučená porabola by byla dosti
+      mimo'
+    truth: 0
+  7:
+    pred: 4
+    text: 'C 17 - N 11;L12 = N 12/12 L13 = N 13, 16 2;Pro každou třídu (2) musíme
+      odhadnout rozložení pravděpodobnosti pro každou dimenzi (3). Gaussovo rozložení
+      má (2) parametry - střední odchylku a varianci.;LINI = N (1121, 1621) : ba 22,
+      622 (23 = 1/ 123, 6 23/1 parametry u ať;Celkem tedy pro odhad rozložení pravděpodobnosti
+      potřebujeme 2:203 = 12 parametrů Dále ještě musíme znát privu.;odhadneme ze
+      vstupních dat pomocí ML odhadu'
+    truth: 4
+  9:
+    pred: 2
+    text: '- inteligentní odpovědi (to, co agent říká musí mít hlavu a potu) - schopnost
+      učit se entolie.;uvědomování si sebe sama;Určitě nemusí, stačí když bude vykazovat
+      jenom některé astekty. Tady záleží člověk od člověka, co bude požadovat za důležité
+      a jak moc, Dále bude záviset na typu narození agenta.'
+    truth: 3
+  13:
+    pred: 2
+    text: 'Základní myšlenka: síť "vidí" minulost (Například jaká slova byla před
+      100 slovy) a může ji tedy použít pro rozhodování. Toto je výhoda oproti rekurentním
+      vrstvám, kde je minulost dostupná jenom "trodu" (Přes předchozí stavy). V rekurentních
+      sítí se může stát, že například neuron na tosici 223 nevidí, co se dělo úplně
+      nazačátkem protože tato skutečnost se při průchodu sítí stratila (či jinak mohla
+      sdegradovat). Attentiva se může používat například u překladařů, kde je potřeba
+      kontext. Dále se používá v OPT.'
+    truth: 4
+  14:
+    pred: 4
+    text: 'U učení s učitelem hned víme, jestli se síť rozhodla dobře, nebo ne. Např:
+      Klasifikujeme obrázky do 10 kategorií a na konci sítí řekne, že s pravděpodobností
+      0,9 jde o třídu 8. Na základě objektivní funce můžeme určit, jak moc byla síť
+      špatná ve svém odhadu. Podstatné je, že toto víme okamžitě po tom, co se síť
+      rozhodla a dala výsledek;V posilovaného učení se výsledek akce síť dosví až
+      později. Např Sady: výsledek akce 3 (jesti byla dobrá, nebo ne) zjistíme až
+      na konci hry (výhra vs prohra) a ani tady si nemůžeme být jiscí (co když přestože
+      jsme vyhráli, tak akce 3 byla katastrofa špatná, ale díky tomu, že ostatní akce
+      byly perfektní, tak jsme přesto vyhráli)'
+    truth: 4
+c22548046f82977bab5cf4ddd15e85e4:
+  3:
+    pred: 4
+    text: 'krok 1: exponze S;J=2;fronta: f , 2+2=4 A, 1+4=5;fronta:;h(A) - 4 h(C)
+      =3 2 (3) - 1 (D)Z;10;ktero;krok 3: expanze A;fronta:;č,6 Ě, 10;B,;krok 4: expanze
+      B fronta: C, 6 D17;E, 10;krok S: expanze fronta: E, 2 D,7;C;- Závěr: k optimální
+      cestě S� A> C� se bylo možné dostat i s horší heuristikou, bylo však nutné expandovat
+      více uzlů. Optimatická heuristika by pomohla rychlejším odříznutí horších cest.'
+    truth: 3
+  10:
+    pred: 0
+    text: Derivace chybové funkce v bodě, směrnici k minimu. Zpětnou propagací upravujeme
+      parametry, nasobené učící konstanton.
+    truth: 4
+  12:
+    pred: 3
+    text: '- Běžná rekurentní vrstva zpracovává sekvenci jedním směrem, což může pro
+      delší sekvence způsobit nepřesnosti a ztrátu kontextu "z minulosti". Oboumožná
+      jak propaguje informaci oběma směry, což může kontext celé sekvence opřesnit.'
+    truth: 3
+  14:
+    pred: 3
+    text: '- Pro učení s učitelem máme definovanou často rozsáhlou datovou sadu příkladů
+      očekávaných výsledků pro vstupy U posilovaného učení máme prostředí, ve kterém
+      agent provádí určité akce. Sekvence akcí (trajektorie) je pak ohodnocena odměnou
+      nebo trestem. Početované učení tedy nemá žádnou sadu očekávaných výsledků, zlepšuje
+      se se zkušenostmi a mohou získat nejvyšší odměnu. U učení s učitelem záleží
+      na kvalitě a rozsahu datové sady'
+    truth: 4
+c2d512eacfd7f2f5ec2ca854914f33dd:
+  2:
+    pred: 4
+    text: MAX;MIN;660;S;Pocty za jako přeuspařící dám dist. vzhůru... pokud toto se
+      proměnou 0 000 1. 2. 3. 4. 5. 6.;MAX 2 MIN 6 000
+    truth: 4
+  9:
+    pred: 2
+    text: '- ne nemusí všechny vybasovat, zda je inteligentní se určuje pomocí Teuringova
+      testu;- přemýšlení, empatie, exerce, patyt, zastodování se'
+    truth: 3
+  12:
+    pred: 4
+    text: Pasivní se na trénování sekurentní vrstvy - nevýtahy dlouhá slova - má šepty
+      ina "druhou stranu" D namáhá st. sastva - Chronolog - dosud neb s cestou
+    truth: 1
+c3c31375a3563d49cfe6448288177c8f:
+  3:
+    pred: 0
+    text: S - štastovací uzol F = cielový uzol
+    truth: 4
+  4:
+    pred: 4
+    text: z;3;5;6;7;8;10;1 X2 13;X X;X;X. X X;V X X;X X;X;X X X;X;X;X;X;X X;X;X D;x;X;D
+      x;x;X;01 = 833 P2= 93 D3 = {8
+    truth: 4
+  5:
+    pred: 3
+    text: 'Genesovský klasifikátor předpokladá, že děti majú gaussovské rozdelenie
+      pravdepodobnosti Pre 30 dáta budú parametre: 3x3 matica rozptylu a vektor stredných
+      hodnot. Pre 2 triedy budeme mať 2 gausovská rozdelenia. Parametre sú popísané:
+      3.3.3. 254 číslami. Parametre odhadneme pomocou maximum likelyhood estimacie.
+      Carametre využijeme na výpočet pravdepodnosti, do kterého rozdelenia dáta patria.
+      Následne vyberieme triedu, ktorá bude mať väčšiu pravdepodobnosť.'
+    truth: 1
+  7:
+    pred: 3
+    text: Nakreslil som dáta, které za nedajú vyjadriť polynom druhého rádu. Preto
+      model negeneralizuje. Museli by sme zvýšit rád polynónu aby generalizoval.
+    truth: 4
+  11:
+    pred: 4
+    text: 'a;128;Vetkosti. Vstupný obrázek: 125 Uklivačná mapa: 25'
+    truth: 2
+  13:
+    pred: 4
+    text: Priradsuje jednotlyvim prvkom vektora vstupných dát váhu, která určuje ktoré
+      prvky obsahujú podstatné informacie. Hlavná výhoda je pri vektoroch s našou
+      velkostou. Pri rekurentních vrstvách môže nastať ztrata dôležitých informacii
+      z velkých vstupov z dôvodu prechodu az velká vrstev neurónovej siete. Attention
+      sa používa napriklad pri klasifikácii textov
+    truth: 4
+  14:
+    pred: 3
+    text: Pri učení s učitelim detinujeme úlohu záborom trénovacích dát, kde sú očekávané
+      vstupy a očekávané výstupy. Při posilovanom učení definujeme aktuálny stav problému
+      a akcie ktoré je možné vykonať. Následne definujeme hodnotiacu funkciu ktorá
+      ohodnotí kvalitu lubovolného stavu. Neurónová sieť počat učenia skúša rôzne
+      akcie, ktori následne ohodnotí, podľa výsledku hodnotiace, funkcie.
+    truth: 3
+c548f0dd09eef8e11eb900931a7c2b65:
+  3:
+    pred: 4
+    text: R(N) = 569;JAR(A) = 100 Dalma = 100 čír;nalezne optimální řešení s cenou
+      3
+    truth: 4
+  5:
+    pred: 1
+    text: 'pro každou třídu potřebujeme apriorní pravděpodobnost p(c) a parametry
+      normálního roz. - střední hodnota u = (věz) a kovarianční matici E, o rozměru
+      3x3.;aprior ... 1 číslo 3D gauss ... 3x3x3 = 12 čísel;(12 +1) 2 třídy = 26 číselných
+      parametrů;normální rozdělení N(x; Moike) Výpočet: p(c=1|x) =;p(x|con) - p(c);Odled
+      u 3. - ú. = 1/4 O počet prvků třídy 11 - ELIx-restituce - naší - p(c) = NS v
+      p(c=o|x) = 1-p(c=1|x);E p(x|c) p(c)'
+    truth: 4
+  6:
+    pred: 3
+    text: pt.;p(nemocný) =;p (pozitivní) =;(nemocný) . p (nemoč;p(nemocný/pocit;p
+      (pozitivní / naložený) = 10 p (pozitivní (nemocný) = 1/10 p (megativní) zdravý)
+      = 4/10 p (pozitivní / zdravý) = 1 - 1/10 = 1/10 p (pozitivní) = p(nemocný) -
+      p(pocitivní / nemocný) + p(zdravý) . p(pozitivní � zdravý) = - (1-3). p (pozitivní)
+      = 1/5. 10
+    truth: 4
+  7:
+    pred: 1
+    text: Tečkami naznačeno původní funkce, ze které data pochází;vygenerovaných funkcí
+      funkcí s gaussovských šum;Nahradil jsem 5 trénovacích dat a výsledek negrese
+      (model). Model negeneralizuje, protože se nenaučil funkci, která tato data vytvořila,
+      i když dobře probíhá trénovací data. Negeneralizace by se projevila otestováním
+      modelu na více datech.;regulatizovat.;Aby model generalizoval, musel by být
+      natrénovaný na více datech, můžeme také regresi
+    truth: 4
+  8:
+    pred: 1
+    text: 'Generativní model modeluje explicitně rozložení původních dat (tříd).;Diskriminativní
+      model pouze hledá funkci popisující hranice mezi třídami.;Generativní model:
+      gaussovský klasifikátor diskriminativní model: hogietická regrese'
+    truth: 2
+  9:
+    pred: 4
+    text: Intnice, paměť, empatie, úvaha (reasoning), sebeuvědomění;Každý z těchto
+      aspektů je pro inteligenci důležitý. Bez kteréhokoliv aspektu je agent méně
+      lidský, což bývá jedna z definic inteligence.
+    truth: 3
+  11:
+    pred: 4
+    text: 3x5 = 15;15 x 15 pixelů vstupu;3+ (5 - 1) = 7;7x7 picelů; stride = 1;2.
+    truth: 4
+  12:
+    pred: 3
+    text: 'p;Přibývá propojení buněk v druhém směru. Výhoda: výstup závisí na okolí
+      z obou stran. Nevýhoda: omezeně použití pro real-time aplikace (budoucí data
+      neexistují)'
+    truth: 3
+  14:
+    pred: 1
+    text: Posilované učení použijeme v úlohách, kde je těžké stanovit nejlepší akci
+      ve stavu, nedokážeme/nestačí obabelovaná trénovací data. Pokud bychom se například
+      učili žacty učením s učitelem, model nemůže být výrazně lepší, než hráči z trénovacích
+      dat. Na druhou stranu s posílraným učením se může naučit hrát výrazně lépe.;Dalším
+      problémem je obrovský strovský prostor her jako Sturcroft, kde ani nejsme schopni
+      dostatečně velký dataset sestavit. V RL definujeme odměnovou funkci.
+    truth: 4
+c54fb9058a498e5d0a9138a3846352b4:
+  3:
+    pred: 4
+    text: jsi chce;Knihy podle § Kdo po domovinách;STARTOVACÍ UDĚL;CENA HRANY;Hodnota
+      henristiky;cílový území;Dne;I v případě porušení podmínky optimistického odhadu
+      si alg. AX vybral optimální řešení (tj. s - c-0-8)
+    truth: 2
+  9:
+    pred: 4
+    text: AGENTA považujeme (dle Turingova testu) za inteligentního, když nedokážeme
+      rozpoznat, zda jsme odpověď na otázku obdrželi od člověka nebo od počítače (-agenta)
+      Vycházíme při tomto tvrzení z předpokladu, že člověk je inteligentní.;ASPEKTU
+      - porozumění problému — schopnost odpovědět na libovolný problém - schopnost
+      udržet informaci o návaznosti otázek;Dle výše popsaného nemusí agent splňovat
+      všechny aspekty. Stačí, když jeho chování bude velmi podobné člověku.
+    truth: 1
+  14:
+    pred: 2
+    text: UČENÍ S UČITELEM je definováno plně anotovanými daty. učení u všech dat
+      ví, jaký je správný výsledek.;POSILOVANÉ UČENÍ je definováno směsí anotovanýma
+      a neanotovaných dat. Alg. se nejezve naučí na anotovaných datech a poté svůj
+      model potvrzuje na datech neanotovaných
+    truth: 1
+cd371a8615558884b8b143a0e59fa853:
+  1:
+    pred: 4
+    text: Aby byl strom řešitelný, musí být řešitelné i úzly 2 a 4 (oba dva). Když
+      zjistíme, že je nzel 2 řešitelný, zapamatujeme si to. A když narazíme na stav
+      2' (stejný stav jako uzel 2), už nemusíme prozkoumávat jeho následníka, protože
+      víme, že uzel 2 byl řešitelný.
+    truth: 4
+  5:
+    pred: 1
+    text: Parametry klasifikátoru jsou u - střední hodnota a E-Kovarianční matice.
+      u je vektor středních hodnot o 3 prvcích - 1 reálné číslo (střední hodnota)
+      pro každou slimenzi. Z je "3D matice" (tensor). o rozměru 3x3, tedy obsahuje
+      9 reálných čísel. Celkem 3+9 = 12 čísel. Takto získáme rozložení pro každou
+      třídu. Vypočítáme pomocí rozložení posteriorní pravděpodobnost p(class|x) =
+      P(class|!|p(X|class) pro každou třídn.;P(x)
+    truth: 2
+  7:
+    pred: 1
+    text: Na obrázku jsou zakreslena trénovací nata, ze kterých by se model polynomiální
+      regrese 2-řádu mohl naučit např. funkci y =x2 (tedy wo =0, w1 = 0, w1 = 1) Tento
+      model negeneralizuje, protože opravdu na trénovací data "sení". Kdyby mohel
+      generalizovat tak by to znamenalo, že se v nutové sadě například vyskytují nějaké
+      odlehlé hodnoty, kvůli kterým není naučená funkce ideální.
+    truth: 1
+  9:
+    pred: 3
+    text: Intnice, uvědomění si sám sebe, schopnost učení se, vědomí, vyvozování závěrů;Nemusí,
+      můžeme mít nějakého agenta, který například nebude mít intnici a bude se vždy
+      rozhodovat "rozumem" a přesto bude považován za inteligentního. Například robotický
+      vysouvač se nerozhoduje, kam má jet, podle intuice, přesto je inteligentní.
+    truth: 3
+  12:
+    pred: 1
+    text: V obousměrné rekurentní vrstvy dochází k propagaci dat oběma směry. Nejprve
+      se provede výpočet jedním směrem, poté se směr otočí a vlata se propagují opačným
+      směrem a potom se otočí zase zpátky.
+    truth: 2
+d232a2de95e7571e948018cd17abec91:
+  5:
+    pred: 1
+    text: střední hodnotu a rozptyl (pro všechny tři dimenze) oboje jsou to čísla;čísly
+      - 3 směrodatné oddylky x 2 třídy = 6 směrodatných odchylek 3 rozptyly x 2 třídy
+      = 6 rozptylů;12;12 čísel;pro každou olimenzi každé třídy vezmeme data a spočítáme.
+      střední hodnotu (průměr) a rozptyl data z discuse;o = 1/2 6m - 10);Pro nově
+      příchozí data vypočítáme hodnoty funkcí rozdělení pravděpodobnosti. pro všechny
+      dinenze pro obě třídy. Výsledky v rámci tříd agregujeme (např. součet nebo součin)
+      a výsledky porovnáme. Nová data budou patřit do třídy s větším výsledkem.
+    truth: 1
+  7:
+    pred: 3
+    text: To, že model negeneralizuje znamená, že přesně kopíruje trénovací data (na
+      obrázku jimi prochází);Polyn. regres. Z řádu je parabela jsou trénovací data;Aby
+      více generalizoval, můžeme buď přidat více testovacích dat nebo snížit řád polynomu.
+      ctý To že molel generalizuje je způsobeno, že má příliš "volnosti" a díky tomu
+      může přímo procházet trénovacími daty.
+    truth: 3
+  9:
+    pred: 3
+    text: 1) pozoruje aktuální stav a možné akce 2) pozorný;- a navíc i možné budoucí
+      stavy;3) kromě 1 a 2 si umí pamatovat minulost a z ní se poučit;Musí vykazovat
+      všechny aspekty.
+    truth: 1
+  11:
+    pred: 2
+    text: 64 století;SKALI 16x383;32 x 5 x 5;25;225;vstup vstup
+    truth: 2
+  12:
+    pred: 3
+    text: Oproti klasické obsahuje tu obousměrná ještě jedna síť, která je sekvenčně
+      uspořádaná opačným směrem. To umožnuje této síti analyzovat schrenční závislosti
+      v obou směrech. vystup výstup p - Ost-Ost-ost... backward -> 0 -> - forkard
+    truth: 4
+  13:
+    pred: 3
+    text: Při některých úlohách (např. překladu) je pro vytvoření dobré sítě nutné,
+      aby měla přístup k celému vstupu zároveň. V sekvenčních úlohách totiž vzniká
+      kontext (dvě oddělená slova nedávají smysl). Attention mechanismus umožňuje
+      NN tento kontest v celém vstupu hledat.;Například při překladu z angličtiny
+      do němčiny je možné anglický člen "the" přeložit na "der", die" „nebo "das".
+      Správná forma člena v němčině se určuje podle rada podstatného jména. Při klasickém
+      sekvenčním zpracování není možné správný překlad určit. Atention ale umožnuje
+      najít ve vstupu potřebný kontext pro správný překlad
+    truth: 3
+d555cba20f78d0d585e68bb36b09b598:
+  1:
+    pred: 0
+    text: sú rovnaké takže nemusíme vyhodnotiť dvakrát protože nejméně času si pamatoval
+      abo skončil prvý výpočet. ale toto je správne takže idem do druhého podstromu
+      a najdem rovnohý uzol
+    truth: 4
+  2:
+    pred: 4
+    text: MAX;MIN;Sebook;nezáleží na Roberte pretože v A viem mať najhoršie -> 2 prehladávať
+      akonáhle zjistím že podstrom � má - 3, tak prestanem teda C,D nevyhodnotím
+    truth: 4
+  6:
+    pred: 4
+    text: P(mak);=20%;P(PO2| nok) = 90% P(NEGIZACe) = 90%;Ptabo) - 80% P(POL / zdro)
+      = 109 (NEC / null) = 10%;P(POZIVACI =;PANAM;P(POZ) = P(POZIMAH);P(POZ| = PÍNA|P(POZINAN)
+      + P(ZDR) P(POZI ZDR);p(pozi = 0,2 0,9 + 04 0,1 P(voz) = 0,16 + 0,08 = 0,26 26%
+    truth: 4
+  7:
+    pred: 3
+    text: N = 100%;mož příliš málo dát na to;aby dokázal odhodnout povahé rozloženie
+      viz přejít Kn;trénovací dětství pro regresný problém;nepenezelizuje;treba prídat
+      více dat na kterých by tu učil, případně zničit K ak je moc vysoké (nie náš
+      případ)
+    truth: 2
+  11:
+    pred: 1
+    text: 64 8b4 43;16x3x3 92X775;závisný na 49 půxelod ostrov obrazku 7x7 po prvej
+      vrstve Spixdor � 3x3;X7 646
+    truth: 3
+  12:
+    pred: 2
+    text: nových hodnot (slov) vie sa vratiť apametniť předchádzajúc rozhodnutí výhody.
+      - lepší prehled „menšia chybovost“ nevýhody - zkožité učenie, časova náročné
+    truth: 1
+  13:
+    pred: 3
+    text: nezáleží na porodi slov vo vete ale ich vyzname, napr aby sme správne preložili
+      člen musíme vedřeť rod slova na ktoré sa viože. - používa se v prehlodačoch
+      rekurentně ide porode a nevidí budúcnosť, ilu minulosť attention so víe poziet
+      - aké slova nasledujú a no základe toho sa rozhodnút
+    truth: 2
+  14:
+    pred: 4
+    text: posilované učení - nevíme ale naď postup vyserať, výsledku - získava odmetry
+      za správne riešenia / približujúce sa úlohu definopeně ako ciel ktorý chceme
+      dostahnouť, nevieme oho vyzora správně rušeně, len jeho výsledek nopr - vyjdi
+      kopec, vyhraj hru - musí se to naučiť sám, neb škodisticky počítat z nepatrých
+      dát hier mejstra učenie učitelovi - učí sa na základě toho aby moc za pomýlil
+      úlohu definujeme pomocou datasetu na kterom sa učí, kde sú oanotované správne
+      výsledky učí se no základe už existujících dát, ten počet pravdepodobností že
+      zvádaná akce je dobrá, sám je nevie vymyslieť
+    truth: 2
+da3b6e73d190569d13bfc0cc0a9420d8:
+  2:
+    pred: 4
+    text: MAX;MIN;56 pro největší zrychlení, tzn. prohledání nejméně uzlů jsem stavy
+      přeuspořádal následovně;66;-1 -2 2;v tomto Podstromu najdu MIN -2;jelikož vím,
+      že do MA t se dostane účel - 2, nemusím už větvě o a prohledávat
+    truth: 4
+  3:
+    pred: 1
+    text: g:0 lid;1 hist.;4:0;Navzdory heuristice, která nadhodnocovala, se dá dostat
+      do ale optimální cestou
+    truth: 2
+  4:
+    pred: 4
+    text: '1;2;3;5;6;10;XI;3;X x x x X X X X x X X inference nám ořezala jednotlivé
+      domény do této podoby: D1 = {4 P2 = 59} P3=;x x X;X X X;X X X;x;X;X'
+    truth: 4
+  5:
+    pred: 0
+    text: Gausovský klasifikátor představuje generativní model (variance) je popsán
+      střední hodnotou a koarianční maticí, pro odhad;parametrů pomocí Maximum likelihood
+      je ještě potřeba apriory nějáká pravděpodobnost rozložení dat a pravděpodobnost
+      jestliže máme třídinenzionální data, bude mít kovarianční matice podobu 3x3
+      jak parametry použijeme k přiřazení do třídy? s použitím Bayesova vzorce, za
+      předpokladu, že máme k dispozici approvní pravděpodobnost P(c|x) = P(X|c) .
+      P(c);P(x)
+    truth: 1
+  9:
+    pred: 4
+    text: '- sef-amere - logické myšlení - emoční cítění/empatie - porozumění - odvozování
+      -intuice - dedukce - racionální myšlení;- po jem inteligence se nedá zcela přesně
+      vyjádřit, někomu může stačit, aby agent dokázal dokonale odpovídat na otázky
+      (což za mě nestačí - jako proti příklad uvedu Chinose room) Je to tedy velmi
+      subjektivní, já osobně si myslím, že agent nemůsí splňovat naprosto všechny
+      aspekty, aby byl bezchybný inteligentní (agent s neurčitelnou intuicí, který
+      vždy správně odhadne jak se zachovat...;se může vždy zachovat stejně/lépe jako
+      člověk, a přesto si nemusí být vědom sám sebe, a porozumět dokonale svému Okolí)'
+    truth: 4
+  10:
+    pred: 4
+    text: postup:;-gradient představuje nejrychlejší růst funkce (velikost grad určuje
+      délku vektoru - V NN se využívá v technice Gradient descent, což je technika
+      sloužící k optimalizaci chybové funkce - pro současné parametry se spočítá gradient
+      a touto hodnotou nahradíme hodnotu původní. - zjistíme, jakým směrem se roste
+      rychleji a vydáme se opačným směrem - takto stále počítáme gradienty, (pomocí
+      ctlainvule), dokud není grad = 0, tzn. že jsme našli lokální minimum (což nám
+      stačí, jelikož se často podobá vylobáním, lokální je rychlejší
+    truth: 4
+de7f6b87ebb6a75dfa0e4d185d920041:
+  7:
+    pred: 1
+    text: OVERFITTING, krivka prechádza bodmi, je to sposobené buď nízkým počtem trénovacích
+      dát alebo vysokým stupňom polynómu;v tomto případě by nám stačila tiveárna regresia
+      k =1) =1 =/W6 + W4x
+    truth: 2
+  8:
+    pred: 1
+    text: 'Generativny: - potřebuje viac parametrov viac to ovplepňujú odladlé hodnoty
+      odvodzujeme posterior probability p(c|x) pomocou Bayesu - napr. Gauss. klasifikátor
+      Diskrimin. - potřebuje meně parametrov vie sa vyspořádať s odlahlými hodnotami
+      odhadujeme posterior prob. prámo napr. logistická regresia'
+    truth: 1
+  13:
+    pred: 1
+    text: '- používa sa spracování textu - oproti returentným vrstvám sú flexibilnějšie'
+    truth: 1
+  14:
+    pred: 3
+    text: pri supervised poskytujeme vstupné trénovacie dáta a správne výsledky (poznáme
+      ich);pri reinforcement nepoznáme najlepšie možné reženie, ale motivujeme agenta
+      na základě odměn, které dostává podľa měry přínosu akcií, které vykonává
+    truth: 3
+e18c2240077c9ff3503cb4cb2669f5c1:
+  4:
+    pred: 4
+    text: x x 8 8 + 12 8 8 9 18 x3 x 8 8 000 0;A 8 3 4 5 8 8 7 00 a z § 6 3 8 DA x
+      BEDNERACE;x c = 33 x s 29 36 - 183
+    truth: 4
+  9:
+    pred: 19
+    text: O SCHOPNOST SE UČIT NOVÝM PROBLÉMŮM O scHopnost řešit problémy NA ÚLOŽKA
+      o mít paměť OVINĚT KOMUNIKACÍ;JEN TEXTOVÉ);OPLNĚ POŽÍTEK TEXTU;ê na otázky odpovídat
+      v rozumném ČASE;O JAZTK. VÝBAVENOST O TAMET OREAKCE V ROZUMNÉM ČASE DEMOLE O
+      sEBEUVĚDOMĚNÍ DAPOD O POHYBOVÉ SCHOPNOSTI (ROTURIKA) o schopnost řešit problémy;NE,
+      MNE BY STAČILO O KOMUNIKACE ODPADEŤ o schopnost řešit problémy OUČIT SE NOVÝm
+      VĚCEM. 56 OREAKCE V ROZUMNÉM ČASE;Schopnost kOOPUNIKACE;Szole, Serence - Seel
+      Aw. Gottb NeUÍZA
+    truth: 4
+  10:
+    pred: 3
+    text: OGRADIENT JE VEKTOR PARCIÁLNÍCH DERIVACÍ UDÁVÁ, KTERÝM SMĚREM FUNKCE NEJVÍCE
+      ROSTEJ o my chceme ale se dostat do (lokálního) minima, ne MAXINA TAKŽE POSTUPUJEME
+      V PROTISMĚRU ODEČÍTÁNÍ GADIENT VYUŽIJEME NAPŘ. V LOGISTICKÉ REGRESE GRADIENT
+      SE ODEČíTÁ NÁSOBENÉ VHODNÉ ZVOLENOU UČÍCÍ KONSTANTOVÉ
+    truth: 2
+  13:
+    pred: 2
+    text: opoužití při pŘEKLADU ZE SEKVENCE SLOV NA JINOU SEKORDACE OPROTI REKURENTNÍM
+      VRSTVÁM BERE V POTAZ SLOVA PO PÍSMENECIA opoužití u ručně psaných špatně čitelných
+      SEKVENCÍ
+    truth: 1
+eb15628acdbcae020a12326ce6b1c8e3:
+  2:
+    pred: 0
+    text: MAX;MIN;2;Následne v pravom podstrome by si mohol ako "prvó" vybrať - 3,
+      no to "mg“ nechce tak ďalej ten strom už neprehľadávame.;Usporiadame ich od
+      najmenšieho po najváččí, v ľavom podstrome si "protihráč" vyberie -2, ale aj
+      tak prehľadá celý podstrom lebo nemá s čím tú hodnotu porovnať.
+    truth: 4
+  9:
+    pred: 3
+    text: Kognitívne funkcie, uvedomenie si samého seba, čítať, písať, dokázať spájať
+      veci do súvislostí;Nepotřebuje splňovať všetky tieto aspekty.
+    truth: 4
+  10:
+    pred: 4
+    text: 'Gradient je využívaný v NN na trénovanie. Používa sa ako algoritmus wapr:
+      Gradient descer;Gradient descent je potom iteratívny algor., ktorý sa snaží
+      optimalizovať vektor W. VÝPOČet gradientu prebícha : DELW) = ECW) - Elw1je loss
+      fce o Wixi - wi-d + TELWI - d je učinsa sa konštanta, która udáva a to rýchlo
+      sa priblížíme k minimu funk chceme dosiahnať minimum tejto loss funkc'
+    truth: 4
+  13:
+    pred: 1
+    text: Oproti rekurentným vrstvám je rýchlejčím, nakoľko narozdiel od nich nemusí
+      čakať na výstup z predchádzajúcej vrstvy).;Používa sa napríklad k prehľade textu,
+      scanovania račne písaného textu,...
+    truth: 1
+eb170b2998004abf17f07f3d2bdeb4cf:
+  2:
+    pred: 4
+    text: 'MAX;MIN;od;S;MAX;A.A.;MIN;Prohledávání následovně: 2 -2. � 1 � - 3 �;Bluza;levá
+      strana;pravá strana;pravá strana tak bude ihned odříznuta'
+    truth: 4
+  3:
+    pred: 4
+    text: 'Postup AX: SSAAAF h(c) není optimistický'
+    truth: 4
+  6:
+    pred: 4
+    text: N = negativní p = pozitivní V = vir (nakažený) 2 = zdravý;p(v) = 0.2 p(z)
+      =0. 8 p(PIV) = 0.9 p(N|z) = 0. 9;b(PI=;p (P, V) =0,9.0,2 = 0,18 p (N|, Z| 0,
+      9. 0, 8=0,72 P(N|V) = 0,1. 0,22 = 0,02 p (P, Z) = 0,1. 0, 8 = 9, 08;p(P) = p(P,
+      V) + p(P, Z) = 0,1840,08 =;0,26
+    truth: 4
+  8:
+    pred: 2
+    text: generativní model se snaží odhadnout / naučit parametry rozdělení, ze kterého
+      data pochází. pomocí těchto odhadů poté při klasifikaci z dat odhadne pravděpodobnost
+      náležitosti do třídy např. max-likelyhood, ily diskriminativní model se snaží
+      naučit přímo odhad třídy za předpokladu určitých dat. např. logistická regrese;diskriminativní
+      + méně parametrů + menší model - více potřebných dat generativní model + lze
+      sestavovat modulárně - hodně parametrů
+    truth: 1
+  9:
+    pred: 3
+    text: self-aware paměť intuice/predikce schopnost konverzace pohyb (actuators)
+      vjemy (sensors) učenlivost;někdy nemusí, stačí i pouze jeden z těchto aspektů
+    truth: 4
+  10:
+    pred: 4
+    text: gradient je číslo které nám říká, jak máme upravit váhy, aby se nám zvětšila
+      výsledná loss hodnota modelu (využívá se ale naopak - pro zmenšování chyby).
+      Je výsledkem derivací, tedy je to vlastně nejen směr, ale illstrmost“ v daném
+      bodu. loss“;- když jsme tady, gradient ukazuje tímto směrem �u;při učení je
+      použit pro update vah vstupů
+    truth: 4
+  14:
+    pred: 2
+    text: Zatímco u učení s učitelkem počítáme loss (chybu od správného řešení - je
+      nutné tedy znát správné řešení), podle kterého model upravujeme, u RL pouze
+      dáváme modelu / odměnu za provedení kroku, kterým se přiblíží k chtěnému výsledku
+      a snažíme se tuto odměnu (či očekávanou průměrnou odměnu) maximalizovat. tedy
+      použít
+    truth: 4
+ec4e79dd816915a29d6d64b954c5de69:
+  2:
+    pred: 4
+    text: MAX;MIN;560 Kč -3 C 2.;tohle se odřeže - nebude se vyhodnocovat
+    truth: 4
+  3:
+    pred: 2
+    text: DATO/=20;S - cíl;Sklad = 10 RAPOD GALLYDY;klasic;AX přejde z počátečního
+      uzlu (fils) = 20) rovnou do levého podstromu (R|s) = namísto pravého podstromu
+      (p(s) = 11) najde tak rovnou optimální řešení.
+    truth: 2
+  5:
+    pred: 1
+    text: 'trojprokoný);reprezentující;u - střední hodnota - jedná se o vektor (R,
+      RQ/R) 2- Rx2 matice rozptyl na ore z (R +);bolševická koalace naších;popotyl
+      na ozvy (RK);Parametry: u - střední hodnota - jedná se o dvoupruhový vektor
+      (R, R) 5-2x2 matice: 6 x c) rozptyl na ose n (RI) za pomocí konfirmace Bayesova
+      vzorce rozptyl na ose y (R) se znalostí aj C;Parametry odhadneme pomocí metody
+      maximální věrohodnosti využijeme je k výpočtu ji (c), p(c|X) si pak odvodíme'
+    truth: 2
+  14:
+    pred: 3
+    text: 'svou metodikou co nejpřesněji aproximovat;Učení s učitelem Program se učí
+      na základě testovací sady dat, které jsou anotovány očekávánou hodnotou klasifikací.
+      tak snaží aproximovat netolik Posilované učení: má definovanou Program množin
+      stavů a akce nad těmito stavy. Akce má ohodnocené odměnou. Stroj se snaží modifikovat,
+      provádění svých akcí v závislosti pravděpodobnost na stavech tak, aby maximalizoval
+      odměnu;očekávané'
+    truth: 3
+ee09d9aaa8474a6513133aa8452fad6f:
+  5:
+    pred: 2
+    text: Ec popsány 12 reálnými čísli podobu matic - vypočítáme je parametry odhadneme
+      parametry využijeme k výpočtu pravděpodobnosti, výpočtem střední hodnoty gaussu
+      že dané dato patří do dané třídy rozložení na datech · jelikož máme 2 třídy,
+      je nutné vytvořit 2 gausové založení pokud je pravděpodobnost, že dato patří
+      do 1. třídy nižší, než že patří do 2. třídy. klasifikujeme ho do 2. třídy
+    truth: 1
+  7:
+    pred: 3
+    text: p;tečky v grufu zobrazují tvému vací data zobrazuje regresní Čára - model;Model
+      negeneralizuje z důvodů špatného rozložení tažen dat malého vzorku trén. dat
+      špatného zvolení řádu polyn. regrese
+    truth: 0
+  9:
+    pred: 4
+    text: '- generalizace - uvědomění - komunikace - znalosti;- nemusí vyhovovat všechny
+      aspekty'
+    truth: 4
+ef1da85ed907b35a0b27aab2472edbb5:
+  3:
+    pred: 4
+    text: 2 nebo;naša;heuristika
+    truth: 4
+  6:
+    pred: 4
+    text: p(P) = 0,26
+    truth: 4
+  7:
+    pred: 2
+    text: SP;- trénovacie dáta;model negeneralizuje pretože všelky dát ležis na regresnom
+      polynóme. Aby generalizoval bolo by potreba väžšie množstvo trenovacích dát
+      s všečkou variáciou
+    truth: 1
+  10:
+    pred: 1
+    text: gradient je smer největšího rastu funkcie. Je to denácia celej dátovej sady
+      pre určité váhy NS. Používa sa pri Gradient descent pre nájde nie lokálneho
+      minima, teda nejlepších hodnot váh
+    truth: 3
+f6002120d2ae8a2a54c0c5be9cec8ed3:
+  2:
+    pred: 4
+    text: MAX;MIN;8 když prohodíme tyto? Vzly, sas dojde k požadovanému zrychlení
+      a pořadí bude odpovídat tomu co jsem voznařil vyhodnocení
+    truth: 4
+  3:
+    pred: 4
+    text: hrany jsou označeny cenou vzaly jsou ozvočeny heuristicky odhodnutou cenou
+      z daného úzlu. do cíle;- naše heuristika přehání a dává vždy vyšší než nedlouhou
+      cenu, ale stejně si vybere pravou cestu která je aptimální
+    truth: 4
+  5:
+    pred: 1
+    text: · ·;pro obě třídy potřebujeme 3x3 kovarianční matici;také potřebujeme apriorní
+      pravd. P(class =1), z té už dopočítáme f(c=2) = 1-7|70 = 1);jelikož matice jsou
+      diagonálně symetrické a druhou apriorní p. lze dopočítat z první, staří nám
+      (9-3) + (9-3) + (2-1) = 13 reálných čísel výpočet P(class|1|dobo) jsem popsal
+      v příkladu 8, zde je pouze 3D beature spore kvůli počtu příznaků, jinak stejný
+      priacip parametry odhadneme metodou maximální věrohodnosti (organac maximalizujeme
+      součin všech naměřených pravděpodobností tím že měníme parametry modelu)
+    truth: 2
+  10:
+    pred: 4
+    text: gradient funkce v daném bodě je vektor udávající směr nejrychlejšího růstu
+      této funkce v tomto bodě a NN používáme gradient descent - chceme snížit loss,
+      a to v závislosti na váhách sítě, tedy spočítáme derivaci d Loss a postupně
+      updatujeme váhy (rychlost závisí na learning rok a Ta zavozřejmě se jedná o
+      grad. descent jelikož loss chceme snížit, pohybujeme se tedy přesněvadž v směru
+      než udává gradient
+    truth: 4
+  14:
+    pred: 3
+    text: v učení s učitelem dokážeme říct nejen co chceme za výsledek, ale umíme
+      i efektivně zhodnotit jak se nejaké řešení blíží tomu co chceme - cílem úlohy
+      je neda minimalizovat ehybu (loss) nemocí úpravy normetrů nadél U posilovaného
+      učení neznáme způsob jak tuto „vzdálenost od řešení měřit, máme tedy nějaký
+      systém odměn, kterým je agent odměňován za určité okee, to je však dost nespolehlivé
+      a často vede k nějaké exploitaci agentem často tuto sovotnou funkci odměn také
+      určině - úlohu teda definujeme samozřejmě bonovým stavem, ale hlavně také tím
+      že agent se v daném stavu snaží vybrat akci vedoucí to co nejvyšší budoucí odměně
+    truth: 4
+f617e2298640d040a5e03a69fb64f689:
+  2:
+    pred: 4
+    text: MAX;MIN;O;c;5;3;13 tieto listy odreže klasická tieto dva by odřezala upravená
+      2-3, kt. víe že u list. wzby uspořádané;3;-„- S
+    truth: 4
+  7:
+    pred: 4
+    text: povedeme že dáta boli vygenerované se fakt je priamka s nějakým šumom pritrénovaní
+      sa podařilo nájsť takú kvadratické fce. Ktorá protína všetky 4 body problém
+      - nedostatek dát rovnaký problém by bol aj keby boli len dve terén dáta, v tom
+      případe počet = rádu tj. vždy sa nám model protrénuje aby generalizoval, je
+      nutné vhodne nastaviť maximal stupeň polyn. a dodat o mnoho viac terénovacích
+      dát
+    truth: 4
+  14:
+    pred: 4
+    text: Pri učení s učitelem dostáva neurónová sieť na vstup data set, ktorý obsahuje
+      dvojice (vstupný vektor príznakov, pora vaný správný výstup / siešenie). � tj.
+      sieť / agent víe aké je správně rušená kt. sa zna vyrušit;Priposilovanom učenie
+      adent disponuje len vstupom [vektor] a postupnými iteráciami sa snaží nájsť
+      riešenie, ktoré vopred nepozná, a dozvie sa ho až teď ho najde Následne za toto
+      riešenie a jeho kvalitu dostáva odmenu (prime agent sa snaží postupne maximalizovat
+      na odměnu
+    truth: 3
+fbdbb7fc219dc1afa5f5a66fe575382b:
+  9:
+    pred: 3
+    text: Agent může mít jen nějaké prvky inteligence, abychom ho považovali za inteligentního
+      - rozlišujeme tím různé druhy a stupně inteligence.;+ emoční inteligence, racionalita,
+      průběžné zlepšování (sebereflexe),
+    truth: 3
+  11:
+    pred: 3
+    text: 1. výstup + 2. výstup � 1 píral � 515 maska 49 pixelů ze vstupu;S x 5 +
+      ROHY;1. výstup
+    truth: 3
+  14:
+    pred: 2
+    text: Při učení s učitelem předem známe výsledek a učíme algoritmus, aby uměl
+      správně přiřadit daný výsledek ke vstupu.;V reinforcement learningu se učíme
+      (algoritmus) najít správný postup - za ten agent dostává odměny. Víme, čeho
+      chceme dosáhnout, ale nevíme jak, na to musí algoritmus přijít sám (s pomocí
+      odměn).
+    truth: 3
+fcf2016bac3730d763f23a8a1ffd10de:
+  5:
+    pred: 1
+    text: apriorační pravděpodobnost;p(x;3 parametry *2 třídy = 6;střední hodnota
+      korekční matice o;3;1+3+9;= 26;Bayesův vzorce = P(x|y) = P(4|X) . P(4);P(y);-;použijeme;využijeme
+      k výpočtu objektivní funkce,;která nám bude pomáhat pro určování pro nový vzor.
+    truth: 1
+  6:
+    pred: 4
+    text: 80%;90% úspěšnost 0,2x0, 9;testy;nakažen;nenakažen;P;pozitivní;0,18;0,08;0,26;hegarivní;0,02;0,72;0,74;0,2;0,8;Pravděpodobnost;pozitivního;testu;u;populace;je;0,26;26
+      %
+    truth: 4
+  11:
+    pred: 2
+    text: 64 x 64;16 jader 3x3;32 jeden 5x5;1. vstup;bly;-> 25 -> 1 25 * 9 = 225 pixclů
+      výstupu 5;1. vrstv;ustupního obrázku výstup 2. vrsty
+    truth: 2
+  13:
+    pred: 2
+    text: attention mechanizmus od slova pozornost dává;"pozor" na předchozí slova
+      a těží z uložených posloupností. nepamatuje si celou historii, ale "jen nedávnou"
+      historii méně náročné méně efektivní;Používají se u dlouhých úloh, kde je potřeba
+      jen;uchování krátké historie (skloňování slov � ne kontext celého textu
+    truth: 1
+  14:
+    pred: 3
+    text: učení s učitelem - dostává na vstup anotovaní data a díky nim se učí na
+      učících datech vyřešit úloha;reinforcement learning - nedostává žádná dnorovaná
+      data a učí se úloha vyřešit sám, řešení nemusí být. znát jen ohodnocení kroků
+      potřebných k dosažení cíle. ohodnocení správných kroků / penalizace špatných
+      kroků
+    truth: 3
+fdd9ca784e674c04aa5436a352eb8651:
+  10:
+    pred: 4
+    text: Gradient - derivace funkce, která nám určuje směrnici (neboli sklon) pokud
+      budeme počítat gradient loss funkce tak víme, že máme jít v protisměru, abychom
+      se dostali na minimum
+    truth: 3
+feef7d1e9a822ca84b2d9340a42f8ede:
+  3:
+    pred: 3
+    text: posinistická konvictika, která rovnoměrně pazinisticky odhaduje cestu k
+      řešení
+    truth: 4
+  4:
+    pred: 4
+    text: C;D2;xxx xxx;x;XXXXx;XX;D, = k 3 ks, D2 = k 9 B, D3 = 9 = 9 B;= a 872341
+      029
+    truth: 4
+  7:
+    pred: 0
+    text: tento pokynouvání model prochází všemi testovani doby, jeho MSE-;Negeneralizace
+      je způsobem přetrénováním no příliš malé dobové sadě, je potřeba dodat další
+      trénovací data
+    truth: 4
+  8:
+    pred: 2
+    text: generativní model potřebuje méně dat a je těžší ho přetrénovat, úsměně často
+      modeluje i aspekty nepodstatní pro klasifikaci samotnou diskriminativní model
+      efektivněji využívá parametry, ale potřebuje více dat a snáze se přetrénuje.;třénovací
+      promety doba a s (C|X) odvozuje zo pomocí Boyesova pravidla; např. gressovaly
+      diskriminativní model maximalizuje přímo P(C|X) např. logistické exlosifikátor
+      rogrese;generativní model model moximalizuje P(x|4), což je ekonomická D(X)
+      C);třicet.
+    truth: 3
+  9:
+    pred: 3
+    text: schopnost učení, logické uvožování, schopnost emposie;asociativní myšlení;Nemusí,
+      některé aspekty inteligence lze považovat ze specificky "lidské" a ogent je
+      nemusí nimitovat.
+    truth: 4
+ff2edbee88a7b474b40b3bed7f2d00cd:
+  4:
+    pred: 4
+    text: XII X2;X3;6 x;x X;X;x;x;x;X;X;0;X;l;X;X;X;X;X;O;X;11 = 1=7 K2;= 4 => XI
+      =;XI=27 x2=4=7=70 X15157 KLEINEISTŮD
+    truth: 3
+  6:
+    pred: 4
+    text: p(nemocný/=0,2 pozdravý) FOL;p(pozitivní (zdravý|=0, 1 plodě;plusovitivní
+      (nemocný) 50, P, G. O, 2 + 0, 2 0, 8 = 0, 18 + 0, 0, 26
+    truth: 4
+  8:
+    pred: 1
+    text: Generativní model modeluje pravděpodobnostní distribuci dat. např Gaussovský
+      klasifikátor. Turní generovat nová data z distribuer;pro klasifikaci obsahují
+      diskriminativní pouze modeluje pravděpodobnost. Zbytečně moc parametrů že dato
+      patří do daných tříd. (stačí rozh. hranice) např. log. regrese, sum/MLP... t
+      stačí méně parametrů;- na málo datech mohou mít horší výsledky
+    truth: 3
+  9:
+    pred: 1
+    text: schopnost uvažovat uvědomění sama sebe rozumět jazyku. učit se nové věci;Ne,
+      např. zvířata nemusí rozumět jazyku.
+    truth: 4
+  12:
+    pred: 0
+    text: narozdíl od normální čte vstup od konce i od začátku;zároveň.;může generovat
+      slovo v závislosti na dalších slovech;nemůže ponechovat pokud není udělena celá
+      věta předem.
+    truth: 4
+  14:
+    pred: 3
+    text: učení s učitelem má definované, jak má řešení vypadat. (např. víme, jak
+      má rozhodovat mezi fotkami kočky a psa);posilované učení - nevíme jak přesně
+      řešení dosáhnout ale máme nějakou reward funkci, která je vysoká pokud jsme
+      blízko cíle (např. chceme naučit robotu chodit, ale nevíme jak (jaké svaly tedy
+      aktivovat atd.) ale dáváme reward když se začne hýbat...)
+    truth: 3

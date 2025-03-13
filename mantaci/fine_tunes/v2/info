@@ -1,0 +1,55 @@
+   {
+    "created_at": 1684004154,
+      "fine_tuned_model": "babbage:ft-personal-2023-05-13-18-58-37",
+      "hyperparams": {
+        "batch_size": 1,
+        "classification_n_classes": 5,
+        "compute_classification_metrics": true,
+        "learning_rate_multiplier": 0.1,
+        "n_epochs": 4,
+        "prompt_loss_weight": 0.01
+      },
+      "id": "ft-dBsXTeShTJg3N6yTaNPgC5jL",
+      "model": "babbage:ft-personal-2023-05-13-13-58-37",
+      "object": "fine-tune",
+      "organization_id": "org-81hgJVdtJKNiNdfqCkXrEzjl",
+      "result_files": [
+        {
+          "bytes": 26969,
+          "created_at": 1684004318,
+          "filename": "compiled_results.csv",
+          "id": "file-SNz93Cos0f3kByO4oHImsSOb",
+          "object": "file",
+          "purpose": "fine-tune-results",
+          "status": "processed",
+          "status_details": null
+        }
+      ],
+      "status": "succeeded",
+      "training_files": [
+        {
+          "bytes": 101447,
+          "created_at": 1684004152,
+          "filename": "trainingDataOPENAI_2022_2_3_prepared_train.jsonl",
+          "id": "file-CCKXHSkW9Fx5hY1jbIfHmXMM",
+          "object": "file",
+          "purpose": "fine-tune",
+          "status": "processed",
+          "status_details": null
+        }
+      ],
+      "updated_at": 1684004318,
+      "validation_files": [
+        {
+          "bytes": 25817,
+          "created_at": 1684004153,
+          "filename": "trainingDataOPENAI_2022_2_3_prepared_valid.jsonl",
+          "id": "file-Yv2q16Qwu7RaNA88vWQ6YHzz",
+          "object": "file",
+          "purpose": "fine-tune",
+          "status": "processed",
+          "status_details": null
+        }
+      ]
+    }
+Po trenovani 2022_1B full, 2022_1A 5, 2022_2 5, 2022_3 5

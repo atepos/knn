@@ -1,0 +1,122 @@
+{
+    "created_at": 1683836686,
+    "events": [
+      {
+        "created_at": 1683836686,
+        "level": "info",
+        "message": "Created fine-tune: ft-7x4tDhAJ8sK9nNIjBzA6hURJ",
+        "object": "fine-tune-event"
+      },
+      {
+        "created_at": 1683836713,
+        "level": "info",
+        "message": "Fine-tune costs $1.10",
+        "object": "fine-tune-event"
+      },
+      {
+        "created_at": 1683836714,
+        "level": "info",
+        "message": "Fine-tune enqueued. Queue number: 0",
+        "object": "fine-tune-event"
+      },
+      {
+        "created_at": 1683837319,
+        "level": "info",
+        "message": "Fine-tune started",
+        "object": "fine-tune-event"
+      },
+      {
+        "created_at": 1683837545,
+        "level": "info",
+        "message": "Completed epoch 1/4",
+        "object": "fine-tune-event"
+      },
+      {
+        "created_at": 1683837767,
+        "level": "info",
+        "message": "Completed epoch 2/4",
+        "object": "fine-tune-event"
+      },
+      {
+        "created_at": 1683837988,
+        "level": "info",
+        "message": "Completed epoch 3/4",
+        "object": "fine-tune-event"
+      },
+      {
+        "created_at": 1683838211,
+        "level": "info",
+        "message": "Completed epoch 4/4",
+        "object": "fine-tune-event"
+      },
+      {
+        "created_at": 1683838252,
+        "level": "info",
+        "message": "Uploaded model: ada:ft-personal-2023-05-11-20-50-52",
+        "object": "fine-tune-event"
+      },
+      {
+        "created_at": 1683838253,
+        "level": "info",
+        "message": "Uploaded result file: file-iMJw30C4sdIbUGSCAI5enbhl",
+        "object": "fine-tune-event"
+      },
+      {
+        "created_at": 1683838253,
+        "level": "info",
+        "message": "Fine-tune succeeded",
+        "object": "fine-tune-event"
+      }
+    ],
+    "fine_tuned_model": "ada:ft-personal-2023-05-11-20-50-52",
+    "hyperparams": {
+      "batch_size": 4,
+      "classification_n_classes": 5,
+      "compute_classification_metrics": true,
+      "learning_rate_multiplier": 0.1,
+      "n_epochs": 4,
+      "prompt_loss_weight": 0.01
+    },
+    "id": "ft-7x4tDhAJ8sK9nNIjBzA6hURJ",
+    "model": "ada",
+    "object": "fine-tune",
+    "organization_id": "org-81hgJVdtJKNiNdfqCkXrEzjl",
+    "result_files": [
+      {
+        "bytes": 123976,
+        "created_at": 1683838253,
+        "filename": "compiled_results.csv",
+        "id": "file-iMJw30C4sdIbUGSCAI5enbhl",
+        "object": "file",
+        "purpose": "fine-tune-results",
+        "status": "processed",
+        "status_details": null
+      }
+    ],
+    "status": "succeeded",
+    "training_files": [
+      {
+        "bytes": 1507765,
+        "created_at": 1683836684,
+        "filename": "trainingData2_prepared_train.jsonl",
+        "id": "file-wkyPNnSz0k5MxzqajgP8Em9b",
+        "object": "file",
+        "purpose": "fine-tune",
+        "status": "processed",
+        "status_details": null
+      }
+    ],
+    "updated_at": 1683838253,
+    "validation_files": [
+      {
+        "bytes": 382444,
+        "created_at": 1683836686,
+        "filename": "trainingData2_prepared_valid.jsonl",
+        "id": "file-ap2sT3xxveFObW1HT1FcadRi",
+        "object": "file",
+        "purpose": "fine-tune",
+        "status": "processed",
+        "status_details": null
+      }
+    ]
+}

@@ -1,0 +1,2275 @@
+00d52da93a2ea09d33d9c34959629374:
+  0:
+    pred: 4
+    text: "AND-OR STROM;+ pln\u011B pozorovatel\xE9 prost\u0159ed\xED senzou \uFFFD\
+      \ jsme schopni odhadnout mo\u017En\xFD dal\u0161\xED krok"
+    truth: 0
+  1:
+    pred: 3
+    text: "doba;podle \xFArovn\u011B pro\u0159ez\xE1van\xED. nemus\xED se zm\u011B\
+      nit (\u017E\xE1dn\xE9 provez\xEDvan\xED) \uFFFD zmen\u0161\xED se doba trv\xE1\
+      n\xED (p\u0159i pro\u0159ez\xE1v\xE1n\xED zisk se nezm\u011Bn\xED (z\xE1le\u017E\
+      \xED, jak moc je ve h\u0159e n\xE1hod"
+    truth: 3
+  2:
+    pred: 4
+    text: "1. DFS omezen\xE9 na pr\u016Fchod do 8. \xFArovn\xED - m\xE1 mal\xE9 pan\u011B\
+      lov\xE9 n\xE1roky - jeliko\u017E je ze spodu omezena nemus\xED se pou\u017E\xED\
+      vat seznam cLOSED (m\u016F\u017Ee prodlou\u017Eit dobu trv\xE1n\xED, ale uspo\u0159\
+      \xED na pam\u011Bti;e. A s optimistickou heuristikou velmi rychl\xE9, pokud\
+      \ je heuristika optimistick\xE1"
+    truth: 4
+  3:
+    pred: 2
+    text: "kultury.;p. n. stav\u016F;kvalita stavu je nemo\u017En\xE1 na z\xE1klad\u011B\
+      \ po\u010Dtu nav\u0161t\xEDven\xFDch stav\u016F;DNS;malita stavu hlos\xE1 s\
+      \ po\u010Dtem nav\u0161t\xEDven\xFDch stav\u016F"
+    truth: 0
+  4:
+    pred: 3
+    text: "*;t\u0159\xEDda;st\u0159edn\xED hodnota (bod v grafu gauss nejv\u011Bt\u0161\
+      \xED novela\u010Dn\xED - matice 2x2;kde;p(x) 8;x) x p(x;Pokud p (x) je pravd\u011B\
+      podobnost n\xE1le\u017Eitosti prvn\xED t\u0159\xEDd\u011B tak p(y) = 1 - p(x)\
+      \ pro druhou t\u0159\xEDdu (je Bin\xE1rn\xED Parametry jsme odhadli pomoci chiteringu\
+      \ a v\xFDpo\u010Dtem st\u0159edn\xED hodnoty a rozptylu"
+    truth: 0
+  6:
+    pred: 3
+    text: "diskrim. modely - pracuj\xED s pravd\u011Bpodobnostn\xED fce, kde vstupem\
+      \ je t\u0159\xEDda (popis pravd\u011Bpodobnosti n\xE1le\u017Eitosti t\u0159\xED\
+      de);k = means dustowing;;na z\xE1klad\u011B k nejbli\u017E\u0161\xEDch se ur\u010D\
+      \xED jak\xE9 t\u0159\xEDdy je nov\xFD vstup:"
+    truth: 0
+  8:
+    pred: 2
+    text: "- v\xFDhonostn\u011B u\u017E na tom jsme dob\u0159e AI se pomalu dost\xE1\
+      vaj\xED do merku regula\u010Dn\xEDm \xFA\u0159ad\u016Fm - a m\u016F\u017Eeme\
+      \ o\u010Dek\xE1vat omezen\xED ze strany z\xE1kona (pom\xE1haj\xED tomu hanzy\
+      \ okolo AI generuj\xEDc\xED obrazky) - v oblibe jsou aktu\xE1ln\u011B sp\xED\
+      \u0161e vrstvy AI (specializovan\xE9 na jednu v\u011Bc) - mysl\xEDm si, \u017E\
+      e je to mo\u017En\xE9, ale aktualn\u011B pro n\u011B nen\xED popt\xE1vka mimo\
+      \ akademick\xE9 prost\u0159ed\xED.;v. shallow learning s ru\u010Dn\u011B definovan\xFD\
+      mi"
+    truth: 2
+  9:
+    pred: 0
+    text: "obstate\u010Dn\u011B je pot\u0159eba naj\xEDt hranici, kdy je model nau\u010D\
+      en + m\u016F\u017Ee m\xEDt p\u0159esn\u011Bj\u0161\xED v\xFDsledky"
+    truth: 0
+  10:
+    pred: 1
+    text: "mezi vrstvami ni\u010D\xEDm,;jde pouze o hodnotu;exactlo de jasan. 14 v\xE1\
+      lky konservato\u0159 a nyn\xED"
+    truth: 0
+  11:
+    pred: 0
+    text: ''
+    truth: 0
+  12:
+    pred: 0
+    text: "3 hanby P;RGB o;naval pro stupn\u011B \u0161edi"
+    truth: 0
+  13:
+    pred: 4
+    text: "On-policy maj\xED nadefinovan\xE1 omezen\xED, kter\xE1 mus\xED dodr\u017E\
+      ovat"
+    truth: 0
+02430be22cdd097e46bda4c98975d85d:
+  2:
+    pred: 0
+    text: "\uFFFD met\xF3da je majetekt\xE1rn\u011Bj\u0161\xEDch na r\xFDdile a mi\
+      \ extr\xE9mne resta\u0159uj\xFAce preh\u013Ead\xE1vani AI n\xE1jde potrebn\xED\
+      \ \xFArove\u0148. \u013Eato\u0161e akce BFS alebo BFS \u010Di in\xE9, na pomat.\
+      \ n\xE1ro\u010Dnej met\xF3dy"
+    truth: 0
+  3:
+    pred: 0
+    text: ''
+    truth: 0
+  4:
+    pred: 3
+    text: "posteri\xE1rna pravdepodobnost v\u010Dera hodnos\u0165 opriorn\xE1 pravdepodobnos\u0165\
+      \ (pravd. triedy - evidencia;"
+    truth: 0
+  5:
+    pred: 0
+    text: P(S|P) P(S|P);0,8 (80%) PIS - 90% = 0,9 NIS = 1-PIS = 0,1 (10%) 7,5% - SIN-2,
+      5% = 1-1 HIN HIN L,0,025;z;P(P|S) 0,9;. P(s) P(P) 0,2;HIN.H;+ NIS S;P=;(ylx);0,9
+      .0,2;- 1978 + 0,02) 0,9 . 02;0,9 = 90%;P(x|yl Plz);0,975 7 800 000 0,7800 0,2
+      0,1 02 ve
+    truth: 0
+  6:
+    pred: 3
+    text: "Line\xE1rna regresia pozorov\xE1n\xED Psanemu teor\xE9mu;P(x);P(zl\xFD\
+      ) Plr. P(y"
+    truth: 0
+  7:
+    pred: 3
+    text: "la formace avec vous avez prim\xE9 a staven\xED bude tento bezbo\u017E\
+      n\xFD archiv statk\xE1\u0159 starosti a hradu nebo obchodu se snad dlouho nenejsme\
+      \ mnoho slu\u0161n\xE9 po\u010Das\xED na oboj\xED veze smutnou kalu\u017Einu.\
+      \ 12 na stole;;sk nemocen."
+    truth: 0
+  8:
+    pred: 2
+    text: "Ano je mo\u017En\xE9 tak\xFAto inteligencii vytvo\u0159i\u0165 av\u0161\
+      ak to a\u017E v momente, te\u010F bude mo\u017En\xE9 zodpoveda\u0165 m\u011B\
+      len ot\xE1zku mor\xE1lnosti a spr\xE1vnosti tvorby General AI, ale aj te\u010F\
+      \ budeme schopn\xFD vyrie\u0161i\u0165 niacezo probl\xE9mov, kter\xE9 n\xE1\
+      s od vytvorenia tak\xE9 AI brzdia. Pre za\u010Dinkoli tak\xE9 AI by vy\u017E\
+      adovalo enormn\xE9 mno\u017Estvo d\xE1t a z\xE1rove\u0148 aj pot\u0159ebnej\
+      \ opera\u010Dnej pam\xE4te, u\u017E lin preto, aby dok\xE1zalo presved\u010D\
+      i\u0165 \u010Dloveka v Turingovom teste, \u017Ee skuto\u010Dne za jedn\xE1 o\
+      \ v\u0161eobecne inteligent;AI."
+    truth: 0
+  9:
+    pred: 2
+    text: "Deep learning alebo tillick\xE9 u\u010Denie nevy\u017Eaduje ta\u0165ko\
+      \ ru\u010Dnej pr\xE1ce ako shallow learning sta\u010D\xED mu poskytn\xFA\u0165\
+      \ velk\xE9 mno\u017Estvo d\xE1t, kter\xE9 si postupne spracuje a nau\u010D\xED\
+      \ sa na nich. Naopak shallow learning je v\xFDhodnej\u0161ie v tom, \u017Ee\
+      \ m\u011Blia\u0159e nepot\u0159ebuj tak\xE9 mno\u017Estvo d\xE1t, ale ani nevy\u017E\
+      aduje ta\u0165ka \u010Dasu na u\u010Denie."
+    truth: 4
+  10:
+    pred: 0
+    text: ''
+    truth: 0
+  11:
+    pred: 0
+    text: "Ano je to mo\u017En\xE9..."
+    truth: 0
+  12:
+    pred: 0
+    text: ''
+    truth: 0
+  13:
+    pred: 4
+    text: "On-policy => maj\xFA v\u0161ak vstupn\xFDch a v\xFDstupn\xFDch d\xE1t =>\
+      \ vza\u010D \u010Dasu a nau\u010Diti zab\xEDraj\xFA;Off-policy -> men\u0161\xED\
+      \ d\xE1t, zaber\xFA tak musej \u010Dasu aj pam\xE1ti (lep\u0161\xED (v\xFDhodn\u011B\
+      j\u0161\xED na pou\u017E\xEDvanie);Off-policy;On-policy"
+    truth: 0
+0e33e15598be65ed678dd18f9f2bff79:
+  0:
+    pred: 0
+    text: "Result je nyn\xED mno\u017Eina stav, pravd\u011Bpodobnost Rozhodujeme se\
+      \ na z\xE1klad\u011B vjem\u016F (senzory)"
+    truth: 0
+  1:
+    pred: 3
+    text: "Jeliko\u017E affa-beta pro\u0159ez\xE1v\xE1 strom o \"hor\u0161\xED\u201C\
+      \ v\u011Btve, o\u010Dek\xE1v\xE1m tedy \u017Ee se po\u010Det projekt\xFDch uzl\u016F\
+      \ zmen\u0161\xED. Pot\u0159eboval bych n\u011Bjakou heuristiku O\u010Dek\xE1\
+      v\xE1n\xED: pr\u016Fm\u011Brn\xFD zisk se nesm\u011Bn\xED dobu volby tah\u016F\
+      \ se zkr\xE1t\xED"
+    truth: 3
+  2:
+    pred: 4
+    text: "Pou\u017Eil bych DLS s omezen\xEDm hloubky 8.;optim\xE1ln\xED: Nejde hloub\u011B\
+      ji (neprohled\xE1v\xE1 zbyte\u010Dn\xE9 stavy) Pokud je \u0159e\u0161en\xED\
+      \ vlevo najde ho \"hned\" Pokud je vpravo, najde ho p\u0159i nejhor\u0161\xED\
+      m jako BFS Vzdy najde \u0159e\u0161en\xED pokud je vdan\xE9 hloubce"
+    truth: 4
+  3:
+    pred: 3
+    text: "Po\u010Det stav\u016F;random ne\u0159e\u0161\xED zda je stav do kter\xE9\
+      ho jdu lep\u0161\xED nebo hor\u0161\xED \u017E\xEDhan\xED bere lep\u0161\xED\
+      \ stav nebo po\u010D\xEDt\xE1 energie o kolik je stav hor\u0161\xED a nahrad\xED\
+      \ ho s danou pravd\u011Bpodobnost\xED;random - \u017E\xEDh\xE1n\xED"
+    truth: 3
+  4:
+    pred: 3
+    text: "3D;;20;aposteriorn\xED funkce: p(C|X);k) p(c);p(x|c) - p(c);je d\xE1na\
+      \ gauss. rozlo\u017Een\xEDm (N c A priorn\xED pravd\u011Bpodobnost pro ka\u017E\
+      dou t\u0159\xEDdu C -> p(c) = p(c) odhad hustoty pravd\u011Bpodobnosti je odhadnut\
+      \ pomoci parametr\u016F gauss. rozlo\u017E. Parametry gauss. rozlo\u017E pro\
+      \ 3D jsou \uFFFD 3 slo\u017Eky (X, Y, Z) a matice - 3 slo\u017Eky Ma E jsou\
+      \ odhadnuty pomoci metody Maximum L ikelihood. celkem jsou parametry d\xE1ny\
+      \ Nc. (1+3 + 3) = 14 uprio v\xED"
+    truth: 0
+  5:
+    pred: 0
+    text: "p (s) = 0,2 ... p (H) = 0,8 p(PIS) = 0,9 ... p (N|S) = 0, 1 p (H|N) =0,975\
+      \ ... p (H|P) = 0,025 v (SIP) =0,975;(SIP) - p(P);p(P) S \uFFFD p(p) = p(P|P|P|S)\
+      \ n (S) p(S|P);0,9 ,02;0,975"
+    truth: 0
+  6:
+    pred: 1
+    text: "Logistick\xE1 regrese, Weuronov\xE1 s\xED\u0165;Log. regrese: p(c|x) =\
+      \ T p(c|x) = T plan) n\u011Bjak\xE9 pozornosti;Diskriminativn\xED model to je,\
+      \ proto\u017Ee se sna\u017E\xEDme p\u0159\xEDmo odhadnout hodnotu p(C|X) m\xED\
+      sto p(X|C) a p(c) a pou\u017Eit\xED Bayes vzorc\u016F"
+    truth: 1
+  7:
+    pred: 2
+    text: "klasifikace - p\u0159i\u0159azen\xED t\u0159\xEDdy nov\xE9mu vstupu diskr\xE9\
+      tn\xED v\xFDstup;regrese - ur\u010Den\xED pravd\u011Bpodobnostn\xEDho rozsahu\
+      \ pro vstup (ur\u010Den\xED fce fa) = y - spojit\xFD v\xFDstup - lehce se p\u0159\
+      etr\xE9nuje;tr\xE9novac\xED data : vstupy x a vystupy y;objektivn\xED funkce:\
+      \ nap\u0159 suma \u010Dtverc\u016F"
+    truth: 0
+  8:
+    pred: 2
+    text: "Mysl\xEDm, \u017Ee je to mo\u017En\xE9, proto\u017Ee: v ur\u010Dit\xE9\
+      m smyslu se to u\u017E stalo (Lidsk\xFD mozek) Mysl\xEDm, \u017Ee u\u017E existuje\
+      \ n\u011Bco co se bl\xED\u017E\xED (robotka) co vypad\xE1 jako z filmu J\xE1\
+      , Robat)"
+    truth: 2
+  9:
+    pred: 2
+    text: "Deep Learning;(+) lep\u0161\xED v\xFDsledky nemus\xEDme ru\u010Dn\u011B\
+      \ definovat p\u0159\xEDznaky O slo\u017Eit\u011Bj\u0161\xED a v\xFDpo\u010D\
+      etn\u011B n\xE1ro\u010Dn\u011Bj\u0161\xED"
+    truth: 3
+  10:
+    pred: 0
+    text: "Na za\u010D\xE1tku je velk\xFD obr\xE1zek, kter\xFD pomoc\xED max-pooling\
+      \ (pooling vrstev zmen\u0161ujeme"
+    truth: 0
+  11:
+    pred: 4
+    text: "Je to mo\u017En\xE9, stejn\u011B jako obr\xE1zek;1D pooling 1D convolution"
+    truth: 4
+  12:
+    pred: 2
+    text: "vrstvy: konvolu\u010Dn\xED, poolingov\xE9 (max pooling);kan\xE1ly: 3 (RGB)\
+      \ v\xFDstup: 3 tenzory;Convolution POOLING;1x;180;180 x 180 x 8;90x90x16"
+    truth: 0
+  13:
+    pred: 2
+    text: "on-policy - sna\u017E\xED se zlep\u0161ovat svoji strategii (policy), kterou\
+      \ pou\u017E\xEDvaj\xED k d\u011Bl\xE1n\xED rozhodnut\xED;off-policy - sna\u017E\
+      \xED se zlep\u0161ovat strategii odli\u0161nou od t\xE9, kterou pou\u017E\xED\
+      vaj\xED k v\xFDb\u011Bru akce;on- pokecy se neu\u010D\xED ze zku\u0161enost\xED\
+      \ p\u0159edchoz\xEDch b\u011Bh\u016F;z\xE1klad\u011B Off-policy -> lep\u0161\
+      \xED -> u\u010D\xED se na p\u0159edchoz\xEDch zku\u0161enost\xED"
+    truth: 3
+1069b3fc4fb47f279610ef035bf163d4:
+  2:
+    pred: 4
+    text: "podle pozn\xE1n\xED;Jestli\u017Ee v\xEDme, \u017Ee \u0159e\u0161en\xED\
+      \ je v hloubce 8, pak nejlep\u0161\xED bude vol\xE1n\xED metody DLS. Omezen\xED\
+      \ hloubky bude 8 a algoritmus nebude postupn\u011B jednotliv\xE9 \xFArovn\u011B\
+      \ proch\xE1zet do \u0161\xED\u0159ky, ale p\u016Fjde rovnou do \xFArovn\u011B\
+      \ k. (postupn\xED)"
+    truth: 3
+  3:
+    pred: 2
+    text: "N\xC1HODN\xC1 proch\xE1zka algo. si pamatuje pouze nejlep\u0161\xED mus\xED\
+      \ tedy graf r\u016Fst limitn\u011B v\u0161ak k hodnot\u011B maxima;SiMuLATED\
+      \ ANETING;u sinulovan\xE9ho \u017E\xEDh\xE1n\xED je jist\xE1 pravd doprost\u0159\
+      ed p\u0159ekon\xE1 lok\xE1ln\xED max., o mohla naj\xEDt glob\xE1ln\xED. Zato\
+      \ pravd\u011Bp. p\u0159ekon\xE1n\xED v\u0161ak s b\u011Bhem kles\xE1."
+    truth: 0
+  4:
+    pred: 4
+    text: "Bayes;p(x|c);N;\uFFFD pro ka\u017Edou t\u0159\xEDdu \uFFFD 2 parame celkem;p(x);?!;generativn\xED\
+      \ klas. \uFFFD modelujeme hustotu psti Norm\xE1ln\xED rozlo\u017Een\xED pro\
+      \ 3 dimenze:;p(x|c) p(c);p(x|c);matice 3 re\xE1ln\xFDch \u010D.;u=;\u017E;Jx3\
+      \ re\xE1ln\xFDch \u010D\xEDsel;= +;Brod;SEDA. Bal\xEDk x V;S(x|k) p(x|x);odchyt;3\
+      \ parametry - 6 parametr\u016F: parametr\u016F pro ka\u017Edou t\u0159\xEDdu\
+      \ nov\xE9ho S;arg max(x|m), kde jsou parametry (u, f);odhad pomoc\xED metody\
+      \ Maximum celkem: 18+2 parametr\u016F, celkem 3-13:9) + 2 = likelihood: = 38\
+      \ re\xE1ln\xFDch \u010D."
+    truth: 4
+  5:
+    pred: 0
+    text: "P(pozlnak);P(negl zdr) = 0,975 P(nak) = 0,2;V\xFDsledek je uveden p\u0159\
+      \xEDmo v zad\xE1n\xED P(pozl nak) = 0,9"
+    truth: 4
+  6:
+    pred: 4
+    text: "logistick\xE1 regrese. k- Nearest Neishbours) k x;P(c=1|x) = v|x w) p(c=0|x)\
+      \ = 1- p(c=1|x);Diskriminativn\xED: - na z\xE1klad\u011B p\u0159ichoz\xEDho\
+      \ data p\u0159\xEDmo rozhodneme, do kter\xE9 t\u0159\xEDdy bude dato n\xE1le\u017E\
+      et (zde se rozhodujeme s pomoc\xED funkce sigmoida) pat\u0159i\u0165 kter\xE1\
+      \ vypo\u010Dte aposteriorn\xED pst - nemodelujeme hustotu pravd\u011Bpodobnosti\
+      \ jako u generativn\xEDch model\u016F"
+    truth: 3
+  7:
+    pred: 2
+    text: "klasifikace - m\xE1me data, kter\xE1 se sna\u017E\xEDme rozt\u0159\xED\
+      dit do n\u011Bkolika t\u0159\xEDd - nap\u0159. logistick\xE1 regrese obj. funkce\
+      \ \uFFFD cross-entropy k- Nearest Neighbours regrese \u2014 m\xE1me data, kter\xE1\
+      \ se sna\u017E\xEDme prolo\u017Eit n\u011Bjakou funkc\xED tak, aby tako data\
+      \ co nejv\xEDce vystihovala. - nap\u0159. sna\u017E\xEDme se naj\xEDt regresn\xED\
+      \ fci z\xE1vislosti v\xFD\u0161ky a v\xE1hy line\xE1rn\xED regrese k obj. funkce\
+      \ - sum-of-squares (kdy\u017E v\xEDme, \u017Ee data obsa Gaussovsk\xFD \u0161\
+      um) polynomi\xE1ln\xED regrese - spec. p\u0159\xEDpad line\xE1rn\xED"
+    truth: 4
+  8:
+    pred: 3
+    text: "Moment\xE1ln\u011B schopni nejsme, ale teoreticky bychom toho schopni m\u011B\
+      li b\xFDt. Pokud budeme schopni vhodn\u011B namodelovat inteligenci tak, jak\
+      \ ji p\u0159\xEDroda stvo\u0159ila. Pokud to dok\xE1zala ona, pro\u010D ne.;"
+    truth: 3
+  9:
+    pred: 4
+    text: "10. Jak\xE9 m\u016F\u017Ee m\xEDt v\xFDhody/nev\xFDhody hlubok\xE9 u\u010D\
+      en\xED v\u016F\u010Di tzv. sha p\u0159\xEDznaky? shallow - a - zpravidla rychlej\u0161\
+      \xED, z po\u010D\xE1tku i p\u0159esn\u011Bj\u0161\xED - je t\u0159eba ale ru\u010D\
+      n\u011B definovat p\u0159\xEDznaky -> pr\xE1ce nav\xEDc, nakonec to nemus\xED\
+      \ b\xFDt tak p\u0159esn\xE9 Naopak hlubok\xE9: - trv\xE1 natr\xE9novat del\u0161\
+      \xED dobu - ale v\xFDsledky b\xFDvaj\xED zpravidla mnohem p\u0159esv\u011Bd\u010D\
+      iv\u011Bj\u0161\xED - nen\xED t\u0159eba ru\u010Dn\u011B definovat p\u0159\xED\
+      znaky -> u\u0161et\u0159\xEDme si t\xEDm pr\xE1ci - - obecn\u011B mohutn\u011B\
+      j\u0161\xED \u0159e\u0161en\xED"
+    truth: 4
+  10:
+    pred: 1
+    text: "- d\xE1 se \u0159\xEDci, \u017Ee hloub\u011Bji v KN by m\u011Bly b\xFD\
+      t vzory v\xEDce extrahov\xE1ny, respektive m\u016F\u017Eou se p\u0159\xEDpadn\u011B\
+      \ i ztratit k jestli\u017Ee jedna vrstva zpracuje NXN pixel\u016F a vytvo\u0159\
+      \xED z nich 1 sixel;\u010D\xEDm d\xE1l - obrazy jsou daleko v\xEDce zpracovan\xE9\
+      , m\xE9n\u011B se podobaj\xED p\u016Fvodn\xEDmu"
+    truth: 0
+  11:
+    pred: 1
+    text: "NS;- nap\u0159. pomoc\xED konvolu\u010Dn\xEDch;zvuk -> 1) vektor;nebo nap\u0159\
+      \xEDklad pomoc\xED transformer\u016F (attention algoritmy)"
+    truth: 0
+  12:
+    pred: 1
+    text: "Pouz\xE1zek;pooling;konvolu\u010Dn\xED j\xE1dro je matice re\xE1ln\xFD\
+      ch \u010D\xEDsel, kter\xFDmi se tvstupn\xED pixely vyn\xE1sob\xED a n\xE1sledn\u011B\
+      \ se\u010Dtu a vytvo\u0159\xED 1 pixel;norm\xE1ln\xED 4 j\xE1dra Chap\u0159\
+      . 3 kan\xE1ly - REB vstup) KNN \u010Dasto tvo\u0159\xED konvolu\u010Dn\xED vrstvy\
+      \ a pooling vrstvy konvolu\u010Dn\xED vrstvy pomoc\xED konvolu\u010Dn\xEDch\
+      \ jader n\xE1sob\xED a s\u010D\xEDtaj\xED pixely vstupn\xED obr\xE1zku a vytv\xE1\
+      \u0159\xED nov\xE9 p\u0159\xEDstup obr\xE1z Pooling vstry pak maj\xED za \xFA\
+      kol obr\xE1zek zmen\u0161it konvolu\u010Dn\xED vrstvy musej\xED m\xEDt stejn\xFD\
+      \ po\u010Det kan\xE1l\u016F, jako vstupn\xED obr\xE1zek"
+    truth: 1
+25c648790a6392af3eddc3ded14a7c92:
+  0:
+    pred: 0
+    text: ''
+    truth: 0
+  1:
+    pred: 2
+    text: "T\u0159eba hr\xE1l optim\xE1ln\u011B/angelno u\u017E s minimaxem a nijak\
+      \ nepom\u016F\u017Ee jedin\u011B zvy\u0161ovat volbu tah\u016F) nen\xED s \u010D\
+      \xEDm posunout pr\u016Fm. T\u011Bch;Alfa - Boeka"
+    truth: 2
+  2:
+    pred: 4
+    text: "D;Nepth limit search (lonil = 8);.;ur\u010Dit\u011B nejm\xE9n\u011B pod\xED\
+      l\xED;...;pokud se nem\xFDl\xEDm jak je v\u017Edy rychlej\u0161\xED ne\u017E\
+      \ BFS nebo stejn\u011B rychl\xED pokud se. \u0159e\u0161en\xED nach\xE1z\xED\
+      \ v prav\xE9m dobr\xE9m s\xF3lu (roztomluveno zkrat\u0161en\xED)"
+    truth: 4
+  3:
+    pred: 3
+    text: "v;;tablet;an;stav\u016F;o;hor\u0161\xED slovo nedo\u0161l\xE9;\u010Ctvrtek;dovoluje\
+      \ zkou\u0161en\xED (na za\u010D\xE1tku v\xEDce podle pravd\u011Bpodobnost\xED"
+    truth: 3
+  4:
+    pred: 4
+    text: ";Drah\xE1\u010Dek;X;opst pach. pro t\u0159\xEDdil;P(C|X);;;2. POXIZ POZ;odhadnut\xE9\
+      \ (elegarial disp) a prior, probabilities;napi\u0161 Red Bl;Or, O;gau s dto;odlou\u010D\
+      en\xED;tyto pam\xE1tky isif P( XII;Spojen\xED se stav do Bajkalu do Bajkale\
+      \ na Radomov\u011B Radomorav\u011B.;falssovsk\xE1 30 volebn\xED;3;+6;8;;\xED\
+      \ V;I-;Prose.;6 sportky;2 (q-\u010Dasu) = 20 re\xE1ln\xFDmi \u010D\xEDsly;MRV;RD"
+    truth: 4
+  5:
+    pred: 0
+    text: "r D);75;1000;Sem vule:;V\xFDsledek:;P(DH);P(D) = P6, + 3 1 5/50;u varovna;KART.;p(p)\
+      \ PCH;;EP(D);.p(D);PO;770;1000"
+    truth: 0
+  6:
+    pred: 4
+    text: "Logistick\xE1 regrese;klasifik\xE1tor 2D dat - z p\u0159edn\xE1\u0161ky\
+      \ sp\u0159. Dim\xE1n\xED;1;24 K (XIX) = o (wh - x1 t\u0159\xEDdu) (date) nep\u0159\
+      ejeme p\u0159\xEDmo X na n\u011Bjakou 7; nesna\u017E\xEDme se zde odhadovat\
+      \ n\u011Bjak\xE9 apodmetn\xE9 pravd\u011Bpodobnosti, ale p\u0159\xEDmo odhadujeme\
+      \ apod. Tak\u017Ee model SVM - spart vedou narodino se nesna\u017E\xED ani o\
+      \ obhod opost. Jurici ale sna\u017E\xED se naj\xEDt maxim\xE1ln\u011B pozorovat\
+      \ na na\u0161e dru\u017Eini t\u0159\xEDdy SVM a legion\xE1\u0159em doktrin.\
+      \ Vzorn\xFD klasif. diskriminuje do t\u0159\xEDd a proto je neodhodlaj\xED se,\
+      \ tu dislokace jako v gaumatice - ned\u011Bli kter\xFDch by se dalo generovat"
+    truth: 4
+  7:
+    pred: 4
+    text: "sm\u011Bjov\xFDm klasifikujeme objekty do kolegy p\u0159i Plup\xE1l Jedopis\
+      \ o Ragesssk\xFD klasifik\xE1tor B\u011Bh\xE1n\xED klasifikace;SVM - support\
+      \ vector medines;klasifikace;- odhadujeme pr\u016Fb\u011Bh n\u011Bjak\xE9 spojit\xE9\
+      \ veli\u010Diny (z dat) polynomin\xE1ln\xED regrese;egrese;o;line\xE1rn\xED\
+      \ regrese (K= n\u011Bjak\xE9 dal\u0161\xED regrese s b\xE1ze\u0148 cest - ine;Idj.\
+      \ s Prahy cross erbug? | C|XI (1-6|XX) STK P(C|X) = P(C|X) = 1-0|XIVS H\xF4\
+      nge koss Odvody diskriminat (zde ne 5 km fakt jako v\xFD\u0161e , P(c|o) = P(e)\
+      \ Melioratismus - klasifik\xE1tor;Sum space erroga 15 Slyn-x pokud p\u0159edpokl\xE1\
+      d\xE1me garasecky \"z\u0159ejm\u011Bn\xED data);\u010CESM - Extraten;(C) Se\
+      \ sexu;TE, nen\xED dosud sle\u010Dina \uFFFD GD; JGD;Ik"
+    truth: 4
+  8:
+    pred: 2
+    text: "Nev\xEDm. Nejsou prost\u0159edky na to u\u010Dit jestli je to mo\u017E\
+      n\xE9, ani jak by to bylo mo\u017En\xE9 prov\xE9st.;\u010Desk\xE9 rodiny. Zat\xED\
+      m se p\u0159ikl\xE1n\xEDm z mo\u017Enosti, \u017Ee je to mo\u017En\xE9. A ur\u010D\
+      it\u011B mo\u017En\xE9 aby m\u011B v budoucnu n\xE1padn\u011B NI - general AI\
+      \ tak moc simula, \u017Ee je obleva k tomu v\u011B\u0159il, \u017Ee je General\
+      \ + I, i kdy\u017E to;podle \u010Dty\u0159icet litru mus\xED b\xFDt pravda"
+    truth: 3
+  9:
+    pred: 0
+    text: "V\xFDhody;- nejsp\xED\u0161 se dob\u0159e nau\u010D\xED s m\xE1lo doby\
+      \ (pro t\u0159ech hodnotn\xE9 \xFAlohy);;Nev\xFDhody;- spasla pr\xE1ce z\xE1\
+      v\u011Br\u016F upravov\xE1n\xED parametr\u016F odboru - sladce, kdy\u017E trochu\
+      \ pozm\u011Bn\xEDme \xFAlohu a model je nepo\u010D\xEDtaly v\xED\u017Ee \u0161\
+      patn\u011B gener\xE1litoval - u\u010D\xED se z bef. p\u0159\xEDznak\u016F;(o\
+      \ proto se pro t\u0159\xEDdu pokus po\u010D\xEDt\xE1 doplaceniny"
+    truth: 3
+  12:
+    pred: 1
+    text: "Chodil;45;kancel\xE1\u0159;MAX POOLING;IMG x1;ragschle;15 jahr;jelen;pro\
+      \ jednoduchost;chamel;KART.;..;na\u0161e se vyzva"
+    truth: 1
+  13:
+    pred: 1
+    text: ";dia;p\u0159\xEDmolej\u0161\xED;teplej\u0161\xED;lep\u0161\xED;n\xE1m;vy\u0161\
+      \u0161\xED;gradie;palic;DPCHY;- 40;P(6, +) + PCO PCOD SY P(PO) W) v\xFDsledek\
+      \ testu;10);HIDS - PALD.;PCD;Opava PARK;0,5;P(ch, o) = P(tID) + p - ,;OCOJ =\
+      \ PCHOD + PC-TOJ;120 \u2014"
+    truth: 1
+26a9350a320f080e23e865aa5320e0ac:
+  0:
+    pred: 3
+    text: "zn\xE1most\xED knih;sv\u011Bta;senzory pomo\u017Eu ur\u010Di\u0165 stav,\
+      \ v kterou sa pr\xE1ve nach\xE1dzame. v\u010Faka \u010Demu nemus\xEDme udr\u017E\
+      ova\u0165 mno\u017Einu belief states.;orienta\u010Dn\xED v\xFDsledkem m\xF4\u017E\
+      e by\u0165 napr. strom postupnosti akc\xED (alebo graf kde listy p\u0159edstavuj\xED\
+      \ ciel."
+    truth: 3
+  1:
+    pred: 4
+    text: "Zisk sa meni\u0165 nebude, ako Alfa-Beta, tak aj Minimex sa;sna\u017Eia\
+      \ maximalizova\u0165 svoj zisk, v deterministickou prostred\xED bude revnak\xFD\
+      \ - po\u010D\xEDtaj\xFA s t\xFDm, \u017Ee si super vyberie ich nejv\xE4\u010D\
+      \u0161iu straku rvanie volby \u0165ahu sa m\xF4\u017Ee v\u010Faka pruningu drasticky\
+      \ a viac zv\xFD\u0161it - aj o 50% (odre\u017Eeme hned na za\u010Diatku polovicu\
+      \ vetv\xED), v\xFDsledn\xE9 \u010D\xEDslo z\xE1vis\xED od aspoziadama v\xFD\
+      sledkov hry priemorn\xE1 v listoch prehlad\xE1van\xE9ho stromu. Minim\xE1ln\xE1\
+      \ r\xFDchlost kde povodn\xFDch 13.57 s."
+    truth: 4
+  2:
+    pred: 4
+    text: "DFS s obmedzenou h\u013Abkou prikl\xE1d\xE1vania do posledn\xEDho dne .\
+      \ skromn\xE9 h\u013Abku (o\u0159e\u017Eeme na 8, postupne prehlad\xE1vania u\u017E\
+      \ by v tejto \xFArovni;ale je viac najlacnej\u0161\xEDch rie\u0161en\xED, v\u0161\
+      etky s\xFA v h\u013Ebke 8 DFS najde jedno z nich nerozgenerov\xE1vame zbyte\u010D\
+      ne ve\u013E\xE4 uzlov, kter\xE9 nebudeme pot\u0159ebovat;"
+    truth: 3
+  3:
+    pred: 2
+    text: "n\xE1hodn\xE1 prech\xE1dzka;alg. si pam\xE1t\xE1 zatia\u0165 nejlep\u0161\
+      \xED nav\u0161t\xEDven\xFD stav. Preto za za\u010D\xE1tku priebek funkci sk\xFA\
+      pe rychlo - najdeme v\u017Edy lep\u0161\xED a lep\u0161\xED stav. Postupne ale\
+      \ je na\u0161e rie\u0161enie hud nejlep\u0161ie alebo bl\xEDzko nejlep\u0161\
+      \xEDho, a funkcia prech\xE1dza s vy\u0161\u0161\xEDm po\u010Dtem krokov do kon\u0161\
+      tantn\xEDho priebehu - nejlep\u0161ie rie\u0161enie u\u017E m\xE1me, alebo sme\
+      \ mu bl\xEDzko"
+    truth: 0
+  4:
+    pred: 0
+    text: "P(A|B);BIAJ\xCD;P(B);-;se po dobu postavil po p\u0159evratu do posledn\xED\
+      ch dn\u016F a po p\u0159evratu do poledne po p\u0159est\xE1n\xED po p\u0159\
+      ek\xE1\u017Ece na polovin\u011B pole a prost\u0159elen\xED a a a a a a a prou\
+      \ a a a a a po a a a a a po po po alala po po a pouta po pa alalalalala a ala\
+      \ a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a po\
+      \ prohl\xEDdce pod n\xE1mi starostou polsk\xE9ho posledn\xEDho stavu postaven\xED\
+      \ a postaven\xED telegrafisch auf den 15. letzten Monat 1914 bei der Bereitschaft\
+      \ erfolgten;-"
+    truth: 0
+  5:
+    pred: 4
+    text: "P - pozitivn\xED P(c) = 0. 2 P(P|C) = 0. 9 P(N| 2) - 0.975 (P|c) = 0.9;negativny;*;Ak\
+      \ sme vybrali osobu o kterej vieme \u017Ee je nakazen\xE1, tak potom P, \u017E\
+      e test bude pozitivny, vypl\xFDva zo zadania P(P|C) = 0. 9.;ov\xFD;z;- zdrav\xFD"
+    truth: 4
+  6:
+    pred: 4
+    text: "hr\xE1ny kompetence;KART. V. KS\u010C - \xDAV;pri diskriminaz\xEDvne tr\xE9\
+      novanou klasifik\xE1tore nepredpokl\xE1d\xE1me, \u017Ee s\xFA d\xE1ta generovan\xE9\
+      \ nejak\xFDm modelem (napr. norm\xE1ln\u011B rozlo\u017Eenie). Namiesto toho\
+      \ sa sna\u017E\xEDme n\xE1js\u0165 v\xFDstup iba na z\xE1klade vstupu"
+    truth: 0
+  7:
+    pred: 2
+    text: "klasifika\u010Dn\xED probl\xE9m - modeluje diskr\xE9tne rozlo\u017Eenie,\
+      \ rozdeluje;vstupn\xE9 d\xE1ta do predan definovan\xFDch tried;- obj. ficia:\
+      \ softmax, funkcia modeluj\xFAca bin\xE1rne rozlo\u017Eenie (zahodla san n\xE1\
+      zev). ma absolutn\xFDch odchylek;- napr. k-means - tr\xE9novacie d\xE1ta s\xFA\
+      \ diskr\xE9tne;regresn\xFD probl\xE9m - modeluje spojit\xFA funkciu, p\u0159\
+      edpoved\xE1 bud\xFAce v\xFDstupy na z\xE1klade minul\xFDch - napr. line\xE1\
+      rna, logistick\xE1 regresia - obj. ficia: m\xEDn - square - erzor (suma \u0161\
+      tvacov) - d\xE1ta s\xFA spojit\u011B"
+    truth: 0
+  8:
+    pred: 2
+    text: "- mysl\xEDm, \u017Ee v s\xFA\u010Dastnosti to mo\u017En\xE9 nie je, preto\u017E\
+      e na to nem\xE1me dostato\u010Dn\xE9 technologick\xE9 vybavenie. Aktu\xE1lne\
+      \ ale vid\xEDme r\xF4zne zamezan\xE9 AI, kter\xE9 ukazuj\xFA, \u017Ee dok\xE1\
+      \u017Eu vie\u0161i\u0165 n\xE1ro\u010Dn\xE9 \xFAlohy aspo\u0148 tak dobre a\
+      \ mo\u017Eno e\u0161te lep\u0161ie (rozhodne rychlej\u0161ie), ne\u017E \u010D\
+      lovek - generovanie hudby, textu, obr\xE1zkov, riadenie vozidiel, predpove\u010F\
+      \ po\u010Dasia, ... Preto si mysl\xEDm, \u017Ee v priebehu nejak\xE9ho \u010D\
+      asu budeme schopn\xE9 vytvo\u0159i\u0165 General AI, kter\xE1 bude schopn\xE1\
+      \ napodobni\u0165 \u013Eudsk\xE9 spr\xE1vamie a myslenie. Nevid\xEDm ale AI,\
+      \ kter\xE1 by dok\xE1zala pre\u017E\xEDva\u0165 \u013Eudsk\xE9 emocie - sami\
+      \ o nich neme tak m\xE1lo, \u017Ee v \u017Eiadnem p\u0159\xEDpade v bl\xEDzkej\
+      \ bud\xFAcnosti nebudeme schopn\xED napodobni\u0165 10. Jak\xE9 m\u016F\u017E\
+      e m\xEDt v\xFDhody/nev\xFDhody hlubok\xE9 u\u010Den\xED v\u016F\u010Di tzv.\
+      \ shallow learning s ru\u010Dn\u011B definovan\xFDmi p\u0159\xEDznaky?"
+    truth: 4
+  10:
+    pred: 4
+    text: "na za\u010Diatku CNN rozozn\xE1vaj\xFA filtre velmi jednoduch\xE9 vzory\
+      \ - vodorovn\xE9 a zv\xED\u0159at\xE9 hrany, kruhy, bodky (te\u010Dky), ...\
+      \ \u010D\xEDm blb\u0161\xEDe do sieke postupujeme, t\xFDm zbo\u017Eitej\u0161\
+      ie vzory jadr\xE1 vedia rozozn\xE1va\u0165, - tvar zvieracej hlavy, vzor v\u010D\
+      elicho \xFAla, obrys \u010Dloveka, ...;Pod n\xE1pisem"
+    truth: 4
+  11:
+    pred: 4
+    text: "\xE1na - pre niekter\xE9 typy \xFAloh m\xF4\u017Eme pou\u017Ei\u0165 CNN\
+      \ (zvuk prevedieme;do pektrogramu, z neho m\xF4\u017Eme napr. klasifikovat \u017E\
+      \xE1nor hudby. MATER generalis architekt\xFAra nazna\u010Den\xE1 v \xFAlohe\
+      \ 13. vstup kn\xED\u017Eec\xED P m\xEDesto \u010Falej m\xF4\u017Eme pracova\u0165\
+      \ s transformermi - tie na;rekurentn\xFDch vrstev pou\u017E\xEDvaj\xFA mechanizmus\
+      \ zvan\xFD \"attention\" : skladaj\xFA sa z 2 typov vrstiev - sely-aktentia\
+      \ (nahr\xE1dka rekurentn\u011B vrst L feed forward za den v sobotu"
+    truth: 4
+  12:
+    pred: 2
+    text: "tu;vstupn\xFD;obr\xE1zok;;+;;konvolu\u010Dn\xE1 vrstva;pooling;vrstva;konv.\
+      \ vrstva;plna propojen\xE1 vrstva;hlad\xE1 vo vskupe vzory skl\xE1d\xE1 se z\
+      \ u\u010Dinc\xEDch za filtrov (v\u011Bt\u0161inou velkosti 3x3) po\u010Det kan\xE1\
+      lov z\xE1vis\xED od form\xE1tu vstupn\xFDch d\xE1t - napr. RGB obr\xE1zky bud\xFA\
+      \ spracovan\xE9 ka\u017Ed\xFD kan\xE1l (R, 6, 8) kan\xE1l zvl\xE1\u0161\u0165\
+      , \u010Diernobiele obr\xE1zky maj\xFA len 1 14. Jak\xFD je rozd\xEDl mezi takzvan\xFD\
+      mi \u201Eon-policy\" a \u201Eoff-policy\u201C algoritmy posilovan\xE9ho u\u010D\
+      en\xED? Kter\xE9 jsou lep\u0161\xED a pro\u010D?;v\xFDstup z\xE1vis\xED zmen\u0161\
+      uje vstup, \u010Diasto\u010Dne od po\u017Eadovan\xE9ho sa star\xE1 o invarianciu\
+      \ v\xFDstupu CNN, napr. proti posunutiu ak m\xE1me klasifika\u010Dn\xED vzoru\
+      \ / objektu \xFAlohu, aktiva\u010Dn\xE1 funkcia softmax by mohla udat pravd\u011B\
+      - podobnosti t\u0159ied. Inak to mo\u017En by napr. s\xFA\u0159adnice lokalizovan\xE9\
+      ho objektu odpove\u010F \xE1na/nie na ot\xE1zku, \u010Di na objekt n\xE1\u010D"
+    truth: 0
+344072b6fc3148d18daa28a744eb6660:
+  0:
+    pred: 0
+    text: ''
+    truth: 0
+  1:
+    pred: 0
+    text: "zr\xFDchli za \u010Das rie\u0161enia n\xE1lneho pre v\xFDpo\u010Det zr\xFD\
+      chlenia by boto potrebn\xE9 vediet, holko potomkov m\xE1 ka\u017Ed\xFD uzol"
+    truth: 0
+  3:
+    pred: 0
+    text: ''
+    truth: 0
+  4:
+    pred: 1
+    text: "rozptyl;= P(Y|x) P(X|x) P(Y);po\u010Det t\u0159\xEDd \u0161kodn\xE1 hodnota;Na\
+      \ z\xE1klade vzdialenosti d\xE1t / bodou od u a k jednotliv\xFDch tried sa ur\u010D\
+      uje, do ktorej triedy bude vstup klasifikovan\xFD."
+    truth: 0
+  5:
+    pred: 0
+    text: poz (nak.) = 0, 9 p;(negl zdr) =0, 975;-> p (reg / nak) = 0,1 -> p (roz
+      1 zdr) = 0,025;p(x);a hornat / k (neglnat) p(nak);0,9;=0,45
+    truth: 0
+  6:
+    pred: 1
+    text: "MNIST - dataset \u010D\xEDsiel, dataset cat - vs- dag kl\xE1d\xE1 sa p\u0159\
+      \xEDtomnos\u0165 konkr\xE9tnych vzorov, kter\xE9 sa nau\u010Dil model rozozn\xE1\
+      va\u0165 po\u010Das tr\xE9novania Na z\xE1klade najden\xFDch vzorov \u0161pecifick\xFD\
+      ch pre konkr\xE9tnu triedu (napr.: tvar u\u010D\xED prov (ma\u010Diek) model\
+      \ ur\u010D\xED pravdepodobnos\u0165 s ktorou zapad\xE1 model do danej triedy"
+    truth: 0
+  7:
+    pred: 4
+    text: "klasifik\xE1cia;regresia;sna\u017E\xED sa rozdeli\u0165 vstupn\xE9 d\xE1\
+      ta do preddefinova \xFDch tried na z\xE1klade pravdepodobnosti r\xE9novacie\
+      \ d\xE1ta - obr\xE1zky, zvukov\xE9 nakr\xE1vky odely - MNIST - rozpozn\xE1vanie\
+      \ \u010D\xEDsel, cat vs dag sou\u017Eitie softmax;sna\u017E\xED se odhadn\xFA\
+      \u0165 nasleduj\xFAci v\xFDvoin d\xE1t situaci z poskytnut\xFDch d\xE1t;br.\
+      \ d\xE1ta - cena ak\u010D\xED v \u010Dase, seizmick\xE1 aktivita modely - obchodovanie\
+      \ na burze predpove\u010F po\u010Dasia;napr.;pou\u017Eitie MSE,;napr.:"
+    truth: 0
+  8:
+    pred: 0
+    text: "Ano, ted\u017Ee najma v\u010Faha internetu je mo\u017En\u011B poskytn\xFA\
+      \u0165 modelu (nekone\u010Dn\u011B) mno\u017Estvo tr\xE9novac\xEDch d\xE1t,\
+      \ z kter\xFDch by sa vedel nau\u010Di\u0165 spr\xE1vnu stavbu viet, argument\xE1\
+      ciu, rozpozn\xE1vanie objektov, at\u010F. Jej velk\xFDm nedostatkom by ale bola\
+      \ nep\u0159\xEDmnos\u0165 emo\u010Dii , kter\xE9 sa z d\xE1t ta\u017Ebo rozpozn\xE1\
+      vaj\xFA a nemusia byt ani p\u0159\xEDtomn\xE9 - \u010Do teda sp\xF4sob\xED napr.:\
+      \ nep\u0159\xEDtomnos\u0165 osobnosti pre konkr\xE9tne vyu\u017Eitia, ako napr:\
+      \ komplexn\u011Bj\u0161\xED chat-bot."
+    truth: 0
+  9:
+    pred: 0
+    text: "Pri shallow - lneaxningu m\xF4\u017Eu by\u0165 zle zadek\u0148ovan\xE9\
+      \ pr\xEDznaky (nepodstatn\u011B pri pou\u017E\xEDvan\xED modelu);Prideep laearningu\
+      \ hroz\xED podu\u010Denie / preu\u010Denie modelu pokia\u013E d\xE1ta nie s\xFA\
+      \ rozdielne v optim\xE1lnej mezi. Model sa ale m\xF4\u017Ee nau\u010Di\u0165\
+      \ detekova\u0165 pr\xEDznaky, ktor\xE9 \u010Dlovek prehliadol."
+    truth: 0
+  10:
+    pred: 3
+    text: "hlb\u0161ie jadr\xE1 sa zameria vracej\xED na hladanie lok\xE1lnych pr\xED\
+      znakov, kter\xE9 b\xFDvaj\xED \u0161pecifickej\u0161ie pre konkr\xE9tne briedy,\
+      \ zatia\u0165 \u010Do jadr\xE1 na za\u010D\xE1tku n\xED shor vyhodnej\u0161\
+      ie na detekciu cel\xE9ho objektu, alebo jeho lokaliz\xE1cne v p\u0159esto\u017E\
+      e na z\xE1klade jeho tvaru"
+    truth: 0
+  11:
+    pred: 1
+    text: "\xC1no, napr. pomocou konvolucie. Je ale pot\u0159ebn\xE9 p\u0159esposobit\
+      \ d\xE1ta k zpr\xE1vnemu spracovaniu, napr.: Fourierovou transform\xE1ciou"
+    truth: 0
+  13:
+    pred: 2
+    text: "model on- policy - upravuje svoje vyhodnocovanie na z\xE1klade novo z\u016F\
+      stan\xFDch d\xE1t po\u010Das b\u011Bhu;off-policy - model upravuje vyhodnocovanie\
+      \ ve in\xFD model na z\xE1klade nov\xFDch d\xE1t"
+    truth: 0
+510077e41f24942dfd5a8da94fba89da:
+  2:
+    pred: 4
+    text: "POKUD ZN\xC1MA ZILOV\xC1NO \u0158E\u0160EN\xCD POM NEJLEP\u0160\xCD MRTVOU\
+      \ JE DLS S PANAMATIKEM HLOUBKY 8. PROTO\u017DE DLS VYU\u017D\xCDV\xC1 LIFO FRONTU\
+      \ NEBUDE V PAM\xC1TI UPR\u0147OVAT p\u0159\xEDli\u0161 mnoho vzl\u016F (v\u017E\
+      dy p\u016Fjde \"p\u0159\xEDmo\" do v\u011Btv\xED stromu) t\xEDm \u017Ee zn\xE1\
+      ma hloubku \u0159e\u0161en\xED mus\xEDme algoritmus spol\u0161t\xE1t iterovan\xE9\
+      \ a t\u0159ed\xED v\u0161at\u0159\xEDme \u010Das."
+    truth: 4
+  3:
+    pred: 4
+    text: "KART.;;PO\u010CET STAV\u016E;v p\u0158\xCDpad\u011B slep\xE9ho prohled\xE1\
+      v\xE1n\xED kvalita maust\xE1le hol\xEDs\xE1, proto\u017Ee v\xFDb\u011Br je \u010D\
+      ist\u011B n\xE1hodn\xFD.;Pro smulovan\xE9 \u010D\xEDh\xE1n\xED kvalita hol\xED\
+      \ s\xFA tv\xE1\u0159 (nemus\xED b\xFDt ve\u0159ejn\xE1 nadlep\u0161\xED soust\
+      \ PLK Chenov\xE1 si zv\xFD\u0161uje."
+    truth: 4
+  4:
+    pred: 1
+    text: "P(CESS|ODS) SERVATION);P(OBSSERVATION|CLASS) P(CLASS);P(OBERVATION);klasifik\xE1\
+      tor bude pops\xE1n parametry gausovsk\xE9ho rozlo\u017Een\xED pro ob\u011B T\u0158\
+      \xCDD\xCD. PRO KA\u017DDOU T\u0158\xCDDU TO BUDE VEHDU ST\u0158EDN\xCD HODNOTY\
+      \ VLIST KONSTA\u010CN\xCD MATICA E O ROZH\xC1LNACH BAB. CELKEM TRADI ZU HODNOT\
+      \ ODhaD PARAMETR\u016E POMOC\xCD MAXIMUM LIMALIHOOD ESTIMATR NL = TI PIxATI,\
+      \ MDR (229 + 23). DATE M M JSOU PARAMETRY GAUSOVA ROZLO\u017DEN\xCD DAN\xC9\
+      \ T\u0158\xCDDY. TE\u010F \xCDM = ARG MA XIV, IV, 2)"
+    truth: 1
+  5:
+    pred: 0
+    text: "PROMOZLISTICK\xDD = PARAMETRY;=0,2 12);0,9 1975;PRODUK (PORIN) - 0,9 -\
+      \ 1-0,975 1016;0,2;P(POZ|M);T-P(regi2) - 1-P(r) = P(z|poz) - P(ROZ P(POZ) z\
+      \ 1-PUNESD-1-PUM;P(N|poz) - P(poz);PHOTA = PLN\u011AN\xCD \xDAVODU P(ROZK) =\
+      \ P(poziz). P(z) P(POZIZ) = PAAM-PINACAZZI-P1-PIN) RUPOLINA-PARTAZI-P(PEZ) =\
+      \ p(recit|A|X) PAP 12-1919 P(POLIM) = P(ROZIM) PIM;90%;P(N);P(POZ) = P(POZ,\
+      \ N) + P(POZZ)"
+    truth: 0
+  6:
+    pred: 1
+    text: "LOGISTICK\xC1 PROBL\xC9M;skon\u010Deno;Po moc\xED logistick\xE9 signoldy\
+      \ v\xFDupa prostranioln\xED pravd\u011Bpodobnost. Jde o diskriminativn\xED hlasifik\xE1\
+      tor, proto\u017Ee p\u0159id\u011Bluje vZoru t\u0159\xEDdu p\u0159\xEDmo- modeluje\
+      \ Hranici mezi t\u0159\xEDdami."
+    truth: 0
+  7:
+    pred: 3
+    text: "klasifika\u010Dn\xED probl\xE9m sa zab\xFDv\xE1 p\u0159i\u0159azen\xED\
+      m pozorovan\xFDch dat do n\u011Bjak\xE9 diskr\xE9tn\xED t\u0159\xEDdy. PRACOVASN\xCD\
+      \ PROBL\xC9MY POZD\u011AJI SOCI\xC1LN\xCD MODELUJ\xCD FUNKCE.;KLASIFIK\xC1TOR\
+      \ PROBL\xC9M\u016E - GAUSOVSK\xDD KLASIFIK\xC1TOR - MAxIMUM LIMACICHOOOD ODHAD\
+      \ rozlo\u017Een\xED. KONFIRMACE logistick\xE1 vagonka - CROSS - ENTROPY;tragnasn\xED\
+      \ probl\xE9my;LIM\xC1NN\xCD PAGRASA - sLM OF SRVALES EKROP NEURONOV\xC1 S\xCD\
+      \u0164 - MSE"
+    truth: 3
+  8:
+    pred: 4
+    text: "osobn\u011B si mysl\xEDm, \u017Ee to mo\u017En\xE9 je. A\u010Dkoliv to\
+      \ zat\xEDm nikdo nedok\xE1zal;lidsk\xFD mozak je ten\xE1\u0159.\u201C Jen stroj\
+      \ i moj\xED\u0159 biologick\xFD. V dne\u0161n\xED Dobr\xE1 ji\u017E m\xE1me\
+      \ v\xFDpo\u010Detn\xFD handwark. Dosta\u010Denka siln\xFD aby byl schopen p\u0159\
+      i vhodn\xE9m pou\u017Eit\xED (mL) V\xDDHAZOVAT ZN\xC1MA INTRIGANCE."
+    truth: 4
+  9:
+    pred: 4
+    text: "ru\u010Dn\xED barevnost a definice p\u0159\xEDznak\u016F je pracn\xE1 a\
+      \ \u010Dasov\xE1 n\xE1ro\u010Dn\xE9. Vyu\u017Eit\xEDm hlubok\xE9ho u\u010Den\xED\
+      \ jsme schopni vrchn\xED vy nau\u010Dit co za p\u0159\xEDznak\u016F je vhodn\xE9\
+      \ pou\u017E\xEDt. D\xEDky tomu jsou u\u010Den\xED funguje ja Tak\xE9 mo\u017E\
+      n\xE9, \u017Ee NS valebna vhodn\xE1 p\u0159\xEDznaky, kter\xE1 \u010Dlov\u011B\
+      ka nenapadnou.;V z\xE1hodu m\u016F\u017Ee b\xFDt to, \u017Ee nejsme schopni\
+      \ ur\u010Dit na z\xE1klad\u011B \u010Deho SR NS Rozhoduje (pro\u010D jse v p\u0159\
+      \xEDznaky narodn\xE9 a co \u0159\xEDkaj\xED). Hlubok\xE9 v\u011Bzn\xFD Je tak\xE9\
+      \ \xFAprava n\xE1ro\u010Dn\u011Bj\u0161\xED a vy\u017Eaduje velk\xE9 mno\u017E\
+      stv\xED tr\xE9novac\xEDch dat aby pod\u013E\xEDho rozumn\xE9 p\u0159espolti."
+    truth: 4
+  10:
+    pred: 3
+    text: "Na za\u010D\xE1tku konvolu\u010Dn\xED v\xEDt\u011Bz JDR p\u0159ev\xE1\u017E\
+      n\u011B o \"hrub\xE9\" vzory Jako jsou nap\u0159\xEDklad hrany, odpod.;hloub\u011B\
+      ji v s\xEDti se pak jedn\xE1 o konkr\xE9tn\u011Bj\u0161\xED prvky nap\u0159\xED\
+      klad spacifick\xFD tvor v oblasti brody, atd. Mombinace hrub\u0161\xEDch vzor\u016F\
+      \ z p\u0159edchoz\xEDch vrstev"
+    truth: 3
+  11:
+    pred: 0
+    text: "Mo\u017En\xE9 to je;na sto"
+    truth: 0
+  12:
+    pred: 2
+    text: "po\u010Det mand\xE1t\u016F z\xE1vis\xED na vstupu;VSTUPN\xCD VRSTVA;3 KAN\xC1\
+      LY BARAU;SvatB;AMEN;Ty contracts o w\xFDbar;pohrani\u010Dn\xED vrstva bude nap\u0159\
+      \xEDklad Signoria v takov\xE9m p\u0159\xEDpad\u011B by b\xED\u0165 klasifikovala\
+      \ z t\u0159\xEDdy (p\u0159\xEDslu\u0161nost nap\u0159.)"
+    truth: 0
+  13:
+    pred: 3
+    text: "V on-policy aL Goritm\u016F m\xE1 agent p\u0159\xEDstup o pouze me zku\u0161\
+      enostmi z\xEDskan\xFDch b\u011Bhem sou\u010Dasn\xE9ho \"\u017Eivota\u201C.;OFF-pOLICH\
+      \ ALgoRITMU UMO\u017D\u0147UJ\xCD AGAMERI Pou\u017EiT SA ZE STAT\u0160\xCDCH\
+      \ zku\u0161enost\xED.;vyu\u017E\xEDvaj\xED se ob\u011B matody."
+    truth: 3
+615402d7307cb7263797bb523a8e65a8:
+  2:
+    pred: 4
+    text: "p\u0159edpokl\xE1d\xE1m hlubok\xFD prohled\xE1vac\xED strom pam\u011Bti\
+      \ PFS ne (hodn\u011B hlubok\xFD => dlouh\xFD \u010Das, hodn\u011B kr\xE1tk\xFD\
+      \ BFS nejkrat\u0161\xED \u010Das (docela dost pam\u011Bti) Lzkratka na iterativn\xED\
+      \ DFSS (asi IDS) nejm\xE9- n\u011B pam\u011Bti. (v\xEDce \u010Dasu) (zkratka\
+      \ na limitovan\xE9 DFS hloubkou) nejvhodn\u011Bj\u0161\xED \u010Das i pam\u011B\
+      \u0165;graf p\u0159edstavuje zapamatovan\xFD nejlep\u0161\xED stav, jinak by\
+      \ podle zad\xE1n\xED vypadal cca: Justifik"
+    truth: 4
+  3:
+    pred: 4
+    text: "dlouh\xE9 doby mezi naleze- n\xEDm lep\u0161\xEDho stavu neuv\xEDzne trvale\
+      \ na lok. maximu, ale glob. naj\xEDt bude trvat k v\u016Fli;pr\u016Fchod je\
+      \ ochoten se p\u0159esunout i na hor\u0161\xED stav, proto\u017Ee se t\xEDm\
+      \ m\u016F\u017Ee dostat z lok. maxima a naj\xEDt lep maximum"
+    truth: 4
+  4:
+    pred: 2
+    text: "(x-;P(x);2TTO;12 2;norm. rozd\u011Blen\xED;odhad:;dr =;;P\u0159.;m\xED\
+      sto s nejv\u011Bt\u0161\xED hustotou prst\xED;tvar Gaussovky;(\u201C jak moc\
+      \ je rozta\u017Een\xE1;o"
+    truth: 0
+  5:
+    pred: 4
+    text: "P(naka\u017Een\xE9) = 0,2 P(pozitivn\xED|naka\u017Een\xFD) =0,9 P(negativn\xED\
+      |zdrav\xFD) = 0,975 (pozitivn\xED / naka\u017Een\xFD) = ?2?;P(pozitivn\xED|naka\u017E\
+      en\xFD);kdy\u017E vybereme osobu, kter\xE1 je naka\u017Een\xE1, tak to moc n\xE1\
+      hodn\xE9 nen\xED proto\u017Ee d\xE1le u\u017E se pra- cuje jen s prst\xED, \u017E\
+      e je pro ni test pozitivn\xED..."
+    truth: 4
+  6:
+    pred: 4
+    text: "- nap\u0159. K- nejb. soused\u016F, dustoring - nap\u0159. clustering pro\
+      \ data vygenerovan\xE9 z norm. rozd\u011Blen\xED - a post. prsti spo\u010D\xED\
+      t\xE1me pom\u011Brem hodnoty p(x) pro v\u0161echny existuj\xEDc\xED t\u0159\xED\
+      dy: 263 II8 v adoss p(x|= 1 jedn\xE1 se o diskr. klasifik\xE1tor, proto\u017E\
+      e vy\u0161\u0161\xED hustota v dan\xE9m Gaussov\xE9m rozd\u011B len\xED \uFFFD\
+      \ pat\u0159\xED do dan\xE9 t\u0159\xEDdy"
+    truth: 0
+  7:
+    pred: 2
+    text: "klasifikace se sna\u017E\xED za\u0159adit nov\xFD prvek do n\u011Bjak\xE9\
+      \ t\u0159\xEDdy (nap\u0159. dokument typu PDF) regresn\xED probl\xE9m se sna\u017E\
+      \xED naj\xEDt funkci, kte r\xE1 odpov\xEDd\xE1 p\u0159edlo\u017Een\xFDm dat\u016F\
+      m a data touto funkc\xED prolo\u017Eit (generalizovan\u011B v\u0161ak, klas.\
+      \ - k-nejb. soused\u016F, clostering regres. model lin. regrese (lin. kombinace)\
+      \ hlas. - data jsou vstup + o\u010Dek\xE1van\xFD v\xFDstup (objekt. funkce)\
+      \ o regrese jen vstup u regrese se pou\u017E\xEDv\xE1 metoda minima sumy \u010D\
+      tverc\u016F (o\u010Dek\xE1van\xFD Gaus. \u0161um), p\u0159\xEDp. abs. re"
+    truth: 0
+  8:
+    pred: 4
+    text: "Ano - pakli\u017Ee vych\xE1z\xEDme z toho, ze strong AI m\xE1 imitovat\
+      \ lidsk\xFD mozek mysl\xEDm si to, proto\u017Ee zvl\xE1dneme je element\xE1\
+      rn\xED prvky (neurony) a jejich propojen\xED simulovat chyb\xED n\xE1m pouze\
+      \ dostate\u010Dn\xFD v\xFDkon. a pam\u011B\u0165 (i na p\u0159esnost), co\u017E\
+      \ v\xFDvo jem v\xFDpo\u010Detn\xEDch technologi\xED vede do bodu, kdy v\xFD\
+      konnou a pam\u011Bti bude dostatek"
+    truth: 3
+  12:
+    pred: 2
+    text: "obr\xE1zek;obr\xE1zek RGB 3 kan\xE1ly, tensor na vstupu;konvoluce;nax pooling\
+      \ stand. NS;max pooling;konvoluce;v\xFDstupn\xED aktiva\u010Dn\xED vrstva bude\
+      \ m\xEDt na v\xFDstupu vektor, kde ka\u017Ed\xFD prvek x 46,17 a ur\u010Duje\
+      \ zda je na obr\xE1zku objekt x\u201E (nap\u0159. n =1 je holo)"
+    truth: 0
+  13:
+    pred: 4
+    text: "off-policy;v\u011Bt\u0161inou vy\u0161\u0161\xED p\u0159esnost a m\xE9\
+      n\u011B vzork\u016F mohou se u\u010Dit i z p\u0159edchoz\xEDch b\u011Bh\u016F\
+      \ na jeden vzorek sb\xEDraj\xED velk\xE9 mno\u017Estv\xED dat - lep\u0161\xED\
+      , kdy\u017E je prostor k vylad\u011Bn\xED (self-driving cars) on- policy ni\u017E\
+      \u0161\xED p\u0159esnost, v\xEDce vzork\u016F u\u010D\xED se pouze z 1 p\u0159\
+      ede\u0161l\xE9ho b\u011Bhu lep\u0161\xED, kdy\u017E se ide\xE1ln\xED model NS\
+      \ m\u011Bn\xED \u010Dase hodn\u011B"
+    truth: 0
+670bd457fe34808747e5544e5f168fb4:
+  0:
+    pred: 3
+    text: "V\xFDsledkem prohled\xE1v\xE1n\xED je strom af- then, (kter\xFD pomoc\xED\
+      \ senzor\u016F resp. data ze senzor\u016F agent v\xED rozhodnout jak\xE9 instrukce\
+      \ ze strom\u016F prov\xE1d\u011Bt"
+    truth: 3
+  1:
+    pred: 4
+    text: "Zisk 42 se nezm\u011Bn\xED, lebo aj offa-beto aj minimus daj\xED stejn\xED\
+      \ v\xFDsledek. B,57 sekund no tak bude zm\u011Bnit - nebo v nejhor\u0161\xED\
+      m p\u0159\xEDpad\u011B z\u016Fstane stejnej- kv\u016Fli tomu, \u017Ee affo-beta\
+      \ m\u016F\u017Ee nekter\xE9 listy z vyhled\xE1vac\xEDho stromu u\u0159ezat.\
+      \ Aby jsme mohli odhadnout p\u0159ibli\u017Euje o kolik sekund rychl\xED v\xFD\
+      po\u010Det pot\u0159ebujeme informace o vyhled\xE1vac\xEDm strom\u016F vytv\xE1\
+      \u0159en algoritmem - nap\u0159. faktory v\u011Btven\xED pro jednotliv\xE9 hr\xE1\
+      \u010De apod."
+    truth: 4
+  2:
+    pred: 4
+    text: "Budeme p\u0159edpokl\xE1dat, \u017Ee posledn\xED expandovan\xED uzel na\
+      \ \xFArovni obsahuje \u0159e\u0161en\xED -\u201Eworst case seznamovat T\xED\
+      m p\xE1dem BFS - Breadth - forst - search n\xE1m bude d\xE1vat nejlep\u0161\xED\
+      \ pam\u011B\u0165ov\xE9 a \u010Dasov\u016F slo\u017Eitost. Proti DPS n\xE1m\
+      \ d\xE1 lep\u0161\xED \u010Dasov\xE9 n\xE1roky, l\xE9to DFS m\u016F\u017Ee cyklit\
+      \ - nikde nic je neps\xE1n, \u017Ee prohled\xE1vac\xED strom nie je acyklick\xFD\
+      \ - a kv\u016Fli tomu aj lep\u0161\xED pam\u011B\u0165ov\xE9 n\xE1roky. Proti\
+      \ 105 - takov\xE1 optimalizace BFS je zbyte\u010Dn\xE9, v\xEDme v jeho hloubky\
+      \ je \u0159e\u0161en\xED. VCS: mo\u017En\xE9 pou\u017Eit\xED je nesmysln\xE9\
+      , \u017Ee (v\u011Bt\u0161\xED) existuje uzel cenou v\u011Bt\u0161\xED ne\u017E\
+      \ 1. Jedin\xEDm vylep\u0161en\xEDm brygbol modifikace DFS, limitov\xE1n\xED\
+      m do hloubky 8 - \u010Dasov\xE9 n\xE1roky bude m\xEDt stejn\xE9 nebo hor\u0161\
+      \xED kv\u016Fli cyklen\xED, ale pak v pam\u011Bti dr\u017E\xEDme len aktu\xE1\
+      ln\xED cestu + seznam uzl\u016F v hloubce x + to sn\xED\u017E\xED pam\u011B\u0165\
+      ov\xE9 n\xE1roky."
+    truth: 4
+  3:
+    pred: 2
+    text: "po\u010Det stavu;Simulovan\xE9 \u017E\xEDh\xE1n\xED < -> A - bude konverzovat\
+      \ rychlej jako n\xE1hodn\xE1 proch\xE1zka. SA m\xE1 mechanizmus, kter\xE9 umo\u017E\
+      \ akceptov\xE1n\xED hor\u0161\xEDho ohodnocen\xED stav\u016F jako aktu\xE1ln\xED\
+      \ pops\xE1n rovnicemi: DE = EUSS - EUSI EOS - \u201Eenergie\u201C aktu\xE1ln\xED\
+      ho stavu E(s|) - \u201Eenergie\u201C p\u0159\xED\u0161t\xEDho stav;N\xE1hodn\xE1\
+      \ proch\xE1zka;Pravdepodobnost, \u017Ee algoritmus nov\xFD stav s'akceptuje\
+      \ je 1-es\u0165, kde T je \u201Eteplota\u201C;kvalita stavu"
+    truth: 0
+  4:
+    pred: 1
+    text: "PCY P(x|= odhadnout lze jako po\u010Det vstupn\xEDch dat dan\xE9ho t\u0159\
+      \xEDdy deleno po\u010Dtem ka\u017Ed\xE9ho vzork\u016F P(y) - odhadnout lze jako\
+      \ pod\xEDl vzork\u016F danej t\u0159\xEDdy a po\u010Det ka\u017Ed\xE9ho vzork\u016F\
+      \ P(x|y) - odhadnout pomoc\xED vzorce P(x|y) = arg max (N|x; u, ?)) P(yx) -\
+      \ odhadnout pomoc\xED Bayes\u016Fv vzorce 1869 N (x|N, [2) x - je matice vstupn\xFD\
+      ch dat, m\xE1 discenzie 3 (dimenzia) \uFFFD po\u010Det dat v t\u0159\xEDde -\
+      \ floating point \u010D\xEDsl\xE1 u - je matice 3x1 pro odhad \u0161t\u0159\
+      ednej hodnoty - floating point \u010D\xEDslo - pomoc\xED vnouce u= XII 312 5-\
+      \ je matice) hororiza\u010Dn\xED matice 3x3 pro odhad rozptyl\u016F - flating\
+      \ point \u010Del\xE1 - pomoc\xED vzorce 2 1/2 (xo-re) Wornst Je t\u0159eba odhadnot\
+      \ PCX) 1 fr\xE1t, P(ys 2 kr\xE1t, P(x|y) Zkr\xE1tka - a kotomu u 2 kr\xE1t,\
+      \ [Zkr\xE1t- a t\u011Bm p\xE1dem podle Rages\u016Fv vzorce lze vypo\u010D\xED\
+      tat odhad P(y|x) - zase 2 hr\xE1t pro 2 t\u0159\xEDdy;ex)"
+    truth: 1
+  5:
+    pred: 0
+    text: "P(CH) ZOS;POZ, NEGI=0, 975 P(ct\xED, Pos) = 0,9;P/Cyklop 0,975 INEARIE\
+      \ 1-PONECIALE = UNIVERS;(CHIPOS). P(POS) P(POSICH) P(CA) P(CH|POS) P(POS) =\
+      \ P(CH, POS) Product rule P(POSICH) = P(CA, POS) P(CH) P(POSICH);Bayes rule;12;;P(POSICH);/"
+    truth: 0
+  6:
+    pred: 0
+    text: "Z Polynomi\xE1ln\xED klasifikace 1. Polynomi\xE1ln\xED / line\xE1rn\xED\
+      \ klasifikace 2. (Lonearningues);pohled ter\xFD kalhoty.;Stellg;;11;Auf die\
+      \ Angriffe ist es daher das durchgef\xFChrte erschienen kann, da\xDF ich eigentlich\
+      \ aus- schie\xDFen dann als trotzgem\xE4\xDF jeder Stabschule. Bald Koter war\
+      \ das eintr"
+    truth: 0
+  7:
+    pred: 2
+    text: "U klasifika\u010Dn\xEDm probl\xE9m\u016F na vstupn\xED sadu chceme uh\xE1\
+      dnout aposteriorn\xED pravdepodobno p(x|c) - t. j. pravdepodobnost, \u017Ee\
+      \ vstupn\xED vzorek x pat\u0159\xED do nejakej t\u0159\xEDde, jak o \u0148om\
+      \ m\xE1me k dispozice informace a - pat\u0159\xED do t\u0159\xEDdy c.. V regresn\xED\
+      m probl\xE9m\u016F neuf neaproximujeme p(x|c), ale chceme data reprezentovat\
+      \ pomoc\xED funkce.;g 10 August"
+    truth: 0
+  8:
+    pred: 3
+    text: "Ur\u010Dite lze vytvo\u0159it General AI. Probl\xE9m vytvo\u0159en\xED\
+      \ takov\xE9 AI je vlastne velmi komplikovan\xE9 verze Reinforcement learning\
+      \ probl\xE9m\u016F, jak je to reinforcement learning probl\xE9m, ur\u010Dite\
+      \ mus\xED existovat nejak\xFD neuronov\xED s\xED\u0165, kter\xE9 to modeluje\
+      \ - t. j. \u0159e\u0161en\xED na probl\xE9m existuje, len jsme to dosud nena\u0161\
+      li. Jin\xEDm argumentem je, \u017Ee v\xEDme, \u017Ee existuje neco, co m\xE1\
+      \ po\u017Eadovan\xE9 vlastnosti (t\u0159eng) General AI - \u010Dlov\u011Bk -\
+      \ potom je t\u0159eba len n\xE1js\u0165 techniku, kter\xE9 \u010Dlov\u011Bka\
+      \ transformuje na neur\xE1ln\xED s\xED\u0165, a m\xE1me probl\xE9m vy\u0159\
+      e\u0161en."
+    truth: 3
+  9:
+    pred: 2
+    text: "Shallow learning obecne vytv\xE1\u0159\xED algoritmi, kter\xE9 (pracuj\xED\
+      \ rychlej\u0161ie, ale nevyu\u017Eie p\u0159\xEDznaky tak efektivne jako deep\
+      \ learning. P\u0159\xEDznaky m\xE1me definovan\xE9, t\xEDm p\xE1dem nen\xED\
+      \ t\u0159eba pou\u017E\xEDt extrakce p\u0159\xEDznaku hlubok\xE9 u\u010Den\xED\
+      \ je velmi dobr\xE9 na extrakce lumplexn\xEDch p\u0159iznaku, ale toto vlastnost\
+      \ nie je po\u017E\xE1d\xE1n, v tej \xFAloze."
+    truth: 3
+  10:
+    pred: 3
+    text: "Obecne \u010D\xEDm hloub\u011Bji je konvolu\u010Dn\xED j\xE1dro ve s\xED\
+      t\xED t\xEDm v\u011Bt\u0161\xEDm \u010D\xE1stem obraz\u016F pracuje, KJ na za\u010D\
+      \xE1tku KS extrahuj\xED tzv. low - lesech p\u0159\xEDznaky, hloub\u011Bj\u0161\
+      \xED KJ extrahuj\xED high-level p\u0159\xEDznaky.;"
+    truth: 3
+  11:
+    pred: 1
+    text: "Ne, obecne ne. Bez rekurentn\xFDch vrstev nemal neuroni \u0161\xEDt \u0161\
+      ancu odhadnout, kde za\u010Dne p\xEDsmeno slov\xE1, a kdy zkon\u010D\xED. D\xE9\
+      lku pro 1 p\xEDsmeno je teda t\u0159eba m\u011Bni\u0165 dinami\u010Dky. Potom\
+      \ existuj\xED jazyky u kter\xE9ch 1 p\xEDsmeno + 1 oznak jako map\u0159. \u010D\
+      \xEDn\u0161tina, t\xEDm p\xE1dem mus\xED n. s. nejak m\xEDt informace o tom,\
+      \ jak\xE9 byly p\u0159edchoz\xED p\xEDsmena - zase nelze bez rekurentn\xEDch\
+      \ vrstev."
+    truth: 1
+  12:
+    pred: 2
+    text: "obrazek;26. 10.;\u011AJEZD;ne\u017Een;XXXIV Obrazat xxx 3 kan\xE1lu pro\
+      \ rgb, extrakce 16 p\u0159\xEDznaku podiny vrstva 2x2 MAX - 3 kan\xE1l\u016F\
+      \ pro ryb, matice 2, x \xA7 2, 32 p\u0159\xEDznak\u016F -> pooling vrstva 29\
+      \ a 4 dostaneme 1x 1024 p\u0159\xEDznak\u016F - m\u016F\u017Eeme extrahovat\
+      \ v\xEDc, ale zvolme si nap\u0159. 1024- ve formu matice re\xE1ln\xEDch \u010D\
+      \xEDsel. Vrstvy - konvolu\u010Dn\xED, pooling Kan\xE1ly: max 3 kv\u016Fli reprezentace\
+      \ obr\xE1zku pomoc\xED matice RG hodnot lze tam d\xE1t v\xEDce kan\xE1lu, ale\
+      \ nep\u0159in\xE1\u0161\xED \u017E\xE1dn\xE9 extra informace. V\xFDstup: Konvolu\u010D\
+      n\xED vrstva = pro vstup XXX, v\xFDstup je XXX Pooling vrstva: pro vstup xx\
+      \ v\xFDstup je fx /k/x|k) pro k \xA7 1, hen"
+    truth: 2
+6d65dc6bf7799b7c2120fc4a33c97784:
+  0:
+    pred: 4
+    text: "V\xFDsledek je pl\xE1n ve tvrn\u011B stromu. Senzory agentor\xED \u0159\
+      eknou, do kter\xE9ho stavu (potomku ANO uzlu) ho akce zavedla, tedy, kam m\xE1\
+      \ pokra\u010Dovat.;v pl\xE1nu"
+    truth: 0
+  1:
+    pred: 0
+    text: "Zick z\u016Fstane stejn\xFD. Volba toho se nejsp\xED\u0161e zrychl\xED\
+      \ - ale jak moc to z\xE1le\u017E\xED na podob\u011B hemn\xFDch strom\u016F (\u0161\
+      irok\xE9 lep\u0161\xED ne\u017E hlubok\xE9) a uspo\u0159\xE1d\xED potomk\u016F\
+      \ v uzlech."
+    truth: 0
+  2:
+    pred: 0
+    text: "DLS s limitem hloubky 8 podle \u0159e\u0161en\xED - v\xEDme, \u017Ee levn\u011B\
+      j\u0161\xED neexistuje pam\u011Bti - je to dopl\u0148 = first \u010Dasu - neprohled\xE1\
+      v\xE1 nic dvakr\xE1t, netestuje \u017E\xE1dn\xFD seznam CLOSED"
+    truth: 0
+  3:
+    pred: 2
+    text: ";random walk (RW);se sn\xED\u017Een\xEDm teploty;SA se ze za\u010D\xE1\
+      tku moc neli\u0161\xED, ale potom u\u017E d\u011Bl\xE1 zho\u0159\u0161uj\xED\
+      c\xED se kroky jen ob\u010Das a mal\xE9 RW jede \xFApln\u011B n\xE1hodn\u011B\
+      \ jedou dobr\xE1"
+    truth: 0
+  4:
+    pred: 3
+    text: "Bages\u016Fv Vzorce;P(e);p(x|c) P(c);P(x);P(x|c) P(c);[P(sloj) Pls;vyhodnot\xED\
+      me prior Plej) = p\u0159\xEDmo parametre;likelihood P(x|c) - jako N|x;parametry:\
+      \ pro ka\u017Edou t\u0159\xEDdu o vektor st\u0159edn\xEDch hodnot: I re\xE1\
+      ln\xE1 \u010D\xEDsla Kolarian\u010Dn\xED matice [:3x3, ale symet\u0159ick\xE1\
+      , tak\u017Ee b\xE1sel o p\u0159ior T;: 1 \u010D\xEDslo (\u0161lehy uspo\u0159\
+      it, proto\u017Ee mus\xED sumovat do 1) p\u0159es t\u0159\xEDdy Celkem 20 \u010D\
+      \xEDsel (13, pokud vyoptimalizujeme jeden prior) \u017D1 a uj z\xEDsk\xE1me\
+      \ ML- odhadem gaussovky na datech t\u0159\xEDdy z\xEDsk\xE1me ML - odhadem kategorick\xE9\
+      ho rozlo\u017Een\xED z po\u010Dtu dat z jednotliv\xFDch t\u0159\xEDd."
+    truth: 0
+  5:
+    pred: 0
+    text: "P(nak) = 0,2 P(poz/nak) = 0.9 P(negl zdr) = 0.975;P(poz/nak) =? trivi\xE1\
+      ln\xED: P(pozlnak) = 90%"
+    truth: 0
+  6:
+    pred: 1
+    text: "(line\xE1rn\xED) logistick\xE1 regrese, neuronov\xE1 s\xED\u0165 se soltmaxem\
+      \ logistick\xE1 signalida;P(c=1|X) = o (\u0159\xED\u0161sk\xFD + b);odhaduje\
+      \ p\u0159\xEDmo posterionn\xED pravd\u011Bpodobnost, napo\u010D\xEDt\xE1 \u017E\
+      \xE1dn\xFD likelihood P(x|c) nebo joint Plx, c)"
+    truth: 0
+  7:
+    pred: 2
+    text: "Klasifikace provotuje odhaduje diskutn\xED v\xFDstup (z kone\u010Dn\u011B\
+      \ velk\xE9 moco\u017Einy z regrese spojit\xFD (obecn\u011B v\xEDcedimenzion\xE1\
+      ln\xED). Pravd\u011Bpodobn\xED statistici nerozd\u011Bluj\xED, ostatn\u011B\
+      \ logistick\xE1 regrese Tr\xE9novac\xED p\u0159\xEDklady jsou v obou p\u0159\
+      \xEDpadech dvojice (x, t), jen povaha c\xEDlov\xE9 hodnoty t z\xE1le\u017E\xED\
+      \ na probl\xE9mu! Klasifika\u010Dn\xED modely regresn\xED modely support - rektor\
+      \ machine line\xE1rn\xED regrese MNV s line\xE1rn\xEDm v\xFDstupem NN se sottmaxem\
+      \ na v\xFDstupu"
+    truth: 0
+  8:
+    pred: 2
+    text: "Mysl\xEDm, \u017Ee m\u016F\u017Ee vzniknout, ale nem\u016F\u017Eeme ji\
+      \ vytvo\u0159it.;Siln\xE9 AI spo\u010D\xEDv\xE1 ve schopnosti \u0159e\u0161\
+      it ne\u010Dekan\xE9 probl\xE9my, ide\xE1ln\u011B se v nich potom zdokonalovat.\
+      \ Na Zemi pozorujeme takov\xE9 schopnosti jen u vy\u0161\u0161\xEDch pr\xE1\
+      vek (u n\u011Bkter\xFDch vodn\xEDch rourc\u016F) - a je to v\xFDsledkem milion\u016F\
+      \ let evoluce, jej\xED\u017E jedinou objektivn\xED ta je schopnost reprodukce.\
+      \ S ohledem na nevyhnutoho pomalost toho procesu (i v simulaci, kter\xE1 by\
+      \ musela b\xFDt fantasticky deta nen\xED re\xE1ln\xE9 n\u011Bco takov\xE9ho\
+      \ prov\xE9st v rozsahu jednoho nebo n\u011Bkolika m\xE1lo \u017Eivot\u016F.\
+      \ A nen\xED ani \u017E\xE1douc\xED, aby s lidstvem n\u011Bco srovnateln\u011B\
+      \ inteligentn\xEDho sout\u011B\u017Eilo o zdroje"
+    truth: 0
+  9:
+    pred: 0
+    text: "V\xFDhody s sta\u010D\xED jeden DL expert na celou plaj\xE1du probl\xE9\
+      m\u016F obecn\u011B se dosahuje p\u0159esn\u011Bj\u0161\xEDch \u0159e\u0161\
+      en\xED lze nal\xE9zt ne\u010Dekan\xE1 \u0159e\u0161en\xED Nev\xFDhody: \u201E\
+      DL pot\u0159ebuje\u0161 v\xEDc dat k nau\u010Den\xED tr\xE9nov\xE1n\xED je typicky\
+      \ v\xFDpo\u010Detn\u011B n\xE1ro\u010Dn\u011Bj\u0161\xED (u\u010D\xEDme toho\
+      \ v modelu v\xEDc)"
+    truth: 0
+  10:
+    pred: 4
+    text: "i pro ostatn\xED architektury?);obecn\u011B a nevyhnuteln\u011B se li\u0161\
+      \xED velikost\xED \u2014 hloub\u011Bji v s\xEDti je v\u011Bt\u0161\xED receptive\
+      \ field;prakticky to b\xFDv\xE1 posun od geometrick\xFDch vzor\u016F k s\xE9\
+      mantick\xFDm"
+    truth: 0
+  11:
+    pred: 4
+    text: "Ano, nap\u0159. 1-D konvoluce pro ASR (por-trame klasifika;XXXII Wolffall\
+      \ an;1;Man"
+    truth: 0
+  12:
+    pred: 2
+    text: "32 handl\u016F;E - komotivn\xED vrstva + max pooling - st\u0159eda;+ \u0158\
+      ekY;64 kan\xE1l\u016F;- konvolu\u010Dn\xED 1x1 vrstva + max pooling - stride;+\
+      \ ROLV;16 hodin;- mean proling - klasifika\u010Dn\xED vrstva se s oftmaxem \uFFFD\
+      \ v\xFDstup (log) pravd\u011Bpodobnosti t\u0159\xEDd)"
+    truth: 0
+  13:
+    pred: 0
+    text: ''
+    truth: 0
+6d77c9d20f085c086b11952b297e4608:
+  0:
+    pred: 0
+    text: "PL\xC1N V\xDDSLEDKEM BUDE MNO\u017DINA AKC\xCD, PROTO\u017DE SE POHYBUJEME\
+      \ V PROST\u0158ED\xCD, KTER\xC9 N\xC9NI DETERMINISTICK\xC9 \uFFFD v\xEDce v\xFD\
+      sledk\u016F SENZARY - POMOHOU AGENTOVY SE ROZHODNOUT"
+    truth: 0
+  2:
+    pred: 3
+    text: "- NEN\xCD OPTIM\xC1LN\xCD - JE OPFIM\xC1LN\xCD - NAJDE NEJLEP\u0160\xCD\
+      \ MO\u017DN\xC9 \u0158E\u0160EN\xCD;IDS - LEP\u0160\xCD PAM\u011A\u0165 N\xC1\
+      RO\u010CNOST NE\u017D BYC BFS - NAJDE RYCHLEJI NE\u017D IFG"
+    truth: 3
+  3:
+    pred: 3
+    text: "KVALITA;S\u017D;\u017D_ KOMBINACE NP A GREJN\xCD SEBECH , - BUDE RUST;KLESSE;PO\u010C\
+      ET;STAV;Ale \u010Casto se st\xE1v\xE1, \u017Ee je NP - KVALITA POSTUPN\u011A\
+      \ ROSTE NAV\u011AT\xDDSN N\u011AJAK\xDD STAV, KTER\xDD U\u017D BYL NAV\u0160\
+      \xCDVEN - TAM ZLE NEROSTE ANI NEKLES\xC1"
+    truth: 0
+  4:
+    pred: 2
+    text: "E XCN uc= 19 xon-ucl (xcm? wo) 2 = IV % \";- JE POPBA;N - IN- ST\u0158\
+      EDN\xCD HODNOTA - ROZAKOLACE po\u010Det t\u0159\xEDd E-P\u0158\xCDSLU\u0160\
+      NOST;P(c|x| = P(X|c) PIC) ZkP(X|2) P(2);- WER tomto p\u0159\xEDpad\u011B - E\
+      \ - MATICE 3x3 CENY (PRO N\xC1S 2 -C <1, N|16"
+    truth: 2
+  5:
+    pred: 0
+    text: "PCNISOVIZ;POZITIVN\xCD, NP... NEGATIVN\xCD P(NP|\uFFFD) so, 1 PINJEDI9\
+      \ \uFFFD P(ZINP) = 0,975 \uFFFD P(z IN) = 0, 0, 025;P(PIN);PINIPIPIPI;PINT;ODPOV\u011A\
+      D;je ji\u017E obsa\u017Eena v zad\xE1n\xED 90%."
+    truth: 4
+  6:
+    pred: 3
+    text: "LABISTICK\xC1 REXOLUCE;GRAPPENT DESCENT;-LR- PRO V\xDDPOCET POU\u017DIJEM\
+      \ SIEMNO O INI =  (c=1|x) = o [w|= 5 (w|x1 + wot P(c|X|=1-6|X);PROTO\u017DE\
+      \ VSTUPY JSOU ROVNOU MAPOV\xC1NY NA PILIX - NAROZD\xCDL OD GEN. TZ\xC9NOV\xC1\
+      N\xCDCH MODEL\u016E (PIx AL \uFFFD PIC) \uFFFD PER"
+    truth: 3
+  8:
+    pred: 2
+    text: "=;ZAT\xCDM NEUSP\xCD\u0160E NE NEJSOU ANI PEVN\u011A NASTAVEN\xC9 PARAMETRY\
+      \ JAK GENERAL AI POZNAT - M\xE1me TURNINGIN TEST, ALE TEN JE NEDOKONAL\xDD proto\u017E\
+      e dan\xE1 AI m\u016F\u017Ee odpov\xEDdat na OT\xC1ZKY INA KTER\xDD JE P\u0158\
+      IPRAVENA CENSK\xC1 M\xCDSTNOST a \u010Dlov\u011Bk ji pak nerozezn\xE1 od \u010D\
+      lov\u011Bka Dal\u0161\xED V\u011Ac\xED JSOU NAP\u0158\xCDKLAD \xC9MOCE A SEBEV\u011A\
+      DOMN\u011AN\xCD"
+    truth: 2
+  9:
+    pred: 0
+    text: "HLUBOK\xC9 V\u011ASN\xCD;+ NEMUS\xCDME NASTAVOVAT P\u0158\xCDZNAKY A NS\
+      \ SI JE Sama dopo\u010D\xEDt\xE1 + p\u0159\xEDznaky jsou sou\u010Dasn\xE9 ZNALOSTI\
+      \ O PROBL\xC9MU FLEPG\xCD V\xDDSLEDKY;SLO\u017DITEV\u0160\xCD A V\xDDPO\u010C\
+      ETN\xC9 N\xC1RO\u010CN\u011AJ\u0160\xCD NE\u017D SMALLOW LSAKING"
+    truth: 3
+  10:
+    pred: 4
+    text: "ZA\u010C\xC1TEK \uFFFD ZACHR\xC1N\xCD VZORY ZOBRAZUJ\xCD MRAVY, BARVA ST\u0158\
+      ED O OBSAHUJ\xCD V\u011AT\u0160\xCD \u010C\xC1STI OBjEKT\u016E KONEC - vZORY\
+      \ OBSAHUJ\xCD OBJEKTIVECK\xC9 \u010C\xC1STI OBJEKTU;\u010C\xEDm jsme hloub\u011B\
+      ji v ks, t\xEDm budou vZORY ZANLEJ\u0160\xCD V\u011AT\u0160\xCD \u010C\xC1STI\
+      \ OBJEKT\u016E D1"
+    truth: 0
+  11:
+    pred: 0
+    text: "ANO, ALE S\xCD\u0164 BEZ RV JE MNOMEM SLO\u017DIT\u011AJ\u0160\xCD"
+    truth: 0
+  13:
+    pred: 3
+    text: "- ON-DALICI - p\u0159i ZLEMEN\xCD CHOV\xC1N\xCD NEM\u016E\u017DOU POU\u017D\
+      \xCDVAT vzpom\xEDnej (akce, kter\xE9 byly vykonan\xE9 p\u0159ed ZM\u011ANOVY\
+      \ P\u0158EDCH\xC1ZEJ\xCDC\xCD OFF-pALILI - vYU\u017D\xCDV\xC1 STAR\xC9 VZPOM\xCD\
+      NKY;OFF-POLICI - je lep\u0161\xED"
+    truth: 3
+7b4dd0c8ba3c575059ffeff8f8f696d5:
+  0:
+    pred: 4
+    text: "AND-OR strom na z\xE1klad\u011B kter\xE9ho spomoc\xED senzor\u016F (budou\
+      \ sledov\xE1t \u201Echov\xE1n\xED\u201C prost\u0159ed\xED) agent bude vykonav\xE1\
+      t akce v zavislost\xED na vjemech z prost\u0159ed\xED."
+    truth: 3
+  1:
+    pred: 3
+    text: "zisk se zustane ste \u010Das volby tah\u016F m\u011Bl by zmen\u0161it Pro\
+      \ odhad chyb\xED informace o hrach (jak\xE9 jsou hry, kolik krat se v n\xED\
+      ch hralo, pro vypo\u010Det po\u010Dtu uzl\u016F, kter\xE9 se d\xE1 \u201Eod\u0159\
+      iznout\u201C);maj\xED spojen\xED Stra\u0161n\u011B se \u0161a stoj\xED;g An"
+    truth: 4
+  2:
+    pred: 0
+    text: "Nejlep\u0161\xED bude IDS.;.......;po p\u0159evratu do posledn\xEDch stavech\
+      \ se pod\xEDl\xED i na po\u010Dest pomoci podle pozn\xE1n\xED na podporu pro\
+      \ sv\xE9 - pozn\xE1mka po p\u0159\xEDpad\u011B p\u0159edstaven\xED pou\u017E\
+      it\xED pozn\xE1n\xED pod n\xEDm podporovali mal\xE9 maso a podobn\xE9 Pozn\xE1\
+      mky z posledn\xEDch dn\u016F a po;posl=;(pos/nen\xED;P(nen\xED).;poznanost;Magdalena\
+      \ \u0160tefana \u0160vagrov\xE1 26 roku 1936 / 25 1/6 1936 Barta Barto\u0148\
+      \ Barto\u0148 \u0160erem \u0160irokovsk\xFD Bartom Dem dort;p(pos/nen\xED) =\
+      \ P(nen\xED lpos) P(pos);P(nen\xED)"
+    truth: 0
+  3:
+    pred: 2
+    text: "kvalita p;simulovan\xE9 \u017E\xEDh\xE1n\xED;nahodn\xE1 prochazka;po\u010D\
+      et stav\u016F nahodn\xE1 proch\xE1zka pamatuje jenom nejlep\u0161\xED stav proto\
+      \ s po\u010Dtem stav\u016F kvalita postupn\xE9 roste p\u0159ipadn\u011B se nem\u011B\
+      n\xED i del\u0161\xED dobu. simulovan\xE9 \u017Eihan\xED postupne zlep\u0161\
+      uje ziji\u0161ten\xE9 \u0159e\u0161eni, ale \u010Dasem m\u016F\u017Ee spac i\
+      \ k hor\u0161\xEDmu \u0159e\u0161en\xED."
+    truth: 2
+  4:
+    pred: 0
+    text: "Star\xE1 na stole;1915 Starosta: Star\xFD Kraj"
+    truth: 0
+  5:
+    pred: 4
+    text: "P(naka\u017Een\xFD) = 0,2 P(nen\xED naka\u017Een\xFD) = 1 -0,2 = 0,8 P(pozitivn\xED\
+      \ i naka\u017Een\xFD) = 0,9 P(pozitivn\xED) nen\xED naka\u017Eeny) P(negativn\xED\
+      |nen\xED naka\u017Een\xFD) =0, 975 P(negativn\xED|naka\u017Een\xFD) = 1-0,975=0,025;P(naka\u017E\
+      en\xFD / pozitivn\xED) =;(naka\u017Een\xFD / pozitivn\xED) -?;P(pozitivn\xED\
+      |naka\u017Een\xFD). P(naka\u017Een\xFD) -;P(pozitivn\xED)"
+    truth: 0
+  6:
+    pred: 0
+    text: ''
+    truth: 0
+  7:
+    pred: 3
+    text: "pokus odepis na starosti kus\u016F 9.- se konal velkou mouku regierung\
+      \ von der Stellung Ausserordentlichen Bestrebungen;de se charge dom\u016F. rog\
+      \ si p\u0159edstavuje hodinu se odjelo Borohrady od n\xE1s na hornou \u010D\
+      ervenku Zbran\u011B bude prosit;14 9 Juni abends;posledn\xED hod.;Vilson;20\
+      \ - (pou\u017Eov\xE1n) PO = (prostor/inviting) 2780 = (po\u010Das\xED - insp.)\
+      \ Invalidisace + a (jenom na sv.) Invalidi Dar;20 = 20 - 15 (jeno\u0161enka\
+      \ ??) pr\u016Fm\u011Brn\u011B inval. povinnost;sogl jsem"
+    truth: 0
+  8:
+    pred: 4
+    text: "Podle meho nazoru zat\xEDm to nen\xED mo\u017En\xE9 i kdy\u017E sou\u010D\
+      asn\xE1 \xFArove\u0148 je vysok\xE1 (nap\u0159. DALLE, GPT-3...), ale ur\u010D\
+      it\u011B by ji\u017E pro\u0161la Turing\u016Fvym testem. Nen\xED v\u0161emu\
+      \ se d\xE1 nau\u010Dit 2 dat (nap\u0159. soucit). Mo\u017Ena v budoucnu kv\u016F\
+      li n\u011Bjakemu pr\u016Flomu v stavb\u011B\u201C sit\xE9 (architektu\u0159\
+      e) se poda\u0159i zv\u011Bt\u0161it v\xFDkonnost a tak\xE9 odstranit \u201E\
+      omezen\xED\u201C pro sit\u011B (co\u017E ur\u010Dit\u011B nebezpe\u010Dn\u011B\
+      \ pro nas) sed\xE1 dosahnout urovn\u011B siln\xE9 inteligenci"
+    truth: 0
+  9:
+    pred: 2
+    text: "Shallow learning je povrchov\xE9 u\u010Den\xED m\u016F\u017Ee m\xEDt v\xFD\
+      hodou v\u016F\u010D\xED hlubok\xE9mu u\u010Den\xED jenom v hor\u0161\xED po\u010D\
+      ate\u010Dn\xED znalost\xED domeny pro kterou se d\xE1 nastavit ru\u010Dn\u011B\
+      \ lep\u0161\xED p\u0159\xEDznaky, kter\xE9 pot\u0159ebujeme nastavit jako \u201E\
+      d\u016Fle\u017Eit\xE9\u201C. Jinak hlubok\xE9 \xED\u010Den\xED bude m\xEDt vyhodou\
+      \ \u017Ee sama zvol\xED p\u0159iznaky a nastav\xED jich hodnoty jenom Ze znalosti\
+      \ vstupn\xEDch dat.;Man\u017Eelka"
+    truth: 0
+  10:
+    pred: 0
+    text: ''
+    truth: 0
+  11:
+    pred: 4
+    text: "Ano, pomoc\xED konvolu\u010Dn\xEDch a peoling vrsev.;policing vrstvy;;;da\
+      \ no;tull connected vrstvy;konvolu\u010Dn\xED vrstvy"
+    truth: 4
+  12:
+    pred: 0
+    text: .. 1 .....;. .
+    truth: 0
+  13:
+    pred: 0
+    text: ''
+    truth: 0
+8310871a91f6396928f7e50acd47c2d3:
+  0:
+    pred: 4
+    text: "v\xFDsledkem je deriva\u010Dn\xED strom akci\xED na z\xE1klade senzova\
+      \ rozhoduje z kter\xE9ho podstromu vyberie akcin"
+    truth: 0
+  1:
+    pred: 4
+    text: "mu odhadu chyb\xED.;pr\u016Fm\u011Brn\xFD risk rostane podla mna pribli\u017E\
+      ne promal\xFD, mo\u017Eno ok\xFArok lep\u0161\xED, ale vkor ty som povedal \u017E\
+      e nie ale rh\u013Eadiska r\xFDchlosti bude ur\u010Dite efektivn\u011Bj\u0161\
+      \xED, ale maximalne zrychlenie by sem o\u010Dak\xE1val do 50% hedrie nejak\xFA\
+      \ r\xF4\u017Eu ur\u010Dite raterie aj alfa-Bela v\xFDpo\u010Det presne ty sa\
+      \ to dalo odhadn\xFA\u0165 v pr\xEDpade, \u017Ee ty sme poznali prehlad\xE1\
+      vac\xED priestor, kde by sme vedeli, kter\xE9 akce alfa-beta nebud\xFA v\xF3\
+      bec prohlad\xE1va\u0165 pod"
+    truth: 4
+  2:
+    pred: 3
+    text: "s nejv\xE1\u017E\u0161ou pravdepodobnostou pom\u011Bl algoritmus.. IDS,\
+      \ ked\u0159e vieme presm\xFA h\u013Ebku, v kter\xFD sa nach\xE1d\u011Bli ru\u0161\
+      enie a na toto je IPS ako stvo\u0159en\xFD, hed\u017Ee ur\u010D\xEDme postavi\u0165\
+      \ h\u013Esku do kter\xFD budeme prekl\xE1d\xE1va\u0165, t\xFDm p\xE1dom nebudeme\
+      \ prehled\xE1va\u0165 ve\u013Ea zbyte\u010Dn\xFDch vetier. dal\u0161\xEDm benefitom\
+      \ je, \u017Ee prohlad\xE1vame do hlasy \u010Do zmaneni, \u017Ee oproti napr\xED\
+      klad BFS m\xF4\u017Eeme najs\u0165 nie\u0161enn\xE9 st\xF3r, red\u010De nemus\xED\
+      \ expandova\u0165 v\u0161elky uzly na ka\u017Ed\xFD \xFArovni"
+    truth: 3
+  3:
+    pred: 0
+    text: "tyto;po\u010Det nav\u0161t\xEDven\xFDch stavou"
+    truth: 0
+  4:
+    pred: 0
+    text: "nemocnice a potom po p\u0159ekon\xE1ch po p\u0159evratu za postaven\xED\
+      \ na poln\xED stran\u011B a pod. Z po p\u0159evratu na stran\u011B poln\xED\
+      \ polovice poln\xED strany a pod. Za stanovisko posledn\xED podporu\u010D\xED\
+      ka posledn\xED den po prv\xE9 v noci poznal jsem si na to nejlep\u0161\xED starost;o;mjr.\
+      \ do 12./7"
+    truth: 0
+  5:
+    pred: 0
+    text: 0,18;0,925;P(p|c) .. p(c;Pip;P;- 0,1;0,900,2;0,9 + 0,025
+    truth: 0
+  6:
+    pred: 4
+    text: "- je mo\u017En\xE9 pou\u017Ei\u0165 regresn\xFD model - gausovsk\xFD klasifik\xE1\
+      tor"
+    truth: 0
+  7:
+    pred: 4
+    text: "pod klasifika\u010Dn\xEDm probl\xE9mem si m\xF4\u017Eeme p\u0159edstavit\
+      \ probl\xE9m hedy potrebujeme ur\u010Di\u0165 nejak\xE9 druhy, m\xF4\u017Ee\
+      \ ist napr\xEDklad o chostering, pou\u017Eit\u0159e neur\xF3novej siete na klasifikacie\
+      \ nejak\xFDch objektov, generativny klasifik\xE1tor pod regresn\xFDm probl\xE9\
+      mem si m\xF4zine p\u0159edstavi\u0165 v podstate to jist\xE9, red\u0159e st\xE1\
+      le ide o klasifik\xE1c\xEDm akur\xE1t Na pou\u017Eitia inej met\xF3dy, konkr\xE9\
+      tne regresie tr\xE9novacie d\xE1ta m\xF4\u017Eu ma\u0165 r\xF4znu podobu od\
+      \ nejak\xFDch todor pr\u016Fstom, \u010D\xEDsel v anal\xFDze ekonomiky a\u017E\
+      \ po fotografie u konvolu\u010Dn\xFDch neur\xF3nov\xFDch sv\u011Bt\xE1ch - ako\
+      \ objektivne funce sa pou\u017E\xEDvaj\xFA mom-square erzor, maximum like hood"
+    truth: 0
+  8:
+    pred: 4
+    text: "- mysl\xEDm si, \u017Ee v ur\u010Ditom \u010Dasov\xE9m horizont\u011B to\
+      \ bude mo\u017En\xE9, sta\u010D\xED si zobra\u0165 pr\xEDklad z chat GPT, kt.\
+      \ pod\u013Ea n\xEDma generuje velmi slu\u0161n\u011B v\xFDsledky z hladiska\
+      \ umel\xFD inteligencie \uFFFD t\xFDm p\xE1dem, \u017Ee projekt Chet GPT m\xE1\
+      \ velk\xFD \xFAspedek tak aj viacero investora sa moment\xE1lne sna\u017E\xED\
+      \ do tohto odvetv\u011Ba investova\u0165 velk\xE9 mno\u017Estvo financi\xED\
+      , tak za m\u011Blolko dokud to bude mo\u017En\xE9, nehorozie o extr\xE9mne rychlem\
+      \ v\xFDvoji hardv\xE9ru, kl. neodmyslitelnou \u010Das\u0165ou"
+    truth: 4
+  9:
+    pred: 0
+    text: "v\xFDhodem n\u011Bco tak nedostaneme lep\u0161ie klasifikovat dal\u0161\
+      \xEDm je ni\u010D by n\xE1m to nepomohlo, ked\xFA pri \"deep learnigu\" si s\xE1\
+      m extrahuje p\u0159\xEDznaky, robili Ty sme zbyte\u010Dn\xFA pr\xE1cu, pod\xE1\
+      \ mn\u011B by to tolo kontraproduktivne predan\xFD typ u\u010Denia"
+    truth: 0
+  10:
+    pred: 1
+    text: "l\xED\u0161ia sa t\xFDm, \u017Ee \u010D\xEDm hlb\u0161\u016Fe s\xFA v sieti\
+      \ dan\u011B konvolu\u010Dn\u011B jadr\xE1, tak dan\xFD vstup m\xE1 niacero pr\xED\
+      znaka (resp. v\xE4\u010D\u0161ia h\u013Ebku), hed\u017Ee po ka\u017Edej konvolu\u010D\
+      nej vrstve je polling vrstva, kt. zmen\u0161uje dan\xFD vstup, ale zato vstup\
+      \ do dal\u0161ej vrstvy je \"hlb\u0161\xED\" 17/11 a\u017E v\xFDsledek bude\
+      \ nap\u0159\xEDklad 128 x 1 + 1"
+    truth: 1
+  11:
+    pred: 2
+    text: "- \xE1no je to mo\u017En\xE9;- je mo\u017En\xE9 pou\u017Ei\u0165 spektr\xE1\
+      lnu anal\xFDzu na za\u010Diatku dalej sa to m\u011Bs\xEDc pomocou konvolu\u010D\
+      nej sie\u0165e;to byl \u010D\xEDm \xFCbrg pak zm\u011Bry."
+    truth: 2
+  12:
+    pred: 2
+    text: "TER\xC9;vstupn\xFD;obr\xE1zek;konvolu\u010Dn\xE1 vstva;v\xFDsledek politing;ROB;konvolucie\
+      \ vrstva;- 3 kanal\xFD RGB"
+    truth: 0
+  13:
+    pred: 2
+    text: "- hlavn\xFDm rozd\u011Blen\xED je, \u017Ee jedny vyu\u017E\xEDvaj\xED tzv.\
+      \ policy\u201C funk\u010Dn\xED k regimu u\u010Denia a druh\xE9 zase m\u011B\
+      \ - to \u017Ee \u010Di s\xFA lep\u0161ie tak z\xE1le\u017E\xED na v\u0161e\u0161\
+      enom probl\xE9me, na ktorom chceme dan\xFD algoritmus pou\u017E\xEDva\u0165\
+      \ - obecne s\xFA off-policy\u201C algoritmy r\xFDchlej\u0161ie, ale menej presn\xE9\
+      \ \uFFFD naopak \"on-policy\" s\xFA pomal\u0161ie a presnej\u0161ie"
+    truth: 1
+8da82df4606715cb145f7f979908efc1:
+  2:
+    pred: 4
+    text: "DEPTH-LIMATED SEARCH (DLS).;metoda nen\xED obecn\u011B optim\xE1ln\xED\
+      , ale stane se optim\xE1ln\xED v p\u0159\xEDpad\u011B, \u017Ee zn\xE1me hloubku\
+      \ \u0159e\u0161en\xED, proto\u017Ee nen\xED nutn\xE9 hledat hloub\u011Bji metoda\
+      \ je tak\xE9 vhodn\xE1 z pam\u011B\u0165ov\xFDch n\xE1rok\u016F, proto\u017E\
+      e je pouze nutn\xE9 m\xEDt O\xEDn) z\xE1sobn\xEDk p\u0159edchoz\xEDch stav\u016F\
+      \ v\xFDkonov\u011B se vyrovn\xE1 prohled\xE1v\xE1n\xED do \u0161\xED\u0159ky,\
+      \ proto\u017Ee by stejn\u011B;bylo nutn\xE9 proj\xEDt \xFAzly v 1. -7. hloubce"
+    truth: 4
+  3:
+    pred: 2
+    text: "score;score;p;random walk;mus\xED NIKA;simulated annealing;t[steps];KW\
+      \ m\xE1 vy\u0161\u0161\xED \u0161anci se dostat z lok\xE1ln\xEDho minima, ALE\
+      \ tak\xE9 m\xE1 nejhor\u0161\xED \u010Dasovou n\xE1ro\u010Dnost (teoreticky)"
+    truth: 0
+  4:
+    pred: 3
+    text: "P(A|B);P(B|A) P(A);P(B);sm\u011Brodatnou;Jedn\xE1 se o parametry Gaussova\
+      \ rozd\u011Blen\xED, t\u0159\xEDdimenzion\xE1ln\xED n\xE1hodn\xFD vektor, v\
+      \ tomto p\u0159\xEDpad\u011B popsan\xFD st\u0159edn\xED hodnotou (xxx, M2, M3)\
+      \ a odchytkou (o2, 03) pro ka\u017Edou t\u0159\xEDdu. V\u017Edy je na z\xE1\
+      klad\u011B distribuce vybr\xE1na nejpravd\u011Bpodobn\u011Bj\u0161\xED t\u0159\
+      \xEDda a. Rozlo\u017Een\xED je ur\u010Deno best-fit algoritmem pro ur\u010D\
+      en\xED parametr\u016F rozd\u011Blen\xED;KORONIKA"
+    truth: 0
+  5:
+    pred: 4
+    text: "naka\u017Een;nerozko\u017Een negativn\xED AZ pozitivn\xED;P(A) = 0, 2 P(B)\
+      \ = 1-P(A) = 0, B P(P|z|A) = 0, 9 P(N|B) = 0,975;P(Z|A) = 0,9"
+    truth: 4
+  6:
+    pred: 0
+    text: "gausovsk\xFD klasifik\xE1tor;po 20 hodin stav volebn\xED B. S. resp Esk.\
+      \ Drama;A - 3x do"
+    truth: 0
+  7:
+    pred: 2
+    text: "- u klasifika\u010Dn\xEDch probl\xE9m\u016F jsou v\xFDstupem diskr\xE9\
+      tn\xED hodnoty, pro regresn\xED modely je v\xFDstupem spojit\xFD odhad parametr\u016F\
+      \ - v obou p\u0159\xEDpadech jsou vstupem parametry a v\xFDsledn\xE9 hodnoty\
+      \ (skute\u010Dnost) P\u0159\xEDklady klasifika\u010Dn\xED: - ID3;Regresn\xED\
+      : logististick\xE1 regrese;- beyesovsk\xFD klasifik\xE1tor"
+    truth: 0
+  8:
+    pred: 3
+    text: "Ne v dohledn\xE9 budoucnosti;- aktu\xE1ln\u011B jsou pam\u011B\u0165ov\xE9\
+      \ a v\xFDkonov\xE9 n\xE1roky takov\xE9 um\u011Bl\xE9 inteligence nerealizovateln\xE9\
+      \ - pro vytvo\u0159en\xED takov\xE9 um\u011Bl\xE9 inteligence by byla t\u0159\
+      eba nep\u0159ebern\xE1 datov\xE1 sada (\u0159\xE1dov\u011B v\u011Bt\u0161\xED\
+      \ - inteligence by musela m\xEDt schopnost modifikovat sebe sama, co\u017E zat\xED\
+      m neum\xEDme a zat\xEDm nen\xED ani jasn\xE9, jak na to"
+    truth: 3
+  9:
+    pred: 0
+    text: "- pro ru\u010Dn\u011B definovan\xE9 p\u0159\xEDznaky je mnohem krat\u0161\
+      \xED doba u\u010Den\xED - hlubok\xE9 u\u010Den\xED m\u016F\u017Ee naj\xEDt lep\u0161\
+      \xED p\u0159\xEDznaky po ur\u010Dit\xE9 dob\u011B - ru\u010Dn\u011B definovan\xE9\
+      \ p\u0159\xEDznaky jsou zpravidla na po\u010D\xE1tku lep\u0161\xED"
+    truth: 0
+  10:
+    pred: 1
+    text: "Jednotliv\xE9 vrstvy mohou pracovat v r\u016Fzn\xFDch dom\xE9n\xE1ch, co\u017E\
+      \ m\u016F\u017Ee m\xEDt ze v\xFDsledek odli\u0161nou reprezentaci informac\xED\
+      \ v jednotliv\xFDch \u010D\xE1stech."
+    truth: 0
+  11:
+    pred: 1
+    text: "Zpravidla to ned\xE1v\xE1 smysl, proto\u017Ee jsou pot\u0159eba data jak\
+      \ z frekven\u010Dn\xED, tak \u010Dasov\xE9 dom\xE9ny.;Sobota"
+    truth: 0
+  12:
+    pred: 2
+    text: "vstupn\xED vrstva;skryt\xE9 vrstvy;v\xFDstupn\xED vrstva"
+    truth: 0
+  13:
+    pred: 0
+    text: ''
+    truth: 0
+b4935d607791eae472f1c04b426b2d18:
+  0:
+    pred: 0
+    text: ;
+    truth: 0
+  1:
+    pred: 3
+    text: "ME;\u010Das se sn\xED\u017E\xED - d\xEDky pou\u017Eit\xED Alta Beta nebude\
+      \ doch\xE1zet a prohled\xE1v\xE1n\xED cel\xE9ho prostoru hor\u0161\xED mo\u017E\
+      nosti se d\xEDky o\u0159ez\xE1v\xE1n\xED nebudou po\u010D\xEDtat;pr\u016Fm\u011B\
+      rn\xFD zisk na hru z\u016Fstane minim\xE1ln\u011B stejn\xFD nebo se zv\xFD\u0161\
+      \xED - Afa \u017Eetou bude uzav\xEDrat nev\xFDhodn\xE9 cesty, z toho d\u016F\
+      vodu by nem\u011Bl b\xFDt zisk na hru men\u0161\xED Jak moc se hodnoty zm\u011B\
+      n\xED podle m\u011B nelze odhadnout - nezn\xE1m chov\xE1n\xED soupe\u0159e,\
+      \ nezn\xE1m po\u010Det d\u0159\xEDve odehran\xFDch her, nezn\xE1m pr\u016Fb\u011B\
+      h her (byly dlouh\xE9/kr\xE1tk\xE9? -> ovliv\u0148uje hloubku stromu, ..."
+    truth: 0
+  2:
+    pred: 0
+    text: "IDS - interativn\xED prohled\xE1v\xE1n\xED do hloubky;- m\xE1me jasn\u011B\
+      \ ur\u010Denou maxim\xE1ln\xED hloubku (v\u011Bt\u0161\xED ne\u017E 8. \xFA\
+      rove\u0148 napodoben\xE1 - max hloubka se s ka\u017Ed\xFDm cyklem zv\u011Bt\u0161\
+      uje o 1;v pam\u011Bti;V tomto p\u0159\xEDpad\u011B v\u017Edy najde \u0159e\u0161\
+      en\xED, kter\xE9 je optim\xE1ln\xED. Nebude existovat mo\u017Enost nalezen\xED\
+      \ jin\xE9 a krat\u0161\xED cesty. Pam\u011B\u0165 je \u0161et\u0159ena t\xED\
+      m, \u017Ee ukl\xE1d\xE1me uzly pouze z aktu\xE1ln\u011B prohled\xE1van\xE9 v\u011B\
+      tve (a ne \"komplet\" strom jako u BFS);moc hluboko, neprohled\xE1v\xE1me"
+    truth: 0
+  3:
+    pred: 2
+    text: "\uFFFD simulovan\xE9 \u017E\xEDh\xE1n\xED n\xE1hodn\xE1 proch\xE1zka -\
+      \ schodovit\xFD tvar najde aktu\xE1ln\u011B nejlep\u0161\xED, pak dlouho nic,\
+      \ ale po\u010Det nav\u0161t\xEDven\xFDch se zv\u011Bt\u0161uje, pak nov\xFD\
+      \ nejlep\u0161\xED \uFFFD ud\u011Bl\xE1 schod atd...;po\u010Det nav\u0161t\xED\
+      ven\xFDch stav\u016F;geworfen"
+    truth: 0
+  4:
+    pred: 0
+    text: "Strana;na sv\xE9m star\xE9m minu nebo n\u011Bkter\xFD st\u0159elec z postele\
+      \ do konce m\u011Bs\xEDce \u010Dervence 1915;na posledn\xED cest\u011B do Krakova\
+      \ do nemocnice a potom na poledne nemocnice a po prohl\xEDdce"
+    truth: 0
+  5:
+    pred: 4
+    text: "P(pozitivn\xED) naka\u017Een\xFD =0,9 P(negativn\xED (naka\u017Een\xFD\
+      ) =0, 1;P(naka\u017Een\xFD) = 0,2 (nenaka\u017Een\xFD) = 0,8 P(pozitivn\xED\
+      ) nenaka\u017Een\xFD =0,025 P(negativn\xED|nenaka\u017Een\xFD) = 0,075;P(B);(naka\u017E\
+      en\xFD pozitiv P(nahra\u017Een\xFD/pozitivn\xED;P (pozitivn\xED hadice);P(boh\xE1\
+      \u010Dem);vzdu\u0161en P(naka\u017Een\xFD P(pozitivn\xED|naha \u017Een\xED);0,9;0,2;\uFFFD\
+      \ P(pozitivn\xED);0,9 . 0 K;(pozitivn\xED nedostate\u010Dn\xFD). P(nalo\u017E\
+      en\xFD);P(naka\u017Een\xFD / pozitivn\xED);P(Pozitivn\xED;O"
+    truth: 0
+  6:
+    pred: 0
+    text: ''
+    truth: 0
+  7:
+    pred: 4
+    text: "klasifikace;regrese;klasifikace - s anotac\xED;Data;regrese - bez anotace;vede\
+      \ na u\u010Den\xED;bez u\u010Ditele (nap\u0159. k-means);vede na u\u010Den\xED\
+      \ s u\u010Ditelem"
+    truth: 0
+  8:
+    pred: 2
+    text: "Mysl\xEDm si, \u017Ee v sou\u010Dasn\xE9 dob\u011B nelze vytvo\u0159it\
+      \ silnou um\u011Blou inteligenci.;V podstat\u011B by to znamenalo, \u017Ee mus\xED\
+      me um\u011Bt simulovat kompletn\xED \u010Dinnost mozku, co\u017E lidstvo zat\xED\
+      m nedok\xE1\u017Ee. Moment\xE1ln\u011B nezn\xE1me ani v\u0161echny procesy,\
+      \ kter\xE9 se v mozku mohou odehr\xE1vat. sami ani nejsme schopni vyu\u017E\xED\
+      vat celou mozkovou kapacitu. Nav\xEDc by AI musela z\xEDskat tak\xE9 kognitivn\xED\
+      \ vlastnosti \u010Dlov\u011Bka. To nyn\xED tak\xE9 nelze \xFApln\u011B dob\u0159\
+      e strojov\u011B napodobit."
+    truth: 2
+  9:
+    pred: 0
+    text: "shallow - sta\u010D\xED m\xE9n\u011B dat; je pot\u0159eba ru\u010Dn\u011B\
+      \ anotovat data, co\u017E je pracn\xE9 a zabere \u010Das;deep - je pot\u0159\
+      eba m\xEDt k dispozici v\u011Bt\u0161\xED mno\u017Estv\xED dat, aby stroj mohl\
+      \ l\xE9pe hledat putten\xED/podobnost,... i p\u0159\xEDznaky jsou pak definov\xE1\
+      ny antematicky; \u010Dlov\u011Bk m\u016F\u017Ee prov\xE9st jen kontrolu"
+    truth: 3
+  10:
+    pred: 0
+    text: "wir thun w\xFCrden es gelangen: ob die Freitags Ver- zastoupit v\u0161\
+      echen sv\xFDch akt\u016F 300 m nebo na den ich das ganze geboten bis zum Anfang\
+      \ \u0161el den ersten nejprv vystav\u011Bt sv\u016Fj z\xE1vod na shrom\xE1\u017E\
+      d\u011Bn\xED v Praze. A tak tak\xE9 celkem 54. po sv\u011Bt\u011B to v\u0161\
+      ak za\u010Dlo starat."
+    truth: 0
+  11:
+    pred: 0
+    text: "Ano, lze tahle zpracov\xE1vat;noce;a v\u011Bt\u0161inou \u010Dtverce nejelo\
+      \ a t\xEDm st\u0159ely z - pod der geboren die v\xFDbor te\u010F m\xE1 odepsan\xE9\
+      \ pro turnajov\xE9ho tabulky sedl kam nedbal na brzy s\xE1m stra\u0161n\u011B\
+      ;poh\u0159bu na stran\u011B"
+    truth: 0
+  12:
+    pred: 0
+    text: ''
+    truth: 0
+  13:
+    pred: 2
+    text: "off-policy - tyto algoritmy maj\xED mo\u017Enost pohl\xED\u017Eet do minulosti,\
+      \ do stav\u016F, ve kter\xFDch u\u017E se nach\xE1zely, jak se rozhodly, k jak\xE9\
+      mu v\xFDsledku to vedlo Na z\xE1klad\u011B t\u011Bchto zku\u0161enost\xED se\
+      \ mohou rozhodnout stejn\u011B/ l\xE9p\u011B / \xFApln\u011B jinak on- policy\
+      \ - tento typ algoritm\u016F nezn\xE1 minulost a rozhoduje se na z\xE1klad\u011B\
+      \ situace v dan\xFD moment.;off-policy jsou lep\u0161\xED d\xEDlny znalosti\
+      \ \"minulosti.\""
+    truth: 2
+b9f5b9793d2ca99f24ea098f529807e7:
+  2:
+    pred: 0
+    text: "ostatn\xED slep\xE9 met\xF3dy (BFS, IDS, ...) - vela pamete. pomal\u0161\
+      te A je informovan\xE1 maj\xFA heuristiku.;UCS - ma g, \u010Di\u017Ee si pamet\xE1\
+      \ cesty, ktor\xFA pre\u0161iel a teda sa abstane najr\xFDchlej\u0161ie k rie\u0161\
+      eniu.;neinformovan\xE9 metody nemaj\xEDc\xED hieuristiku;Gready Slavoh"
+    truth: 0
+  3:
+    pred: 0
+    text: "osobn\u011B ust\xE1l a kv\u011Btnov\xE1 osla a nebyl sp\xE1t. Zalovilo\
+      \ se \u010Deled\xEDn. N\xE1s znamen\xE1 voda, vedou od;vratopis;tou \u0161kolou\
+      \ je mouka od sn\xEDd ale v oko"
+    truth: 0
+  4:
+    pred: 4
+    text: "parametry na tr\xE9novac\xEDch datech odhadli?;p(observation) he\u010F\
+      \ pr\xEDde nov\xE9 dato X na klasifikaci. Tak ho vb\u017Eim do funkci hustoty\
+      \ pravdepodobnosti a potom vyn\xE1sob\xEDm apriorn\xED pravdepodobnosti danej\
+      \ triedy a potom podelim evidenc\xED. Tento postup pou\u017Eijem oboch tried\
+      \ a kde my vyjde v\xE4\u010D\u0161ia pravdepodobnost, tak tam zaradim dan\xFD\
+      \ dato.;p(class|observation);observation (class) p(class);Fankcia hustoty pravdepodobnosti\
+      \ - Je to Funkce, gausovka ktorej st\u0159edn\xEDch hodnot a kovaria\u010Dn\xED\
+      \ matice sme odhadli MLE. ktor Kovaria\u010Dn\xED matica, 3x3 matica reprezentovan\xE1\
+      \ 9 \u010D\xEDsly, ale Te\u010F \u017Ee je symetrick\xE1 sta\u010D\xED len 5\
+      \ \u010D\xEDsel. - rektor st\u0159edn\xEDch hodnot - s \u010D\xEDsla"
+    truth: 4
+  5:
+    pred: 0
+    text: "= (pozitivnost) (pozitivn\xED) naht\xEDpu Plnak (poz);P(PO\u010CET) PROBL\xC9\
+      M;P(pouz);p P(pozinak) = 90% neginak) = 102;0. 9. 0. 2;Od; 0. 2 0.029.0.8 o.\
+      \ a. o. 22 - 0. 9;na (Na"
+    truth: 0
+  6:
+    pred: 1
+    text: "Pri Logistickej regresei natr\xE9nujem v\xE1hy pre rozdelovaciu priamhu.\
+      \ Nov\xE9 vzor x sa zarod\xED do tahej triedy, na ktorej strane priamky le\u017E\
+      \xED. Aposteriorn\xED pravd. bude vraca\u0165 len hodnoty 1 (t\u0159eda 1.)\
+      \ a 0 (pre tricom?).;Logistick\xE1 regrese, neuronov\xE1 sie\u0165;na;"
+    truth: 1
+  7:
+    pred: 4
+    text: "klasifikace;vstupy Generativn\xED Gaussovaly Klasifik\xE1tor (v\xFDstup;MLE\
+      \ parametrov Gaussovky;;;"
+    truth: 0
+  8:
+    pred: 3
+    text: "Myslim, \u017Ee ano. - Mo\u017Eeme p\u0159edpoklada\u0165, \u017Ee \u013E\
+      udsk\xFD mezes je typ neuronovej siete, ktor\xFA, bu\u010F nepozn\xE1me, alebo\
+      \ je pr\xEDli\u017E zlo\u017Eina. Alebo nie\u010Do v tom zmysle. Ja si teda\
+      \ myslim, \u017Ee neby sme dok\xE1zali z\xE1le\u017Eitost Emergon previest do\
+      \ chervalentnej po\u010D\xEDta\u010Dovej podoby, Mohol by to by\u0165 hrom u\
+      \ general AI."
+    truth: 3
+  9:
+    pred: 2
+    text: "P\u0159i hlbok\xE9m u\u010Den\xED nemus\xED program\xE1tor ru\u010Dne definova\u0165\
+      \ p\u0159iznaly sie\u0165 sa nau\u010D\xED. To je ve\u013Ek\xE1 v\xFDhoda, proto\u017E\
+      e ur\u010Di\u0165 a ru\u010Dne definova\u0165 je ztu\u017Eite a \u010Dasovo\
+      \ n\xE1ro\u010Dn\xE9."
+    truth: 2
+  10:
+    pred: 4
+    text: "Na za\u010D\xE1tku siete jadra reasuj\xFA na hrany, Farby, z\xE1kladn\xE9\
+      \ v\u011Bci.;\u010D\xEDm hib\u0161ie sme, t\xFDm viac sa to potom podoba veciam\
+      \ \u010Do hlad\xE1me. Pri konci, kde m\xE1me napr\xEDklad u\u017E dal\u0161\xED\
+      u vrstvu hlas\u016F obohaci, tak tam s\xFA u\u017E objekty.;Mo\u017Eeme men\u0165\
+      \ sie\u0165;Kadlec sm\u011Brom nore vrsty dost\xE1vaj\xEDc\xED informace doe\
+      \ stratilo aby vid\u011Bli kde bol\xED hrany a podobne. Lebo to sa cestou;tu\
+      \ se u\u017E 1 pixel a;ur\u010D\xED pa \u010Do to je."
+    truth: 4
+  11:
+    pred: 4
+    text: "ulasifikace;Dvora;r\xE1tce;konvolu\u010Dn\xFD 10 vrstva"
+    truth: 4
+c54fb9058a498e5d0a9138a3846352b4:
+  0:
+    pred: 4
+    text: "AND - OR strom;ND;uzlo;uplatn\xED se tak, \u017Ee senzory reaguj\xED na\
+      \ v\xFDstupy nedeterministick\xFDch akc\xED a podle toho vyb\xEDraj\xED dal\u0161\
+      \xED cestu (postup);"
+    truth: 4
+  1:
+    pred: 3
+    text: "pr\u016Fm\u011Brn\xFD zisk z\u016Fstane STEMN\xDD \uFFFD Alfa-Beta nem\u011B\
+      n\xED (neovliv\u0148uje) v\xFDsledky Volba tahu se sn\xED\u017E\xED (v nejhor\u0161\
+      \xEDm p\u0159\xEDpad\u011B z\u016Fstane stejn\xE1) \uFFFD v\xFDsledek AB je\
+      \ stejn\xFD jako MINIMAX \uFFFD Alfa-beta o\u0159ez\xE1v\xE1 v\u011Btve, kter\xE9\
+      \ nen\xED t\u0159eba prozkoum\xE1vat jeliko\u017E v\xFDsledek z takov\xFDch\
+      \ v\u011Btv\xED bude v\u017Edy hor\u0161\xED ne\u017E v\xFDsledek ze zn\xE1\
+      m\xEDch v\u011Btv\xED;kolikr\xE1t se zrychl\xED? \uFFFD nelze ur\u010Dit - v\
+      \ nejlep\u0161\xEDm p\u0159\xEDpad\u011B by bylo mo\u017En\xE9 od\u0159ezat\
+      \ odhadem men\u0161\xED polovinu, tak\u017E zrychlen\xED cca. 1,8x v nejhor\u0161\
+      \xEDm p\u0159\xEDpad\u011B nedojde k \u017E\xE1dn\xE9mu pro\u0159ez\xE1n\xED\
+      , tak\u017Ee zrychlen\xED \u017E\xE1dn\xE9 (mo\u017En\xE1 i zanedbateln\xE9\
+      \ zpomalen\xED kv\u016Fli re\u017Eii)"
+    truth: 0
+  2:
+    pred: 4
+    text: "Nejlep\u0161\xEDm \u0159e\u0161en\xEDm bude pou\u017Eit\xED IDS ... (inkremental\
+      \ deptl search) Jedn\xE1 se o modifikaci DFS s omezenou hloubkou prohled\xE1\
+      v\xE1n\xED a v\xEDme-li, \u017Ee \u0159e\u0161en\xED je v hloubce 8, pak kdy\u017E\
+      \ hloubku omez\xEDme pr\xE1v\u011B na \xFArove\u0148 8, \u0159e\u0161en\xED\
+      \ nalezneme. V nejkrat\u0161\xEDm \u010Dase a nejmen\u0161\xEDm pam\u011B\u0165\
+      ov\xFDm n\xE1rokem. Optim\xE1ln\xED z hlediska nalezen\xE9ho \u0159e\u0161en\xED\
+      \ \uFFFD nemus\xED naj\xEDt v\u0161echny \u0159e\u0161en\xED, kdy\u017E omez\xED\
+      me hloubku (tj. n\u011Bkter\xE1 \u0159e\u0161en\xED se nach\xE1z\xED t\u0159\
+      eba i v hloubce 10, a tyto \u0159e\u0161en\xED nebudou nalezeny). Av\u0161ak\
+      \ alespo\u0148 1 \u0159e\u0161en\xED (=v hloubce 8) v\u017Edy nalezne ?! Optim\xE1\
+      ln\xED z hlediska v\xFDpo\u010Detn\xEDch n\xE1rok\u016F \uFFFD \u0159e\u0161\
+      en\xED najde s nejmen\u0161\xEDm mo\u017En\xFDm v\xFDpo\u010Detn\xEDm v\xFD\
+      konem \uFFFD nerozbaluje \u017E\xE1dn\xE9 uzly nav\xEDc"
+    truth: 4
+  3:
+    pred: 4
+    text: "po\u010Det nav\u0161t\xEDven\xFDch;po\u010Det nav\u0161t\xEDven\xFDch;SIMULOVAN\xC9\
+      \ \u017D\xCDH\xC1N\xCD U n\xE1hodn\xE9 proch\xE1zky jsou nav\u0161t\u011Bvov\xE1\
+      ny i stavy, kter\xE9 jsou hor\u0161\xED ne\u017E nejlep\u0161\xED nav\u0161\
+      t\xEDven\xFD u \u017E\xEDh\xE1n\xED je snaha vyb\xEDrat st\xE1le lep\u0161\xED\
+      \ stavy;N\xE1hodn\xE1 proch\xE1zka"
+    truth: 0
+  4:
+    pred: 3
+    text: "PC;P(*14) - PIV;P(x);P(x|4);P(x|i). P(i);31;Deka Nad\u011Bje sv. (X) ostatn\xED\
+      \ gener\xE1l Zugsf\xFCr ten tak stolet\xFD v\u016Fbec \u0161kol\xE1k se s Taky\
+      \ ob\u011Bd kdy\u017E se l\xEDzalo abych jel;do stanice Sternberg a na star\xE9\
+      \ stran\u011B jsem na tom smutn\xFD pohled na nov\xE9m Ministerster Abschnitt;;Mittelstands\
+      \ der postaven\xED Starosta obce Kunice;T\u0159eba volno inspektor za jeho l\xE9\
+      ty asi v\u0161ech takov\xFDch"
+    truth: 0
+  5:
+    pred: 4
+    text: "N... negativn\xED;test;P... pozitivn\xED;S) = 0,2 =018;IN (H) = 0, 975;P(P|s;=\
+      \ 2;(els) = P(PIS) = 0,9 \uFFFD P\u0159\xEDmo to plyne se zad\xE1m;P;11;99;PC;+.;Test\
+      \ u n\xE1hodn\u011B vybran\xE9 pravd\u011Bpodobnost\xED;naka\u017Een\xE9 osoby\
+      \ bude pozitivn\xED s 90%"
+    truth: 4
+  6:
+    pred: 0
+    text: "- nejbli\u017E\u0161\xEDch soused\u016F;p\u0159\xEDklad;2) logistick\xE1\
+      \ regrese;pro k.-9.;eart;vep\u0159;d\xEDv\xE1m se pouze na nejbli\u017E\u0161\
+      \xEDch dat datum;po\u010Det dat za\u0159azen\xFDch do t\u0159\xEDdy;k;Jedn\xE1\
+      \ se o diskriminativn\xED tr\xE9novac\xED klasif., jeliko\u017E se p\u0159\xED\
+      mo u\u010D\xED mapovat vstupn\xED data (x) na v\xFDstupn\xED labely ( \uFFFD\
+      \ to je \u017Ee na z\xE1klad\u011B existuj\xEDc\xEDch dat vyhodnocuji, do jak\xE9\
+      \ t\u0159\xEDdy bude dal\u0161\xED vstupn\xED dato pat\u0159it"
+    truth: 0
+  7:
+    pred: 2
+    text: "kLASIFIKA\u010CN\xCD \uFFFD ur\u010Duje, do jak\xE9 t\u0159\xEDdy vstupn\xED\
+      \ dato n\xE1le\u017E\xED REGRESN\xCD \u2014 odhaduje hodnotu na z\xE1klad\u011B\
+      \ jin\xFDch atribut\u016F/hodnot;R-NEJBLI\u0160\xCDCH soused\u016F LOGISTICK\xC1\
+      \ REGRESE GAUSOVSK\xDD KLASIFIK\xC1TOR;line\xE1rn\xED regrese polynomi\xE1ln\xED\
+      \ regrese;poslat BEP, O - (H);mar\u0161.;"
+    truth: 2
+  8:
+    pred: 2
+    text: "Dle m\xE9ho n\xE1zoru a v\u0161eobecn\xE9ho;Dle m\xE9ho n\xE1zoru to mo\u017E\
+      n\xE9 nen\xED. Jsme schopni se k tomu p\u0159ibl\xED\u017Eit, ale ne zcela dok\xE1\
+      zat.;PRO\u010C? \xB7 General AI by musela m\xEDt v\u0161eobecnou znalost v\u0161\
+      ech probl\xE9m\u016F a moment\xE1ln\u011B by to znamenalo, \u017Ee bychom museli\
+      \ um\u011Bt napodobit mozek. Samotn\xE1 General AI by mohla b\xFDt mnohem chyt\u0159\
+      ej\u0161\xED / mocn\u011Bj\u0161\xED ne\u017E \u010Dlov\u011Bk a proto se s\xE1\
+      m \u010Dlov\u011Bk boj\xED ji vyvinout \uFFFD mohla by ho Pravd\u011Bpodobn\u011B\
+      j\u0161\xED je, \u017Ee budeme vytv\xE1\u0159et specializovan\xE9 AI pro zni\u010D\
+      it Samostatn\xE9 \u010Dinnosti \uFFFD je to jednodu\u0161\u0161\xED a \xFA\u010D\
+      in\u011Bj\u0161\xED Nem\xE1me moment\xE1ln\u011B k dispozici takov\xFD v\xFD\
+      po\u010Detn\xED v\xFDkon, abychom n\u011Bco takov\xE9ho natr\xE9novali"
+    truth: 0
+  9:
+    pred: 2
+    text: "DU je mnohem n\xE1ro\u010Dn\u011Bj\u0161\xED na tr\xE9nov\xE1n\xED (\u010D\
+      as v\xFDvoje, \u010Das tr\xE9nov\xE1n\xED PL dok\xE1\u017Ee \u0159e\u0161it\
+      \ i mnohem komplexn\u011Bj\u0161\xED probl\xE9my \uFFFD dokonce i ty, na v\xFD\
+      po\u010Detn\xED v\xFDkon) n\u011B\u017E nebyla tr\xE9novan\xE1. slou\u017Eit\
+      \ jako z\xE1klad pro sl s\xEDt\u011B \uFFFD nen\xED t\u0159eba tr\xE9novat /v\
+      \ nic nov\xE9ho (samoz\u0159ejm\u011B po modifikaci p\u016Fvodn\xED s\xEDt\u011B\
+      ) a jsou mnohem levn\u011Bj\u0161\xED / vydlej\u0161\xED na v\xFDvoj a je tedy\
+      \ mnohem jednodu\u0161\u0161\xED jejich pou\u017Eit\xED \uFFFD r\u016Fzn\xE9\
+      \ prototypy a podobn\u011B u pr nen\xED nutn\xE9 definovat p\u0159\xEDznaky\
+      \ - to toti\u017E m\u016F\u017Ee b\xFDt ob\u010Das pro \u010Dlov\u011Bka obt\xED\
+      \u017En\xE9"
+    truth: 3
+  11:
+    pred: 2
+    text: "Zvuk lze zpracovat i nap\u0159\xEDklad pomoc\xED konvolu\u010Dn\xEDch s\xED\
+      t\xED, kdy zvuk je p\u0159eveden na 20 reprezentaci \uFFFD vln\u011Bn\xED, frekven\
+      \ a takov\xE1 reprezentace je pak d\xE1na konvolu\u010Dn\xED s\xEDti Ta je schopn\xE1\
+      \ ve zvuku hledat vzory apod.;obdob\xED t\xFDd v\u0161em t\u011Bm;estru \u0161\
+      kolo!"
+    truth: 2
+  12:
+    pred: 0
+    text: ''
+    truth: 0
+  13:
+    pred: 2
+    text: "ON-poLICY \uFFFD tyto alg. vylep\u0161uj\xED svoji policy, pouze na z\xE1\
+      klad\u011B v\xFDsledk\u016F aktu\xE1ln\xEDho b\u011Bhu - nejsou \u017E\xE1dn\xFD\
+      m zp\u016Fsobem ovlivn\u011Bny p\u0159edchoz\xEDmi b\u011Bly;Off-pOLICY \uFFFD\
+      \ tyto alg. vylep\u0161uj\xED svoji policy i na z\xE1klad\u011B p\u0159edchoz\xED\
+      ch b\u011Bh\u016F \u2014 maj\xED pam\u011B\u0165, kter\xE1 si tyto v\xFDsledky\
+      \ pamatuje;OFF-POLICY jsou lep\u0161\xED, jeliko\u017E nen\xED nutn\xE9 v\u017E\
+      dy tr\xE9novat zcela od znova, ale m\xE1me ji\u017E k dispozici data z p\u0159\
+      edchoz\xEDch b\u011Bh\u016F \uFFFD \xFAspora \u010Dasu a v\xFDpo\u010Detn\xED\
+      ho v\xFDkonu"
+    truth: 3
+d47558962966c8b741426336d3ebfe9c:
+  2:
+    pred: 4
+    text: "PFS - depth first search zhlediska pam\u011B\u0165ov\xFDch n\xE1rok\u016F\
+      \ je m\xE9n\u011B n\xE1ro\u010Dn\xE1 ne\u017E BFS pokud by se \u0159e\u0161\
+      en\xED nal\xE9halo na posledn\xEDm vztah 8. \xFArovn\u011B, pak by z \u010D\
+      asov\xE9ho hlediska nebyl rozd\xEDl mezi BFJ ani DFS Pokud by se nal\xE9zal\
+      \ na nejlev\u011Bj\u0161\xEDm vztahu, a do z\xE1sobn\xEDho bychom uzly vkl\xE1\
+      dali opa\u010Dn\u011B (tedy zprava) pak k \u0159e\u0161en\xED bylo nalezeno\
+      \ b\u011Bhem 8 krok\u016F, kde\u017Eto u BFS bychom museli rozgenerovat v\u0161\
+      ech 8 \xFArovn\xED stromu. Eventueln\u011B by se dala pou\u017E\xEDt UCS, v\
+      \ p\u0159\xEDpad\u011B, \u017Ee by uzly byly ohodnoceny tak, \u017Ee by vedly\
+      \ u nalezen\xED rychlej\xED ne\u017E p\u0159\xEDPAS."
+    truth: 0
+  3:
+    pred: 0
+    text: ''
+    truth: 0
+  4:
+    pred: 1
+    text: "P(class|observation);observation / class). P(class;p(observation) = \u1E55\
+      \ P(observation) class). P(class) dass;P(observation);observation - sledovan\xE9\
+      \ vlastnosti x - dato, pro kter\xE9 po\u010D\xEDn\xE1me = N (x|m, E) u - sm\u011B\
+      rodatn\xE1 odchytka - sou\u010Det rozptyl\u016F z\xE1kad pomoc\xED n\xE1rody\
+      \ maximum liberalizovat - max. n\u011Bcohodnost Sna\u017E\xEDme se maximalizovat"
+    truth: 0
+  5:
+    pred: 0
+    text: "P(N) - naka\u017Een\xED, P(NN) - nenaka\u017Een\xFD;IN) = 0,2 R;;;n PI;9\
+      \ (ze zad\xE1n\xED;M;;;a;NN;025;NE6;0,1;0,975;(PIN) . P P(NEG) = 1f;(PINN;P(NN)\
+      \ ) 0, 9. 0, 2 + 0, 0 25 0, 8 = 0,02"
+    truth: 0
+  8:
+    pred: 4
+    text: "Mysl\xEDm si, \u017Ee ano. Ji\u017E dnes se AI mus\xED brzdit a onezovat\
+      \ aby se zabr\xE1nilo ne\u017E\xE1dan\xFDm \xFA\u010Dink\u016Fm. Ale ji\u017E\
+      \ dnes jsem vobor\xED, kte\u0159\xED se chovaj\xED jako lidi, maj\xED/tr\xE9\
+      nuj\xED emoce, um\u011Bj\xED se pohybovat um\xED m\xEDt ambice, u\u010Dit se\
+      \ z chyb.. Spl\u0148uj\xED tedy v\u011Bt\u0161inu toho, co d\u011Bl\xE1 lidi\
+      \ lidmi. Mysl\xEDm si, \u017Ee do budoucna ne jist\u011B potenci\xE1l AI je\u0161\
+      t\u011B pos\xEDlit tak, \u017Ee bude sou\u010D\xE1st\xED spole\u010Dnosti jako\
+      \ plnohodnotn\xFD \u010Dlov\u011Bk"
+    truth: 4
+  9:
+    pred: 2
+    text: "p\u0159i hlubok\xE9m u\u010Den\xED nemus\xEDme my sami po\u010D\xEDtat\
+      \ (odhadovat parametry, s\xED\u0165 se na z\xE1klad\u011B dat sama tr\xE9nuje\
+      \ \uFFFD je tedy p\u0159esn\u011Bj\u0161\xED, pro n\xE1s jednodu\u0161\u0161\
+      \xED, ale zase o dost n\xE1ro\u010Dn\u011Bj\u0161\xED na v\xFDpo\u010Detn\xED\
+      \ zdroje a slo\u017Eitost V\xFDhodou m\u016F\u017Ee b\xFDt, \u017Ee nepot\u0159\
+      ebujeme hrubokou znalost dat pro pochopen\xED probl\xE9mu, sta\u010D\xED jich\
+      \ m\xEDt dostatek a s\xED\u0165 u\u017E si s t\xEDm porad\xED p\u0159i tr\xE9\
+      nov\xE1n\xED sama Nev\xFDhoda m\u016F\u017Ee b\xFDt t\u0159eba potenci\xE1l\
+      \ p\u0159etr\xE9nov\xE1n\xED. Pokud sami definujeme prim\xE1ly, nem\u016F\u017E\
+      eme se st\xE1t, \u017Ee se s\xED\u0165 vymkne kontrole, nebo je to alespo\u0148\
+      \ m\xE9n\u011B pravd\u011Bpodobn\xE9"
+    truth: 4
+  10:
+    pred: 3
+    text: "svou orientac\xED - konvolu\u010Dn\xED orientovan\xE9;j\xE1dra reaguj\xED\
+      \ na \xFAtvary - kuzelose\u010Dky atp.;barven"
+    truth: 0
+  11:
+    pred: 0
+    text: Moge emanuel gen die Mar
+    truth: 0
+  12:
+    pred: 2
+    text: "6 a 9;1561 1718;15,25 x 15,25 x 508;osv\xE1tek 122x12 pixel\u0148;max-poolin;1.\
+      \ \xDANORA;na za\u010D\xE1tku vrstev je max-proling pro zmen\u0161en\xED po\u010D\
+      et konvolu\u010Dn\xEDch jader se v\u017Edy zdvojn\xE1sobuje (64-128-254. obr\xE1\
+      zek plat\xED pro jednohan\xE1lov\xFD obr\xE1zek (\u010Dernob\xEDl ). Jinak se\
+      \ je\u0161t\u011B pe\u010Det pader n\xE1sob\xED po\u010Dtem nan\xE1l\u016F"
+    truth: 0
+  13:
+    pred: 4
+    text: "lep\u0161\xED nen\xED ani jeden - z\xE1le\u017E\xED dle vyu\u017Eit\xED\
+      \ on-policy pot\u0159ebuje hodn\u011B dat, na z\xE1klad\u011B kter\xFDch se\
+      \ bude rozhodovat, tedy je pam\u011B\u0165ov\u011B o dost n\xE1ro\u010Dn\u011B\
+      j\u0161\xED. Tak\xE9 v p\u0159\xEDpad\u011B nap\u0159. tr\xE9nov\xE1n\xED auta\
+      \ nechceme aby se auto opakovan\u011B u\u010Dilo na sr\xE1\u017Ece, proto\u017E\
+      e to by st\xE1lo dost pen\u011Bz, ale chceme sp\xED\u0161e, aby v p\u0159\xED\
+      pad\u011B sr\xE1\u017Eky v\u011Bd\u011Blo, \u017Ee to nebyla dobr\xE1 cesta,\
+      \ a u\u017E to nezkou\u0161elo d\xE1le off-policy se tr\xE9nuje sp\xED\u0161\
+      e pokus-omyl, \u010D\xEDm\u017E z\xEDsk\xE1v\xE1 tr\xE9novac\xED d\xE1ta"
+    truth: 0
+e3fcfce792cba2bd9b1f688e09b8636d:
+  2:
+    pred: 4
+    text: "DLS - Repth limited search;Bude m\xEDt v\xFDhody PFS, bez toho aby se zbyte\u010D\
+      n\u011B hledala hloub\u011Bji;Metoda bude vyhled\xE1vat v\u0161echna \u0159\
+      e\u0161en\xED do dan\xE9 \xFArovn\u011B hloubky ve kter\xE9 najde \u0159e\u0161\
+      en\xED nezamo\u0159 v\u016F optim\xE1ln\xED - nikdy se hloub\u011Bji ne\u017E\
+      \ je nejza\u0161\xEDvan\u011Bj \u0159e\u0161en\xED;nadpo"
+    truth: 4
+  3:
+    pred: 4
+    text: "kvalita;\u017E\xEDh\xE1n\xED;v n\xE1hodn\xE1 prstinka;- str\u017Ee n\xE1\
+      hodn\u011B proch\xE1zka je no n\xE1hodn\xE1, m\u016F\u017Ee dos\xE1hat n\u011B\
+      jak\xE9ho maxima ale nemus\xED b\xFDt ani lok\xE1ln\xED, kvalita se tedy bude\
+      \ m\u011B\u0159it z\xE1hod\u011B podle tako kter\xFD sousedn\xED stav si vybere\
+      \ simbon\u011B \u0159ekn\xED se jen ob\u010Das vych\xFDl\xED mimo nejlep\u0161\
+      \xEDho souseda a to mu pom\u016F\u017Ee p\u0159ekonat i lok\xE1ln\xED maxima,\
+      \ aby se vv\u011B dan\xE1hl lep\u0161\xED kvality;po\u010Det ov\u011B"
+    truth: 4
+  4:
+    pred: 3
+    text: "- mont\xE1\u017E - P(C|X) P(C) - apriory pravd\u011Bpodobnost - 1x parmetu\
+      \ P(x|C) - N|(x|m, 2) u = 1 fy - 3x permetr M - vektor st\u0159ed\xFDch hodnot\
+      \ vdosti na p\u0159emo\u017Eil doled ohled mo\u017Enost\xED n\u011Bmok podle\
+      \ xyz-3x peretu S2 7 - kovarian\u010Dn\xED matice by-kovariance 3/8 - op\u011B\
+      t ML odhad 3x primetr dohromady 10 parametr\u016F kr\xE1t 2 t\u0159\xEDdy =\
+      \ 20 parametr\u016F / \u010D\xEDsel;LI-PIC;III PL;ochlad mocim\xE1ln\xED v\u011B\
+      rnky so po\u010Dtu t\u0159esouc\xEDch dat"
+    truth: 3
+  5:
+    pred: 0
+    text: P(rdriv) = 1-P(nak) = 807 p (suk/poz) = P(rduvl poz) = 1-P(rdrolog) = 2,
+      5% - 90% . 20% P(rok);(poz) =
+    truth: 0
+  6:
+    pred: 1
+    text: "boystick\xE1 regrese, neuronov\xE9 s\xEDt\u011B"
+    truth: 0
+  7:
+    pred: 2
+    text: "odel\u016F? - klasifikace se zvo\u0159\xED data klasifikovat do t\u0159\
+      \xEDd (skupin goussovsk\xFD klasifik\xE1tor, k- nevrest neiglburs na verose\
+      \ - data mohou b\xFDt zkusy bod\u016F;regrese se zvo\u0159\xED funkci, kter\xE1\
+      \ co nejl\xE9pe prodeluje dat - line\xE1rn\xED regrese (polynomic\xE1ln\xED\
+      \ regrese) - data mohou b\xFDt skupiny bod\u016F poou\u017E\xEDv\xE1 zvu\u010D\
+      et \u010Dtverc\u016F"
+    truth: 2
+  8:
+    pred: 0
+    text: "Ne, je p\u0159\xEDli\u0161 mnoho iformov\xE9, kter\xE9 by se muselo va\u0159\
+      it a v\u017Edy by se mohlo zaj\xEDt n\u011Bco co je\u0161te neum\xED selo um\xED\
+      \ ale se zcela spr\xE1vn\u011B"
+    truth: 0
+  9:
+    pred: 4
+    text: "v\xFDhody - nemus\xED se dehnat p\u0159\xEDznaky, suma si je p\u0159eu\u010D\
+      it extrahuje - m\u016F\u017Ee se jednodu\u0161e na jin\xFD \xFAkol pomoc\xED\
+      \ \"Line - tun\u011Bny\";se\u0161kody - oproti stolku lezningu m\u016F\u017E\
+      e b\xFDt probl\xE9m kdy\u017E m\xE1me m\xE1lo d\xE1t - m\u016F\u017Ee doj\xED\
+      t k p\u0159etr\xE9nov\xE1n\xED"
+    truth: 4
+  10:
+    pred: 3
+    text: "na za\u010D\xE1tku se ob\u011Bvuj\xED \"lov - level\" vrvy, kter\xE9 v\u011B\
+      t\u017Einou kop\xEDruj\xED tvory filtr\u016F - nap\u0159., vertik\xE1ln\xED\
+      , horizont\xE1ln\xED \u010D\xE1ry n\xE1sleduj\xED tvory \"mid-lievel\" vrury,\
+      \ kter\xFD u\u017E maj\xED zaj\xEDmav\u011Bj\u0161\xED - men\u0161\xED dataily\
+      \ se projevuj\xED nejhloub\u011Bji jsou \"high-losevel\u201C vrvy, kter\xE9\
+      \ u\u017E m\u016F\u017Eu p\u0159ipom\xEDnat slo\u017Eit\u011Bj\u0161\xED \xFA\
+      tvary s v\u011Bt\u0161\xEDmi detaily"
+    truth: 0
+  11:
+    pred: 2
+    text: "Ano, stejn\u011B jako text nap\u0159 klad pomoc\xED mechopismu attention;t\u0159\
+      \xEDd LET - LET 1857 Anton - b2t t27 - 63 - 1"
+    truth: 2
+  12:
+    pred: 2
+    text: "KP;;;K- konvolu\u010Dn\xED vztah;P-pooling vrstva V - v\xFDstr\xFD aktiva\u010D\
+      n\xED vstva;konvolu\u010Dn\xED vztahy - prov\xE1d\xED se zde kvali\u010Dn\xED\
+      \ filtry Pooling vrstva - doch\xE1z\xED ke zme\u0161en\xED obr\xE1zku - sixelu\
+      \ se agreguj\xED vrstvou MAX nebo AVG funkce;V\xFDstupn\xED vstup je stejn\u011B\
+      \ ve\u013Ek\xE9 jako vstupn\xED m\xEDsto relaktivizace je proje 1x1 ale m\xE1\
+      \ x y km\xF3tr\u016F"
+    truth: 2
+  13:
+    pred: 4
+    text: "on- policy se zm\u011B\u0159uj\xED na vylep\u0161ov\xE1n\xED sv\xE9 policy\
+      \ funkce, minulost si pamatuji pouze v aktu\xE1ln\xED iteraci v \u017Eivot\u011B\
+      \ - hod\xED se v p\u0159\xEDpad\u011B \u017Ee nov\xE9 iterice m\u016F\u017E\
+      eme prov\xE1d\u011Bt (simulovat velmi rychle;off-policy - u\u010D\xED se i z\
+      \ dat z minul\xFDch interac\xED p\u0159\xEDvoz\u016F na nap\u0159. Q-learning\
+      \ upravuje svoji Q-fuku - hod\xED se kdy\xFA interar\xED nemus\xED b\xFDt zas\
+      \ tak velk\xFD v\u010Det"
+    truth: 0
+ee4b7041a56afa5dba176c9bb60a631d:
+  0:
+    pred: 4
+    text: "V\xFDsledkem je napr\xEDklad IF, LSE stran (nem\xF4\u017Eeme mo\u017En\xFD\
+      ch dopredu vedie\u0165 prem\xFDstav, iba skupinu stavou W. Senzory umo\u017E\
+      nia agentovi rozli\u0161i\u0165, do kter\xE9ho stavu sa dostal a ako v stromu\
+      \ pokra\u010Dova\u0165."
+    truth: 4
+  1:
+    pred: 4
+    text: "Zisk by sa zmeni\u0165 nemal, ale obidva algoritmi hl\xE1daj\xFA optim\xE1\
+      ln\u011B rie\u0161enie. Volba tahu by sa mohla zr\xFDchli\u0165 \u201EAlfa-Beta\
+      \ orez\xE1va \u0165ahy, kter\xE9 v pr\xEDpadu chladn\xE9ho protivn\xEDka nikdy\
+      \ nenastan\xFA. Odhadn\xFA\u0165 o kolka za algoritmus umen\xED je nemo\u017E\
+      n\xE9, nevieme koliv takov m\xE1 na v\xFDber a ani ich hodnoty, aby sme vedeli\
+      \ zjisti\u0165 kdes ich odre\u017Ee."
+    truth: 4
+  2:
+    pred: 4
+    text: "v;Simited depth seauch s limitou v h\u013Ebke 8. DFS o sebe optim\xE1lne;nie\
+      \ je, no limitovan\xEDm na 8: h\u013Ebku 8. .., v kterej vieme, \u017Ee sa nach\xE1\
+      z ur\u010Denie sme to spravili optim\xE1ln\xFDm. BFS by lob n\xE1ro\u010Dn\u011B\
+      \ vza pam\xE1t (LDS m\xE1 v\xFDhody PFS) a IDS by zbyte\u010Dn\u011B str\xE1\
+      calo v\xFDkon (vieme vrstvu;u\u0159e\u0161en\xEDm);eva altu\xE1ln\xEDho;lita;stavu;N\xE1\
+      hodn\xE1 proch\xE1zka;je kompletn\u011B n\xE1hodn\xE1, neobjahuje si \u017E\xE1\
+      dn\xFD saketeln\xFD paltern.;stavy;Simulovan\xE9 \u017E\xEDhan\xED;Tak\xE9 sa\
+      \ za nejlep\u0161\xEDm stavom, na ne\u0159idi\u010Dky je dom\xEDten\xFD vybra\u0165\
+      \ \u201Ehor\u0161ie\u201C aby sa nabr\xE1nilo uviaznutiu v lokilusnu;mneime"
+    truth: 4
+  3:
+    pred: 4
+    text: "n\xE1hodn\xE1 proch\xE1zka;N\xE1hodn\xE1;N\xE1hodn\xE1 proch\xE1zka;v\u017E\
+      dy si pam\xE1t\xE1 nejlep\u0161\xED, tak\u017Ee nikdy sa mu v\xFDsledek nezhor\u0161\
+      \xED.;Simulovan\xE9 \u017E\xEDhan\xED"
+    truth: 4
+  4:
+    pred: 0
+    text: "ur\u010Duje t\u011B\u017Eisto u-;P(x|Y) =;P(Y|x) P(x);P(v);p\u0159i posledn\xED\
+      m dni nepozorovali na sv\xE9m p\u0159ehledu pod polem. na dobro odpoledne do\
+      \ posledn\xEDch"
+    truth: 0
+  5:
+    pred: 4
+    text: "P( -;pozitivny (nahrazen\xFD) pozitivny (nakazen\xFD) =;P(pozitivny (nahrazen\xFD\
+      ) = 0,9 = 90%"
+    truth: 4
+  6:
+    pred: 0
+    text: ''
+    truth: 0
+  7:
+    pred: 4
+    text: "Klasifika\u010Dn\xED - triedence objektov do skupin (jablk\xE9, gran\xE1\
+      ty);Regresn\xFD - Korel\xE1cia nedaj\xFA v\xFD\u0161kou a v\xFDhod popul\xE1\
+      rie;D\xE1la s\xFA vo forme matic o rozmezoch po\u010Dtu parametrov."
+    truth: 0
+  8:
+    pred: 0
+    text: "Mysl\xEDm, \u017Ee \u013Eudsk\xFD mozog je len dostato\u010Dn\u011B komplexn\xFD\
+      \ stroj, tak\u017Ee \xE1no. je mo\u017En\xE9, \u017Ee v\xFDpo\u010Detne sme\
+      \ toho u\u017E dosiakli, len n\xE1m treba spr\xE1vnej software. Asimov, \u010C\
+      apek a autor \u201EDo andreach's dream of electric sheer ktor\xE9ho meno mi\
+      \ vypadlo s\xFA jedny s mojich obl\xEDben\xFDch autorov. Nakoniec, mysl\xED\
+      m, \u017Ee aj bez \xFAmyslu, dostato\u010Dne komplexn\xFD syst\xE9m za\u010D\
+      ne vyfazova\u0165 zn\xE1mky inteligencie."
+    truth: 0
+  9:
+    pred: 0
+    text: "V\xFDhoda je, \u017Ee niekedy priznaky proste nedok\xE1\u017Eeme ur\u010D\
+      i\u0165 a desp learning si ich (at m\xE1 dostatek vstupn\xFDch d\xE1t) schopn\xFD\
+      \ \u201Eodhadn\u016F\u0165 s\xE1m\u201C. Nev\xFDhoda je pr\xE1ve potreba z\xED\
+      skan\xE9a moc (a poten\u010D\xE1lna klasifik\xE1cia) velk\xE9ho mno\u017Estva\
+      \ d\xE1t. Pr\xE1ca sa prestr\xFAva s programovania na data;o"
+    truth: 0
+  10:
+    pred: 1
+    text: "Li\u0161in na po\u010Dtu neur\xF3nov;Monze;M\xF4\u017Eu sa l\xE9\u010D\
+      i\u0165 po\u010Dtou neur\xF3nov.;"
+    truth: 0
+  11:
+    pred: 1
+    text: "No, proto\u017Ee r\xF4zne hl\xE1sky produkovan\xE9 h\u013Eadan\xE9 na nah\
+      \ s\xFA si podobn\xE9 v umysle, vyu\u017E\xEDvaj\xED u\u010D\xED slabika Nie\
+      \ preto\u017Ee v jednom \xFAseku, m\xF4\u017Ee by\u0165 toto\u017En\xE1 pou\u017E\
+      it\xE1 viacht\xE1t."
+    truth: 0
+  12:
+    pred: 2
+    text: "po\u010Det pixelov x 3 kan\xE1ly pre ka\u017Ed\xFA farbu (R, G, B);;R -\
+      \ kan\xE1l G - konat;B-kan\xE1l;Vstupem bud\xFA jednotliv\xE9 pixely,"
+    truth: 0
+  13:
+    pred: 4
+    text: "policy je lep\u0161\xED ale m\xE1me velk\xE9 mno\u017Estvo d\xE1t;On- policy\
+      \ sa u\u010D\xED na d\xE1tach s ktor\xFDmi pracuje a ignoruje hist\xF3riu.;Sf-policy\
+      \ vytv\xE1rn parametre na dataset, na parceli nepou\u017Eije ich o d\u011Bjin\
+      \ generac\xED. M\u011Bsto toho si ich ukl\xE1d\xE1 a vyu\u017E\xEDva svoju pam\xE1\
+      \u0165.;zas Off-policy je lep\u0161\xED ale nem\xE1me dostatek d\xE1t, On-policy\
+      \ je al ich je dos\u0165.;- policy sa neu\u010D\xED na predo\u0161l\xFDch gener\xE1\
+      ci\xE1ch (m\xE1 pam\xE4\u0165) a nie na tom s \u010D\xEDm pracuje. Preto funguje\
+      \ lep\u0161ie s nedostatkam d\xE1t. On-policy vstupal ak ich je dost."
+    truth: 4
+fd4c95ac222b1b1ce4780a446a0662ff:
+  0:
+    pred: 0
+    text: "V\xFDsledkem je ANO-OR grap Senzory mest\xED pot\u0159ebn\xE9"
+    truth: 0
+  1:
+    pred: 4
+    text: "- Alga-Beta dosahuje rovnak\xE9 zisky ako MiniMax. Alpa-Beta m\xF4\u017E\
+      e n\xE1js\u0165 v\xFDsledok rychlej\u0161ie ak by mohla prereza\u0165 \u010D\
+      as\u0165 stromu. Potrebujeme pozna\u0165 akc strom vyzer\xE1. ALPEN"
+    truth: 4
+  2:
+    pred: 3
+    text: "- IDS - narozdiel od BF. S nie je tak moc pam\xE1tovo n\xE1ro\u010Dn\xE9\
+      \ - s t\xFDm, \u017Ee sa postupne zanoruje m\xF4\u017Eeme n\xE1js\u0165 rie\u0161\
+      enie bez toho aby sme sa zacyklili niekde hlboko vstrome ako pri DFS"
+    truth: 3
+  3:
+    pred: 2
+    text: "-x zn\xE1zor\u0148uje simulovan\xE9 \u017E\xEDh\xE1n\xED - ke\u010F budeme\
+      \ hlada\u0165 maximum, je mo\u017En\xE9, \u017Ee n\xE1jde lok\xE1lny extr\xE9\
+      m a skon\u010Dilo by simulovan\xE9 \u017E\xEDh\xE1n\xED v\u0161ak umo\u017E\
+      n\xED zobra\u0165 hor\u0161ie hodnoty na prekonanie extr\xE9mu a potom najdeme\
+      \ glob\xE1lnye;n\xE1hodn\xE1 p\u0159ech\xE1dzka se bude n\xE1hodn\u011B p\u0159\
+      es\xFDvat a zasekne sa vlok\xF3lnom extr\xE9me"
+    truth: 0
+  4:
+    pred: 3
+    text: "P;x s;;P(y) =;PVH = \u0161plxy;P(y) = spl\xFD;"
+    truth: 0
+  5:
+    pred: 0
+    text: "P(mk) = 20% P(zdrav) = 80% P(poznak) = 90% P(negl nak) = 10% p (neg / zdrav)\
+      \ = 97,5% P(pozdrav) = 2, 5%;= P(x) PL\xC1N;P(x|y). P (o);\uFFFD P(coz, rak)\
+      \ = P(pozitivale). P(rak) (poznak) = 0, 9.0,2 = 0,73"
+    truth: 0
+  6:
+    pred: 4
+    text: "Maximum Likelihood;Diskriminativny klasifik\xE1tor rozhoduje o rozd\u011B\
+      len\xED do t\u0159\xEDd"
+    truth: 0
+  7:
+    pred: 2
+    text: "Modely:;Data;Klasifika\u010Dn\xFD probl\xE9m sa sna\u017E\xED vytvori\u0165\
+      \ pr\xEDslu\u0161nos\u0165 do tried a regresn\xFD probl\xE9m sa sna\u017E\xED\
+      \ vytvori\u0165 punkciu, kter\xE1 bude reprezentova\u0165 rozlo\u017Eenie d\xE1\
+      t klasifika\u010Dn\xED - k-najbli\u017E\u0161\xEDch susedov, Regresn\xFD - Line\xE1\
+      rna regresia, logistick\xE1 regresia Line\xE1rna regresia - dvojrozmezn\xE9\
+      \ hodnoty, priktor\xFDch o\u010Dak\xE1vame, \u017Ee bud\xFA ma\u0165 gaussovsk\xE9\
+      \ rozlo\u017Eenie K-susedov - neanotovan\xE9 aj arotovan\xE9 data;Line\xE1rna\
+      \ regresia - y = wx + w;Funkcie"
+    truth: 0
+  8:
+    pred: 4
+    text: "V dne\u0161nej dobe sa odbor umelej inteligencie zlep\u0161uje a rozrast\xE1\
+      \ obrovsk\xFDmi Krokmi, napr\xEDklad spracovanie textu s Chat GPT alebo prevod\
+      \ textu na obr\xE1zky ako Dalle alebo Mid Journey. Toto boli obrovsk\xE9 pokroky\
+      \ pre \u0161irokou verejnos\u0165 aj ke\u010F sa jedn\xE1 o Narrow AI. Aj ke\u010F\
+      \ s\xFA to pokroky v narrow AI, mysl\xEDm, \u017Ee pokrok je mo\u017En\xFD a,\
+      \ pre General AI a v zlep\u0161ovan\xED kognit\xEDvnych schopnostiach strojov\
+      \ ako s\xFA u\u010Denie sa, pochopenie s\xFAr\xE1slost\xED, self-awerres. Ani\
+      \ predn\xFD vedci nevedia kde sa general AI m\xF4\u017Ee dosta\u0165, tak\u017E\
+      e t\xE1to mo\u017Enost by sa nemala zavrhnu\u0165"
+    truth: 3
+  9:
+    pred: 4
+    text: "Niektor\xE9 \xFAlohy s\xFA velmi n\xE1ro\u010Dn\xE9 na extrakciu pr\xED\
+      znakov, do konca a\u017E nemo\u017En\xE9 pro \u010Dloveka. P\u0159i ru\u010D\
+      n\xFDch pr\xEDznakoch je pot\u0159ebn\xE9 vysk\xFA\u0161a\u0165 vela mo\u017E\
+      nost\xED manu\xE1lne aby sa na\u0161iel spr\xE1vny v\xFDsledek. Napr\xEDklad\
+      \ extrakcia pr\xEDznakou pre rozpoznanie obli\u010Dejov na obr\xE1zku \u010C\
+      lovek nev\xEDe ako maj\xED vyzeva\u0165 a mus\xED sk\xFA\u0161a\u0165. Deep\
+      \ learning extrakciu zvl\xE1dne s\xE1m a to je v\xFDhoda a ulah\u010Denie pr\xE1\
+      ce program\xE1tora Nev\xFDhody - je pot\u0159ebn\xE9 viac d\xE1t - napotrebn\xE1\
+      \ v\xE4\u010D\u0161ia neuronov\xE1 sie\u0165"
+    truth: 4
+  10:
+    pred: 4
+    text: "i pro ostatn\xED architektury?);- na za\u010Diatku un\xEDmame iba hrany\
+      \ a velmi mal\xE9 \u010Dasti potom s\xFA ta men\u0161ie \u010Dasti velk\xFD\
+      ch objektov nakoniec s\xFA to cel\xE9 objekty alebo velk\xE9 \u010Dasti -;v\
+      \ jej\xED starosti si m do surongsk\xE9 dopravy interpretuje;z\xEDskat, pozd\u011B\
+      \ a\u017E na 1A Jaroslavi v obci se budou Snadno se slav\xEDme v pod 700"
+    truth: 4
+  11:
+    pred: 1
+    text: "Nie, rekurentn\xE9 sie\u0165e umo\u017E\u0148uj\xFA ch\xE1pa\u0165 s\xFA\
+      \ vislosti v zvukovej nahr\xE1vke.;;do eidov\u011Bdgia org. verbushig interesse\
+      \ (tu singul) P\u0159i\u0161ede jen s knapp jsem ale snad stra\u0161n\u011B\
+      \ zasedac\xED a stoln\xED obory - ne antikve instance primatival;spokojen\xFD\
+      \ siln\xFD tito osob s adaptovan\xFDm - pozoroval 7 let oslavovac\xED sv\u011B\
+      tov\xE1 hromada -"
+    truth: 0
+  13:
+    pred: 4
+    text: "-;On-policy - pracuj\xFA iba s aktu\xE1lnym stavom a pot\u0159ebuj\xFA\
+      \ velk\xE9 mno\u017Estvo z\xE1\u017Eitkov - s\xFA jednoduch\u0161ie ale pot\u0159\
+      ebuj\xFA velk\xFD v\xFDpo\u010Detn\xFD v\xFDkon opp-policy - pracuj\xFA aj s\
+      \ minul\xFDmi stavmi a nepot\u0159ebuj\xFA toliko z\xE1\u017Eitkou mo\u017E\
+      n\xE9;Ka\u017Ed\xE1 m\xE1;svoje v\xFDhody a priestor na pou\u017Eitie"
+    truth: 0
+fdb0df15e7ad924fe4403d60cca91fc6:
+  0:
+    pred: 4
+    text: "1. V\xFDsledkem prohled\xE1v\xE1n\xED ve zn\xE1m\xE9m, deterministick\xE9\
+      m a pln\u011B pozorovateln\xE9m prost\u0159ed\xED (pomoc\xED, nap\u0159., IDS)\
+      \ je agent\u016Fv pl\xE1n ve form\u011B line\xE1rn\xED posloupnosti akc\xED\
+      . Co je v\xFDsledkem prohled\xE1v\xE1n\xED ve zn\xE1m\xE9m, nedeterministick\xE9\
+      m a pln\u011B pozorovateln\xE9m prost\u0159ed\xED? (N\xE1pov\u011Bda: nen\xED\
+      \ to nic Markovovo.) V\xFDsledkem je postupnos\u0165 stavov, kt. agent p\u0159\
+      \xED\u0161iel k v\xFDsledku a ich okol\xED, kt. agent zist\xED senzomii.;"
+    truth: 0
+  1:
+    pred: 3
+    text: "Volba tahov (\u010Das) sa zmen\u0161\xED, ke\u010F\u017Ee budeme odsek\xE1\
+      va\u0165 stavov\xFD prostor. Priemen\xFD zisk sa v\u0161ak m\xF4\u017Ee zn\xED\
+      \u017Ei\u0165 - to z\xE1le\u017E\xED najm\xE1 na kvalite odrez\xE1vania mo\u017E\
+      nost\xED. Odhad z\xE1le\u017E\xED aj napr\xEDklad na kvalit\u011B nevrst. funkcie\
+      \ na po\u010Dte stavov."
+    truth: 0
+  2:
+    pred: 4
+    text: "DFS s omezen\xEDm na 8. \xFArove\u0148 stromu.;V pr\xEDpad\u011B, ale by\
+      \ sme pou\u017Eili BFS, museli by sme si pam\xE1ta\u0165 v\u0161etky vztah v\u0161\
+      etk\xFDch \xFArovn\xED, v pr\xEDpade DFS s omezen\xEDm, v najhor\u0161om pr\xED\
+      pade - ak sa rie\u0161enie nach\xE1dza \xFAplne napravo to dopadne pam\xE1\u0165\
+      ovo a \u010Dasovo rovnako ako BFS ale v najlep\u0161om pr\xEDpad\u011B, ak sa\
+      \ ri\xE9senie nach\xE1dz v l\xE1zn\xEDm podstrome, dopadne DFS v\xFDrazne lep\u0161\
+      ie. (To za predpokladu, \u017Ee prehl\xE1d\xE1va naysk\xF3r l\xE1v\u011B podstro"
+    truth: 4
+  3:
+    pred: 2
+    text: "po\u010D. nav\u0161t\xEDven\xFDch;Je vidie\u0165, \u017Ee pri n\xE1hodne\
+      \ prech\xE1dzke sa kvalita stavu zni\u017Euje a zvy\u0161uje n\xE1hodne, preto\u017E\
+      e algoritm s nav\u0161t\u011Bvy stavy r\xF4znej kvality n\xE1ho Na druhej strane\
+      \ pri sim n\xE1hodn\u011B proch\xE1dzla \u017E\xEDhan\xED sa kvalita \u010D\
+      aso celkov\u011B zvy\u0161uje ale v mal\xFD krokoch sa ob\u010Das zn\xED\u017E\
+      i, ked sa energia v aktu\xE1lnom stave dovon\xE1 energi\xED sudre To umo\u017E\
+      \u0148uje tomuto algo dostat sa k lep\u0161\xEDm sta za cenu hor\u0161\xEDch\
+      \ v prejc cez hor\u0161ie stavy;n\xED"
+    truth: 4
+  4:
+    pred: 4
+    text: "P(class) Nedze model m\xE1me natr\xE9novan\xFD P(x) \u0148adnut\xFD z tr\xE9\
+      novania tak likelyhood m\xE1me dan\xFD, P(X) m\xE1me zadan\xE9 a p(class) orac\xED\
+      ch margin\xE1lna pst danej triedy z tv\xE9 d\xE1t, kt dosad\xEDme. Dosad\xED\
+      me aj. p(x) kt. zalevieme zo zadan\xE9ho Gaussovsk\xE9ho rozlo\u017Eenia.;P(x|class)\
+      \ .p(class)"
+    truth: 0
+  5:
+    pred: 4
+    text: (pozit / nakazena) =0,9
+    truth: 4
+  6:
+    pred: 3
+    text: "the wranica lin. priamka K-ncarest;dan Pre h-nearest vieme spo\u010D\xED\
+      ta\u0165 kol\xEDko tam je v k- okol\xED prvkou danej triedy, tak\u017Ee rieme\
+      \ vypo\u010D\xEDtat s akou pst je patn\xED observation do danej triedy"
+    truth: 0
+  7:
+    pred: 2
+    text: "vstupn\xE9 data;\u201E - Pri klasifika\u010Dnom probl\xE9me sa sna\u017E\
+      \xEDme klasifikova\u0165 do ist\xE9ho po\u010Dtu tried [\u017Eatia\u0165 \u010D\
+      o pri regresnom probl\xE9me hl\xE1d\xE1me paranetne pre regresi funkciu - \u010D\
+      \xED\u017Ee hl\xE1d\xE1me funkciu, kt. dok\xE1\u017Eeme p\u0159elo\u017Ei\u0165\
+      \ tr\xE9novac\xED data a teda aj odhadn\xFA\u0165 nov\xE9 data. klasif. - K-\
+      \ Nearest, gaussgovsk\xFD klasifik\xE1tor regresn\xED probl\xE9m - reline\xE1\
+      rna regresia, polynomi\xE1lna regresia Pri klasif. probl\xE9mech d\xE1ta obsahuj\xFA\
+      \ hodnotu a triedu do kt. patnia pri regresn\xFDch n\xE1m sta\u010D\xED ich\
+      \ hodnota resp. poloha. Pri klasif. pracujeme s pst pr\xEDslu\u0161nosti do\
+      \ danej turecky resp. tr\xE9novan\xEDm M y = ao x t a, a pri lin. a poku. regres\u016F\
+      \ tr\xE9nujeme parametre pokyn\xF3m pregr. vs.;ladav hra"
+    truth: 0
+  8:
+    pred: 4
+    text: "Osobne si mysl\xEDm \u017Ee to mo\u017En\xE9 je, 20 rokov dozadu by nikto\
+      \ neveril, \u017Ee za p\xE1r kor\xFAn sa bude da\u0165 k\xFApi\u0165 mobiln\xED\
+      \ zariadenie, kt. sa v\xFDkonom vyrovn\xE1 v tej dobe velk\xFDm po\u010D\xED\
+      ta\u010Dom. T\xFDm, \u017Ee na\u0161e telo - \u0161pecificky mozog je vytvoren\xFD\
+      \ neur\xF3nni a r\xF4znymi funkciami - chem. procesmi venm \u017Ee pri dostato\u010D\
+      nom \"okop\xEDrovan\xED\" t\xFDchto procesou a \u0161trakt\xE1ry bude mo\u017E\
+      n\xE9 dosaha\u0165 vytvoreniu General AI na \xFArovni batol\xE1t\xE1 kt. sa\
+      \ bude u\u010Di\u0165. Proti argumenty typu \"nebude ma\u0165 intuicia, cit!\
+      \ a podobne neporazujem za dosta\u010Duj\xFAce, proto\u017Ee tieto vlastnosti\
+      \ s\xFA tv\xE9\u017E v\xFDsledok chem. procesor - napr\xEDklad sociopati maj\xFA\
+      \ tieto procesy naru\u0161en\xE9, preto nemaj\xED rovnak\xE9 pocity ako r\u010D\
+      i\u010D\u0161ina."
+    truth: 4
+  9:
+    pred: 4
+    text: "Ak ro\u010Dne extrahujeme pr\xEDznaky, m\xF4\u017Eeme v krat\u0161\xED\
+      m \u010Casovom \xFAseku dosta\u0165 model, kt. zvl\xE1da klasifik\xE1ciu dobre.\
+      \ V pr\xEDpade hlbok\xE9ho u\u010Denia je a le v\xFDhoda tah\xE1, \u017Ee tieto\
+      \ pr\xEDznaky a pattemy s\xFA n\xE1jdeme samotnou sic\u0165ou a m\xF4\u017E\
+      eme dosta\u0165 ovel\xE1 lep\u0161\xED model - k tomu sa vztahuje ot\xE1zka\
+      \ \"Ako my m\xF4\u017Eeme vedic\u0165, kt. pr\xEDznaky s\xFA d\xF4le\u017Eit\xE9\
+      \ pre sie\u0165?\u201C, Pri tr\xE9novan\xED deep NN je \u010Dasto v\xFDsledek,\
+      \ \u017Ee aj he\u010F zam\xFD\u0161l\xEDme napr. \u017Ee ur\u010Dit\xFD layer\
+      \ bude fungova\u0165 ako identifik\xE1cia kruhov apod., \u010Dasto si sie\u0165\
+      \ rob\xED II\u010Do chce\u201C a n\xE1jde optim\xE1lnej\u0161ie vyu\u017Eitie\
+      \ pre ka\u017Ed\xFD layer"
+    truth: 4
+  10:
+    pred: 3
+    text: "Na za\u010Diatku konvolu\u010Dn\xFDch siet\xED sa \u010Dasto aplikuj\xFA\
+      \ fitre, kt. deteguj\xED mal\xE9 lok\xE1lne pr\xEDznaky -> ako napr\xEDklad\
+      \ hrany, kde na za\u010Diatku sa aplikuj\xED napr\xEDklad tri konvolu\u010D\
+      n\xED prav\xE9 hran a horizont\xE1lne jadn\xE1 na l\xE1v\u011B hrany hrany a\
+      \ d\xE1lej v sieti sa potom aplikuj\xFA jadr\xE1 kter\xE9 konvolvuj\xED a deteguj\xED\
+      \ trany kruhov a v\xFDch. travou a na konci sa deleguj\xED u\u017E zlo\u017E\
+      it\xE9 obrazce z preto\u0161l\xFDch layerov.;"
+    truth: 0
+  11:
+    pred: 1
+    text: "\xCDslo by to za predpokladu, \u017Ee v\u0161etky slov\xE1 v jazyku maj\xFA\
+      \ napr. rovnak\xFA d\u013E\u017Eku - ak sa v ot\xE1zke mysl\xED detekova\u0165\
+      \ text v zvuku napr. V re\xE1lnom svete by to i \u0161lo velmi ta\u017Eko, proto\u017E\
+      e relument siete dok\xE1\u017Eu feedbachom bra\u0165 v potaz aj predo\u0161\
+      l\xE9 d\xE1ta a modelova\u0165 pravdepodobnos\u0165 dal\u0161\xEDch d\xE1t.\
+      \ T\xE1to vlastnost\xED je podstatn\xE9 pri d\xE1tach kt. s\xFA r\xF4znej d\u013E\
+      ahy ale obsahovo rovnak\xE9 - ako napr\xEDklad zvuk rety povedanej sv\xFDmi\
+      \ v\u011B\u010Dn\xEDk\u016F - rychlej\u0161\xEDm a pomal\u0161\xEDm. V pr\xED\
+      pad\u011B ale, \u017Ee by sme \u017Eili v ide\xE1lnom svete kde slov\xE1 maj\xFA\
+      \ rovnak\xFA d\u013E\xCD\u017Eku, bolo by mo\u017Ene izolova\u0165 jedn. tacio\
+      \ a konce slov a vytvori\u0165 NN ht. by klasifikovala stov\xE1 pod\xEDl jednotl.\
+      \ pr\xEDzvadlou \uFFFD napr. ka\u017Ed\xE1 vzorka slova (v\u0161etky maj\xED\
+      \ rovnako vzorek v ide\xE1lnom suct\u011B."
+    truth: 1
+  12:
+    pred: 2
+    text: "konvolu\u010Dn\xED sie\u0165, kt. bude z obr\xE1zkov detego ra\u0165 nap\xFA\
+      li pali\u010Dkov\xE9 p\xEDsnen\xE1 ABOD - by sme mohli vytvori\u0165 napr. takt;Za\u010D\
+      ali by sme p\xE1r kan\xE1lni, kt. by detekovali vertik\xE1ln\u011B hrany ->\
+      \ napr\xEDklad hran a horezont\xE9 hran - podobne ako som nazna\u010Dil v \xFA\
+      loze 11, k tomu by sme mohli prida\u0165 aj \u0161iln\xE9 hrany, mysl\xEDm \u017E\
+      e by to pomohlo napr. , vo vy\u0161\u0161\xEDch vrstv\xE1ch by sme spojen\xED\
+      m kard vedeli detekova\u0165 tvary \u0161pecifick\xE9 pro dan\xE9 p\xEDsmen\xE1\
+      \ \uFFFD siln\xE9 hraje pre A, k, kt. obsahuj\xED aj horiz. \u010Di vertik\xE1\
+      le \u010Di jist\xE1 kombin\xE1cia pre obl\xFAky v p\xEDsmenc\xEDch. Po skombinovan\xED\
+      \ by sme na najvy\u0161\u0161ej vrstve dostali p\xEDsmeno ht. najviac sed\xED\
+      \ k t\xFDmto kombin\xE1ciam hodnot. z konvolucii"
+    truth: 0
+  13:
+    pred: 2
+    text: "\xE9ho u\u010Den\xED? Kter\xE9 jsou a to konkr\xE9tn\u011B L\xED\u0161\
+      ia sa v sp\xF4sobe u\u010Den\xEDm sa policy, tak, \u017Ee pri algoritmech on-policy\
+      \ sa optim\xE1lnou policy dok\xE1\u017Ee nau\u010Di\u0165 len tak, \u017Ee agent\
+      \ rob\xED rozhodnutia kt. koreluj\xFA s danou policy. Pri off-policy sa dok\xE1\
+      \u017Ee nau\u010Di\u0165 ay bez toho, aby agent robil. \"spr\xE1vne\" rozhodnutia.;"
+    truth: 2

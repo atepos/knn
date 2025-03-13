@@ -1,0 +1,220 @@
+1069b3fc4fb47f279610ef035bf163d4:
+  7:
+    pred: 0
+    text: 'logistická regrese. k- Nearest Neishbours) k x;P(c=1|x) = v|x w) p(c=0|x)
+      = 1- p(c=1|x);Diskriminativní: - na základě přichozího data přímo rozhodneme,
+      do které třídy bude dato náležet (zde se rozhodujeme s pomocí funkce sigmoida)
+      patřiť která vypočte aposteriorní pst - nemodelujeme hustotu pravděpodobnosti
+      jako u generativních modelů'
+    truth: 3
+  9:
+    pred: 3
+    text: Momentálně schopni nejsme, ale teoreticky bychom toho schopni měli být.
+      Pokud budeme schopni vhodně namodelovat inteligenci tak, jak ji příroda stvořila.
+      Pokud to dokázala ona, proč ne.
+    truth: 3
+25c648790a6392af3eddc3ded14a7c92:
+  1:
+    pred: 0
+    text: ''
+    truth: 0
+  5:
+    pred: 3
+    text: Draháček;X;opst pach. pro třídil;P(C|X);;;2. POXIZ POZ;odhadnuté (elegarial
+      disp) a prior, probabilities;napiš Red Bl;Or, O;gau s dto;odloučení;tyto památky
+      isif P( XII;Spojení se stav do Bajkalu do Bajkale na Radomově Radomoravě.;falssovská
+      30 volební;3;+6;8;;í V;I-;Prose.;6 sportky;2 (q-času) = 20 reálnými čísly;MRV;RD
+    truth: 4
+  7:
+    pred: 1
+    text: Logistická regrese;klasifikátor 2D dat - z přednášky spř. Dimání;1;24
+      K (XIX) = o (wh - x1 třídu) (date) nepřejeme přímo X na nějakou 7; nesnažíme
+      se zde odhadovat nějaké apodmetné pravděpodobnosti, ale přímo odhadujeme apod.
+      Takže model SVM - spart vedou narodino se nesnaží ani o obhod opost. Jurici
+      ale snaží se najít maximálně pozorovat na naše družini třídy SVM a legionářem
+      doktrin. Vzorný klasif. diskriminuje do tříd a proto je neodhodlají se, tu
+      dislokace jako v gaumatice - neděli kterých by se dalo generovat
+    truth: 4
+26a9350a320f080e23e865aa5320e0ac:
+  2:
+    pred: 4
+    text: Zisk sa meniť nebude, ako Alfa-Beta, tak aj Minimex sa;snažia maximalizovať
+      svoj zisk, v deterministickou prostredí bude revnaký - počítajú s tým, že
+      si super vyberie ich nejväčšiu straku rvanie volby ťahu sa môže vďaka pruningu
+      drasticky a viac zvýšit - aj o 50% (odrežeme hned na začiatku polovicu vetví),
+      výsledné číslo závisí od aspoziadama výsledkov hry priemorná v listoch prehladávaného
+      stromu. Minimálná rýchlost kde povodných 13.57 s.
+    truth: 4
+  13:
+    pred: 2
+    text: tu;vstupný;obrázok;;+;;konvolučná vrstva;pooling;vrstva;konv. vrstva;plna
+      propojená vrstva;hladá vo vskupe vzory skládá se z učincích za filtrov (většinou
+      velkosti 3x3) počet kanálov závisí od formátu vstupných dát - napr. RGB obrázky
+      budú spracované každý kanál (R, 6, 8) kanál zvlášť, čiernobiele obrázky majú
+      len 1 14. Jaký je rozdíl mezi takzvanými „on-policy" a „off-policy“ algoritmy
+      posilovaného učení? Které jsou lepší a proč?;výstup závisí zmenšuje vstup,
+      čiastočne od požadovaného sa stará o invarianciu výstupu CNN, napr. proti
+      posunutiu ak máme klasifikační vzoru / objektu úlohu, aktivačná funkcia softmax
+      by mohla udat pravdě- podobnosti třied. Inak to možn by napr. súřadnice lokalizovaného
+      objektu odpoveď ána/nie na otázku, či na objekt náč
+    truth: 3
+670bd457fe34808747e5544e5f168fb4:
+  5:
+    pred: 0
+    text: PCY P(x|= odhadnout lze jako počet vstupních dat daného třídy deleno počtem
+      každého vzorků P(y) - odhadnout lze jako podíl vzorků danej třídy a počet
+      každého vzorků P(x|y) - odhadnout pomocí vzorce P(x|y) = arg max (N|x; u,
+      ?)) P(yx) - odhadnout pomocí Bayesův vzorce 1869 N (x|N, [2) x - je matice
+      vstupných dat, má discenzie 3 (dimenzia) � počet dat v tříde - floating point
+      číslá u - je matice 3x1 pro odhad štřednej hodnoty - floating point číslo
+      - pomocí vnouce u= XII 312 5- je matice) hororizační matice 3x3 pro odhad
+      rozptylů - flating point čelá - pomocí vzorce 2 1/2 (xo-re) Wornst Je třeba
+      odhadnot PCX) 1 frát, P(ys 2 krát, P(x|y) Zkrátka - a kotomu u 2 krát, [Zkrát-
+      a těm pádem podle Ragesův vzorce lze vypočítat odhad P(y|x) - zase 2 hrát
+      pro 2 třídy;ex)
+    truth: 1
+  7:
+    pred: 0
+    text: Z Polynomiální klasifikace 1. Polynomiální / lineární klasifikace 2. (Lonearningues);pohled
+      terý kalhoty.;Stellg;;11;Auf die Angriffe ist es daher das durchgeführte erschienen
+      kann, daß ich eigentlich aus- schießen dann als trotzgemäß jeder Stabschule.
+      Bald Koter war das eintr
+    truth: 0
+  8:
+    pred: 1
+    text: U klasifikačním problémů na vstupní sadu chceme uhádnout aposteriorní
+      pravdepodobno p(x|c) - t. j. pravdepodobnost, že vstupní vzorek x patří do
+      nejakej tříde, jak o ňom máme k dispozice informace a - patří do třídy c..
+      V regresním problémů neuf neaproximujeme p(x|c), ale chceme data reprezentovat
+      pomocí funkce.;g 10 August
+    truth: 0
+  9:
+    pred: 4
+    text: Určite lze vytvořit General AI. Problém vytvoření takové AI je vlastne
+      velmi komplikované verze Reinforcement learning problémů, jak je to reinforcement
+      learning problém, určite musí existovat nejaký neuronoví síť, které to modeluje
+      - t. j. řešení na problém existuje, len jsme to dosud nenašli. Jiním argumentem
+      je, že víme, že existuje neco, co má požadované vlastnosti (třeng) General
+      AI - člověk - potom je třeba len nájsť techniku, které člověka transformuje
+      na neurální síť, a máme problém vyřešen.
+    truth: 3
+  12:
+    pred: 4
+    text: Ne, obecne ne. Bez rekurentných vrstev nemal neuroni šít šancu odhadnout,
+      kde začne písmeno slová, a kdy zkončí. Délku pro 1 písmeno je teda třeba měniť
+      dinamičky. Potom existují jazyky u kteréch 1 písmeno + 1 oznak jako mapř.
+      čínština, tím pádem musí n. s. nejak mít informace o tom, jaké byly předchozí
+      písmena - zase nelze bez rekurentních vrstev.
+    truth: 1
+7b4dd0c8ba3c575059ffeff8f8f696d5:
+  5:
+    pred: 0
+    text: 'Stará na stole;1915 Starosta: Starý Kraj'
+    truth: 0
+8310871a91f6396928f7e50acd47c2d3:
+  7:
+    pred: 0
+    text: '- je možné použiť regresný model - gausovský klasifikátor'
+    truth: 0
+  9:
+    pred: 4
+    text: '- myslím si, že v určitom časovém horizontě to bude možné, stačí si zobrať
+      príklad z chat GPT, kt. podľa níma generuje velmi slušně výsledky z hladiska
+      umelý inteligencie � tým pádem, že projekt Chet GPT má velký úspedek tak aj
+      viacero investora sa momentálne snaží do tohto odvetvěa investovať velké množstvo
+      financií, tak za mělolko dokud to bude možné, nehorozie o extrémne rychlem
+      vývoji hardvéru, kl. neodmyslitelnou časťou'
+    truth: 4
+8da82df4606715cb145f7f979908efc1:
+  14:
+    pred: 0
+    text: ''
+    truth: 0
+b4935d607791eae472f1c04b426b2d18:
+  3:
+    pred: 4
+    text: IDS - interativní prohledávání do hloubky;- máme jasně určenou maximální
+      hloubku (větší než 8. úroveň napodobená - max hloubka se s každým cyklem zvětšuje
+      o 1;v paměti;V tomto případě vždy najde řešení, které je optimální. Nebude
+      existovat možnost nalezení jiné a kratší cesty. Paměť je šetřena tím, že ukládáme
+      uzly pouze z aktuálně prohledávané větve (a ne "komplet" strom jako u BFS);moc
+      hluboko, neprohledáváme
+    truth: 3
+  8:
+    pred: 1
+    text: klasifikace;regrese;klasifikace - s anotací;Data;regrese - bez anotace;vede
+      na učení;bez učitele (např. k-means);vede na učení s učitelem
+    truth: 0
+  13:
+    pred: 0
+    text: ''
+    truth: 0
+b9f5b9793d2ca99f24ea098f529807e7:
+  8:
+    pred: 0
+    text: klasifikace;vstupy Generativní Gaussovaly Klasifikátor (výstup;MLE parametrov
+      Gaussovky
+    truth: 0
+c54fb9058a498e5d0a9138a3846352b4:
+  14:
+    pred: 2
+    text: ON-poLICY � tyto alg. vylepšují svoji policy, pouze na základě výsledků
+      aktuálního běhu - nejsou žádným způsobem ovlivněny předchozími běly;Off-pOLICY
+      � tyto alg. vylepšují svoji policy i na základě předchozích běhů — mají paměť,
+      která si tyto výsledky pamatuje;OFF-POLICY jsou lepší, jelikož není nutné
+      vždy trénovat zcela od znova, ale máme již k dispozici data z předchozích
+      běhů � úspora času a výpočetního výkonu
+    truth: 3
+d47558962966c8b741426336d3ebfe9c:
+  9:
+    pred: 3
+    text: Myslím si, že ano. Již dnes se AI musí brzdit a onezovat aby se zabránilo
+      nežádaným účinkům. Ale již dnes jsem voborí, kteří se chovají jako lidi, mají/trénují
+      emoce, umějí se pohybovat umí mít ambice, učit se z chyb.. Splňují tedy většinu
+      toho, co dělá lidi lidmi. Myslím si, že do budoucna ne jistě potenciál AI
+      ještě posílit tak, že bude součástí společnosti jako plnohodnotný člověk
+    truth: 4
+e3fcfce792cba2bd9b1f688e09b8636d:
+  9:
+    pred: 0
+    text: Ne, je příliš mnoho iformové, které by se muselo vařit a vždy by se mohlo
+      zajít něco co ješte neumí selo umí ale se zcela správně
+    truth: 1
+  10:
+    pred: 4
+    text: výhody - nemusí se dehnat příznaky, suma si je přeučit extrahuje - může
+      se jednoduše na jiný úkol pomocí "Line - tuněny";seškody - oproti stolku lezningu
+      může být problém když máme málo dát - může dojít k přetrénování
+    truth: 4
+ee4b7041a56afa5dba176c9bb60a631d:
+  8:
+    pred: 1
+    text: Klasifikační - triedence objektov do skupin (jablké, granáty);Regresný
+      - Korelácia nedajú výškou a výhod populárie;Dála sú vo forme matic o rozmezoch
+      počtu parametrov.
+    truth: 0
+fd4c95ac222b1b1ce4780a446a0662ff:
+  2:
+    pred: 2
+    text: '- Alga-Beta dosahuje rovnaké zisky ako MiniMax. Alpa-Beta môže nájsť
+      výsledok rychlejšie ak by mohla prerezať časť stromu. Potrebujeme poznať akc
+      strom vyzerá. ALPEN'
+    truth: 4
+  7:
+    pred: 0
+    text: Maximum Likelihood;Diskriminativny klasifikátor rozhoduje o rozdělení
+      do tříd
+    truth: 0
+fdb0df15e7ad924fe4403d60cca91fc6:
+  13:
+    pred: 1
+    text: konvoluční sieť, kt. bude z obrázkov detego rať napúli paličkové písnená
+      ABOD - by sme mohli vytvoriť napr. takt;Začali by sme pár kanálni, kt. by
+      detekovali vertikálně hrany -> napríklad hran a horezonté hran - podobne ako
+      som naznačil v úloze 11, k tomu by sme mohli pridať aj šilné hrany, myslím
+      že by to pomohlo napr. , vo vyšších vrstvách by sme spojením kard vedeli detekovať
+      tvary špecifické pro dané písmená � silné hraje pre A, k, kt. obsahují aj
+      horiz. či vertikále či jistá kombinácia pre oblúky v písmencích. Po skombinovaní
+      by sme na najvyššej vrstve dostali písmeno ht. najviac sedí k týmto kombináciam
+      hodnot. z konvolucii
+    truth: 1
