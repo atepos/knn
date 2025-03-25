@@ -10,10 +10,7 @@ Cílem je poloautomatizovat hodnocení písemných odpovědí studentů, které 
 
 Výstupem našeho systému bude automaticky generované hodnocení každé odpovědi, které se snaží co nejvěrněji napodobit manuální hodnocení. Například pokud model pomocí automatizovaných metod (např. na základě metriky kosinové podobnosti embeddingů nebo jiného přístupu) vyhodnotí odpověď s výsledkem 0,5, interpretuje se to jako přibližně 2 body z možných 4. Tímto způsobem můžeme experimentovat s různými metodami automatického hodnocení, přičemž manuálně udělené skóre slouží jako standard pro kalibraci a validaci výsledků.
 
-**3. Existující řešení:**
-
-
-**4. Krátký přehled existujících řešení:**
+**3. Krátký přehled existujících řešení:**
 
 - **[e‑rater (ETS):](https://www.ets.org/erater.html)**  
   Využívají lingvistické a statistické metody pro hodnocení esejí. Přestože je primárně určen pro hodnocení esejí 
@@ -26,6 +23,8 @@ Výstupem našeho systému bude automaticky generované hodnocení každé odpov
 
 - **[Check-Eval: A Checklist-based Approach for Evaluating Text Quality](https://doi.org/10.48550/arXiv.2407.14467)**  
   Řešení využívá kontrolní seznamy (checklisty) k hodnocení kvality textu. Tento strukturovaný a interpretable přístup dosahuje vysoké korelace s lidskými hodnoceními a nabízí modulární způsob, jak automatizovat proces hodnocení.
+
+**4. Trénovací Dataset:**
 
 
 **5. Způsob vyhodnocení:**
