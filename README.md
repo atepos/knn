@@ -65,9 +65,9 @@ V našem řešení hodnotíme kvalitu písemných odpovědí porovnáním výstu
   V rámci tréninku se snažíme minimalizovat rozdíl mezi modelovým hodnocením a referenčním hodnocením. Jinými slovy, chceme, aby byl tento rozdíl co nejmenší – model tedy "minimalizuje chybu" a tím maximalizuje přesnost svého předpovězeného skóre.
 
 - **Interpretace výsledků:**  
-  Pokud model například vrátí skóre 0,5 (v normalizovaném intervalu), znamená to, že odpověď má přibližně 50 % shody s ideálním hodnocením. V praxi to typicky indikuje střední kvalitu odpovědi – odpověď není vynikající, ale ani úplně špatná. Prahové hodnoty mohou být dále definovány (např. nad 0,7 považujeme odpověď za dobrou, mezi 0,4 a 0,7 za průměrnou a pod 0,4 za slabou).
+  Pokud model například vrátí skóre 2 a ground truth bude 2 znamená to, že odpověď byla predikována správně. Pokud model vrátí 1 a ground truth bude 4 znamená to, že model se spletl. Tímtto způsobem projdeme  všechny vzorky z testovacího datasetu, poté výsledky sečteme a podělíme celkovým počtem vzorků z testovacího datasetu. Tedy v ideálním případě, kdy model všechny studentské odpovědi ohodnotí stejně jako učitel by byl výsledek 0.
 
-Takže budeme opakovatelně hodnotit písemné odpovědi studentů a postupně zlepšovat přesnost modelu tak, aby co nejlépe napodoboval lidské hodnocení.
+Takže budeme opakovatelně hodnotit písemné odpovědi studentů a postupně zlepšovat přesnost modelu tak, aby co nejlépe napodoboval lidské hodnocení. 
 
 ### **6. Baseline řešení**
 
