@@ -56,18 +56,15 @@ Odstranili jsme z něj nepodstatné informace pro naše řešení jako (zahashov
 
 **5. Způsob vyhodnocení:**
 
-V našem řešení hodnotíme kvalitu písemných odpovědí porovnáním výstupu modelu s manuálním hodnocením vyučujícího. Používáme metodu, která spočívá v tréninku modelu, aby na základě zadané otázky a odpovědi předpovídal bodové hodnocení, jež se co nejvíce blíží referenčnímu hodnocení udělenému lidským hodnotitelem.
+V našem řešení hodnotíme kvalitu písemných odpovědí porovnáním výstupu modelu s manuálním hodnocením vyučujícího. Používáme metodu, která spočívá v tréninku modelu, aby na základě zadané otázky a odpovědi předpovídal bodové hodnocení, jež se co nejvíce blíží referenčnímu hodnocení udělenému lidským hodnotitelem.g
 
 - **Definice a hodnotový rozsah:**  
   Model předpovídá skóre, které je na škále například od 0 do 4 (0 – nejhorší, 4 – nejlepší).
 
-- **Optimalizace:**  
-  V rámci tréninku se snažíme minimalizovat rozdíl mezi modelovým hodnocením a referenčním hodnocením. Jinými slovy, chceme, aby byl tento rozdíl co nejmenší – model tedy "minimalizuje chybu" a tím maximalizuje přesnost svého předpovězeného skóre.
-
 - **Interpretace výsledků:**  
-  Pokud model například vrátí skóre 2 a ground truth bude 2 znamená to, že odpověď byla predikována správně. Pokud model vrátí 1 a ground truth bude 4 znamená to, že model se spletl. Tímtto způsobem projdeme  všechny vzorky z testovacího datasetu, poté výsledky sečteme a podělíme celkovým počtem vzorků z testovacího datasetu. Tedy v ideálním případě, kdy model všechny studentské odpovědi ohodnotí stejně jako učitel by byl výsledek 0.
+  Pro vyhodnocení kvality modelu využijeme Mean Absolute Error. Pokud model například vrátí skóre 2 a ground truth bude 2 znamená to, že odpověď byla predikována správně. Pokud model vrátí 1 a ground truth bude 4 znamená to, že model se spletl. Tímto způsobem projdeme všechny vzorky z testovacího datasetu, vypočítáme absolutní hodnotu rozdílu, poté výsledky sečteme a podělíme celkovým počtem vzorků z testovacího datasetu. Tedy v ideálním případě, kdy model všechny studentské odpovědi ohodnotí stejně jako učitel by byl výsledek 0.
 
-Takže budeme opakovatelně hodnotit písemné odpovědi studentů a postupně zlepšovat přesnost modelu tak, aby co nejlépe napodoboval lidské hodnocení. 
+Takže budeme opakovatelně hodnotit písemné odpovědi studentů a postupně zlepšovat přesnost modelu tak, aby co nejlépe napodoboval lidské hodnocení.
 
 ### **6. Baseline řešení**
 
@@ -85,6 +82,7 @@ Prvotní model dosáhl _MAE ~1.64_.
 
 Použité trénovací parametry:
 
+- **Dataset:** `2021_1_A.json`
 - **Learning rate:** `2e-5`
 - **Počet epoch:** `12`
 - **Weight decay:** `0.01`
