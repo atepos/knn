@@ -1,0 +1,627 @@
+[
+    {
+        "prompt": "Ot\u00e1zka: U klasick\u00e9ho (glob\u00e1ln\u00edho) prohled\u00e1v\u00e1n\u00ed se n\u011bkdy hovo\u0159\u00ed o \u201ebelief state\u201c. K jak\u00e9 vlastnosti (p\u0159\u00edpadn\u011b vlastnostem) prost\u0159ed\u00ed se tento pojem vztahuje? Co p\u0159edstavuje prostor (nebo mno\u017eina) v\u0161ech belief states? Pokud m\u00e1 prost\u0159ed\u00ed 8 stav\u016f, kolik r\u016fzn\u00fdch belief states existuje?\nOdpov\u011b\u010f: K \u010d\u00e1ste\u010dn\u00e9 pozorovatelnosti prost\u0159ed\u00ed, p\u0159\u00edpadn\u011b nedeterministick\u00e9mu chov\u00e1n\u00ed prost\u0159ed\u00ed Belief state je reprezentace mo\u017en\u00fdch skute\u010dn\u00fdch stav\u016f, ve kter\u00fdch se agent nach\u00e1z\u00ed. Prostor je velk\u00fd 28, proto\u017ee agent si mus\u00ed uchov\u00e1vat bin\u00e1rn\u00ed 8-bitovou informaci o tom, ve kter\u00fdch stavech se m\u016f\u017ee nach\u00e1zet.;2;pokra\u010dov\u00e1n\u00ed BFS: Pokud by stavy byly p\u0159id\u00e1v\u00e1ny do Quene a byl by experimendov\u00e1n Prvn\u00ed stav s nejni\u017e\u0161\u00edm ohodnocen\u00edm, pak sta\u010d\u00ed nepo\u010d\u00edtat ani cenu, ani heuristiku.",
+        "completion": "3.25",
+        "pred": 0.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Jak byste upravili algoritmus minimax, pokud hrajete velk\u00fd po\u010det deterministick\u00fdch, pln\u011b pozorovateln\u00fdch dvouhr\u00e1\u010dov\u00fdch her s nulov\u00fdm sou\u010dtem proti protivn\u00edkovi, kter\u00fd vol\u00ed sv\u00e9 akce n\u00e1hodn\u011b?\nOdpov\u011b\u010f: Protivn\u00edkovy akce lze zjednodu\u0161it na 1 pr\u016fm\u011br akci (s ohodnocen\u00edm pr\u016fm\u011brn\u00e9ho ohodnocen\u00ed). Tak\u00e9 lze vyu\u017e\u00edt pruning (Alfa Beta).",
+        "completion": "3.5",
+        "pred": 0.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Co je to ve strojov\u00e9m u\u010den\u00ed \"data augmentation\", k \u010demu se pou\u017e\u00edv\u00e1 a kdy je vhodn\u00e9 tento postup pou\u017e\u00edt? Uve\u010fte libovoln\u00fd smyslupln\u00fd p\u0159\u00edklad.\nOdpov\u011b\u010f: Data augmentation je zv\u011bt\u0161ov\u00e1n\u00ed datov\u00e9 sady pomoc\u00ed modifikac\u00ed (smyslupln\u00fdch) dat takov\u00fdch, \u017ee dramaticky nezm\u011bn\u00ed jejich podstatu. M\u016f\u017ee se jednat o nato\u010den\u00ed jedn\u00e9 fotky n\u011bkolika zp\u016fsoby zm\u011bn\u011bn\u00ed kontrastu, v\u00e1hy barev apod.",
+        "completion": "4.0",
+        "pred": 4.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Kdy\u017e reprezentujeme text pomoc\u00ed \u201eword embeddings\", jak\u00e9 chceme, aby tyto vektory m\u011bly vlastnosti? Co znamen\u00e1 pojem \u201eWord Vector aritmetika\"?\nOdpov\u011b\u010f: ka\u017ed\u00fd vektor reprezentuje jedno slovo z jazyka. M\u00e1me ich ulo\u017een\u00e9 v tahu\u0165ke, ku ktorej m\u00e1 p\u0159\u00edstup neuronov\u00e1 s\u00edla Na vstupe do neur\u00f3novej sie\u0165e nemus\u00ed by\u0165 zak\u00f3dovan\u00e9 slovo, ale iba index/poradov\u00e9 \u010d\u00edslo v tah\u00e1ku pre dan\u00e9 slovo;word vetor artimetika - slov\u00e1 s podobn\u00fdm v\u00fdznamom nadobod\u011bj\u00fa podobn\u00e9 hodnoty v tahu ke",
+        "completion": "3.0",
+        "pred": 3.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Gaussovsk\u00fd klasifik\u00e1tor je p\u0159\u00edkladem klasifik\u00e1toru zalo\u017een\u00e9ho na generativn\u00edm modelu. Pro\u010d se v tomto p\u0159\u00edpad\u011b jedn\u00e1 o generativn\u00ed model? Jak\u00e9 jsou parametry tohoto modelu? Jakou objektivn\u00ed funkci optimalizujeme p\u0159i odhadu t\u011bchto parametr\u016f a pro\u010d? Zapi\u0161te tuto objektivn\u00ed funkci alespo\u0148 v jej\u00ed z\u00e1kladn\u00ed podob\u011b pomoc\u00ed matematick\u00e9 notace a vysv\u011btlete v\u00fdznam jednotliv\u00fdch symbol\u016f.\nOdpov\u011b\u010f: parametre s\u00fa stredn\u00e1 hodnota (C|X) a rozptyl (6 ) p (* K) - optimalizujeme y = arg max I|p (x|m) = (c|c) of arg max I, preto\u017ee chceme z\u00edska\u0165 parametre gaussovsk\u00e9ho rozlo\u017eenia, kter\u00fdch pou\u017eit\u00edm z\u00edskame nejv\u00e4\u010d\u0161\u00ed s\u00fa\u010din v\u0161etk\u00fdch pravdepodobnost\u00ed v\u00fdsledkom budu kter\u00e9 dosiahlo na\u0161e x - ozna\u010duje odhadovan\u00e9 parametry arg -> ozna\u010duj\u00ed v\u0161etk\u00fdch voligac\u00edch parametre; nzax - maxim\u00e1lna hodnota; Ty -> s\u00fa\u010din V prvkov ; p(X|X) pokia\u013e s\u00fa zada 1 -> pravdepodobnos\u0165 n-tej realizacie n\u00e1hodnej premennej parametre W - generativny model - preto\u017ee modeluje rozlo\u017eenie hustoty pravdepodobnosti a tak po\u010d\u00edta pravdepodobnos\u0165 danej triedy (Bayesovo patreniado pravidlo)",
+        "completion": "2.0",
+        "pred": 3.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Gaussovsk\u00fd klasifik\u00e1tor je p\u0159\u00edkladem klasifik\u00e1toru zalo\u017een\u00e9ho na generativn\u00edm modelu. Pro\u010d se v tomto p\u0159\u00edpad\u011b jedn\u00e1 o generativn\u00ed model? Jak\u00e9 jsou parametry tohoto modelu? Jakou objektivn\u00ed funkci optimalizujeme p\u0159i odhadu t\u011bchto parametr\u016f a pro\u010d? Zapi\u0161te tuto objektivn\u00ed funkci alespo\u0148 v jej\u00ed z\u00e1kladn\u00ed podob\u011b pomoc\u00ed matematick\u00e9 notace a vysv\u011btlete v\u00fdznam jednotliv\u00fdch symbol\u016f.\nOdpov\u011b\u010f: Sna\u017e\u00ed se generalizovat na z\u00e1klad\u011b p\u0159edem vid\u011bn\u00fdch dat. za gau\u010dit\u00e9 Maximulihelad pst. V\u00fdstupu je maximu litelod pro dan\u00e9 vstupn\u00ed dato. Parametry: dan\u00e9 t\u0159\u00edda k odhadnut\u00ed odb\u00edjha Sna\u017e\u00ed se ur\u010dit u aby tak, aby anguit (N|pi\u0161, x dat tuto Pst byla co nejv\u011bt\u0161\u00ed st\u0159edo kostela Chybov\u00e9 funkce, optimaliz;4xxxxx ur\u010duje p\u00edt na z\u00e1klad\u011b poch\u00e1n\u011bn\u00e9 p\u00edt",
+        "completion": "0.0",
+        "pred": 2.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Kdy\u017e reprezentujeme text pomoc\u00ed \u201eword embeddings\", jak\u00e9 chceme, aby tyto vektory m\u011bly vlastnosti? Co znamen\u00e1 pojem \u201eWord Vector aritmetika\"?\nOdpov\u011b\u010f: CHCEME ABY VEKTORY VYJADROVALI AD VZTAHY METODY SLOVAMI (SLOVAMI (NAP\u0158. PODOBNOST SLOV). VEKTURY DV\u016eRU SLOV VLT. SU SI PODOBN\u00c9 (MAJU PODObn\u00fd v\u00ddZNAM) BY MALI bYT PODOBN\u00c9. WORD VECTUM ARITMETIKA VYJADRUJE OPER\u00c1CIE (MATEMATICK\u00c9) NAD WORM EMBEDDINGAMI (VELITOLOMI) POMOCOU VLT. DOV\u00c1\u017dEMe z\u00edskat napr. opak dan\u00e9ho slova. NAP\u0158. UPLATNELE OPER. Z WORA VEC. ARIT. NA N\u00c1JBEZN\u00c9 OPAKU by sp\u016fsobilo PRESUN ZO SLOVA \"GOOD\" NA \u201cBAD\u201c V PRIESTORE V ULt. reprezENTUJE;SLOVA;GAD;GOOD",
+        "completion": "4.0",
+        "pred": 4.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Jak byste upravili algoritmus minimax, pokud hrajete velk\u00fd po\u010det deterministick\u00fdch, pln\u011b pozorovateln\u00fdch dvouhr\u00e1\u010dov\u00fdch her s nulov\u00fdm sou\u010dtem proti protivn\u00edkovi, kter\u00fd vol\u00ed sv\u00e9 akce n\u00e1hodn\u011b?\nOdpov\u011b\u010f: prore\u017e\u00edv\u00e1n\u00ed - neprohled\u00e1vat stavy, kter\u00e9;jedou k ni\u010demu;v\u011bci p\u0159i vyhodnocov\u00e1n\u00ed akc\u00ed protivn\u00edka br\u00e1t pr\u016fm\u011br jeho mo\u017enost\u00ed, proto\u017ee n\u00e1m prim\u00e1rn\u011b nechce sv\u00fdmi akcemi \u0161kodit",
+        "completion": "3.0",
+        "pred": 0.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Gaussovsk\u00fd klasifik\u00e1tor je p\u0159\u00edkladem klasifik\u00e1toru zalo\u017een\u00e9ho na generativn\u00edm modelu. Pro\u010d se v tomto p\u0159\u00edpad\u011b jedn\u00e1 o generativn\u00ed model? Jak\u00e9 jsou parametry tohoto modelu? Jakou objektivn\u00ed funkci optimalizujeme p\u0159i odhadu t\u011bchto parametr\u016f a pro\u010d? Zapi\u0161te tuto objektivn\u00ed funkci alespo\u0148 v jej\u00ed z\u00e1kladn\u00ed podob\u011b pomoc\u00ed matematick\u00e9 notace a vysv\u011btlete v\u00fdznam jednotliv\u00fdch symbol\u016f.\nOdpov\u011b\u010f: generativny model vyu\u017e\u00edva pre vyhodnocenie pravdepodobnosti kayesov theorie .p(P Kde: podmienena pravdepodobnost sa po\u010d\u00edta P(x|Y) = P(4|4) na z\u00e1klad\u011b pravdepodobnosti rozlo\u017eenia d\u00e1t parametry su p(Y|X) a P(Y);p(x).",
+        "completion": "0.0",
+        "pred": 0.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Jak\u00fd je rozd\u00edl mezi takzvan\u00fdmi \u201eon-policy\" a \u201eoff-policy\" algoritmy posilovan\u00e9ho u\u010den\u00ed? Kter\u00e9 jsou lep\u0161\u00ed a pro\u010d?\nOdpov\u011b\u010f: On-policy si pam\u00e1taj\u00fa svoje p\u0159edch\u00e1dzaj\u00face rozhodnutia, z vedie sa z nich u\u010di\u0165 (pr\u00edklad = genetick\u00e9 algoritmy) Off-policy sa u\u010die iba z aktu\u00e1lnych d\u00e1t (p\u0159\u00edklad: shallow learning) Ned\u00e1 sa poveda\u0165 ktor\u00e9 s\u00fa lep\u0161ie, ka\u017ed\u00fd m\u00e1 svoje vyu\u017eitie pro r\u00f4zne typy \u00faloh",
+        "completion": "2.0",
+        "pred": 0.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Co je to ve strojov\u00e9m u\u010den\u00ed \"data augmentation\", k \u010demu se pou\u017e\u00edv\u00e1 a kdy je vhodn\u00e9 tento postup pou\u017e\u00edt? Uve\u010fte libovoln\u00fd smyslupln\u00fd p\u0159\u00edklad.\nOdpov\u011b\u010f: KE\u010f m\u00e1me m\u00e1lo d\u00e1t ale pot\u0159ebujeme ich vlac. z\u00edskavanie nov\u00fdch d\u00e1t je drah\u00e9 a \u010dasovo n\u00e1ro\u010dn\u00e9. DATA AUGMENTATION JE V\u00ddTVOREN\u011a NOV\u00ddCH D\u00c1T NA Z\u00c1KLAD\u011a EXISTUJ\u00cdC\u00cdCH DAT. Uva\u017eujme napr. \u017ee na\u0161a datov\u00e1 sada su obr\u00e1zky na u\u010denie CNN. z existuj\u00facich OBR. V DAT. SADE M\u016e\u017dEME VYtVoRI\u0165 NOV\u00c9 NAPR. POMOCOV GEOMETRICK\u00ddCH TRANSFORM. (POOTO\u010cEN\u00cdM OBR.) ALEBO SASOV\u00ddMI TRANSACV\u00c1CKATI (ZV\u00dd\u0160ENIE JASU / PRIDANIE TIENU) ATD.",
+        "completion": "4.0",
+        "pred": 4.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Jak\u00fd je rozd\u00edl mezi takzvan\u00fdmi \u201eon-policy\" a \u201eoff-policy\" algoritmy posilovan\u00e9ho u\u010den\u00ed? Kter\u00e9 jsou lep\u0161\u00ed a pro\u010d?\nOdpov\u011b\u010f: IN- POLICY:;ALGORITMY VE KTER\u00ddCH SE U\u010c\u00cd NEURONOV\u00c1 vyb\u00edrat nejlep\u0161\u00ed akci pro ni\u0165 AKTU\u00c1LN\u00cd CITACE;OFF-POLICY;ALGORITMY VE KTER\u00ddCH SE U\u010c\u00cd NEURONOV\u00c1 S\u00cd\u0164 OHODNOCOVAT JAK . POBR\u00c9 JSOU AKCE DOSTUPN\u00c9 V aktu\u00e1ln\u00edm \u00faTAVU.;POHLEDU U\u010cEN\u00cd JE LEP\u0160\u00cd OFFF-PULKT PROTO\u017dE PRO JEHU U\u010cEN\u00cd JE MO\u017dN\u00c9 POU\u017d\u00cdVAT VEKTORY I p\u0159edchoz\u00edch p\u00c1n\u016f ALGORITMU Hor\u0161\u00ed VERZE S\u00cd\u0164E",
+        "completion": "3.0",
+        "pred": 4.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: U klasick\u00e9ho (glob\u00e1ln\u00edho) prohled\u00e1v\u00e1n\u00ed se n\u011bkdy hovo\u0159\u00ed o \u201ebelief state\u201c. K jak\u00e9 vlastnosti (p\u0159\u00edpadn\u011b vlastnostem) prost\u0159ed\u00ed se tento pojem vztahuje? Co p\u0159edstavuje prostor (nebo mno\u017eina) v\u0161ech belief states? Pokud m\u00e1 prost\u0159ed\u00ed 8 stav\u016f, kolik r\u016fzn\u00fdch belief states existuje?\nOdpov\u011b\u010f: le vlastnosti nevid\u011bn\u00e9ho prost\u0159ed\u00ed - m\u016f\u017eeme doufat/v\u011b\u0159it, co se na dan\u00e9m m\u00edst\u011b nach\u00e1z\u00ed, ale nev\u00edme to s jistotou, jeliko\u017e to nem\u00e1me jak zjistit Janek Prostor belief-stats - mno\u017eina neprezentuj\u00edc\u00ed mo\u017en\u00e9 stavy jednotliv\u00fdch syst\u00e9mu;dto",
+        "completion": "2.0",
+        "pred": 1.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Gaussovsk\u00fd klasifik\u00e1tor je p\u0159\u00edkladem klasifik\u00e1toru zalo\u017een\u00e9ho na generativn\u00edm modelu. Pro\u010d se v tomto p\u0159\u00edpad\u011b jedn\u00e1 o generativn\u00ed model? Jak\u00e9 jsou parametry tohoto modelu? Jakou objektivn\u00ed funkci optimalizujeme p\u0159i odhadu t\u011bchto parametr\u016f a pro\u010d? Zapi\u0161te tuto objektivn\u00ed funkci alespo\u0148 v jej\u00ed z\u00e1kladn\u00ed podob\u011b pomoc\u00ed matematick\u00e9 notace a vysv\u011btlete v\u00fdznam jednotliv\u00fdch symbol\u016f.\nOdpov\u011b\u010f: Generativn\u00ed model modeluje rozlo\u017een\u00ed hustoty psti. D\u00edky psti. D\u00edky tomu dok\u00e1\u017ee rozpoznat, zda da to odpov\u00edd\u00e1 gaussovsk\u00e9mu \u0161umu. Gen. model dok\u00e1\u017ee oproti diskriminativn\u00edmu generovat nov\u00e1 data pr\u00e1v\u011b z tohoto rozd\u011blen\u00ed. Tak\u00e9 se l\u00e9pe natr\u00e9nuje na men\u0161\u00edm datov\u00e9m setu. Rozhoduje, s jakou pst\u00ed dato x spad\u00e1 do t\u0159\u00eddy C: p(c|x) parametry jsou st\u0159edn\u00ed hodnota a rozptyl - vyu\u017e\u00edv\u00e1 se odhad parametr\u016f s maxim\u00e1ln\u00ed v\u011brohodnost\u00ed. snaha o to odhadnout parametry, nap\u0159\u00edklad u toho gauss.: arg max(p(X, M, o2), kde? M,6 - 11,62- je st\u0159edn\u00ed hodnota a rozptyl norm. rozd\u011blen\u00ed (parametry) - X - vstupn\u00ed data/o - p - pst, \u017ee s t\u011bmito parametry dato X spad\u00e1 do rozd\u011blen\u00ed d\u00edt\u011b arg max vyb\u00edr\u00e1 maxim\u00e1ln\u00ed pst., \u017ee X s M. G spad\u00e1.",
+        "completion": "1.0",
+        "pred": 2.5
+    },
+    {
+        "prompt": "Ot\u00e1zka: U klasick\u00e9ho (glob\u00e1ln\u00edho) prohled\u00e1v\u00e1n\u00ed se n\u011bkdy hovo\u0159\u00ed o \u201ebelief state\u201c. K jak\u00e9 vlastnosti (p\u0159\u00edpadn\u011b vlastnostem) prost\u0159ed\u00ed se tento pojem vztahuje? Co p\u0159edstavuje prostor (nebo mno\u017eina) v\u0161ech belief states? Pokud m\u00e1 prost\u0159ed\u00ed 8 stav\u016f, kolik r\u016fzn\u00fdch belief states existuje?\nOdpov\u011b\u010f: Belief state se vztahuje k omezen\u00edm pozorov\u00e1n\u00ed prost\u0159ed\u00ed aneb co nem\u016f\u017eeme zjistit na z\u00e1klad\u011b senzon\u016f a co m\u016f\u017eeme v\u011bd\u011bt na z\u00e1klad ji\u017e proveden\u00fdch akc\u00ed S betief states",
+        "completion": "1.75",
+        "pred": 1.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Vysv\u011btlete \u201e\u0159et\u011bzcov\u00e9\u201c pravidlo (chain-rule) pro v\u00fdpo\u010det derivac\u00ed. M\u00e1 n\u011bjak\u00e9 vyu\u017eit\u00ed p\u0159i u\u010den\u00ed neuronov\u00fdch s\u00edt\u00ed?\nOdpov\u011b\u010f: - pou\u017e\u00edv\u00e1 se v NN p\u0159i zp\u011btn\u00e9m \u0161\u00ed\u0159en\u00ed vylep\u0161en\u00fdch parametr\u016f pro jednotliv\u00e9 vrstvy (p\u0159\u00edpadn\u011b sp\u00ed\u0161e \u0161\u00ed\u0159en\u00ed zm\u011bny, kter\u00e1 se m\u00e1 v konkr\u00e9tn\u00edm parametru prov\u00e9st). Vru\u017ein\u00ed se p\u0159i snaze o gradientn\u00ed sestup pomoc\u00ed loss funkce - snaha o sn\u00ed\u017een\u00ed chyby NN - u\u010den\u00ed. plat\u00ed \u017ee: dal se dva dny dva dny dva dva dva;kde JG je v\u00fdsledek loss funkce;a wx jsou parametry neuron\u016f ve vrstv\u011b x (od konce). lze takto optimalizovat lu\u010dit, jak v\u00e1hy pro vstupy neuron\u016f, tak blask neuron\u016f.",
+        "completion": "4.0",
+        "pred": 1.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Gaussovsk\u00fd klasifik\u00e1tor je p\u0159\u00edkladem klasifik\u00e1toru zalo\u017een\u00e9ho na generativn\u00edm modelu. Pro\u010d se v tomto p\u0159\u00edpad\u011b jedn\u00e1 o generativn\u00ed model? Jak\u00e9 jsou parametry tohoto modelu? Jakou objektivn\u00ed funkci optimalizujeme p\u0159i odhadu t\u011bchto parametr\u016f a pro\u010d? Zapi\u0161te tuto objektivn\u00ed funkci alespo\u0148 v jej\u00ed z\u00e1kladn\u00ed podob\u011b pomoc\u00ed matematick\u00e9 notace a vysv\u011btlete v\u00fdznam jednotliv\u00fdch symbol\u016f.\nOdpov\u011b\u010f: Jedn\u00e1 se o generativn\u00ed model, proto\u017ee modelujeme pravd\u011bpodobnostn\u00ed rozlo\u017een\u00ed (odhaduje. Pomoc\u00ed n\u011bj m\u016f\u017eeme tak\u00e9 generovat nov\u00e1 data. Parametry modelu jsou parametry norm\u00e1ln\u00edho rozlo\u017een\u00ed, tedy st\u0159edn\u00ed hodnota a variance. Optimalizujeme ML estimate, tedy hled\u00e1me takov\u00e9 parametry, aby pravd\u011bpodobnost dan\u00fdch dat byla co nejv\u011bt\u0161\u00ed W = argmax p (x To - parametry u vektor dat;pravd\u011bpodobnost kterou maximalizujeme",
+        "completion": "1.0",
+        "pred": 2.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Stru\u010dn\u011b vysv\u011btlete hlavn\u00ed my\u0161lenky shallow learning a deep learning.\nOdpov\u011b\u010f: ow learning a deep learning. 10. Stru\u010dn\u011b vy= shallow learning - NS bez skryt\u00fdch vrstev deep learning - NS se skryt\u00fdmi vrstvami",
+        "completion": "2.0",
+        "pred": 1.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Stru\u010dn\u011b vysv\u011btlete hlavn\u00ed my\u0161lenky shallow learning a deep learning.\nOdpov\u011b\u010f: SHALLOW extrahovan\u00e9 u\u017eite\u010dn\u00e9 informace p\u0159edzpracov\u00e1n\u00ed dat je obvykle n\u00e1ro\u010dn\u00e9 a vytvo\u0159en\u00ed algoritmu vy\u017eaduje hodn\u011b pr\u00e1ce vstupem p\u0159edzpracovan\u00e1 data - \u0161patn\u011b \u0161k\u00e1luje a p\u0159i zm\u011bn\u011b je pot\u0159eba * \u0161patn\u011b se u\u010d\u00ed p\u0159edzpracov\u00e1n\u00ed p\u0159ekopat m\u00e9n\u011b v\u00fdpo\u010detn\u011b n\u00e1ro\u010dn\u00e9;DEEP vstupem jsou p\u0159\u00edmo vstupn\u00ed data \u017e\u00e1dn\u00e9ho vn\u011bj\u0161\u00edho z\u00e1sahu (mohou b\u00fdt augmentovan\u00e1 za \u00fa\u010delem v\u011bt\u0161\u00ed datov\u00e9 sady) \u00b7 dob\u0159e se u\u010d\u00ed jsou v\u00fdpo\u010detn\u011b n\u00e1ro\u010dn\u011bj\u0161\u00ed zm\u011bna nemus\u00ed nutn\u011b znamenat v\u00fdrazn\u00e9 \u00fapravy (nap\u0159. finetuning)",
+        "completion": "4.0",
+        "pred": 4.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Stru\u010dn\u011b vysv\u011btlete hlavn\u00ed my\u0161lenky shallow learning a deep learning.\nOdpov\u011b\u010f: \u010decji learning -;shallow learning - p\u0159edpoklad\u00e1 \u017ee \u010dlov\u011bk extrahuje n\u011bjak\u00e9 v\u00fdsy. z obr\u00e1zku kter\u00e9 nasledne pou\u017eije pri tr\u00e9novan\u00ed jeho modelu. Je to velmi pracn\u00e1 \u00faloha. tym vybor obr\u00e1zku nep\u0159i miesto \u010dlov\u011bka pomocou Jiltrov. primo v sicti. Vapniklad to takto vie\u0161iu CNN.",
+        "completion": "4.0",
+        "pred": 4.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: U klasick\u00e9ho (glob\u00e1ln\u00edho) prohled\u00e1v\u00e1n\u00ed se n\u011bkdy hovo\u0159\u00ed o \u201ebelief state\u201c. K jak\u00e9 vlastnosti (p\u0159\u00edpadn\u011b vlastnostem) prost\u0159ed\u00ed se tento pojem vztahuje? Co p\u0159edstavuje prostor (nebo mno\u017eina) v\u0161ech belief states? Pokud m\u00e1 prost\u0159ed\u00ed 8 stav\u016f, kolik r\u016fzn\u00fdch belief states existuje?\nOdpov\u011b\u010f: Belief state zna\u010d\u00ed mno\u017einu stav\u016f ve kter\u00fdch se m\u016f\u017eeme nach\u00e1zet. (nap\u0159. kdy\u017e pln\u011b nezn\u00e1me prost\u0159ed\u00ed) Prost\u0159ed\u00ed nen\u00ed pln\u011b pozorovateln\u00e9;8+;tzt;P\u0159i 8 stavech existuje tolik belief states, kolik existuje r\u016fzn\u00fdch podmo\u017ein t\u011bchto stav\u016f. (to nestihnu spo\u010d\u00edtat );8 +",
+        "completion": "3.25",
+        "pred": 3.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Jak\u00fd je rozd\u00edl mezi takzvan\u00fdmi \u201eon-policy\" a \u201eoff-policy\" algoritmy posilovan\u00e9ho u\u010den\u00ed? Kter\u00e9 jsou lep\u0161\u00ed a pro\u010d?\nOdpov\u011b\u010f: - on-policy vyu\u017e\u00edvaj\u00ed k u\u010den\u00ed pouze nov\u00e9 z\u00e1\u017eitky (= z\u00e1\u017eitky z\u00edskan\u00e9 s aktu\u00e1ln\u00ed policy) - off-policy se u\u010d\u00ed i ze star\u0161\u00edch z\u00e1\u017eitk\u016f (= z historie sv\u00e9ho \u201e\u017eivota\u201c",
+        "completion": "3.0",
+        "pred": 0.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: U klasick\u00e9ho (glob\u00e1ln\u00edho) prohled\u00e1v\u00e1n\u00ed se n\u011bkdy hovo\u0159\u00ed o \u201ebelief state\u201c. K jak\u00e9 vlastnosti (p\u0159\u00edpadn\u011b vlastnostem) prost\u0159ed\u00ed se tento pojem vztahuje? Co p\u0159edstavuje prostor (nebo mno\u017eina) v\u0161ech belief states? Pokud m\u00e1 prost\u0159ed\u00ed 8 stav\u016f, kolik r\u016fzn\u00fdch belief states existuje?\nOdpov\u011b\u010f: Belief state se vztahuje k tomu \u017ee nev\u00edme v jak\u00e9m stavu se nach\u00e1z\u00edme, dalo by se \u0159\u00edct \u017ee m\u00e1me zav\u00e1zan\u00e9 o\u010di. \u0158e\u0161en\u00ed je varianta v\u0161ech kombinac\u00ed a z dan\u00fdch r\u016fzn\u00fdch kombinac\u00ed prov\u00e1d\u00edme akce. T\u00edm n\u00e1m vznikne struktura v\u0161ech mo\u017en\u00fdch variac\u00ed, kdy a\u0165 je p\u016fvodn\u00ed stav jak\u00fdkoliv, v\u017edy se dostanem do c\u00edlov\u00e9ho stavu. T\u00edm jsem popsal i mno\u017einu v\u0161ech belief state, kdy\u017e je to mno\u017eina v\u0161ech mo\u017en\u00fdch kombinac\u00ed ve kter\u00fdch se m\u016f\u017eeme ocitnout. Pokud je v prost\u0159ed\u00ed 8 stav\u016f, tak existuje N8 belief states, kde N ud\u00e1v\u00e1 zdali stav je bin\u00e1rn\u00ed \u010di tern\u00e1rn\u00ed \u010di... pokud bychom brali v potaz 8 pol\u00ed\u010dek, kde se rozhoduje, zdali na pol\u00ed\u010dku je \u0161p\u00edna, nebo ne, jedn\u00e1 se o bin\u00e1rn\u00ed stav (ANO/NE) a tedy po\u010det believe states by byl 28.",
+        "completion": "2.75",
+        "pred": 1.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Gaussovsk\u00fd klasifik\u00e1tor je p\u0159\u00edkladem klasifik\u00e1toru zalo\u017een\u00e9ho na generativn\u00edm modelu. Pro\u010d se v tomto p\u0159\u00edpad\u011b jedn\u00e1 o generativn\u00ed model? Jak\u00e9 jsou parametry tohoto modelu? Jakou objektivn\u00ed funkci optimalizujeme p\u0159i odhadu t\u011bchto parametr\u016f a pro\u010d? Zapi\u0161te tuto objektivn\u00ed funkci alespo\u0148 v jej\u00ed z\u00e1kladn\u00ed podob\u011b pomoc\u00ed matematick\u00e9 notace a vysv\u011btlete v\u00fdznam jednotliv\u00fdch symbol\u016f.\nOdpov\u011b\u010f: - generativny model vypo\u010d\u00edtava p(c|x) na z\u00e1klade p(x|c) a p(c) \ufffd kde c je trieda a x je vstupn\u00fd ele- ment \ufffd preto sa jedn\u00e1 o generativny model. parametrami s\u00fa parametre norm\u00e1lneho rozdelenia u = st\u0159edn\u011b hodnota a o2 = rozptyl (aplikovateln\u011b aj vo vide ako 2D priestore) pre odhad parametrov - je pot\u0159ebn\u00e9 maximalizova\u0165 nasleduj\u00facu funkciu : Datum arg max kde 11 s\u00fa parancetre norm\u00e1l p(x|, M), neho rozdelenia u a o2 a xi s\u00fa prvky patriace danej Friede (tr\u00e9novacia mno\u017eina) \ufffd mus\u00edme teda zjisti\u0165 kedy je s\u00fa\u010din pravdepodobnost\u00ed tr\u00e9novacej mno\u017einy pri konkv\u011btn\u00fdch parametroch maxim\u00e1lny / pre dani triedy pre klasifikaciu potom vypo\u010d\u00edtane p(c|x) a pre k-triedu pre ktor\u00fa je pravdepodobnost najv y\u0161\u0161ie bude tento prvak vyharovat",
+        "completion": "3.5",
+        "pred": 3.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: U klasick\u00e9ho (glob\u00e1ln\u00edho) prohled\u00e1v\u00e1n\u00ed se n\u011bkdy hovo\u0159\u00ed o \u201ebelief state\u201c. K jak\u00e9 vlastnosti (p\u0159\u00edpadn\u011b vlastnostem) prost\u0159ed\u00ed se tento pojem vztahuje? Co p\u0159edstavuje prostor (nebo mno\u017eina) v\u0161ech belief states? Pokud m\u00e1 prost\u0159ed\u00ed 8 stav\u016f, kolik r\u016fzn\u00fdch belief states existuje?\nOdpov\u011b\u010f: BELIOF STIJTE;V JAK\u00ddCH VZTAHUJE JE K NEPOZOROVATELN\u00c9MU K PROST\u0158ED\u00cd V KAR\u00c9M SM\u011aRU SE AGENT PR\u00c1V\u011a na Je to poten\u010dn\u00ed mno\u017eina v\u0161ech stav\u016f v prohled\u00e1v\u00e1n\u00ed - JSOU TO UM\u011aL\u00c9 VYTVO\u0158EN\u00c9 SAVY 41 kde ka\u017ed\u00fd \u0159\u00edk\u00e1, v kter\u00fdch P\u016eVODN\u00cdCH STAV\u016e SE M\u016e\u017dE PR\u00c1V\u011a AGENT nach\u00e1zet na z\u00e1klad\u011b toho co VID\u011aL/UD\u011aLAL;Nebo \u010c\u00c1STeCK\u00c9 pOZoROVATELSK\u00c9MU",
+        "completion": "4.0",
+        "pred": 1.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Vysv\u011btlete \u201e\u0159et\u011bzcov\u00e9\u201c pravidlo (chain-rule) pro v\u00fdpo\u010det derivac\u00ed. M\u00e1 n\u011bjak\u00e9 vyu\u017eit\u00ed p\u0159i u\u010den\u00ed neuronov\u00fdch s\u00edt\u00ed?\nOdpov\u011b\u010f: gradient;hled\u00e1n\u00ed nov\u00fdch parametr\u016f pomoc\u00ed derivac\u00ed r\u016fzn\u00fdch \u0159\u00e1d\u016f",
+        "completion": "0.0",
+        "pred": 2.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Stru\u010dn\u011b vysv\u011btlete hlavn\u00ed my\u0161lenky shallow learning a deep learning.\nOdpov\u011b\u010f: Deep karning \u010dasto pou\u017e\u00edv\u00e1 velk\u00e9 mno\u017estv\u00ed vrstev s velk\u00fdm mno\u017estv\u00edm neuron\u016f. Shallow learning je nap\u0159\u00edklad logistick\u00e1 regrese.",
+        "completion": "3.0",
+        "pred": 2.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: U klasick\u00e9ho (glob\u00e1ln\u00edho) prohled\u00e1v\u00e1n\u00ed se n\u011bkdy hovo\u0159\u00ed o \u201ebelief state\u201c. K jak\u00e9 vlastnosti (p\u0159\u00edpadn\u011b vlastnostem) prost\u0159ed\u00ed se tento pojem vztahuje? Co p\u0159edstavuje prostor (nebo mno\u017eina) v\u0161ech belief states? Pokud m\u00e1 prost\u0159ed\u00ed 8 stav\u016f, kolik r\u016fzn\u00fdch belief states existuje?\nOdpov\u011b\u010f: Vztahuje se k prost\u0159ed\u00ed, kter\u00e9 agent m\u00f4\u017ee pozorovat pouze \u010d\u00e1ste\u010dn\u011b nebo t\u00e9m\u011b\u0159 v\u016fbec - v podstat\u011b mus\u00edme do v\u00fdpo\u010detn\u00edho modelu zahrnout v\u0161echny r\u016fzn\u00e9 stavy, kter\u00fdch prost\u0159ed\u00ed m\u016f\u017ee nab\u00fdvat. Mno\u017eina belief statu je takov\u00e1 mno\u017eina stav\u016f, pro kter\u00e9 aplikov\u00e1n\u00ed p\u0159\u00edslu\u0161n\u00e9 akce vede v\u017edy do jin\u00e9 mno\u017einy belief-stat\u016f. (m\u016f\u017eeme je zdru\u017eit k sob\u011b a u\u0161et\u0159it t\u00edm velikost modelu pomoc\u00ed eliminace redurdantn\u00edch p\u0159echod\u016f) Pokud m\u00e1m 8 stav\u016f, existuje 2 belief states.",
+        "completion": "2.75",
+        "pred": 0.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Co je to singularita?\nOdpov\u011b\u010f:  , Mal\u00fd, neredukovatel\u00fd bod.",
+        "completion": "0.0",
+        "pred": 0.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Kdy\u017e reprezentujeme text pomoc\u00ed \u201eword embeddings\", jak\u00e9 chceme, aby tyto vektory m\u011bly vlastnosti? Co znamen\u00e1 pojem \u201eWord Vector aritmetika\"?\nOdpov\u011b\u010f: podobn\u00e1 slova \u2014 podobn\u00e9 reprezentace odpov\u00eddali vstupu NN, pro kter\u00e9 je chci pou\u017e\u00edt;wA - p\u0159evod slova na vektor, kter\u00fd slovo reprezentuje",
+        "completion": "2.0",
+        "pred": 2.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Kdy\u017e reprezentujeme text pomoc\u00ed \u201eword embeddings\", jak\u00e9 chceme, aby tyto vektory m\u011bly vlastnosti? Co znamen\u00e1 pojem \u201eWord Vector aritmetika\"?\nOdpov\u011b\u010f: Word embeddling je vektorov\u00e1 reprezentace slova. Slova jsou ulo\u017een\u00e1 v tabulce a pomoc\u00ed LUT (Losk up table) z\u00edsk\u00e1me index slova v tabulce a t\u00edm jeho vektorovou reprezentaci. Vektory navz\u00e1jem d\u00e1vaj\u00ed 0 a chceme abychom um\u011bli po\u010d\u00edtat euklidovskou vzd\u00e1lenost, tak\u017ee aby souvisej\u00edc\u00ed slova byly bl\u00ed\u017ee sebe. Word Vector aritmetika je oritnetika na z\u00e1klad\u011b kter\u00e9 je slovo p\u0159elo\u017eeno na vektor",
+        "completion": "2.0",
+        "pred": 2.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Gaussovsk\u00fd klasifik\u00e1tor je p\u0159\u00edkladem klasifik\u00e1toru zalo\u017een\u00e9ho na generativn\u00edm modelu. Pro\u010d se v tomto p\u0159\u00edpad\u011b jedn\u00e1 o generativn\u00ed model? Jak\u00e9 jsou parametry tohoto modelu? Jakou objektivn\u00ed funkci optimalizujeme p\u0159i odhadu t\u011bchto parametr\u016f a pro\u010d? Zapi\u0161te tuto objektivn\u00ed funkci alespo\u0148 v jej\u00ed z\u00e1kladn\u00ed podob\u011b pomoc\u00ed matematick\u00e9 notace a vysv\u011btlete v\u00fdznam jednotliv\u00fdch symbol\u016f.\nOdpov\u011b\u010f: ostinatio optimalizujeme funkci Most likelihood (funkce nejv\u011bt\u0161\u00ed pravd\u011bpodobnosti)",
+        "completion": "0.0",
+        "pred": 0.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Gaussovsk\u00fd klasifik\u00e1tor je p\u0159\u00edkladem klasifik\u00e1toru zalo\u017een\u00e9ho na generativn\u00edm modelu. Pro\u010d se v tomto p\u0159\u00edpad\u011b jedn\u00e1 o generativn\u00ed model? Jak\u00e9 jsou parametry tohoto modelu? Jakou objektivn\u00ed funkci optimalizujeme p\u0159i odhadu t\u011bchto parametr\u016f a pro\u010d? Zapi\u0161te tuto objektivn\u00ed funkci alespo\u0148 v jej\u00ed z\u00e1kladn\u00ed podob\u011b pomoc\u00ed matematick\u00e9 notace a vysv\u011btlete v\u00fdznam jednotliv\u00fdch symbol\u016f.\nOdpov\u011b\u010f: Je d\u00e1n modelem rozlo\u017een\u00ed pravd\u011bpodobnosti (norm\u00e1ln\u00edho) Parametry jsou st\u0159edn\u00ed hodnota a rozptyl Optimalizujeme maximum likelihood estimation, sna\u017e\u00edme se co nejl\u00e9pe modelovat tr\u00e9novac\u00ed data.",
+        "completion": "1.0",
+        "pred": 0.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Gaussovsk\u00fd klasifik\u00e1tor je p\u0159\u00edkladem klasifik\u00e1toru zalo\u017een\u00e9ho na generativn\u00edm modelu. Pro\u010d se v tomto p\u0159\u00edpad\u011b jedn\u00e1 o generativn\u00ed model? Jak\u00e9 jsou parametry tohoto modelu? Jakou objektivn\u00ed funkci optimalizujeme p\u0159i odhadu t\u011bchto parametr\u016f a pro\u010d? Zapi\u0161te tuto objektivn\u00ed funkci alespo\u0148 v jej\u00ed z\u00e1kladn\u00ed podob\u011b pomoc\u00ed matematick\u00e9 notace a vysv\u011btlete v\u00fdznam jednotliv\u00fdch symbol\u016f.\nOdpov\u011b\u010f: objedn\u00e1na tmlecia :;arg max;plzan);= argumenty p1 a o2 pre v\u0161echny d\u00e1ta prejden a dos\u00fadzam hodnoty ML odhad jednotliv\u00fdch argumentov u = = 1/3 0 22 (x1 - 19);- - je zalo\u017een\u00fd na generativnom modele ke\u010f\u017ee sa sna\u017e\u00ed modelovat rozlo\u017eenia pravdepodobnost\u00ed a na z\u00e1klade toho a\u017e odvodi\u0165 \u010di vstupn\u00ed tab patr\u00ed do hdanej triedy. (vyu\u017e\u00edv\u00e1 na odrovnie apo\u0161tolovnu pravdepodobnos)",
+        "completion": "3.5",
+        "pred": 2.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Co je to singularita?\nOdpov\u011b\u010f: Situace, kter\u00e1 nastane ve chv\u00edli, kdy lidstvo objev\u00ed/ vynalezne obecnou um\u011blou inteligenci. Ve sv\u011bt\u011b existuje diskuze, zda bude tento objev znamenat konec lidstva nebo naupua jeho pos\u00edlen\u00ed.",
+        "completion": "2.0",
+        "pred": 3.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Co je to ve strojov\u00e9m u\u010den\u00ed \"data augmentation\", k \u010demu se pou\u017e\u00edv\u00e1 a kdy je vhodn\u00e9 tento postup pou\u017e\u00edt? Uve\u010fte libovoln\u00fd smyslupln\u00fd p\u0159\u00edklad.\nOdpov\u011b\u010f: tr\u00e9novac\u00ed;Data augmentation je zm\u011bna datov\u00e9 sady, nebo tak\u00e9 roz\u0161\u00ed\u0159en\u00ed datov\u00e9 sady pomoc\u00ed n\u011bjak\u00fdch transformac\u00ed. Nap\u0159: Rotace, posun, o\u0159\u00edznut\u00ed... tr\u00e9novac\u00ed Nap\u0159. u datov\u00e9 sady pro CNN je rotace obr\u00e1zku, o\u0159\u00edznut\u00ed, zm\u011bnu pozice. Data angmentation n\u00e1m pom\u00e1h\u00e1 ke zkvalitn\u011bn\u00ed v\u00fdsledn\u00e9 funk\u010dnosti Neuronov\u00e9 s\u00edt\u011b. Bude l\u00e9pe p\u0159ipravena na \"re\u00e1ln\u00fd sv\u011bt\"",
+        "completion": "4.0",
+        "pred": 4.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Co je to singularita?\nOdpov\u011b\u010f: jednotnos\u0165 v\u00fdstupu Pr\u00edklad: neuronov\u00e1 s\u00ede\u0165 rozpozn\u00e1va \u010di je na obr\u00e1zku m\u00e1\u010dka alebo pes. R\u00f4zne neur\u00f3ny spravovaj\u00fa r\u00f4zne atributy, ale v\u0161etky vych\u00e1dzaj\u00fa tak, \u017ee na obr\u00e1zku je pes",
+        "completion": "0.0",
+        "pred": 0.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Gaussovsk\u00fd klasifik\u00e1tor je p\u0159\u00edkladem klasifik\u00e1toru zalo\u017een\u00e9ho na generativn\u00edm modelu. Pro\u010d se v tomto p\u0159\u00edpad\u011b jedn\u00e1 o generativn\u00ed model? Jak\u00e9 jsou parametry tohoto modelu? Jakou objektivn\u00ed funkci optimalizujeme p\u0159i odhadu t\u011bchto parametr\u016f a pro\u010d? Zapi\u0161te tuto objektivn\u00ed funkci alespo\u0148 v jej\u00ed z\u00e1kladn\u00ed podob\u011b pomoc\u00ed matematick\u00e9 notace a vysv\u011btlete v\u00fdznam jednotliv\u00fdch symbol\u016f.\nOdpov\u011b\u010f: Proto\u017ee modeluje pravd\u011bpodobnostn\u00ed rozlo\u017een\u00ed dat",
+        "completion": "0.0",
+        "pred": 0.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Polynomi\u00e1ln\u00ed regrese (Polynomial Regression) je speci\u00e1ln\u00edm p\u0159\u00edpadem multivaria\u010dn\u00ed line\u00e1rn\u00ed regrese. Vysv\u011btlete pro\u010d! Jakou funkci se v p\u0159\u00edpad\u011b polynomi\u00e1ln\u00ed regrese sna\u017e\u00edme nau\u010dit? Co jsou parametry t\u00e9to funkce, kter\u00e9 se sna\u017e\u00edme odhadnout? Jakou objektivn\u00ed funkci (loss function) se sna\u017e\u00edme optimalizovat pro nalezen\u00ed nejlep\u0161\u00edch parametr\u016f a jak tuto optimalizaci efektivn\u011b provedeme?\nOdpov\u011b\u010f: - Proto\u017ee postup je rovnak\u00fd, iba sa l\u00ed\u0161ia po\u010dty parametrov Nau\u010di\u0165 Studia dojmen\u0161\u00edch \u0161tudent. - Parametr\u016f 7 = 31 + B2 X pre line\u00e1rnu regresiu odhodujeme 31 a 32;.;loss: funkcia najmen\u0161\u00edch \u0161tvovcov.;J;funkciu, kter\u00e1 n\u00e1m p\u0159edpoveda spr\u00e1vanie vstup, napr. akcie.",
+        "completion": "1.5",
+        "pred": 1.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Jak byste upravili algoritmus minimax, pokud hrajete velk\u00fd po\u010det deterministick\u00fdch, pln\u011b pozorovateln\u00fdch dvouhr\u00e1\u010dov\u00fdch her s nulov\u00fdm sou\u010dtem proti protivn\u00edkovi, kter\u00fd vol\u00ed sv\u00e9 akce n\u00e1hodn\u011b?\nOdpov\u011b\u010f: Pou\u017eil bych metodu alpha-beta. D\u00edky tomu bych nemusel proch\u00e1zet tak velik\u00e9 mno\u017estv\u00ed stav\u016f. \ufffd pruning \ufffd je to zlep\u0161en\u00ed, rychlej\u0161\u00ed to je. Dal\u0161\u00ed mo\u017enost\u00ed \u00fapravy je nastavit \u010d\u00e1st simuluj\u00edc\u00ed protihr\u00e1\u010de, tak aby nevracela minimum, hodn\u00e9ho ale pr\u016fm\u011br. Proto\u017ee se jedn\u00e1 o protivn\u00edka rozhoduj\u00edc\u00edho se n\u00e1hodn\u011b a je velik\u00fd po\u010det her tak je pro n\u00e1s lep\u0161\u00ed uva\u017eovat pr\u016fm\u011br.",
+        "completion": "4.0",
+        "pred": 4.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: U klasick\u00e9ho (glob\u00e1ln\u00edho) prohled\u00e1v\u00e1n\u00ed se n\u011bkdy hovo\u0159\u00ed o \u201ebelief state\u201c. K jak\u00e9 vlastnosti (p\u0159\u00edpadn\u011b vlastnostem) prost\u0159ed\u00ed se tento pojem vztahuje? Co p\u0159edstavuje prostor (nebo mno\u017eina) v\u0161ech belief states? Pokud m\u00e1 prost\u0159ed\u00ed 8 stav\u016f, kolik r\u016fzn\u00fdch belief states existuje?\nOdpov\u011b\u010f: belief state je stav ktor\u00fd agent ver\u00ed \u017ee je re\u00e1ln\u00fd a teda m\u00f4\u017eeme to uk\u00e1za\u0165 na vys\u00e1va\u010di v nedeterministickom syst\u00e9me kde vysaje;pokia\u013e vysazie tak bude \u010disto na 70% alebo za ni\u010d nezmen\u00ed n\u00e1sledne sa m\u00f4\u017ee posun\u00e1\u0165 doprava - vys\u00e1va\u010d ma believe state o priestore ktor\u00fa nevid\u00ed. mno\u017eina v\u0161etk\u00fdch belief statov obsahuje mno\u017einu stavov v ktor\u00fdch sa m\u00f4\u017ee priestor nach\u00e1dza\u0165 lebo na\u0161e dan\u00fd priestor nieje v aktu\u00e1lny pozorovatelny;2",
+        "completion": "2.0",
+        "pred": 0.5
+    },
+    {
+        "prompt": "Ot\u00e1zka: Jak byste upravili algoritmus minimax, pokud hrajete velk\u00fd po\u010det deterministick\u00fdch, pln\u011b pozorovateln\u00fdch dvouhr\u00e1\u010dov\u00fdch her s nulov\u00fdm sou\u010dtem proti protivn\u00edkovi, kter\u00fd vol\u00ed sv\u00e9 akce n\u00e1hodn\u011b?\nOdpov\u011b\u010f: 242 Zm\u011bnil bych v\u00fdb\u011br tahu: vyb\u00edral by se v\u017edy tak, kter\u00fd m\u00e1 nejlep\u0161\u00ed pom\u011br z\u00edskan\u00e1 cena: riziko jeliko\u017e protivn\u00edk vol\u00ed svoje akce n\u00e1hodn\u011b, v dlouhodob\u00e9m m\u011b\u0159\u00edtku se tato strategie vyplat\u00ed v\u00edc",
+        "completion": "1.5",
+        "pred": 4.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Stru\u010dn\u011b vysv\u011btlete hlavn\u00ed my\u0161lenky shallow learning a deep learning.\nOdpov\u011b\u010f: Shallow = jednotliv\u00e9 geficienty extrahujeme p\u0159i u\u010deni sami;Je p=> treficienty si ur\u010d\u00ed NS sama b\u011bhem u\u010den\u00ed",
+        "completion": "2.0",
+        "pred": 1.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Co je to ve strojov\u00e9m u\u010den\u00ed \"data augmentation\", k \u010demu se pou\u017e\u00edv\u00e1 a kdy je vhodn\u00e9 tento postup pou\u017e\u00edt? Uve\u010fte libovoln\u00fd smyslupln\u00fd p\u0159\u00edklad.\nOdpov\u011b\u010f: Je to upraven\u00ed dAT z DATOV\u00c9 SADY POU\u017d\u00cdv\u00c1 SE K ROZ\u0160\u00cd\u0158EN\u00cd DATOV\u00c9 SADY, TAK ZE ST\u00c1VAJ\u00cdC\u00cd DATA UPRAV\u00cdM A P\u0158ID\u00c1M JE DO DATOV\u00c9 SADY je vhodn\u00e9 pou\u017e\u00edt nap\u0159\u00edklad pokud chci rozpozn\u00e1vat \u0158ADALOKY NA FOTK\u00c1CH, TAK VEZMU JI\u017d EXISTUJ\u00cdC\u00cd FOTKY \u017dALOK\u016e, pooto\u010d\u00edm se p\u0159id\u00e1m \u0161um/ pojevuje roz\u0161\u00ed\u0159\u00edm tak svoje tr\u00f3lovac\u00ed pata \ufffd Moje s\u00ed\u0165 bude um\u011bt l\u00e9pe rozpozn\u00e1vat \u017ealoby i Kdy\u017e budou na fotce JINDE (POSUNUT\u00cd)...",
+        "completion": "4.0",
+        "pred": 4.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Stru\u010dn\u011b vysv\u011btlete hlavn\u00ed my\u0161lenky shallow learning a deep learning.\nOdpov\u011b\u010f: Deep learning;mnoho v\u00fdpo\u010detn\u00edch vrstev, ozna\u010dovan\u00fdch \u010dasto jako Black-box, je toti\u017e obt\u00ed\u017en\u011bj\u0161\u00ed nahl\u00e9dnout do postupu v\u00fdpo\u010dtu, Jednotliv\u00e9 vrstvy (neuronov\u00e9 s\u00edt\u011b) si p\u0159ed\u00e1vaj\u00ed v\u00fdsledky a tyto v\u00fdsledky jsou \u010dasto velmi abstraktn\u00ed z\u00e1le\u017eitosti. Nap\u0159\u00edklad rusy ko\u010di\u010d\u00edch u\u0161\u00ed, nejdou v\u0161ak exaktn\u011b l\u00eddsky interpretovat. Hlubok\u00e9 neuronov\u00e9 s\u00edt\u011b maj\u00ed s\u00edlu po\u010d\u00edtat i komplexn\u00ed probl\u00e9my.",
+        "completion": "4.0",
+        "pred": 3.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Stru\u010dn\u011b vysv\u011btlete hlavn\u00ed my\u0161lenky shallow learning a deep learning.\nOdpov\u011b\u010f: shallow learning - popul\u00e1rn\u00ed v 90. letech prohled\u00e1v\u00e1n\u00ed stavov\u00e9ho prostoru men\u0161\u00ed \u010dasov\u00e1 n\u00e1ro\u010dnost.;deep learning;- neuronov\u00e9 s\u00edt\u011b - vyu\u017e\u00edv\u00e1 se m\u011b\u0159en\u00ed jednotliv\u00fdch parametr\u016f fce a jejich v\u00e1hy - vy\u0161\u0161\u00ed \u010dasov\u00e1 n\u00e1ro\u010dnost",
+        "completion": "2.0",
+        "pred": 3.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Co je to singularita?\nOdpov\u011b\u010f:  - singularita je p\u0159\u00edznak ktor\u00fd ozna\u010duje jedem ; single neur\u00f3n ktor\u00fd vdova \u010di - je to NK ktor\u00e1 je postaven\u00e1 len z jedn\u00e9ho typu neur\u010d\u00edm.",
+        "completion": "0.0",
+        "pred": 3.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Jak byste upravili algoritmus minimax, pokud hrajete velk\u00fd po\u010det deterministick\u00fdch, pln\u011b pozorovateln\u00fdch dvouhr\u00e1\u010dov\u00fdch her s nulov\u00fdm sou\u010dtem proti protivn\u00edkovi, kter\u00fd vol\u00ed sv\u00e9 akce n\u00e1hodn\u011b?\nOdpov\u011b\u010f: P\u0159idal bych pro\u0159ez\u00e1v\u00e1n\u00ed podle u\u017eitku, kter\u00e9 by vedly k pr\u016fm\u011brn\u011b ni\u017e\u0161\u00edmu u\u017eitku;navazoval bych akce",
+        "completion": "1.25",
+        "pred": 2.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Polynomi\u00e1ln\u00ed regrese (Polynomial Regression) je speci\u00e1ln\u00edm p\u0159\u00edpadem multivaria\u010dn\u00ed line\u00e1rn\u00ed regrese. Vysv\u011btlete pro\u010d! Jakou funkci se v p\u0159\u00edpad\u011b polynomi\u00e1ln\u00ed regrese sna\u017e\u00edme nau\u010dit? Co jsou parametry t\u00e9to funkce, kter\u00e9 se sna\u017e\u00edme odhadnout? Jakou objektivn\u00ed funkci (loss function) se sna\u017e\u00edme optimalizovat pro nalezen\u00ed nejlep\u0161\u00edch parametr\u016f a jak tuto optimalizaci efektivn\u011b provedeme?\nOdpov\u011b\u010f: proto\u017ee liter\u00e1rn\u00ed regrese pracuje s mocninami vstupn\u00edch dat 0 a 1, \ufffd a x'. polynomi\u00e1ln\u00ed pou\u017e\u00edv\u00e1 x3, x3, ... *, tedy mocniny vy\u0161\u0161\u00ed ne\u017e 1, kde jsou vzorov\u00e1 data - sna\u017e\u00edme se nau\u010dit f(x) = wo + w2 x + x t ... w + parametry jsou koeficienty nebo nie, tedy hled\u00e1me line\u00e1rn\u00ed kombinac\u00ed rektoru Ex, xt, ..., xt] - pou\u017e\u00edv\u00e1me Mean Squared Error funkc\u00ed optimalizac\u00ed lze prov\u00e9st analyticky - pomoc\u00ed line\u00e1rn\u00ed abychy zji\u0161t\u011bn\u00edm projek\u010dn\u00ed matice alternativn\u00ed lze prov\u00e9st nap\u0159. SGD",
+        "completion": "4.0",
+        "pred": 2.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Gaussovsk\u00fd klasifik\u00e1tor je p\u0159\u00edkladem klasifik\u00e1toru zalo\u017een\u00e9ho na generativn\u00edm modelu. Pro\u010d se v tomto p\u0159\u00edpad\u011b jedn\u00e1 o generativn\u00ed model? Jak\u00e9 jsou parametry tohoto modelu? Jakou objektivn\u00ed funkci optimalizujeme p\u0159i odhadu t\u011bchto parametr\u016f a pro\u010d? Zapi\u0161te tuto objektivn\u00ed funkci alespo\u0148 v jej\u00ed z\u00e1kladn\u00ed podob\u011b pomoc\u00ed matematick\u00e9 notace a vysv\u011btlete v\u00fdznam jednotliv\u00fdch symbol\u016f.\nOdpov\u011b\u010f: Generativy model sa sna\u017e\u00ed nau\u010di\u0165 ako d\u00e1tov\u00e1 sada \u201evyzen\u00e1\u201c, v pr\u00edpad\u011b Grassovsk\u00e9ho klasifik\u00e1toru je teda snaha n\u00e1jst N (u, a) - teda tak\u00e9 norm\u00e1lne rozlo\u017eenie, aby parametre u (strodn\u00ed hodnota) a o (rozbyt) odpovedali tr\u00e9novac\u00edm d\u00e1tom. Optimalizujeme objekt\u00edvnu funkciu distribucie norm\u00e1lneho rozd\u011blenia met\u00f3dou libelyhood.",
+        "completion": "1.0",
+        "pred": 1.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Stru\u010dn\u011b vysv\u011btlete hlavn\u00ed my\u0161lenky shallow learning a deep learning.\nOdpov\u011b\u010f: Shallow learning - pri \u0148om mus\u00edme navrhn\u00fa\u0165 pr\u00edznaky - vstup na z\u00e1klad\u011b ktor\u00e9ho sa model u\u010d\u00ed a rozhoduje U podstate mu zjednodu\u0161\u00edme \u00falohu t\u00fdm, \u017ee vytiahneme \u010do je pot\u0159ebn\u00e9 a n\u00e1sledn\u011b model pracuje u\u017e len s vektorom. Deep learning - model hlad\u00e1 priznaky s\u00e1m, dostane napr. obr\u00e1zek, z ktor\u00e9ho vy\u017eahuje postupne \u010dovaz zlo\u017eitej\u0161ie priznaky (vstupom ale m\u00f4\u017eu b\u00fdt pokojn\u011b napr. aj texty)",
+        "completion": "3.0",
+        "pred": 2.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Jak\u00fd je rozd\u00edl mezi takzvan\u00fdmi \u201eon-policy\" a \u201eoff-policy\" algoritmy posilovan\u00e9ho u\u010den\u00ed? Kter\u00e9 jsou lep\u0161\u00ed a pro\u010d?\nOdpov\u011b\u010f: Off-polivy;nemaj\u00ed \u017e\u00e1dn\u00e9 zku\u0161enosti, ze kter\u00fdch by mohly \u010derpat a nemohou se tedy u\u010dit na z\u00e1klad\u011b p\u0159edchoz\u00edch zku\u0161enost\u00ed. DNA on- policy - pamatuj\u00ed si sv\u00e9 sv\u00e9 p\u0159edchoz\u00ed zku\u0161enosti a na z\u00e1klad\u011b nich se dok\u00e1\u017e\u00ed pak d\u00e1le u\u010dit;-;nedoka\u017eu \u0159\u00edct, kter\u00e9 jsou lep\u0161\u00ed - \u0159ekla bych, \u017ee z\u00e1le\u017e\u00ed na konkr\u00e9tn\u00edm typu \u0159e\u0161en\u00e9ho probl\u00e9mu a ka\u017ed\u00fd z t\u011bchto algoritm\u016f dok\u00e1\u017ee naj\u00edt sv\u00e9 vyu\u017eit\u00ed.",
+        "completion": "3.0",
+        "pred": 4.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Polynomi\u00e1ln\u00ed regrese (Polynomial Regression) je speci\u00e1ln\u00edm p\u0159\u00edpadem multivaria\u010dn\u00ed line\u00e1rn\u00ed regrese. Vysv\u011btlete pro\u010d! Jakou funkci se v p\u0159\u00edpad\u011b polynomi\u00e1ln\u00ed regrese sna\u017e\u00edme nau\u010dit? Co jsou parametry t\u00e9to funkce, kter\u00e9 se sna\u017e\u00edme odhadnout? Jakou objektivn\u00ed funkci (loss function) se sna\u017e\u00edme optimalizovat pro nalezen\u00ed nejlep\u0161\u00edch parametr\u016f a jak tuto optimalizaci efektivn\u011b provedeme?\nOdpov\u011b\u010f: Polynomi\u00e1ln\u00ed regrese (Polynomial Regression) je speci\u00e1ln\u00edm p\u0159\u00edpadem line\u00e1rn\u00ed regrese. Vysv\u011btlete pro\u010d! Jakou funkci se v p\u0159\u00edpad\u011b polynomi\u00e1ln\u00ed regrese sna\u017e\u00edme nau\u010dit? Co jsou parametry t\u00e9to funkce, kter\u00e9 se sna\u017e\u00edme odhadnout? Jakou objektivn\u00ed funkci (loss functinkci (loss function) se sna\u017e\u00edme optimalizovat pro nalezen\u00ed nejlep\u0161\u00edch parametr\u016f a jak tuto optimalizaci efektivn\u011b provedeme? Line\u00e1rn\u00ed reg. je pak k =1: y = kx+ y sna\u017e\u00edme se nau\u010dit fci k-\u0159adu: y = 5x wh, kde x je rektor vstupn\u00edch dat, w je rektor rah/tyto hodnoty se sna\u017e\u00edme, uhodnout) en\u00ed ho - Tato funkce by m\u011bla co nejl\u00e9pe odpov\u00eddat t\u00e9, ze kter\u00e9 byla tr\u00e9nov data pomoc\u00ed gauss. \u0161umu generov\u00e1na. - \u0159\u00e1d polynomu je t\u0159eba ur\u010dit na z\u00e1klad\u011b po\u010dtu vstupn\u00edch tr\u00e9n. dat vhodn\u00e9 -loss funkce je hodnota rozd\u00edlu mezi v\u00fdsledkem vstupn\u00edho data pomoc\u00ed polxn. regrese a o\u010dek\u00e1van\u00e9ho v\u00fdsledku. \u010c\u00edm men\u0161\u00ed, t\u00edm men\u0161\u00ed chyba - obj. fce je pak suma loss fc\u00ed. Zkou\u0161\u00edme m\u011bnit parametry (w|), kter\u00fd (iterativn\u011b) vedou k lep\u0161\u00ed (men\u0161\u00ed) loss fc\u00ed. nap\u0159\u00edklad pomoc\u00ed gradient descent, metoda, kter\u00e1 postupn\u011b sni\u017euje E(w) = E(w) - gradient / sm\u011br k men\u0161\u00ed chyb\u011b hodnotu chyby.;Polynomi\u00e1ln\u00ed regrese je obecn\u011b k- \u0159\u00e1du",
+        "completion": "1.0",
+        "pred": 2.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Jak byste upravili algoritmus minimax, pokud hrajete velk\u00fd po\u010det deterministick\u00fdch, pln\u011b pozorovateln\u00fdch dvouhr\u00e1\u010dov\u00fdch her s nulov\u00fdm sou\u010dtem proti protivn\u00edkovi, kter\u00fd vol\u00ed sv\u00e9 akce n\u00e1hodn\u011b?\nOdpov\u011b\u010f: Na\u0161ich minimax Vyb\u00edr\u00e1 akce, kter\u00e9 nejv\u00edce ubl\u00ed\u017e\u00ed protihr\u00e1\u010dovi vardou Bud bych volil akce, kter\u00e9 mi p\u0159inesou nejv\u011bt\u0161\u00ed u\u017eitek (proto\u017ee on stejn\u00e9 - hraje 2) nebo bych to v\u016fbec neupravil a prost\u011b hr\u00e1l tak abych ho co nejvic ubl\u00ed\u017eil, to \u017ee on hraje n\u00e1hodn\u011b je jen na \u0161kodu. Tak\u00e9 d\u00edky tomu, \u017ee hrajeme pln\u011b pozorovatelnou det. hru, neutli mohl bych zav\u00e9st n\u011bjak\u00e9 o\u0159ez\u00e1v\u00e1n\u00ed stav\u016f, kter\u00e9 mi nep\u0159inesou u\u017eitou / jemu (alf-beta \u2014 urgrade ninnax)",
+        "completion": "1.75",
+        "pred": 0.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Gaussovsk\u00fd klasifik\u00e1tor je p\u0159\u00edkladem klasifik\u00e1toru zalo\u017een\u00e9ho na generativn\u00edm modelu. Pro\u010d se v tomto p\u0159\u00edpad\u011b jedn\u00e1 o generativn\u00ed model? Jak\u00e9 jsou parametry tohoto modelu? Jakou objektivn\u00ed funkci optimalizujeme p\u0159i odhadu t\u011bchto parametr\u016f a pro\u010d? Zapi\u0161te tuto objektivn\u00ed funkci alespo\u0148 v jej\u00ed z\u00e1kladn\u00ed podob\u011b pomoc\u00ed matematick\u00e9 notace a vysv\u011btlete v\u00fdznam jednotliv\u00fdch symbol\u016f.\nOdpov\u011b\u010f: - proto\u017ee modeluje rozlo\u017een\u00ed vstupn\u00edch dat p(x|c) a pou\u017e\u00edv\u00e1 Bayesovo pravidlo k ur\u010den\u00ed posterdorn\u00ed pravd. p(c|x) (generativn\u00ed modely nav\u00edc modeluj\u00ed je\u0161t\u011b apriorn\u00ed pravd\u011bpodobnosti t\u0159\u00edd p(c). parametry jsou st\u0159edn\u00ed hodnota gaussov\u00fd M a rozptyl v B. - optimalizujeme L(no?) = argmax N (x|m, o?) obecn\u011b LIO) = argmax p(x|o) = argmex II p(x|e) v\u011brohodnost pravd\u011bpodobnost dat x v p\u0159\u00edpad\u011b parametr\u016f vr\u00e1c\u00ed parametry o - optimalizujeme tuto objektivn\u00ed funkci, proto\u017ee chceme zjistit parametry takov\u00e9, kter\u00e9 maximalizuj\u00ed n\u011bkohodnost dat - takov\u00e9 parametry budou nejlep\u0161\u00edm odhadem vzorov\u00fdch dat",
+        "completion": "3.0",
+        "pred": 1.5
+    },
+    {
+        "prompt": "Ot\u00e1zka: Vysv\u011btlete \u201e\u0159et\u011bzcov\u00e9\u201c pravidlo (chain-rule) pro v\u00fdpo\u010det derivac\u00ed. M\u00e1 n\u011bjak\u00e9 vyu\u017eit\u00ed p\u0159i u\u010den\u00ed neuronov\u00fdch s\u00edt\u00ed?\nOdpov\u011b\u010f: - pou\u017e\u00edv\u00e1 se p\u0159i back-passingu pro \u00fapravu u\u010den\u00fdch parametr\u016f s\u00edt\u011b.",
+        "completion": "2.0",
+        "pred": 2.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Jak\u00fd je rozd\u00edl mezi takzvan\u00fdmi \u201eon-policy\" a \u201eoff-policy\" algoritmy posilovan\u00e9ho u\u010den\u00ed? Kter\u00e9 jsou lep\u0161\u00ed a pro\u010d?\nOdpov\u011b\u010f: On-policy alg. pri svojej \u010dinnosti \"slepo\" vyu\u017e\u00edvaj\u00fa k svojmu rozhodovan\u00fa o naeled. akcii len aktu\u00e1lny stav stavov\u00e9ho prostoru naopak off-policy olg. \"maj\u00ed pama\u0165\", bern\u00ed do \u00favahy aj hist\u00f3riu nikedy aspo\u0148 \u010diasto\u010dn\u00fa, nakolko v niktor\u00fdch pr\u00edpadech n\u00e1m nesta\u010d\u00ed vedi\u0165, ako vyzv\u00e1 stav priestor aktu\u00e1ln\u00ed, ale \u010do tomuto stavu p\u0159edch\u00e1dzalo. Pr\u016fvodnosti je nutn\u00e9 tra\u0165 do \u00favahy r\u00f4zne faktory najmia na nia chceme dan\u00fd alg. pou\u017ei\u0165. Ak budeme hra\u0165 hory, napr. na \u0161ach je on-poli algoritmus nev\u00fdhod, nato\u013eko pre niekt. \u0161peci\u00e1l. taky je nutn\u00e9 pozna\u0165 aj minul\u00e9 tahy, nei len s\u00fa\u010dastn\u00ed rozest. - ligunek. V tomto pr\u00edpade je nut. voli\u0165 aff-pol. Obecne ale m\u016f\u017eeme policy stnot",
+        "completion": "1.0",
+        "pred": 3.5
+    },
+    {
+        "prompt": "Ot\u00e1zka: Jak\u00fd je rozd\u00edl mezi takzvan\u00fdmi \u201eon-policy\" a \u201eoff-policy\" algoritmy posilovan\u00e9ho u\u010den\u00ed? Kter\u00e9 jsou lep\u0161\u00ed a pro\u010d?\nOdpov\u011b\u010f: on- policy jsou algoritmy, kter\u00e9 se nedok\u00e1\u017e\u00ed u\u010dit a rozhodovat na z\u00e1klad\u011b d\u0159\u00edv\u011bji proveden\u00fdch akc\u00ed - nap\u0159. genetick\u00e9 algoritmy off-policy tuto vlastnost maj\u00ed, dak\u00e1\u017e\u00ed se tedy u\u010dit z d\u0159\u00edv\u011bji proveden\u00fdch akc\u00ed off-policy jsou lep\u0161\u00ed, dok\u00e1\u017e\u00ed toti\u017e usoudit, \u017ee n\u011bjak\u00e1 akce v minulosti vedle k zisku velk\u00e9 odm\u011bny, a pokudl naraz\u00ed na podobnou situaci, tuto akci pou\u017eij\u00ed",
+        "completion": "4.0",
+        "pred": 2.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Polynomi\u00e1ln\u00ed regrese (Polynomial Regression) je speci\u00e1ln\u00edm p\u0159\u00edpadem multivaria\u010dn\u00ed line\u00e1rn\u00ed regrese. Vysv\u011btlete pro\u010d! Jakou funkci se v p\u0159\u00edpad\u011b polynomi\u00e1ln\u00ed regrese sna\u017e\u00edme nau\u010dit? Co jsou parametry t\u00e9to funkce, kter\u00e9 se sna\u017e\u00edme odhadnout? Jakou objektivn\u00ed funkci (loss function) se sna\u017e\u00edme optimalizovat pro nalezen\u00ed nejlep\u0161\u00edch parametr\u016f a jak tuto optimalizaci efektivn\u011b provedeme?\nOdpov\u011b\u010f: V line\u00e1rn\u00ed repezi je v\u00fdstup ry line\u00e1rn\u00ed kombinac\u00ed n\u011bkolik funkc\u00ed b|x), kde b|x je libovoln\u00e1 funkce x je vektor Vi = a b|XI + A1 + b, |XI ... ab AI V Polynomialn\u00ed regresi mohou b\u00fdt funkce fy a nouze mocin\u00fd vstup k. je stalur Ji = Ao x h + a n + a2 a2 + t ... an Sna\u017e\u00edm se nau\u010dit nejd\u00fd polynom. Paranety jsou ag.. an. rumalizujer sumu \u010dtverc\u016f, loss (x o, x ...) = E IDI - PIX i) i v\u00fd\u0161ku - vat polynom V = X w x 4 = XX w x1 x TY = AXTIX XXI w IXXXY = co (pseudomocn\u00ed matice",
+        "completion": "4.0",
+        "pred": 0.5
+    },
+    {
+        "prompt": "Ot\u00e1zka: Kdy\u017e reprezentujeme text pomoc\u00ed \u201eword embeddings\", jak\u00e9 chceme, aby tyto vektory m\u011bly vlastnosti? Co znamen\u00e1 pojem \u201eWord Vector aritmetika\"?\nOdpov\u011b\u010f: jak\u00e9 chceme, aby tyto vektory m\u011bly vlast- Vektory budou reprezentovat slova jako re\u00e1ln\u00e1 \u010d\u00edsla, Chceme nap\u0159\u00edklad, aby slova byla ulo\u017eena ve vektorech takov\u00fdm zp\u016fsobem, abychom pomoc\u00ed euklidovsk\u00e9 vzd\u00e1lenosti mohli spo\u010d\u00edtat podobnost slovu s jin\u00fdm slovem. Word vector znitmetik2 - matematick\u00e9 operace se slovy ulo\u017een\u00e9 ve vektorech.",
+        "completion": "3.0",
+        "pred": 0.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Gaussovsk\u00fd klasifik\u00e1tor je p\u0159\u00edkladem klasifik\u00e1toru zalo\u017een\u00e9ho na generativn\u00edm modelu. Pro\u010d se v tomto p\u0159\u00edpad\u011b jedn\u00e1 o generativn\u00ed model? Jak\u00e9 jsou parametry tohoto modelu? Jakou objektivn\u00ed funkci optimalizujeme p\u0159i odhadu t\u011bchto parametr\u016f a pro\u010d? Zapi\u0161te tuto objektivn\u00ed funkci alespo\u0148 v jej\u00ed z\u00e1kladn\u00ed podob\u011b pomoc\u00ed matematick\u00e9 notace a vysv\u011btlete v\u00fdznam jednotliv\u00fdch symbol\u016f.\nOdpov\u011b\u010f: \u0159;Gauss. klasifik\u00e1tor je generativn\u00ed, proto\u017ee vyu\u017e\u00edv\u00e1me bayesova pravidla - e - dat PLE, XI = PLX, CIP P(X) e-t\u0159\u00edda a zji\u0161\u0165ujeme/modelujeme pravd. distribu\u010dn\u00ed funkci tr\u00e9novac\u00edch dat (zji\u0161\u0165ujeme z jak\u00e9ho rozlo\u017een\u00ed je generov\u00e1na) Parametry jsou M a U - st\u0159edohodnota a rozptyl. Optimalizujeme funkci Maximum-Linelihood, kter\u00e1 vypad\u00e1 zhruba: parametry =arg max p(tj) unes ars nay N (x|y, o?);V;\u2014 hled\u00e1me par. 4,5 pro kter\u00e9 je pravd\u011bpodobnost, \u017ee x pat\u0159\u00ed do c nejvy\u0161\u0161\u00ed",
+        "completion": "1.0",
+        "pred": 0.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Jak byste upravili algoritmus minimax, pokud hrajete velk\u00fd po\u010det deterministick\u00fdch, pln\u011b pozorovateln\u00fdch dvouhr\u00e1\u010dov\u00fdch her s nulov\u00fdm sou\u010dtem proti protivn\u00edkovi, kter\u00fd vol\u00ed sv\u00e9 akce n\u00e1hodn\u011b?\nOdpov\u011b\u010f: 5+6 = 9, 5;V kroku min, kdy t\u00e1hne protivn\u00edk, nep\u0159edpokl\u00e1d\u00e1m, \u017ee vybere tak vedouc\u00ed k minim\u00e1ln\u00edmu ohodnocen\u00ed, ale proto\u017ee vyb\u00edr\u00e1 tahy n\u00e1hodn\u011b, spo\u010d\u00edt\u00e1m pr\u016fm\u011brn\u00e9 ohodnocen\u00ed mo\u017en\u00fdch tah\u016f, a vyberu ten, kter\u00fd je pr\u016fm\u011bru nejbl\u00ed\u017ee",
+        "completion": "3.75",
+        "pred": 0.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Gaussovsk\u00fd klasifik\u00e1tor je p\u0159\u00edkladem klasifik\u00e1toru zalo\u017een\u00e9ho na generativn\u00edm modelu. Pro\u010d se v tomto p\u0159\u00edpad\u011b jedn\u00e1 o generativn\u00ed model? Jak\u00e9 jsou parametry tohoto modelu? Jakou objektivn\u00ed funkci optimalizujeme p\u0159i odhadu t\u011bchto parametr\u016f a pro\u010d? Zapi\u0161te tuto objektivn\u00ed funkci alespo\u0148 v jej\u00ed z\u00e1kladn\u00ed podob\u011b pomoc\u00ed matematick\u00e9 notace a vysv\u011btlete v\u00fdznam jednotliv\u00fdch symbol\u016f.\nOdpov\u011b\u010f: m\u00ed model, proto\u017ee se v\u0161emi daty dohromady, nevzd\u011bluje \u0159 Jde o generat do skupin. Parametry jsou st\u0159ed a rozptyl Gaussovsk\u00e9ho rozlo\u017een\u00ed. n\u00e1sobku Sna\u017e\u00edme se je vyv\u00e1\u017eit tak, abychom v hodnot jednotliv\u00fdch dat dostali co nejvy\u0161\u0161\u00ed hodnotu - tzv. Maximum likelihood estimation, kluk, 1 maxim\u00e1ln\u00ed odhad v\u00e9vohodnosti. nu = argmax TT p(xulk) maximum nastolen\u00ed;... jednotliv\u00e9 pravd\u011bpodobnosti;ARCHITEKTUR",
+        "completion": "0.0",
+        "pred": 0.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Polynomi\u00e1ln\u00ed regrese (Polynomial Regression) je speci\u00e1ln\u00edm p\u0159\u00edpadem multivaria\u010dn\u00ed line\u00e1rn\u00ed regrese. Vysv\u011btlete pro\u010d! Jakou funkci se v p\u0159\u00edpad\u011b polynomi\u00e1ln\u00ed regrese sna\u017e\u00edme nau\u010dit? Co jsou parametry t\u00e9to funkce, kter\u00e9 se sna\u017e\u00edme odhadnout? Jakou objektivn\u00ed funkci (loss function) se sna\u017e\u00edme optimalizovat pro nalezen\u00ed nejlep\u0161\u00edch parametr\u016f a jak tuto optimalizaci efektivn\u011b provedeme?\nOdpov\u011b\u010f: slo\u017eitou funkci f(x) lze z funkc\u00ed jednodu\u0161\u00edch (x) = z w|+ NO poskl\u00e1dat Sna\u017e\u00edme se nau\u010dit polynomi\u00e1ln\u00ed funkci s v\u00edce parametry, kter\u00e1 ve tvaru: s(x) = x w, + x w + x w. Ew + wo",
+        "completion": "1.0",
+        "pred": 2.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Vysv\u011btlete \u201e\u0159et\u011bzcov\u00e9\u201c pravidlo (chain-rule) pro v\u00fdpo\u010det derivac\u00ed. M\u00e1 n\u011bjak\u00e9 vyu\u017eit\u00ed p\u0159i u\u010den\u00ed neuronov\u00fdch s\u00edt\u00ed?\nOdpov\u011b\u010f: Chain - vole: je pravidlo, ktor\u00e9 sl\u00fa\u017ei na \u00fapravu v\u00fdpo\u010dtou deriv\u00e1ci\u00ed gradientov, a pre sp\u00e4tnu \u00fapravu v\u00e1h podlah. dop\u0159edn\u00fdch Pou\u017e\u00edva sa v backpropagation u\u010den\u00ed NN, kedy sa po\u010d\u00edta vplyv v\u00e1h na odzvu a ich na sledn\u00e1 zm\u011bna / \u00faprava",
+        "completion": "2.0",
+        "pred": 1.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Stru\u010dn\u011b vysv\u011btlete hlavn\u00ed my\u0161lenky shallow learning a deep learning.\nOdpov\u011b\u010f: Shallow learning vy\u017eaduje prvotn\u00fa \u00fapravu vstupn\u00fdch d\u00e1t tak, aby d\u00e1ta mohli by\u0165 vyu\u017eit\u00e9 na u\u010denie. Deep learning tak\u00fato \u00fapravu nevy\u017eaduje a dok\u00e1\u017ee sa nau\u010di\u0165 po\u017eadovan\u00fa \u00falohu za \u201ev\u0161eobecn\u011bj\u0161\u00edch\u201c d\u00e1t. Dosledkom je lep\u0161ia generaliz\u00e1cia a luk\u0161ie zabezpe\u010denie tr\u00e9novac\u00edch d\u00e1t, kriticky je potrebn\u00e9 v\u00e4\u010d\u0161ie mno\u017estvo.",
+        "completion": "3.0",
+        "pred": 3.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Co je to ve strojov\u00e9m u\u010den\u00ed \"data augmentation\", k \u010demu se pou\u017e\u00edv\u00e1 a kdy je vhodn\u00e9 tento postup pou\u017e\u00edt? Uve\u010fte libovoln\u00fd smyslupln\u00fd p\u0159\u00edklad.\nOdpov\u011b\u010f: augmentace dat, tak, aby mohla b\u00fdt pou\u017eit nap\u0159. pro tr\u00e9nov\u00e1n\u00ed neuronov\u00e9 sit\u011b, u dat m\u016f\u017eeme nap\u0159 zm\u011bnit velikost, posunout je, zkost je, transformovat je, Nap\u0159. na NN chceme nau\u010dit rozpozn\u00e1vat objekty na obr\u00e1zku ale m\u00e1me omezen\u00e9 mno\u017estv\u00ed tr\u00e9novac\u00edch dat. U n\u011bkter\u00fdch obr\u00e1zk\u016f m\u016f\u017eeme tedy prov\u00e9st nap\u0159. gauna korekci, zkosit je nebo zm\u011bnit jejich velikost a t\u00edm dos\u00e1hneme zv\u011bt\u0161en\u00ed tr\u00e9novac\u00edch dat.",
+        "completion": "4.0",
+        "pred": 4.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: U klasick\u00e9ho (glob\u00e1ln\u00edho) prohled\u00e1v\u00e1n\u00ed se n\u011bkdy hovo\u0159\u00ed o \u201ebelief state\u201c. K jak\u00e9 vlastnosti (p\u0159\u00edpadn\u011b vlastnostem) prost\u0159ed\u00ed se tento pojem vztahuje? Co p\u0159edstavuje prostor (nebo mno\u017eina) v\u0161ech belief states? Pokud m\u00e1 prost\u0159ed\u00ed 8 stav\u016f, kolik r\u016fzn\u00fdch belief states existuje?\nOdpov\u011b\u010f: e prost\u0159ed\u00ed \u010d\u00e1ste\u010dn\u011b pozorovateln\u00e9 vyjad\u0159uj\u00ed mo\u017enosti (situace), je\u017e v takov\u00e9m prost\u0159ed\u00ed mohou nastat;= 64 stav\u016f",
+        "completion": "1.5",
+        "pred": 0.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Jak\u00fd je rozd\u00edl mezi takzvan\u00fdmi \u201eon-policy\" a \u201eoff-policy\" algoritmy posilovan\u00e9ho u\u010den\u00ed? Kter\u00e9 jsou lep\u0161\u00ed a pro\u010d?\nOdpov\u011b\u010f: on-policy sa u\u010dia len na z\u00e1klade informaci\u00ed v danom stave, kde narozdiel od nich off-policy si pamatuj\u00fa akcie a odmeny z minulosti a vyu\u017e\u00edvaj\u00fa ich x svojmu u\u010deniu lep\u0161ie s\u00fa policy r\u00fdchlej\u0161ie nejdu spr\u00e1vne / optim\u00e1lne rie\u0161enie, pot\u0159ebuj\u00fa menej d\u00e1t",
+        "completion": "4.0",
+        "pred": 4.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: U klasick\u00e9ho (glob\u00e1ln\u00edho) prohled\u00e1v\u00e1n\u00ed se n\u011bkdy hovo\u0159\u00ed o \u201ebelief state\u201c. K jak\u00e9 vlastnosti (p\u0159\u00edpadn\u011b vlastnostem) prost\u0159ed\u00ed se tento pojem vztahuje? Co p\u0159edstavuje prostor (nebo mno\u017eina) v\u0161ech belief states? Pokud m\u00e1 prost\u0159ed\u00ed 8 stav\u016f, kolik r\u016fzn\u00fdch belief states existuje?\nOdpov\u011b\u010f: Vstahuje sa k prastrediam, ktor\u00e9 nie s\u00fa plne pozorovateln\u00e9 alebo nie s\u00fa deterministick\u00e9 (ne\u00fapln\u00e1 informacia) Ak je v prostred\u00ed 8 stavu tak existuje 2 betieb states",
+        "completion": "2.0",
+        "pred": 0.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Co je to ve strojov\u00e9m u\u010den\u00ed \"data augmentation\", k \u010demu se pou\u017e\u00edv\u00e1 a kdy je vhodn\u00e9 tento postup pou\u017e\u00edt? Uve\u010fte libovoln\u00fd smyslupln\u00fd p\u0159\u00edklad.\nOdpov\u011b\u010f: Vytvo\u0159en\u00ed nov\u00fdch tr\u00e9novac\u00edch dat ze st\u00e1vaj\u00edc\u00edch. M\u011bl by zlep\u0161it generalizaci Nap\u0159. oto\u010den\u00ed, posunut\u00ed fotek. Potom nen\u00ed d\u016fm jen tvar uprost\u0159ed obr\u00e1zku ale pattern ve vstupn\u00edm vektoru. n\u011bkde",
+        "completion": "4.0",
+        "pred": 4.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: U klasick\u00e9ho (glob\u00e1ln\u00edho) prohled\u00e1v\u00e1n\u00ed se n\u011bkdy hovo\u0159\u00ed o \u201ebelief state\u201c. K jak\u00e9 vlastnosti (p\u0159\u00edpadn\u011b vlastnostem) prost\u0159ed\u00ed se tento pojem vztahuje? Co p\u0159edstavuje prostor (nebo mno\u017eina) v\u0161ech belief states? Pokud m\u00e1 prost\u0159ed\u00ed 8 stav\u016f, kolik r\u016fzn\u00fdch belief states existuje?\nOdpov\u011b\u010f: 1 belief state popisuje jeden stav prostoru, kter\u00e9ho m\u016f\u017ee prost\u0159ed\u00ed nab\u00edrat. Mno\u017einou v\u0161eh belief stat\u016f pak rozum\u00edme cel\u00e9mu prohled\u00e1vac\u00edmu prostoru problematiky",
+        "completion": "0.0",
+        "pred": 0.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Jak byste upravili algoritmus minimax, pokud hrajete velk\u00fd po\u010det deterministick\u00fdch, pln\u011b pozorovateln\u00fdch dvouhr\u00e1\u010dov\u00fdch her s nulov\u00fdm sou\u010dtem proti protivn\u00edkovi, kter\u00fd vol\u00ed sv\u00e9 akce n\u00e1hodn\u011b?\nOdpov\u011b\u010f: Ve stavu, Stav, ve kter\u00e9m jsem na tahu bych volil MAX z nasleduj\u00edc\u00edch tah\u016f stejn\u011b ja v MINIMAX Stav, kdy je na tuku soupe\u0159 bych ohodnotil VIQ1 = E piv(G), kde VIGI je hodnota stavu, n i je pravd\u011bpodobnost \u017ee soupe\u0159 vol\u00ed stav \u010ci a V (C|) je hodnota nasleduj\u00edc\u00edho stavu, pokud pi nezn\u00e1m pravd\u011bpodobnosti rozlo\u017e\u00ed rovnom\u011brn\u011b",
+        "completion": "4.0",
+        "pred": 2.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Jak byste upravili algoritmus minimax, pokud hrajete velk\u00fd po\u010det deterministick\u00fdch, pln\u011b pozorovateln\u00fdch dvouhr\u00e1\u010dov\u00fdch her s nulov\u00fdm sou\u010dtem proti protivn\u00edkovi, kter\u00fd vol\u00ed sv\u00e9 akce n\u00e1hodn\u011b?\nOdpov\u011b\u010f: NIJAKO. VYLEP\u0160ENIE ALPHA BETA P\u0158EDPOKL\u00c1D\u00c1 \u017dE N\u00c1M CHCE PROTHR\u00c1\u010c CO NAJV\u00cdAC U\u0160KOMIT.",
+        "completion": "0.0",
+        "pred": 0.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Kdy\u017e reprezentujeme text pomoc\u00ed \u201eword embeddings\", jak\u00e9 chceme, aby tyto vektory m\u011bly vlastnosti? Co znamen\u00e1 pojem \u201eWord Vector aritmetika\"?\nOdpov\u011b\u010f: chceme aby slova s podobn\u00fdm v\u00fdznamem byla bl\u00edzko sebe, naopak slova s opa\u010dn\u00fdm v\u00fdznamem by m\u011bla b\u00fdt daleko. Word Vector aritmetika vyu\u017eit\u00ed t\u011bchto vlastnost\u00ed nap\u0159. p\u0159i hled\u00e1n\u00ed synonym, autonym v\u00fdznamu (nap\u0159. slovo b\u00edly ve skluku s ostatn\u00edmi barvami - v\u00edm \u017ee mluv\u00edm o barv\u011b) D\u00e1 se vyu\u017e\u00edt i p\u0159i p\u0159ekladu pokud jsou vhodn\u011b namapovan\u00e9 prostory pro r\u016fzn\u00e9 jazyky",
+        "completion": "3.0",
+        "pred": 2.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Co je to ve strojov\u00e9m u\u010den\u00ed \"data augmentation\", k \u010demu se pou\u017e\u00edv\u00e1 a kdy je vhodn\u00e9 tento postup pou\u017e\u00edt? Uve\u010fte libovoln\u00fd smyslupln\u00fd p\u0159\u00edklad.\nOdpov\u011b\u010f: doplnenie datovej rady pomocou \u00fapravy p\u00f3rodn\u00fdch d\u00e1t - napr. pri obr\u00e1zkoch sa zvykne zv\u00fd\u0161i\u0165 jas, zmeni\u0165 vot\u00e1cia aleho sropn\u00ed\u0165 obr\u00e1zek r\u010faka \u010domu bude model menoj n\u00e1chyln\u00fd na tak\u00e9 to chyby obr\u00e1zkou znaky obli\u010deje",
+        "completion": "0.0",
+        "pred": 4.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Co je to ve strojov\u00e9m u\u010den\u00ed \"data augmentation\", k \u010demu se pou\u017e\u00edv\u00e1 a kdy je vhodn\u00e9 tento postup pou\u017e\u00edt? Uve\u010fte libovoln\u00fd smyslupln\u00fd p\u0159\u00edklad.\nOdpov\u011b\u010f: pou\u017eit\u00ed: m\u00e1me m\u00e1lo dat - vytvo\u0159en\u00ed nov\u00fdch dat ze st\u00e1vaj\u00edc\u00edch dat;nap\u0159. v p\u0159\u00edpad\u011b klasifikace obr\u00e1zk\u016f, vytvo\u0159en\u00ed nov\u00fdch obr\u00e1zk\u016f ze st\u00e1vaj\u00edc\u00edch r\u016fzn\u00fdmi transformacemi (zm\u011bna sv\u011btla, o\u0159ez, ...)",
+        "completion": "4.0",
+        "pred": 4.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Co je to ve strojov\u00e9m u\u010den\u00ed \"data augmentation\", k \u010demu se pou\u017e\u00edv\u00e1 a kdy je vhodn\u00e9 tento postup pou\u017e\u00edt? Uve\u010fte libovoln\u00fd smyslupln\u00fd p\u0159\u00edklad.\nOdpov\u011b\u010f: Data augmentation je proces generovan\u00e1 nov\u00fd d\u00e1t na z\u00e1klad\u011b existuj\u00facist d\u00e1t. Pou\u017e\u00edva se, led chceme nau\u010di\u0165 dataset na tr\u00e9novanie. Je vhodn\u00e9 ho pou\u017ei\u0165, a\u0165 na\u0161a ML sie\u0165 nem\u00e1 po\u017eadovanou \u00fasp\u011b\u0161nos\u0165, ale to ju chceme vylep\u0161i\u0165. Data augmentativn\u00ed sa pou\u017e\u00edva napr\u00edklad v klasifika\u010dn\u00ed ote\u00e1zkou. Osotov\u00e1n\u00edm, zroz\u010den\u00edm obr\u00e1zka inak\u010dn\u00edm ofarben\u00edm dok\u00e1\u017eeme spravi\u0165 KNN men\u011bj n\u00e1chylnej\u0161\u00fa na smenu jazyk a polohy obr\u00e1zku.",
+        "completion": "4.0",
+        "pred": 4.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Kdy\u017e reprezentujeme text pomoc\u00ed \u201eword embeddings\", jak\u00e9 chceme, aby tyto vektory m\u011bly vlastnosti? Co znamen\u00e1 pojem \u201eWord Vector aritmetika\"?\nOdpov\u011b\u010f: Ka\u017ed\u00e9mu slovu se p\u0159i\u0159ad\u00ed jeden vektor tud\u00ed\u017e ho lze um\u00edstit do dan\u00e9ho prostoru. Po\u017eadujeme aby slovu kter\u00e9 maj\u00ed podobn\u00fd v\u00fdznam le\u017eely bl\u00edzko sobe. WWA je avitmetika pr\u00e1v\u011b nad takov\u00fdmito vektory slov.",
+        "completion": "3.0",
+        "pred": 1.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Gaussovsk\u00fd klasifik\u00e1tor je p\u0159\u00edkladem klasifik\u00e1toru zalo\u017een\u00e9ho na generativn\u00edm modelu. Pro\u010d se v tomto p\u0159\u00edpad\u011b jedn\u00e1 o generativn\u00ed model? Jak\u00e9 jsou parametry tohoto modelu? Jakou objektivn\u00ed funkci optimalizujeme p\u0159i odhadu t\u011bchto parametr\u016f a pro\u010d? Zapi\u0161te tuto objektivn\u00ed funkci alespo\u0148 v jej\u00ed z\u00e1kladn\u00ed podob\u011b pomoc\u00ed matematick\u00e9 notace a vysv\u011btlete v\u00fdznam jednotliv\u00fdch symbol\u016f.\nOdpov\u011b\u010f: jde o generativn\u00ed model, proto\u017ee pomoc\u00ed Gaussovsk\u00e9ho klasifik\u00e1toru modeluje rozlo\u017een\u00ed dat P(x|class) a pravd\u011bpodobnost t\u0159\u00eddy P(class) a pak podle Bayes rule teprve po\u010d\u00edt\u00e1me P(class|x), kterou chceme z\u00edskat jako v\u00fdstup klasifikaci -> tzn. p\u0159edpokl\u00e1d\u00e1me, \u017ee data poch\u00e1z\u00ed z rozlo\u017een\u00ed, kter\u00e9 se sna\u017e\u00edme modelovat - parametry modelu: ju, 02 = st\u0159edn\u00ed hodnota a pr\u016fm\u011br - sna\u017e\u00edme se naj\u00edt takov\u00e9 parametry rozlo\u017een\u00ed, aby n\u00e1sobky pravd\u011bpodobnost\u00ed vstupn\u00edch dat byly co nejv\u011bt\u0161\u00ed \u00fd = arg max(x|x|y) = arg max II p(xuly) = arg max II n|x n; u, co\u017e;- max-hled\u00e1m maximum -p(XIy) - pravd\u011bpodobnost vstup\u016f x, kdy\u017e jsou parametry TT - produch/n\u00e1soben\u00ed p\u0159es vstupn\u00ed data Xn - konkr\u00e9tn\u00ed dato vstupu N(XII; u, 02) - pravd\u011bpodobnost norm\u00e1ln\u00edho rozlo\u017een\u00ed pro dato xn, kdy\u017e parametr pu u, o 2;r",
+        "completion": "3.0",
+        "pred": 2.1
+    },
+    {
+        "prompt": "Ot\u00e1zka: Polynomi\u00e1ln\u00ed regrese (Polynomial Regression) je speci\u00e1ln\u00edm p\u0159\u00edpadem multivaria\u010dn\u00ed line\u00e1rn\u00ed regrese. Vysv\u011btlete pro\u010d! Jakou funkci se v p\u0159\u00edpad\u011b polynomi\u00e1ln\u00ed regrese sna\u017e\u00edme nau\u010dit? Co jsou parametry t\u00e9to funkce, kter\u00e9 se sna\u017e\u00edme odhadnout? Jakou objektivn\u00ed funkci (loss function) se sna\u017e\u00edme optimalizovat pro nalezen\u00ed nejlep\u0161\u00edch parametr\u016f a jak tuto optimalizaci efektivn\u011b provedeme?\nOdpov\u011b\u010f: koeficient\u016f zaramen\u016f modelu. Zda parametry debinuj\u00ed p\u0159\u00edmku, nebo pokynom, je z hlediska jejich z\u00edsk\u00e1n\u00ed nepodstatn\u00e9. Parametry jsou k = ko, ... k prohledan\u00fd pokynom n-t\u00e9ho stupn\u011b ve tramvay = k. x + ki x + ...+ kn. x . Fitting modelu je z\u00edsk\u00e1n minimalizov\u00e1n\u00edm jeho chyby - least squaves (= MENA SEKURED ERROR). optim\u00e1ln\u00ed hodnoty parametr\u016f doz\u00edsk\u00e1me dosazen\u00edm do rovnice parci\u00e1ln\u00ed derivace chybov\u00e9 metriky podle parametr\u016f modelu.",
+        "completion": "4.0",
+        "pred": 0.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Kdy\u017e reprezentujeme text pomoc\u00ed \u201eword embeddings\", jak\u00e9 chceme, aby tyto vektory m\u011bly vlastnosti? Co znamen\u00e1 pojem \u201eWord Vector aritmetika\"?\nOdpov\u011b\u010f: Chceme aby natr\u00e9novan\u00e9ho modelu vektory ozna\u010dovali bod v k-D prostoru (k podle velikosti vektoru) Pojem word Vector aritmetika se zab\u00fdv\u00e1 analizou t\u011bchto bod\u016f v dan\u00e9m prostoru. Nap\u0159. synonyma budou bl\u00edzko sebe a je mo\u017en\u00e9 ur\u010dit vektor d\u00edky kter\u00e9mu jsem schopen naj\u00edt antonimum.",
+        "completion": "4.0",
+        "pred": 3.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Stru\u010dn\u011b vysv\u011btlete hlavn\u00ed my\u0161lenky shallow learning a deep learning.\nOdpov\u011b\u010f: Shallow - p\u0159edzpracovanie d\u00e1t klasifika\u010dn\u00ed mus\u00edme ru\u010dn\u011b spravit; Deep learning si vyberie podstatn\u011b d\u00e1ta s\u00e1m, tak uto as v\u00e1hy. Treba na to v\u00e4\u010d\u0161iu vypo\u010detn\u00fa silu a vinnej d\u00e1t.",
+        "completion": "3.0",
+        "pred": 2.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Jak\u00fd je rozd\u00edl mezi takzvan\u00fdmi \u201eon-policy\" a \u201eoff-policy\" algoritmy posilovan\u00e9ho u\u010den\u00ed? Kter\u00e9 jsou lep\u0161\u00ed a pro\u010d?\nOdpov\u011b\u010f: of;On-policy: algoritmy, kter\u00e9 u\u010d\u00ed p\u0159\u00edmo agentovu policy, aber jeho rozhodovac\u00ed funkci / u\u010d\u00ed ho jak se l\u00e9pe rozhodovat - policy: algoritmus, kter\u00e9 u\u010d\u00ed jin\u0161\u00ed aspect, ne\u017e agentura polici nap\u0159\u00edklad Q-learning: optimalizujeme Afunkci tak, aby usent p\u0159i sv\u00e9m fungov\u00e1n\u00ed dost\u00e1val v pr\u016fm\u011bru co nejv\u011bt\u0161\u00ed mo\u017enou odm\u011bnu Off-policy jsou efektivn\u011bj\u0161\u00ed, daj\u00ed se u\u010dit z r\u016fzn\u00fdch \u010das okam\u017eik\u016f (historie) a asynchronn\u011b, tak\u00e9 va\u017eudvi, men\u0161\u00ed dataset",
+        "completion": "4.0",
+        "pred": 1.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Vysv\u011btlete \u201e\u0159et\u011bzcov\u00e9\u201c pravidlo (chain-rule) pro v\u00fdpo\u010det derivac\u00ed. M\u00e1 n\u011bjak\u00e9 vyu\u017eit\u00ed p\u0159i u\u010den\u00ed neuronov\u00fdch s\u00edt\u00ed?\nOdpov\u011b\u010f: Chain-vule se vyu\u017e\u00edv\u00e1 p\u0159i zp\u011btn\u00e9m pr\u016fchodu neuronov\u00e9 s\u00edt\u011b s c\u00edlem optimalizovat/upravit v\u00e1hy jednotliv\u00fdch p\u0159echod\u016f mezi neurony. Ud\u011bl\u00e1 se jeden krok zp\u011bt v neuronov\u00e9 s\u00edti, vypo\u010d\u00edt\u00e1 se p\u0159\u00edslu\u0161n\u00fd gradient a ten je posl\u00e9ze vyu\u017e\u00edt v druh\u00e9m kroku zp\u011btn\u00e9ho pr\u016fchodu p\u0159i v\u00fdpo\u010dtu dal\u0161\u00edho. Takto se zp\u011btn\u011b projde cel\u00e1 s\u00ed\u0165 a uprav\u00ed se jej\u00ed parametry pro dal\u0161\u00ed tr\u00e9novac\u00ed b\u011bh",
+        "completion": "3.0",
+        "pred": 2.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Jak byste upravili algoritmus minimax, pokud hrajete velk\u00fd po\u010det deterministick\u00fdch, pln\u011b pozorovateln\u00fdch dvouhr\u00e1\u010dov\u00fdch her s nulov\u00fdm sou\u010dtem proti protivn\u00edkovi, kter\u00fd vol\u00ed sv\u00e9 akce n\u00e1hodn\u011b?\nOdpov\u011b\u010f: upravil by som ho tak, \u017ee hr\u00e1\u010d najednotu ale nejak\u00fa n\u00e1d hodnotou ale n\u00e1hodn\u00fa, hr\u00e1\u010d MAX by volil t\u00fa akciu, ktorej z\u00edska vykonan\u00edm hr\u00e1\u010d MIN najv\u00e4\u010d\u0161ie priemern\u00e9 ohodnotenie hci",
+        "completion": "1.75",
+        "pred": 0.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Gaussovsk\u00fd klasifik\u00e1tor je p\u0159\u00edkladem klasifik\u00e1toru zalo\u017een\u00e9ho na generativn\u00edm modelu. Pro\u010d se v tomto p\u0159\u00edpad\u011b jedn\u00e1 o generativn\u00ed model? Jak\u00e9 jsou parametry tohoto modelu? Jakou objektivn\u00ed funkci optimalizujeme p\u0159i odhadu t\u011bchto parametr\u016f a pro\u010d? Zapi\u0161te tuto objektivn\u00ed funkci alespo\u0148 v jej\u00ed z\u00e1kladn\u00ed podob\u011b pomoc\u00ed matematick\u00e9 notace a vysv\u011btlete v\u00fdznam jednotliv\u00fdch symbol\u016f.\nOdpov\u011b\u010f: Jedn\u00e1 se o generativn\u00ed model, jeliko\u017e pro ka\u017edou t\u0159\u00eddu generuje hustotu pravd\u011bpodobnosti podle gaussovsk\u00e9ho (norm\u00e1ln\u00edho) rozlo\u017een\u00ed. Parametry tohoto modelu jsou na - st\u0159edn\u00ed hodnotu gauss. rozlo\u017een\u00ed a o2 - rozptyl hodnot gausss rozlo\u017een\u00ed. Optimalizujeme funkci k\u0159\u00ed\u017eov\u00e9 euchopie (eroors-entropy), tuto Funkci budeme v r\u00e1mci optimalizace minimalizovat za pomoc\u00ed gradient\u016f",
+        "completion": "1.5",
+        "pred": 0.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Co je to ve strojov\u00e9m u\u010den\u00ed \"data augmentation\", k \u010demu se pou\u017e\u00edv\u00e1 a kdy je vhodn\u00e9 tento postup pou\u017e\u00edt? Uve\u010fte libovoln\u00fd smyslupln\u00fd p\u0159\u00edklad.\nOdpov\u011b\u010f: Roz\u0161\u00ed\u0159en\u00ed datov\u00e9 sady zaveden\u00edm \u0161umu do dat, s c\u00edlem dos\u00e1hnout v\u011bt\u0161\u00ed generalizace modelu. Lze ji pou\u017e\u00edt kdykoli lze takov\u00fdmito zm\u011bnami napodobit skute\u010dn\u00e9 drobn\u00e9 odli\u0161nosti, kter\u00e9 by se v datech mohly vyskytnout.;Nap\u0159. u obrazov\u00fdch dat, p\u0159i \u00fakolu detekce / segmentace/klasifikace/... m\u016f\u017eeme to upravovat jas a barvy vtupn\u00edch sn\u00edmk\u016f: jas, kontrast, sytost, krue, posouvat / rotovat / \u0161k\u00e1lovat sn\u00edmky (a p\u0159\u00edp. podle toho adekv\u00e1tn\u011b vypravovat ground truth labels) deformovat",
+        "completion": "4.0",
+        "pred": 4.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: U klasick\u00e9ho (glob\u00e1ln\u00edho) prohled\u00e1v\u00e1n\u00ed se n\u011bkdy hovo\u0159\u00ed o \u201ebelief state\u201c. K jak\u00e9 vlastnosti (p\u0159\u00edpadn\u011b vlastnostem) prost\u0159ed\u00ed se tento pojem vztahuje? Co p\u0159edstavuje prostor (nebo mno\u017eina) v\u0161ech belief states? Pokud m\u00e1 prost\u0159ed\u00ed 8 stav\u016f, kolik r\u016fzn\u00fdch belief states existuje?\nOdpov\u011b\u010f: Pokud voli\u010d existuje 8 stav\u016f, tak na za\u010d\u00e1tku budeme moct b\u00fdt v 8 boliet states, pokud \u00faloha nespoc\u00edt\u00ed le\u017ee jinak p\u0159\u00edklad: m\u016f\u017ee b\u00fdt po\u010das\u00ed kA, B, C, D, F, G nebo H3, ... Zbytek zad\u00e1n\u00ed... Na za\u010d\u00e1tku \u00falohy m\u016f\u017eeme b\u00fdt pr\u00e1v\u011b v 12 stav\u016f. Nev\u00edme to, tak po\u010d\u00edt\u00e1me se v\u0161emi.",
+        "completion": "2.0",
+        "pred": 2.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Co je to ve strojov\u00e9m u\u010den\u00ed \"data augmentation\", k \u010demu se pou\u017e\u00edv\u00e1 a kdy je vhodn\u00e9 tento postup pou\u017e\u00edt? Uve\u010fte libovoln\u00fd smyslupln\u00fd p\u0159\u00edklad.\nOdpov\u011b\u010f: Je to zp\u016fsob roz\u0161\u00ed\u0159en\u00ed datov\u00e9 sady s vyu\u017eit\u00edm existuj\u00edc\u00edch dat. Pou\u017e\u00edv\u00e1 se hlavn\u011b v zpracov\u00e1n\u00ed obrazu a spo\u010d\u00edv\u00e1 zkop\u00edrov\u00e1n\u00ed prvku/prck\u016f datov\u011b sady a jejich n\u00e1sledn\u00e9 transformaci. (rotace, zm\u011bna sv\u011btla, barev...) a jejich kombinac\u00ed. Je vhodn\u00e9 jej pou\u017e\u00edt, pokud chceme NN natr\u00e9novat i na jin\u00e9 situace, kter\u00e9 mohou p\u0159i pou\u017eit\u00ed nastat a je v\u00fdhodn\u011bj\u0161\u00ed prov\u00e9st ze sv\u011btlen\u00ed objektu transformac\u00ed ne\u017e p\u0159id\u00e1vat sv\u011btlo p\u0159i samotn\u00e9m po\u0159izov\u00e1n\u00ed obrazov\u00e9ho data. pokud nap\u0159. tot\u00edme zv\u00ed\u0159ata, tak n\u00e1m \u010dasto mohou rocen\u00ed komplikovat a je jednodu\u0161\u0161\u00ed prov\u00e9st n\u00e1sledn\u011b transformace (nap\u0159. chceme aby fotograf detekovalo z v\u00ed\u0159e, i kdy\u017e m\u00e1 jinak naklon\u011bnou hlavu ne\u017e na po\u0159\u00edzen\u00e9m sn\u00edmku).",
+        "completion": "4.0",
+        "pred": 4.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Vysv\u011btlete \u201e\u0159et\u011bzcov\u00e9\u201c pravidlo (chain-rule) pro v\u00fdpo\u010det derivac\u00ed. M\u00e1 n\u011bjak\u00e9 vyu\u017eit\u00ed p\u0159i u\u010den\u00ed neuronov\u00fdch s\u00edt\u00ed?\nOdpov\u011b\u010f: Ka\u017ed\u00fa operac\u00edm neur\u00f3novej sixte zderivujeme samostatne a tie deriv\u00e1cie n\u00e1sledne zre\u0165az\u00edme za sebou tak, \u017ee ich postupne vyn\u00e1sob\u00edme. Vyu\u017e\u00edva sa to pri sp\u00e4tnom prechode NS a distribuovan\u00e9 chyby",
+        "completion": "4.0",
+        "pred": 1.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Polynomi\u00e1ln\u00ed regrese (Polynomial Regression) je speci\u00e1ln\u00edm p\u0159\u00edpadem multivaria\u010dn\u00ed line\u00e1rn\u00ed regrese. Vysv\u011btlete pro\u010d! Jakou funkci se v p\u0159\u00edpad\u011b polynomi\u00e1ln\u00ed regrese sna\u017e\u00edme nau\u010dit? Co jsou parametry t\u00e9to funkce, kter\u00e9 se sna\u017e\u00edme odhadnout? Jakou objektivn\u00ed funkci (loss function) se sna\u017e\u00edme optimalizovat pro nalezen\u00ed nejlep\u0161\u00edch parametr\u016f a jak tuto optimalizaci efektivn\u011b provedeme?\nOdpov\u011b\u010f: speci\u00e1ln\u00edm p\u0159\u00edpadem line\u00e1rn\u00ed proto\u017ee je Polynomieln\u00ed regrese je mo\u017eno polynom rozd\u011blit na jednotliv\u00e9 \u00faseky kter\u00e9 se n\u00e1sledn\u011b tv\u00e1\u0159\u00ed jako line\u00e1rn\u00ed regrese. Sna\u017e\u00edme se nau\u010dit tunkci, kterou byla vytvo\u0159ena tr\u00e9novac\u00ed data. Parametrem funkce je stupe\u0148 polynomu mus\u00ed b\u00fdt stejn\u00fd nebo v\u011bt\u0161\u00ed ne\u017e stupe\u0148 funkce kterou se sna\u017e\u00edme nau\u010dit jinak se n\u00e1m nepoda\u0159\u00ed natr\u00e9nov\u00e1n\u00ed z\u00e1rove\u0148 nem\u016f\u017ee b\u00fdt v\u00fdrazn\u011b v\u011bt\u0161\u00ed pak by na v\u00fdsledn\u00fd model m\u011bl vliv i \u0161um. Jako funkci loss vyu\u017e\u00edv\u00e1me metodu nejmen\u0161\u00edch \u010dtverc\u016f.",
+        "completion": "0.0",
+        "pred": 3.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Polynomi\u00e1ln\u00ed regrese (Polynomial Regression) je speci\u00e1ln\u00edm p\u0159\u00edpadem multivaria\u010dn\u00ed line\u00e1rn\u00ed regrese. Vysv\u011btlete pro\u010d! Jakou funkci se v p\u0159\u00edpad\u011b polynomi\u00e1ln\u00ed regrese sna\u017e\u00edme nau\u010dit? Co jsou parametry t\u00e9to funkce, kter\u00e9 se sna\u017e\u00edme odhadnout? Jakou objektivn\u00ed funkci (loss function) se sna\u017e\u00edme optimalizovat pro nalezen\u00ed nejlep\u0161\u00edch parametr\u016f a jak tuto optimalizaci efektivn\u011b provedeme?\nOdpov\u011b\u010f: Abychom l\u00e9pe mohli rozd\u00edlit t\u0159\u00eddy k\u0159vkou. - line\u00e1rn\u00ed elimunie chyba vztahy 2 \u010dtvrz\u016f, ale pom\u00e9 kiny to jde l\u00edn tvar (C) = as tax tax2 tag 23 ... a Poranty - nektror a... an pro tvar h\u0159moty",
+        "completion": "0.0",
+        "pred": 0.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Vysv\u011btlete \u201e\u0159et\u011bzcov\u00e9\u201c pravidlo (chain-rule) pro v\u00fdpo\u010det derivac\u00ed. M\u00e1 n\u011bjak\u00e9 vyu\u017eit\u00ed p\u0159i u\u010den\u00ed neuronov\u00fdch s\u00edt\u00ed?\nOdpov\u011b\u010f: Derivace, lze po\u010d\u00edtat postupn\u011b, ti nejd\u0159\u00edve zdevinujeme podle X nich to podle v\u00edce prom\u011bnn\u00fdch podle y a tak d\u00e1le P\u0159i u\u010den\u00ed je lze nejd\u0159\u00edve V\u00fdsledky z jednotliv\u00fdch vrstev si lze p\u0159ed\u00e1vat a p\u0159izp\u016fsobit tam p\u0159ed algoritmus",
+        "completion": "2.0",
+        "pred": 2.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Gaussovsk\u00fd klasifik\u00e1tor je p\u0159\u00edkladem klasifik\u00e1toru zalo\u017een\u00e9ho na generativn\u00edm modelu. Pro\u010d se v tomto p\u0159\u00edpad\u011b jedn\u00e1 o generativn\u00ed model? Jak\u00e9 jsou parametry tohoto modelu? Jakou objektivn\u00ed funkci optimalizujeme p\u0159i odhadu t\u011bchto parametr\u016f a pro\u010d? Zapi\u0161te tuto objektivn\u00ed funkci alespo\u0148 v jej\u00ed z\u00e1kladn\u00ed podob\u011b pomoc\u00ed matematick\u00e9 notace a vysv\u011btlete v\u00fdznam jednotliv\u00fdch symbol\u016f.\nOdpov\u011b\u010f: Jedn\u00e1 se o generativn\u00ed model, proto\u017ee modeluje rozlo\u017een\u00ed pravd\u011bpodobnosti parametry: no? st\u0159edn\u00ed hodnota, rozptyl;arg max;TP(X|XIM, 02);- m\u011bjme N vzork\u016f da Xi, pron\u00e1sobme v\u0161echny pst pro dan\u00e9 rozlo\u017een\u00ed s parametry v 5?, zvolen\u00e9 pro na\u0161i \u00falohu takov\u00e9 parametry N, o jejich\u017e pron\u00e1soben jest doby nejvy\u0161\u0161\u00ed hodnotu",
+        "completion": "1.5",
+        "pred": 0.5
+    },
+    {
+        "prompt": "Ot\u00e1zka: Polynomi\u00e1ln\u00ed regrese (Polynomial Regression) je speci\u00e1ln\u00edm p\u0159\u00edpadem multivaria\u010dn\u00ed line\u00e1rn\u00ed regrese. Vysv\u011btlete pro\u010d! Jakou funkci se v p\u0159\u00edpad\u011b polynomi\u00e1ln\u00ed regrese sna\u017e\u00edme nau\u010dit? Co jsou parametry t\u00e9to funkce, kter\u00e9 se sna\u017e\u00edme odhadnout? Jakou objektivn\u00ed funkci (loss function) se sna\u017e\u00edme optimalizovat pro nalezen\u00ed nejlep\u0161\u00edch parametr\u016f a jak tuto optimalizaci efektivn\u011b provedeme?\nOdpov\u011b\u010f: Polynomi\u00e1ln\u00ed regres\u00ed se model sna\u017e\u00edme nau\u010dit polynomi\u00e1ln\u00ed funkci. (U line\u00e1rn\u00ed regrese se jedn\u00e1 o polnom prvn\u00edho stupn\u011b). polynomi\u00e1ln\u00ed regrese m\u00e1 v\u017edy stupe\u0148 X, kter\u00fd definuje maxim\u00e1ln\u00ed exponent polynomu, p\u0159i\u010dem\u017e se v regresi nach\u00e1zej\u00ed v\u0161echny p\u0159edch\u00e1zej\u00edc\u00ed polynomy. Y = wo + w1. X + w1. X2... + w2 x K \u00cd = LWO; w1; 4. J.;sna\u017e\u00edme se optimalizovat metodu nejmen\u0161\u00edch \u010dtverc\u016f.",
+        "completion": "1.5",
+        "pred": 1.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: U klasick\u00e9ho (glob\u00e1ln\u00edho) prohled\u00e1v\u00e1n\u00ed se n\u011bkdy hovo\u0159\u00ed o \u201ebelief state\u201c. K jak\u00e9 vlastnosti (p\u0159\u00edpadn\u011b vlastnostem) prost\u0159ed\u00ed se tento pojem vztahuje? Co p\u0159edstavuje prostor (nebo mno\u017eina) v\u0161ech belief states? Pokud m\u00e1 prost\u0159ed\u00ed 8 stav\u016f, kolik r\u016fzn\u00fdch belief states existuje?\nOdpov\u011b\u010f: belief state - aktu\u00e1lny stav, sousedn\u00ed stavy",
+        "completion": "0.0",
+        "pred": 0.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Polynomi\u00e1ln\u00ed regrese (Polynomial Regression) je speci\u00e1ln\u00edm p\u0159\u00edpadem multivaria\u010dn\u00ed line\u00e1rn\u00ed regrese. Vysv\u011btlete pro\u010d! Jakou funkci se v p\u0159\u00edpad\u011b polynomi\u00e1ln\u00ed regrese sna\u017e\u00edme nau\u010dit? Co jsou parametry t\u00e9to funkce, kter\u00e9 se sna\u017e\u00edme odhadnout? Jakou objektivn\u00ed funkci (loss function) se sna\u017e\u00edme optimalizovat pro nalezen\u00ed nejlep\u0161\u00edch parametr\u016f a jak tuto optimalizaci efektivn\u011b provedeme?\nOdpov\u011b\u010f: Vyu\u017e\u00edv\u00e1 funkci v\u00fdstav u + b ex - matice vah x - vektor p\u0159ezvak\u016f b- kias;oproti line\u00e1rn\u00ed regresy vyu\u017e\u00edv\u00e1 n\u011bjakou \"k\u0159ivku\" polynomi\u00e1ln\u00ed funkci.",
+        "completion": "0.0",
+        "pred": 2.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Jak\u00fd je rozd\u00edl mezi takzvan\u00fdmi \u201eon-policy\" a \u201eoff-policy\" algoritmy posilovan\u00e9ho u\u010den\u00ed? Kter\u00e9 jsou lep\u0161\u00ed a pro\u010d?\nOdpov\u011b\u010f: On-policy \ufffd po\u010d\u00edtaj\u00ed s pravdepodobnos\u0165mi n\u00e1sleduj\u00edc\u00edch akc\u00ed zatim\u0165 \u010do oftrpplicy (z learning napr.) po\u010d\u00edtaj\u00fa s obohaclen\u00edm na z\u00e1klad\u011b vykonan\u00fdch akc\u00ed.",
+        "completion": "0.0",
+        "pred": 0.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Kdy\u017e reprezentujeme text pomoc\u00ed \u201eword embeddings\", jak\u00e9 chceme, aby tyto vektory m\u011bly vlastnosti? Co znamen\u00e1 pojem \u201eWord Vector aritmetika\"?\nOdpov\u011b\u010f: Chceme aby podobn\u00e9 slova mali podobn\u00fa hodnotu (ide\u00e1lne aj v r\u00f4zn\u00fdch jazykoch) Funguje\u201c nad nimy vritnetika. Ak dva vektory slov od sebe od\u010d\u00edtam, dostanem vektor reprezentuj\u00faci \"vztah\" t\u011bchto dvoch slov Potom tento vztah p\u0159i\u010d\u00edt\u00e1m k in\u00e9mu vektoru slova a dostanem slovo, kter\u00e9 m\u00e1 podobn\u00fd vztah ako nalitie dve povodn\u00e9 slova Napr. Praha - \u010cesko = x =) Slovensko \ufffd x = Bratislava (Pr\u016fbli\u017ene)",
+        "completion": "4.0",
+        "pred": 3.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Kdy\u017e reprezentujeme text pomoc\u00ed \u201eword embeddings\", jak\u00e9 chceme, aby tyto vektory m\u011bly vlastnosti? Co znamen\u00e1 pojem \u201eWord Vector aritmetika\"?\nOdpov\u011b\u010f: Chceme aby spojit star\u00e1, kter\u00e9 spolu n\u011bjako sn\u00ed\u017eiv\u00e1 Napr. pri hladov\u00ed synovn\u00fdm alebo anton\u00fdm W U artometika, spoju n\u00e1m star\u00e1, do stav kter\u00e9 nes\u00fa v\u00fdznam t\u00fdch preh\u013ead\u00fdch napr. k\u0159e\u0165 + \u017eena -> k\u0159\u00ed\u017eovna",
+        "completion": "3.0",
+        "pred": 4.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Co je to singularita?\nOdpov\u011b\u010f:  Singularitou sa v problematice v\u00fdvoja met\u00f3d strojov\u00e9ho u\u010denia naz\u00fdva bod, v ktorom bude vytvoren\u00e1 tzv. General AI, schopn\u00e1 vylep\u0161ova\u0165 sam\u00e1 seba, a teda dramaticky presidence schopnos\u0165 \u010dlovek v\u011b\u0159i\u0165 probl\u00e9my.",
+        "completion": "4.0",
+        "pred": 0.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Co je to ve strojov\u00e9m u\u010den\u00ed \"data augmentation\", k \u010demu se pou\u017e\u00edv\u00e1 a kdy je vhodn\u00e9 tento postup pou\u017e\u00edt? Uve\u010fte libovoln\u00fd smyslupln\u00fd p\u0159\u00edklad.\nOdpov\u011b\u010f: Dovytvo\u0159en\u00ed dat pro tr\u00e9nov\u00e1n\u00ed z aktu\u00e1ln\u00edho datasetu nap\u0159\u00edklad pooto\u010den\u00edm obr\u00e1zku, \u00fapravou jasu. Vhodn\u00e9 je pou\u017eit\u00ed v p\u0159\u00edpad\u011b, \u017ee chceme, aby n\u00e1\u0161 klasifik\u00e1tordob\u0159e generalizoval a nap\u0159. pozn\u00e1val osobu rodinn\u00fdch z obr\u00e1zk\u016f, kter\u00e9 se li\u0161\u00ed pouhou od tr\u00e9novac\u00edch. Vhodn\u00e9 pokud nem\u00e1me tolik tr\u00e9novac\u00edch dat",
+        "completion": "4.0",
+        "pred": 4.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Jak byste upravili algoritmus minimax, pokud hrajete velk\u00fd po\u010det deterministick\u00fdch, pln\u011b pozorovateln\u00fdch dvouhr\u00e1\u010dov\u00fdch her s nulov\u00fdm sou\u010dtem proti protivn\u00edkovi, kter\u00fd vol\u00ed sv\u00e9 akce n\u00e1hodn\u011b?\nOdpov\u011b\u010f: Vzhledem k tomu, \u017ee protihr\u00e1\u010d sv\u00e9 akce moh\u00ed n\u00e1hodn\u011b, pak nem\u00e1 smysl zva\u017eovat p\u0159i jeho kolech v\u00fdb\u011br minim\u00e1ln\u00ed hodnoty. lep\u0161\u00ed taky a t\u011bmi se Je tedy t\u0159eba zva\u017eovat pouze vlastn\u00ed n\u011b \u0159\u00eddit. P\u0159i velk\u00e9m mno\u017estv\u00ed her ale nar\u00e1\u017e\u00edme na probl\u00e9m s n\u00e1ro\u010dnost\u00ed t\u00e9to metody a nemo\u017enost\u00ed pou\u017eit\u00ed alfa-beta pro\u0159ez\u00e1v\u00e1n\u00ed V p\u0159\u00edpad\u011b nutnosti pro\u0159ez\u00e1v\u00e1n\u00ed bych nap\u0159. volil n\u00e1hodn\u011b cesty do \u0161patn\u011b ohodnocen\u00fdch list\u016f a ty bych d\u00e1le ignoroval.",
+        "completion": "1.5",
+        "pred": 4.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Co je to ve strojov\u00e9m u\u010den\u00ed \"data augmentation\", k \u010demu se pou\u017e\u00edv\u00e1 a kdy je vhodn\u00e9 tento postup pou\u017e\u00edt? Uve\u010fte libovoln\u00fd smyslupln\u00fd p\u0159\u00edklad.\nOdpov\u011b\u010f: data augmentation je \u00faprava dat z datov\u00e9 sady, d\u00edky \u010demu\u017e z\u00edsk\u00e1me \"nov\u00ed\" data, kter\u00e9 jsou vru\u010diteln\u00e1 pro u\u010den\u00ed. Nap\u0159\u00edklad tr\u00e9nujeme-li s\u00ed\u0165 aby rozpozn\u00e1vala obr\u00e1zky se \u017erabkem, r\u016f\u017eeme takov\u00fd obr\u00e1zek r\u016fzn\u011b pooto\u010dit, zm\u011bnit vyv\u00e1\u017een\u00ed b\u00edle a podobn\u00e9 dal\u0161\u00ed lehk\u00e9 \u00fapravy, proto\u017ee tvo\u0159\u00edm za\u017eloutl\u00fd \u017eralok je po\u0159\u00e1d \u017eralok.",
+        "completion": "4.0",
+        "pred": 4.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Co je to singularita?\nOdpov\u011b\u010f: Simplarita je pojem pou\u017e\u00edvan\u00fd v oblasti um\u011bl\u00e9 inteligence vyjad\u0159uj\u00edc\u00ed sebeuv\u011bdom\u011bn\u00ed. P\u0159i tvorb\u011b stromy A2 chceme, aby AI \u201ekop\u00edrovala\" (napodobovala) kognitivn\u00ed schopnosti \u010dlov\u011bka emoce, reakce atp., z\u00e1rove\u0148 chceme, aby si AI dok\u00e1zala uv\u011bdomit vlastn\u00ed byt\u00ed - existenci sebe sama",
+        "completion": "3.0",
+        "pred": 0.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: U klasick\u00e9ho (glob\u00e1ln\u00edho) prohled\u00e1v\u00e1n\u00ed se n\u011bkdy hovo\u0159\u00ed o \u201ebelief state\u201c. K jak\u00e9 vlastnosti (p\u0159\u00edpadn\u011b vlastnostem) prost\u0159ed\u00ed se tento pojem vztahuje? Co p\u0159edstavuje prostor (nebo mno\u017eina) v\u0161ech belief states? Pokud m\u00e1 prost\u0159ed\u00ed 8 stav\u016f, kolik r\u016fzn\u00fdch belief states existuje?\nOdpov\u011b\u010f: Aktu\u00e1ln\u00ed prost\u0159ed\u00ed Je tou jednomokao\u00fa mno\u017ein obsahuj\u00edc\u00ed akt. stav. Pstav\u016f, jeden aktu\u00e1ln\u00ed",
+        "completion": "0.0",
+        "pred": 0.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Co je to ve strojov\u00e9m u\u010den\u00ed \"data augmentation\", k \u010demu se pou\u017e\u00edv\u00e1 a kdy je vhodn\u00e9 tento postup pou\u017e\u00edt? Uve\u010fte libovoln\u00fd smyslupln\u00fd p\u0159\u00edklad.\nOdpov\u011b\u010f: Pokud pot\u0159ebujeme roz\u0161\u00ed\u0159it n\u00e1\u0161 dataset. Pou\u017e\u00edv\u00e1 se pro generov\u00e1n\u00ed nov\u00fdch dat Nap\u0159. p\u0159i detekci ob\u011bktu v obr\u00e1zku m\u016f\u017eeme na\u0161i tr\u00e9novac\u00ed sadu jednodu\u0161e roz\u0161\u00ed\u0159it o obr\u00e1zky, kter\u00e9 jen m\u00edrn\u011b pooto\u010d\u00edme, p\u0159id\u00e1me kontrast, zv\u00fd\u0161\u00edme jas... nebo nap\u0159. pro data v prostoru pou\u017eijeme SMOTE, kter\u00fd pro 2 data spo\u010d\u00edt\u00e1 eukleidovskou vzd\u00e1lenost a vytvo\u0159\u00ed nov\u00fd vzorek mezi nimi. T\u00edm zvy\u0161uje pravd\u011bpodobnost, \u017ee se dan\u00fd prvek vyskytuje v podobn\u00e9 oblasti",
+        "completion": "4.0",
+        "pred": 3.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Gaussovsk\u00fd klasifik\u00e1tor je p\u0159\u00edkladem klasifik\u00e1toru zalo\u017een\u00e9ho na generativn\u00edm modelu. Pro\u010d se v tomto p\u0159\u00edpad\u011b jedn\u00e1 o generativn\u00ed model? Jak\u00e9 jsou parametry tohoto modelu? Jakou objektivn\u00ed funkci optimalizujeme p\u0159i odhadu t\u011bchto parametr\u016f a pro\u010d? Zapi\u0161te tuto objektivn\u00ed funkci alespo\u0148 v jej\u00ed z\u00e1kladn\u00ed podob\u011b pomoc\u00ed matematick\u00e9 notace a vysv\u011btlete v\u00fdznam jednotliv\u00fdch symbol\u016f.\nOdpov\u011b\u010f: Vytvo\u0159\u00edme podel, kter\u00fd ur\u010d\u00ed pravd\u011bpodobnost\u00ed funkci. Parametr modelu jsou vektory st\u0159edn\u00ed hodnoty a kovarian\u010dn\u00ed matice Maximalizujeme maximu literybood: p(X|N| X| n|X) pozorovan\u00e1 data;ang nax [ M,2 Vyb\u0159e u, \u017ee takov\u00fdm \u017ee maximalizuj\u00ed po\u010din pravd\u011bpodobnos\u0165 jednotliv\u00fdm data - arg max log [l] [x il NIM, EI) = arg na \u0113 \u0113 log (XXi / NIM, EI) 12;p(x|N|M, \u017ei);Nam\u00e1l\u00ed rozlo\u017een\u00ed s parametry u - velblou st\u0159ed\u00ed bodroz 2- tovarycan\u010dn\u00ed matice",
+        "completion": "4.0",
+        "pred": 4.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Polynomi\u00e1ln\u00ed regrese (Polynomial Regression) je speci\u00e1ln\u00edm p\u0159\u00edpadem multivaria\u010dn\u00ed line\u00e1rn\u00ed regrese. Vysv\u011btlete pro\u010d! Jakou funkci se v p\u0159\u00edpad\u011b polynomi\u00e1ln\u00ed regrese sna\u017e\u00edme nau\u010dit? Co jsou parametry t\u00e9to funkce, kter\u00e9 se sna\u017e\u00edme odhadnout? Jakou objektivn\u00ed funkci (loss function) se sna\u017e\u00edme optimalizovat pro nalezen\u00ed nejlep\u0161\u00edch parametr\u016f a jak tuto optimalizaci efektivn\u011b provedeme?\nOdpov\u011b\u010f: - skor naopak line\u00e1rna regresea je specialny p\u0159\u00edpad polynomickej regrese ke\u010f sa k =1 -> tedy hovo\u0159\u00edme o live\u00e1rnej regresii je to preto, lebo pri regresii m\u00e1me w way - ax ka, v\u0161etko vektory Wo - a tvar funkce je slx) = wo + w1 + w X ... w w v- - tak\u017ee sa sna\u017e\u00edme najit nejak\u00fa polynomi\u00e1ln\u00ed - id priamku k - r\u00e1du tak, aby co najly\u0161ie fungovala na n\u00e1\u0161 probl\u00e9m; w - s\u00fa parametre - m\u00f4\u017eeme pou\u017ei\u0165 loss - rozd\u00edl obsahu \u0161tv\u00edrca aby sme majlej\u0161ie na\u0161li parametr - provedeme tak, \u017ee vypo\u010d\u00edtane gradient a postupn\u011b pojdeme proti jeho sm\u011bru na 0 aby sme optimalizovali \u0159e\u0161en\u00e9",
+        "completion": "1.0",
+        "pred": 2.5
+    },
+    {
+        "prompt": "Ot\u00e1zka: Co je to ve strojov\u00e9m u\u010den\u00ed \"data augmentation\", k \u010demu se pou\u017e\u00edv\u00e1 a kdy je vhodn\u00e9 tento postup pou\u017e\u00edt? Uve\u010fte libovoln\u00fd smyslupln\u00fd p\u0159\u00edklad.\nOdpov\u011b\u010f: Umel\u00e9 zvy\u0161ovanie d\u00e1tovej sady upravov\u00e1n\u00ed existuj\u00facich d\u00e1t. Pr\u00edklad: spracov\u00e1vanie obrazy: ot\u00e1zanie, orez\u00e1vanie, a menenie svetla na existuj\u00facich obr\u00e1zkoch - rob\u00ed sa to pre to, aby sa model nau\u010dil pracova\u0165 aj S takto \u201enedokonal\u00fdma\u201c d\u00e1tami,",
+        "completion": "4.0",
+        "pred": 4.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Gaussovsk\u00fd klasifik\u00e1tor je p\u0159\u00edkladem klasifik\u00e1toru zalo\u017een\u00e9ho na generativn\u00edm modelu. Pro\u010d se v tomto p\u0159\u00edpad\u011b jedn\u00e1 o generativn\u00ed model? Jak\u00e9 jsou parametry tohoto modelu? Jakou objektivn\u00ed funkci optimalizujeme p\u0159i odhadu t\u011bchto parametr\u016f a pro\u010d? Zapi\u0161te tuto objektivn\u00ed funkci alespo\u0148 v jej\u00ed z\u00e1kladn\u00ed podob\u011b pomoc\u00ed matematick\u00e9 notace a vysv\u011btlete v\u00fdznam jednotliv\u00fdch symbol\u016f.\nOdpov\u011b\u010f: Gaussovsk\u00fd klasifik\u00e1tor je p\u0159\u00edkladem klasifik\u00e1toru zalo\u017een\u00e9ho na generativn\u00edm modelu. Pro\u010d se zde jedn\u00e1 o generativn\u00ed model? Co jsou parametry tohoto modelu? Jakou objektivn\u00ed funkci optimali- zujeme p\u0159i odhadu t\u011bchto parametr\u016f a pro\u010d? Zapi\u0161te tuto objektivn\u00ed funkci alespo\u0148 v jej\u00ed z\u00e1kladn\u00ed podob\u011b pomoc\u00ed matematick\u00e9 notace a jednotliv\u00e9 symboly vysv\u011btlete. generativn\u00ed, proto\u017ee se sna\u017e\u00ed odhadnout nejlep\u0161\u00ed parametry pravd\u011bpodobnostn\u00edho rozlo\u017een\u00ed dat v jednotliv\u00fdch t\u0159\u00edd\u00e1ch. Parametry jsou a U? (st\u0159. hodnota a respty), proto\u017ee so sech\u00e1 o rozlo\u017een\u00ed N);= argenta max [T P(x|N|N|w?) po Garsovsk\u00e9 rozlo\u017een\u00ed N.... St\u0159. hodnota b2 ... roypty/ k ... po\u010det t\u0159\u00edd X; ... dava t\u0159\u00eddy i . t\u0159i 1) st\u0159. hodnota pro rozlo\u017een\u00ed dat, kter\u00e1 maximelizuje v\u00fdraz G; ... rozptyl -|;u",
+        "completion": "4.0",
+        "pred": 0.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Gaussovsk\u00fd klasifik\u00e1tor je p\u0159\u00edkladem klasifik\u00e1toru zalo\u017een\u00e9ho na generativn\u00edm modelu. Pro\u010d se v tomto p\u0159\u00edpad\u011b jedn\u00e1 o generativn\u00ed model? Jak\u00e9 jsou parametry tohoto modelu? Jakou objektivn\u00ed funkci optimalizujeme p\u0159i odhadu t\u011bchto parametr\u016f a pro\u010d? Zapi\u0161te tuto objektivn\u00ed funkci alespo\u0148 v jej\u00ed z\u00e1kladn\u00ed podob\u011b pomoc\u00ed matematick\u00e9 notace a vysv\u011btlete v\u00fdznam jednotliv\u00fdch symbol\u016f.\nOdpov\u011b\u010f: Preto\u017ee generativny model modeluje hustotu pravdepodobnosti a je teda vhodn\u00fd pre gaussovsk\u00e9 rozdelenie. Parametre modelu s\u00fa rozptyl a smerodajna odchylka a d\u00e1ta.",
+        "completion": "0.0",
+        "pred": 0.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Polynomi\u00e1ln\u00ed regrese (Polynomial Regression) je speci\u00e1ln\u00edm p\u0159\u00edpadem multivaria\u010dn\u00ed line\u00e1rn\u00ed regrese. Vysv\u011btlete pro\u010d! Jakou funkci se v p\u0159\u00edpad\u011b polynomi\u00e1ln\u00ed regrese sna\u017e\u00edme nau\u010dit? Co jsou parametry t\u00e9to funkce, kter\u00e9 se sna\u017e\u00edme odhadnout? Jakou objektivn\u00ed funkci (loss function) se sna\u017e\u00edme optimalizovat pro nalezen\u00ed nejlep\u0161\u00edch parametr\u016f a jak tuto optimalizaci efektivn\u011b provedeme?\nOdpov\u011b\u010f: je to preta, leba polynomia regresia m\u00f4\u017ee by\u0165 odvedena skladan\u00edm lin\u00e9arnych reg \ufffd polymmi\u00e1lne priamky vznikn\u00fa zlo\u017een\u00edm line\u00e1rnych - sna\u017e\u00edme sa nau\u010di\u0165 y = wo + w1 x + w2 + 1 ... + w1 x -> parametrami s\u00fa v\u00e1hy w0, w1, ..., wn -> optimalizujeme funkciu MSE (mean squared error) \ufffd kde yi je p\u0159edpovedan\u00e1 hodnota a ti je skute\u010dn\u00e1 hodnota \ufffd t\u00fa sa sna\u017e\u00edme minimalizova\u0165 24",
+        "completion": "3.0",
+        "pred": 0.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Kdy\u017e reprezentujeme text pomoc\u00ed \u201eword embeddings\", jak\u00e9 chceme, aby tyto vektory m\u011bly vlastnosti? Co znamen\u00e1 pojem \u201eWord Vector aritmetika\"?\nOdpov\u011b\u010f: \ufffd \u010d\u00edm m\u00e1 slovo podobnej\u0161ie jednotliv\u00e9 dimenzie s in\u00fdm storem, t\u00fdm je medzi nimi v\u011bt\u0161\u00ed s\u00favis \ufffd dimenzie vektoru mus\u00eda reprezentova\u0165 dostato\u010dne \u0161irok\u00fa \u0161k\u00e1lu vlastnost\u00ed, ktor\u00e9 relevantne odti\u0161uj\u00fa s\u00favisy medzi stovami aritmetika: vyberieme dve slov\u00e1, od\u010d\u00edtame od seba ich dimenzie a \u010d\u00edm s\u00fa jednotliv\u00e9 dimenzie v\u00fdsledku bli\u017e\u0161\u00ede k t\u00fdm je v\u00e4\u010d\u0161\u00ed s\u00faris medzi slovami pri spr\u00e1vne vybratom zoznamenan\u00e9 dimenzi\u00ed vektorov plat\u00ed, \u017ee kr\u00e1l - mu\u017e = kr\u00e1lovna - \u017eena -> \u017eena = kr\u00e1lovn\u00e1 - (kr\u00e1l - mu\u017e)",
+        "completion": "4.0",
+        "pred": 3.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Stru\u010dn\u011b vysv\u011btlete hlavn\u00ed my\u0161lenky shallow learning a deep learning.\nOdpov\u011b\u010f: Shallow learning: - pro extrakci rys\u016f jsou program\u00e1torem vytvo\u0159eny heuristiky a jin\u00e9 extrak\u010dn\u00ed metody. Vytvo\u0159en\u00fd vodel pak funguje dob\u0159e na n\u011bjak\u00e9m probl\u00e9mu, ale je nepou\u017eitel\u00fd na jin\u00e9 probl\u00e9my Deep learning: - model si rysy extrahuje s\u00e1m, jin\u00fdmi slovy, nau\u010d\u00ed se vyhledat vhodn\u00e9 rysy a na jejich z\u00e1kladech klasifikovat / odhadnout v\u00fdstup.",
+        "completion": "2.0",
+        "pred": 3.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Jak byste upravili algoritmus minimax, pokud hrajete velk\u00fd po\u010det deterministick\u00fdch, pln\u011b pozorovateln\u00fdch dvouhr\u00e1\u010dov\u00fdch her s nulov\u00fdm sou\u010dtem proti protivn\u00edkovi, kter\u00fd vol\u00ed sv\u00e9 akce n\u00e1hodn\u011b?\nOdpov\u011b\u010f: Pre hi\u00e1\u010da mad (mad) by sam st\u00e1le nejlep\u0161ie mo\u017en\u00e9 \u0165ahy, p\u0159ehl\u00edd\u00e1va) pro hr\u00e1\u010da m\u00edn by som preh\u013ead\u00e1val v\u0161etky mo\u017en\u00e9 \u0165ahy a ich ohodnotenie propagoval pravdepodobnos\u0165ou (podobne ako pri expectiminmax)",
+        "completion": "3.5",
+        "pred": 0.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Co je to ve strojov\u00e9m u\u010den\u00ed \"data augmentation\", k \u010demu se pou\u017e\u00edv\u00e1 a kdy je vhodn\u00e9 tento postup pou\u017e\u00edt? Uve\u010fte libovoln\u00fd smyslupln\u00fd p\u0159\u00edklad.\nOdpov\u011b\u010f: Jedn\u00e1 se o vytvo\u0159en\u00ed nov\u00fdch tr\u00e9novac\u00edch dat nap\u0159\u00edklad pro KNN, kdy se upravuj\u00ed tr\u00e9novac\u00ed obr\u00e1zky nap\u0159. oto\u010den\u00edm a dal\u0161\u00edmi \u00fapravami d\u00edky \u010demu\u017e m\u016f\u017eeme s\u00ed\u0165 natr\u00e9novat na v\u011bt\u0161\u00edm datasetu.",
+        "completion": "3.0",
+        "pred": 4.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Jak byste upravili algoritmus minimax, pokud hrajete velk\u00fd po\u010det deterministick\u00fdch, pln\u011b pozorovateln\u00fdch dvouhr\u00e1\u010dov\u00fdch her s nulov\u00fdm sou\u010dtem proti protivn\u00edkovi, kter\u00fd vol\u00ed sv\u00e9 akce n\u00e1hodn\u011b?\nOdpov\u011b\u010f: vym\u00e1hnu jej tak aby vyb\u00edra v\u017edy stav jeho\u017e pr\u016fm\u011br minim\u00e1ln\u00edho a maxim\u00e1ln\u00edho zisku je nejv\u011bt\u0161\u00ed prohled\u00e1v\u00e1n\u00ed omez\u00ednu na hloubku, jeliko\u017e n\u00e1zev je to zbyte\u010dn\u00e9",
+        "completion": "1.75",
+        "pred": 0.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Polynomi\u00e1ln\u00ed regrese (Polynomial Regression) je speci\u00e1ln\u00edm p\u0159\u00edpadem multivaria\u010dn\u00ed line\u00e1rn\u00ed regrese. Vysv\u011btlete pro\u010d! Jakou funkci se v p\u0159\u00edpad\u011b polynomi\u00e1ln\u00ed regrese sna\u017e\u00edme nau\u010dit? Co jsou parametry t\u00e9to funkce, kter\u00e9 se sna\u017e\u00edme odhadnout? Jakou objektivn\u00ed funkci (loss function) se sna\u017e\u00edme optimalizovat pro nalezen\u00ed nejlep\u0161\u00edch parametr\u016f a jak tuto optimalizaci efektivn\u011b provedeme?\nOdpov\u011b\u010f: polonom funkce obsahuje ne-stupn\u011b: y = w1 x , + w2 x 2 + W3 X3... + w1 X2,;parametry jsou v t\u00e9to funkci w1, W2, W3, ..., Wn - stupn\u011b polynomu pro\u010d je pol. regrese spec. p\u0159\u00edpadem lin. regrese? Line\u00e1rn\u00ed regrese je p\u0159\u00edmka, kde\u017eto polynomi\u00e1ln\u00ed regrese p\u0159\u00edmka.;sna\u017e\u00edme se optimalizovat objektivn\u00ed funkci metody nejmen\u0161\u00edch \u010dtverc\u016f",
+        "completion": "2.0",
+        "pred": 2.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Gaussovsk\u00fd klasifik\u00e1tor je p\u0159\u00edkladem klasifik\u00e1toru zalo\u017een\u00e9ho na generativn\u00edm modelu. Pro\u010d se v tomto p\u0159\u00edpad\u011b jedn\u00e1 o generativn\u00ed model? Jak\u00e9 jsou parametry tohoto modelu? Jakou objektivn\u00ed funkci optimalizujeme p\u0159i odhadu t\u011bchto parametr\u016f a pro\u010d? Zapi\u0161te tuto objektivn\u00ed funkci alespo\u0148 v jej\u00ed z\u00e1kladn\u00ed podob\u011b pomoc\u00ed matematick\u00e9 notace a vysv\u011btlete v\u00fdznam jednotliv\u00fdch symbol\u016f.\nOdpov\u011b\u010f: Gaussovsk\u00fd klasifik\u00e1tor je p\u0159\u00edkladem klasifik\u00e1toru zalo\u017een\u00e9ho na generativn\u00edm modelu. Pro\u010d se zde jedn\u00e1 o generativn\u00ed model? Co jsou parametry tohoto modelu? Jakou objektivn\u00ed funkci optimali- zujeme p\u0159i odhadu t\u011bchto parametr\u016f a pro\u010d? Zapi\u0161te tuto objektivn\u00ed funkci alespo\u0148 v jej\u00ed z\u00e1kladn\u00ed podob\u011b pomoc\u00ed matematick\u00e9 notace a jednotliv\u00e9 symboly vysv\u011btlete. norm\u00e1ln\u00ed rozd\u011blen\u00ed. o proto\u017ee se jedn\u00e1 generativn\u00ed parametry jsou st\u0159edn\u00ed hodnota (kde je gausovsk\u00e9 rozlo\u017een\u00ed nejvy\u0161\u0161\u00ed) a sv\u011brodutn\u00e1 odchylka (ur\u010duj\u00edc\u00ed \u0161pi\u010datost). Jedn\u00e1 se o Maximum likelihood funkci a optimalizujeme ji proto abychom dostali gonsonsovskou k\u0159ivku co nejpodobn\u011bj\u0161\u00ed skute\u010dnosti",
+        "completion": "0.0",
+        "pred": 0.5
+    },
+    {
+        "prompt": "Ot\u00e1zka: Jak\u00fd je rozd\u00edl mezi takzvan\u00fdmi \u201eon-policy\" a \u201eoff-policy\" algoritmy posilovan\u00e9ho u\u010den\u00ed? Kter\u00e9 jsou lep\u0161\u00ed a pro\u010d?\nOdpov\u011b\u010f: On-policy - agent vyu\u017e\u00edv\u00e1 slu\u0161nosti z minul\u00fdch b\u011bh\u016f Oble - policy - agen se u\u010d\u00ed jenom za b\u011bh A - policy d\u00e1v\u00e1 lep\u0161\u00ed v\u00fdsledky, proto\u017ee na v\u00edce sku\u0161enosti Ob- volixy - m\u016f\u017ee m\u00edt nov\u00e9 zaj\u00edmav\u00e9 stavy, vice se nau\u010d\u00ed",
+        "completion": "2.0",
+        "pred": 2.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Gaussovsk\u00fd klasifik\u00e1tor je p\u0159\u00edkladem klasifik\u00e1toru zalo\u017een\u00e9ho na generativn\u00edm modelu. Pro\u010d se v tomto p\u0159\u00edpad\u011b jedn\u00e1 o generativn\u00ed model? Jak\u00e9 jsou parametry tohoto modelu? Jakou objektivn\u00ed funkci optimalizujeme p\u0159i odhadu t\u011bchto parametr\u016f a pro\u010d? Zapi\u0161te tuto objektivn\u00ed funkci alespo\u0148 v jej\u00ed z\u00e1kladn\u00ed podob\u011b pomoc\u00ed matematick\u00e9 notace a vysv\u011btlete v\u00fdznam jednotliv\u00fdch symbol\u016f.\nOdpov\u011b\u010f: Generativn\u00ed model po\u010d\u00edt\u00e1 P(Y|X) ale skrze P(x|Y) a P(Y) Parametry jsou pravd\u011bpodobnostn\u00ed rozd\u011blen\u00ed Optimalizujeme Maximum Likelyhood - chceme pro nov\u00fd vstup to nejpravd\u011bpodobn\u011bj\u0161\u00ed rozd\u011blen\u00ed;arg max [Rozd\u011blen\u00ed;skrze [po\u010d\u00edt\u00e1me v\u0161echny pravd\u011bpodobnosti a d\u00edky arg max. se sna\u017e\u00edme ur\u010dit parametry rozd\u011blen\u00ed pro nejvy\u0161\u0161\u00ed a v d\u011bpodobnost",
+        "completion": "0.0",
+        "pred": 0.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: Polynomi\u00e1ln\u00ed regrese (Polynomial Regression) je speci\u00e1ln\u00edm p\u0159\u00edpadem multivaria\u010dn\u00ed line\u00e1rn\u00ed regrese. Vysv\u011btlete pro\u010d! Jakou funkci se v p\u0159\u00edpad\u011b polynomi\u00e1ln\u00ed regrese sna\u017e\u00edme nau\u010dit? Co jsou parametry t\u00e9to funkce, kter\u00e9 se sna\u017e\u00edme odhadnout? Jakou objektivn\u00ed funkci (loss function) se sna\u017e\u00edme optimalizovat pro nalezen\u00ed nejlep\u0161\u00edch parametr\u016f a jak tuto optimalizaci efektivn\u011b provedeme?\nOdpov\u011b\u010f: atbxt ex + ... td* sna\u017e\u00edme sa ur\u010di\u0165 stupe\u0148 potrebn\u00e9ho potyk\u00e1mu a jeho parametre a, b, e, d, ak to ale pre\u017eenieme a zvol\u00edme privysok\u00fd polyn\u00f3m, potom bude jeho v\u00fdpo\u010det pomal\u00fd a navy\u0161e nebude generatizova\u0165 spr\u00e1vne",
+        "completion": "0.0",
+        "pred": 4.0
+    },
+    {
+        "prompt": "Ot\u00e1zka: U klasick\u00e9ho (glob\u00e1ln\u00edho) prohled\u00e1v\u00e1n\u00ed se n\u011bkdy hovo\u0159\u00ed o \u201ebelief state\u201c. K jak\u00e9 vlastnosti (p\u0159\u00edpadn\u011b vlastnostem) prost\u0159ed\u00ed se tento pojem vztahuje? Co p\u0159edstavuje prostor (nebo mno\u017eina) v\u0161ech belief states? Pokud m\u00e1 prost\u0159ed\u00ed 8 stav\u016f, kolik r\u016fzn\u00fdch belief states existuje?\nOdpov\u011b\u010f: belief state - do jak\u00e9 m\u00edry agent tomu stavu v\u011b\u0159\u00ed Vztahuje se k neprozkouman\u00fdm prostor\u016fm Ersty\u00edn 3 belief stry",
+        "completion": "0.0",
+        "pred": 0.0
+    }
+]
