@@ -1,0 +1,524 @@
+[
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné\" parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "hodnoty Filtrů;Počet parametrů = (velikost filtrů) * počet filtrů",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné“ parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "konvoluční jádra;vstupní obrázek;konvoluční jádro např. 3x3 x 180 počet kanálů jistou šířku;jádro postupně přikládám ke každému pixelu obrázku a provádím konvoluci;64x64 x 180;výšku;šířku;počet kanálů;konvoluční jádro je nějaká matice:;5;2;1;8;5;z;\"",
+        "score": 2.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné“ parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "� Váhy Kernelov Nah Ki, kz si dimenzie kerek, I ... počet informálov, D... počet filtrov vo vrstve � parametrov vrstvy = K1-22. I. D (+D ak uvažujeme bias).",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné“ parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "Jádra konvoluce;počet =;(nx m + 1) C n-šířka konvolučního jádra m-výška -||- +1 je bias C - je počet jader;\"",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné“ parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "Váhy konvolučních jader.;Pocet vah = úřka jádra x výška půlrok počet vstupních kováků x počet konvolučních podec na kovách (tj. na jeden konvil může být omluváno více konvolučních podles).",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné\" parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "vektor vah;Wish = Wi - O. loss funkce (wi, x i)",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné\" parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "parametre konvolučných jadier;Počet parametrov = počet vstupných vstiev � výšší kemelu * šířka kernelu * počet výstupných vrstiev",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné\" parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné",
+        "answerText": "číslo);pan, počet - parametrů =;bias, váhy kernelu;Počet kanálů vstupu šířka - ker 1. netu výška - Kernel počet - AI trůlkemezů);Pokračování stav (neosov to mínusy,",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné“ parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "učitelné parametry: hodnoty jader (filtrů);počet parametrů = počet vstupních kanálů x výška jádra x šířka jádra x počet výstupníci Kanálů",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": ";11. Co jsou „učitelné“ parametry konvoluční vrstvy? Odpovězte tak dvěma slovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "Konvoluční filtr",
+        "score": 1.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné“ parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "učitelnými konvolučního;parametry konvoluční vrstvy jsou hodnoty jádra.",
+        "score": 1.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné“ parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné\" parametry konvoluční vrstvy? Odpovězte tak dvěma slovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo) hodnoty v něm) C okonvoluční jádra 3x3 x počet konvolučních jader ve Vrstvě in typická velikost konvolučního pádu",
+        "answerText": "",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné\" parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "e;Jsou to rozpoznatelné objekty ve vrstvě.",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": ";11. Co jsou „učitelné“ parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "matice vah neuronů matice biasů;(w;b);(xxxxxe) + bx) Jsou to parametry, které se v průběhu;L 2=1;n =>;učení množní",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné\" parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo) Konvoluční moska (Velikost masky x počet kanálů) * 2 hloubka konvoluční vrstvy - 1) s každou další konvoluční vrstvou se počet zdrojnásobuje pro první vrstvu odpovídá jen nausce a počtu kanálů (proto - 1",
+        "answerText": "",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné\" parametry konvoluční vrstvy? Odpovězte tak dvěma slovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo) Konvolučné filtre (k. k. L + 6). M k. k.c. - rozmer filtru 6- bias n- počet filtrov",
+        "answerText": "",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné\" parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo) - váhy vrstvy � wo, w g = (no x + no,)",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné\" parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "Huznové funkce - vztahy hrnových Kruhí",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné“ parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "vektory jádra;v",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné\" parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "vstupů;Aparametrů = rozsahu vstupů neuronů vrstvy pro 1 neuron",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "II. Co jsou matický číslo) konvolučné filty;„učitelné\" parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné",
+        "answerText": "ak má štandardná vrstva tak počet parametrov = 3x3 x počet vrstven;. os",
+        "score": 2.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné\" parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "váhy jednotlivých pixelů/částí celku;dJ (x, o);Or o-2 do;X... barning-rate J(x, A) = objektivní pa)",
+        "score": 2.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné\" parametry konvoluční vrstvy? Odpovězte tak dvěma slovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "váhy neuronu;daru;velikost vstupu x počet fitrů (například obrázek 224x24;x velikost výstupu parametry",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": ";11. Co jsou „učitelné\" parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "váhy v jádřech parametrů = (velikost jádra x) - (velikost jádra - y) - (počet výstupních hanáků",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": ";11. Co jsou „učitelné\" parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "měnitelní parametry - mohou se mínit během učení;parametr - 3. 3. = 9",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "II. Co jsou „učitelné\" parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo) učitelně parametre představují napríklad konvolučné jadro x",
+        "answerText": "to;jednotlivých;XI;X.;konvolučných jadrec;učitelně parametre;x2 x3;moh ac .x;=počet parametrů;žila vyšla počet ; zugsfürste erst nicht am Ende dahin an Heraus genommen werden wird u. erst noch nicht anders das Eine verspachen verschien verseit deien versen Berseichen ven versen den veren zu zu zu zu zich zich zu zu zu zu zu der zu ver zu der zu der der Ba jádra jádra lampion;počet konvoluční",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné\" parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "váhy a bias f(x) = signored (x. w + b)",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné“ parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "váhy konvolučného jadra;šupných B 3. 3. 03 \" 6;počet výstupných;6;:;výška jadra * šírka jadra = počet vstupných + výstupných kanálov Kanálov;počet",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné\" parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "Konvolučné jadro",
+        "score": 1.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné\" parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo) Konvolučně jadrá",
+        "answerText": "počet kanálov vstupu počet kanálov výstupu",
+        "score": 2.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné\" parametry konvoluční vrstvy? Odpovězte tak dvěma slovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "váhy filtru/kernelov.;funkci = počet parametrov vtika a šířka filtru počet kanálov",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": ";11. Co jsou „učitelné\" parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "učitelné parametry = konvoluční jádra;hodnoty v jednotlivých bodech filtru);počet parametrů = UXXXC šiřka jádra;výška jádra;počet kanálů (fietrů jezdec)",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné“ parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo) předpokladame, že pridávame o pri konvoluč Od paddímq",
+        "answerText": "in;tlol;M. K;Hol;vojtelné povahě neponevalnější vrstvy: konvolučné jádro.;počet šířeb matice konvoluční fitrové (jedieř) debít;ýška matice dát",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné“ parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "- konvolučné jadro - jako váhy;vstupných před panovatou - výška konvolučního jadra * šírka konvolučného jadra * počet kanálov x počet výchovných evangelov",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné“ parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "Rozmery vstupu a počet konvol. vrstiev - učiteľné parametre kanály vstupu (počet) (wxhx(+ 1);výška;bias;počet;konvol. vrstiev;šírka;concut �;G;h;w",
+        "score": 2.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné“ parametry konvoluční vrstvy? Odpovězte tak dvěma slovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "- žádné jejich 0",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné“ parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "=;cux + b;váhy;neurónov",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "II. Co jsou „učitelné\" parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "váhový vektor w;atradisační them nazdravovati loss funkce např. Relu, CROSS-ENTROPY;3=;(xurb);x - vstupní vektor ur-váhový vektor b - buch matice",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné“ parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné\" parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "- ČÍSLA VE KONVOLUČNÍM JÁDRU (KROPIC) A PŘÍPADNÉ BIAS PORUD TV JE;Počet všech učitelných parametrů v je pak;C = W6 - CC + B, kde;WC - jE ŠÍŘKA KERNELU HC - vÝŠKA KRRACHU - POČET KERNELŮ (POKUD je jich více, B - POČET BIAG HODNOT O oblikla příp",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné“ parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "počet parametrov = (R. z + M) c",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. 2D konvoluční síť začíná dvěma konvolučními vrstvami. První vrstva má 16 jader o velikosti 3x3 a druhá 32 jader o velikosti 5x5. Velikost vstupního obrázku je 64x64 a má 3 kanály. Napište velikost perceptive feld aktivací druhé vrstvy (tedy na jaké oblasti závisí hodnoty v jednom „pixelu“ výstupu druhé vrstvy). Velikost perceptive feld napište jak v pixelech vstupního obrázku, tak výstupní „ak- tivační mapy“ první vrstvy. Odpověď nesmí obsahovat žádný souvislý text delší než dvě slova. 16x3 = 48",
+        "answerText": "64;vstupní slovácek: 15 x 15 paní wxta: 5+5;64;32+ 5 = 160",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné“ parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "konvoluční jádra;počet vstupních - kanálů x počet - jeder x (hrana-jádra)",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné“ parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "konvoluční matice počet vstupních parametrů x počet výstupních a výstav konvoluční matice z šířku k ní",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné\" parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "váha a",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné\" parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "váhy kernelu, bias kernelu;počet vstupou veľkosť kernelu x počet X ernelou;6;VE;V;in",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné“ parametry konvoluční vrstvy? Odpovězte tak dvěma slovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "2 slova: váhy ketnelu více slov: koeficianté váhy konvolučního filtru - jádra;počet parametrů: rozměry x kanály;= II r. Vizi=;pro obrázek (ZD): šířka x výška * počet kanálů např. 3 pro RGB;x k;kde riz je i tý rozumě konvolučního jádra k z počet kanálů",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": ";;11. Co jsou „učitelné“ parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné“ parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "učitelné jsou jednotlivé filtry konvoluční vrsty exextráxn - počet filtrů počet příznaků rozměry faltru Př: (3, 3, 1, 16)",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné“ parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "konvoluční filtry;(výška x a šířka + hloubka + bias) + počet = parametr",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné“ parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "upravitelé parametry;vyzkoumat života vrstev výška cesty;hloubka vraty",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné“ parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "konvolučné jádrá � jejich hodnoty;tel;teda;a, b, c, ...;- (počet vstupných kanálov) x (výšku konvolučného jadra) * (šírka konvolučného jadra) * počet konvolučných jadier) alebo počet výstupných kanálov",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné\" parametry konvoluční vrstvy? Odpovězte tak dvěma slovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "parametre = konvolučné;jadrá danej vrstvy;konv.;Počet parametrov = počet jadier vo vrstve;šírba : výška jadra jádra;počet Kanálov jadra;napr.;Konv. jadro 2x2 s počtem kanálov 3 je 12 parametrov. Konvolučných jader môže byť aj viac (treba prenásobiť počtom)",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné“ parametry konvoluční vrstvy? Odpovězte tak dvěma slovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo) Konvoluční jádra počet = počet kanálů vstupu x výška konvolučního jádra * šířka konvolučního jádra k počet kanálů výstupu",
+        "answerText": "",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": ";11. Co jsou „učitelné“ parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo) Váhy jadra",
+        "answerText": "Počet = m x n x d x j m,n - rozmerz konv. jadra d - počet kanálov na vstupe = počet kanálov jadra j - počet konv. jadier v jednej vrstve",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. 2D konvoluční síť začíná dvěma konvolučními vrstvami. První vrstva má 16 jader o velikosti 3x3 a druhá 32 jader o velikosti 5x5. Velikost vstupního obrázku je 64x64 a má 3 kanály. Napište velikost perceptive feld aktivací druhé vrstvy (tedy na jaké oblasti závisí hodnoty v jednom „pixelu“ výstupu druhé vrstvy). Velikost perceptive field napište jak v pixelech vstupního obrázku, tak výstupní „ak- tivační mapy“ první vrstvy. Odpověď nesmí obsahovat žádný souvislý text delší než dvě slova.",
+        "answerText": "18x48",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné“ parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "konvoluční jádro;ji = 2xi. ai hodnoty konv. jádra -> hodnoty aktuálně počítaného výřezu dat;konv. jádro;o;o;číslo i = 0-8 (pořadí);tedy např. yj = 1.1 +1.1-2.3",
+        "score": 1.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné“ parametry konvoluční vrstvy? Odpovězte tak dvěma slovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné“ parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "učitelné sú hodnoty konvolučných matic (jadver);= u jako hyadro Nkamál Wado - šírka jedného konvolučneho jadra (hratice) filtru), najazdější hjadno - výška conv. jadra / najčastějšie 3 Neanál - počet vstupných kanálov (obrázka/z predd. vrstvy)",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné\" parametry konvoluční vrstvy? Odpovězte tak dvěma slovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "- filtre (kundy);výška * šírka * 9",
+        "score": 2.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné“ parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "Váhy v konvolučních jádrech KERIE Kernel-WIOTH KERNEL-HEIGHT NUM-OF-IN-CHANNELS NUM-OF- OUT-CHAND;Případně ještě bias pro každý kernel",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné\" parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "filtry konvolúcie;počet = k . k. , s počet koní do velkostatku filtra;velkosť vrstvy",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": ";;;;11. Co jsou „učitelné“ parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "konvoluční jádra;n x m (např. 3x3 pro;velikost matice konvoluce 1x vel. matice konvoluce 2 x počet jader (=počet výstupních kanálů) x počet vstupních kanálů",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné\" parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "paranetre filtrov konvolučnej vrsty;všecky porozebrané vzty;počet parametrov jedné vzty NAXXIC avšak pozor, porazila v konábrah filtra sa rovných, proto je tento počet;NAXY;C - počet kazílov vstupu N - před filtrov vrsty X, Y - roznesy filtra;PUT;v každej;vstve môže byť až N filtrov. každý filter musí mať romaklý počet kanálov ako vstup. Mali by měl všetky filtre roncké roznosy.;učitelné paraztu;vyty",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": ";11. Co jsou „učitelné“ parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "Váhové parametry;kokte, počet tried k,",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": ";11. Co jsou „učitelné\" parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo) � váhy Bernelov",
+        "answerText": "18/9. filtrov počet parametrov = (výška filtra = šírka filtra = počet kanálov + bias) počet;1 populární Středa respektive výška a šírka kernelov",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné\" parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "prvky konvolučního jádra;počet p = w h - c;p ... počet parametrů w... šířka konvolučního jádra h... výška konvolučního jádra c. k. počet kanálů vstupního signálu b .. počet konvolučních jader ve vrstvě",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": ";11. Co jsou „učitelné“ parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "konvoluční jádra;parametr = veľkosť x šířka počet kanálů",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné“ parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo) filtre, resp. hodnoty filtru WAH.C šírka - výška (filtru) počet kanálov",
+        "answerText": "",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné“ parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "karnel;počet kanálů na vstupu x velikost kernelu *velikost herala *počet výstupních kanálů (jedné strany);(+ ještě bias po celý hemal)",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné\" parametry konvoluční vrstvy? Odpovězte tak dvěma slovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "Nemá žiadne.;počet parametrov:0",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné\" parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "hodnoty vo \"filtrech“ - kernel/jadro;počet vstupných kanálov - šírka jadra - výška jadra - počet výstupných kanál.",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné\" parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "nastavitelné váhy",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné\" parametry konvoluční vrstvy? Odpovězte tak dvěma slovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné“ parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo) parametry jádro (ohodnocení matice) počet parametrů = (výška x šířka x počet kanálů) počet jader",
+        "answerText": "",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné“ parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "- konvoluční jádro",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné“ parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "Konvoluční vrstva nemá učitelné parametry Neobsahuje parametry počet = 0",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. 2D konvoluční síť začíná dvěma konvolučními vrstvami. První vrstva má 16 jader o velikosti 3x3 a druhá 32 jader o velikosti 5x5. Velikost vstupního obrázku je 64x64 a má 3 kanály. Napište velikost perceptive field aktivací druhé vrstvy (tedy na jaké oblasti závisí hodnoty v jednom „pixelu“ výstupu druhé vrstvy). Velikost perceptive field napište jak v pixelech vstupního obrázku, tak výstupní „ak- tivační mapy“ první vrstvy. Odpověď nesmí obsahovat žádný souvislý text delší než dvě slova. 16;3. 3.;1.",
+        "answerText": "2. 5. 5. 3 výstup 2. vrstva vstup: 16. 3. 3 - 64. 64. 3 -> 16. 3. 3",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné\" parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "-;počet;parametrov = výška konv Jadra * šírka konv Jádra * počet kanálov konv Jadra * počet konv Jadier V jedno; Vrstve;učitelné parametre sú hodnoty konvolučného jadra / jedier",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné\" parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo) Konvoluční jádra. Jádra jádra (počet vstupních parametrů) (velikost konvoluční x). (velikost konvoluční",
+        "answerText": "počet výstupních parametrů);s",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné“ parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto param- u standardní konvoluční vrstvy. (parametr = jedno reálné číslo) Učitelné parametry se mění za účelem zlepšení vrstvy. Bezu = k. k. 6/M;- počet vrstev Velikost konvoluce",
+        "answerText": "",
+        "score": 2.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "II. Co jsou „učitelné\" parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "kernel vrstvy;2 počet parametrov: tento výška - kemel vrsty x širka - tenel vrstvy x počet vstupných kanálov x počet výstupných kanálov",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné\" parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "hodnoty konvolučních jader.;počet =;Výpočet počtu: (výška - jádra * šířka - jádra * počet - banálů) x počet - jader",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné\" parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "váhy jadra rozmezy jadra x počet filtrov",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné\" parametry konvoluční vrstvy? Odpovězte tak dvěma slovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Co jsou „učitelné“ parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+        "answerText": "matica váh;w = arg max 2 (a w)",
+        "score": 0.0
+    }
+]

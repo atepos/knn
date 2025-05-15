@@ -1,0 +1,36 @@
+{
+    "questionNumber": 11,
+    "questionText": "11. Co jsou „učitelné\" parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)",
+    "answersByScore": [
+        {
+            "score": 0.0,
+            "answers": [
+                "vektor vah;Wish = Wi - O. loss funkce (wi, x i)"
+            ]
+        },
+        {
+            "score": 1.0,
+            "answers": [
+                "Konvoluční filtr"
+            ]
+        },
+        {
+            "score": 2.0,
+            "answers": [
+                "konvoluční jádra;vstupní obrázek;konvoluční jádro např. 3x3 x 180 počet kanálů jistou šířku;jádro postupně přikládám ke každému pixelu obrázku a provádím konvoluci;64x64 x 180;výšku;šířku;počet kanálů;konvoluční jádro je nějaká matice:;5;2;1;8;5;z;\""
+            ]
+        },
+        {
+            "score": 3.0,
+            "answers": [
+                "hodnoty Filtrů;Počet parametrů = (velikost filtrů) * počet filtrů"
+            ]
+        },
+        {
+            "score": 4.0,
+            "answers": [
+                "� Váhy Kernelov Nah Ki, kz si dimenzie kerek, I ... počet informálov, D... počet filtrov vo vrstve � parametrov vrstvy = K1-22. I. D (+D ak uvažujeme bias)."
+            ]
+        }
+    ]
+}

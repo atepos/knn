@@ -1,0 +1,54 @@
+{
+    "questionNumber": 11,
+    "questionText": "11. Je možné, že při nějakých hodnotách učící konstanty (learning rate) není možné získat dobře naučený model neuronové sítě při použití algoritmů typu GD a SGD? Vysvětlete, proč to tak není, nebo uveďte, k čemu může dojít.",
+    "answersByScore": [
+        {
+            "score": 0.0,
+            "answers": [
+                "Learning naše nám říká, jak velké kničky děláme s každým krokem optimalizace, je možné, že kvůli velkému learningovate nikdy netrefíme minimum rozumným způsobem. Přestřelíme ho s každým krokem - příliš rychle měníme parametry) hodnot"
+            ]
+        },
+        {
+            "score": 1.0,
+            "answers": [
+                "břeh;Myslím že níe, febo cíel GB a SED menšít tu konstantu v zavislosti, od toho aby mame gradient. Ale prítom ako aj pre iných optimázatorech prílíš maly alebo veliky lz može zhoršit vysledky učení."
+            ]
+        },
+        {
+            "score": 1.5,
+            "answers": [
+                "gradient descene / simpelar gradien descere Při vízkých hodnotách LR se může stát, že se náš model nepodaří výhru naučit, připadně že to bude trvat velmi dlouho. Především se to může stát u 6D, kdy je gradient, jenž je počítám jako derivu loss funkce počítám vždy nad celým dotazem. Toto je velmi zdlouhavé a v konvisaci s vkloutkem může teoreticky dojet i k univerzitě. Lepší může být zítra s SED, kdy k výpočtu gradientů z loss funkce dochádzí se vždy, ale po náhodném počtu kroků"
+            ]
+        },
+        {
+            "score": 2.0,
+            "answers": [
+                "Pri použití príliš velkého hrobu learning rote je možné preskočiť lokálne (a teda aj globálne) minimum, ktoré môže výrazne ovplyvniť učenie modelu.;S - krok learning rata"
+            ]
+        },
+        {
+            "score": 2.5,
+            "answers": [
+                "ANO, je to možné. Pokud zvolím příliš velkou konstantu, pak může velikost gradientu přivyšít hodnotu optima a opět bleanovat za optimum. - učení není tak jemné, aby mohlo najít optimum Zvolím-li příliš malou konstantu - může nastat chyba způsobená minimálním rozlišením floating point a ritmetiky"
+            ]
+        },
+        {
+            "score": 3.0,
+            "answers": [
+                "Slze získat nesprávně naučený model v případě kdy learning rate je příliž vysoký. Při učení se přeskočí hledané maximum."
+            ]
+        },
+        {
+            "score": 3.5,
+            "answers": [
+                "že velice nelibou Ze vzorce gradient decentu víme, že se počítají odečtením gradientů vy vásobených konstantou x (learning rate) od současné hodnoty vektoru. Pokud zvolíme např. příliš malé, budeme de-fucto odečítat nulu a tím pídem by se model buď neučil vůbec, anebo příliš pomalu. Podobně, kdyby byla a příliš velká, docházelo by k rekonzistentnímu výpočtu délky gradientů by nemusel konverzovat kO)"
+            ]
+        },
+        {
+            "score": 4.0,
+            "answers": [
+                "hodnota 14. spôsobí, že sa model bude učiť pomaly. Priliš malá príliš veľká zas spojení, že bude odchylovať od požadov riešenia -> pak se nedá získat dobře naučený model."
+            ]
+        }
+    ]
+}

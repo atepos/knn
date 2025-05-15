@@ -1,0 +1,60 @@
+{
+    "questionNumber": 11,
+    "questionText": "11. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+    "answersByScore": [
+        {
+            "score": 0.0,
+            "answers": [
+                "Plný gradient descent hledá globální minimum což může být výpočetně náročné."
+            ]
+        },
+        {
+            "score": 0.5,
+            "answers": [
+                "radient descent má tu nevýhodu, že se může zasehnout V lokálním extrému Stochostic může jít na základě pravděpodobnosti i jiným směrem než ten, který se zdá nejlepší, tudíž po několika běžích může nalézt lepší (než GD) řešení — nevýhodou je větší časová náročnost."
+            ]
+        },
+        {
+            "score": 1.0,
+            "answers": [
+                "CS neriskuje, že sa dostane do vysokých lokálnych extrémoch z kterých je kaplikované a datné w všeobecnosti;presdýš!;(b)"
+            ]
+        },
+        {
+            "score": 1.5,
+            "answers": [
+                "POTAZ DESCENT BERE V STOCHASTIC GRADIENT k lITERATIVNÍmu Menší množství parametrů VÝPOČTU � TEDY RYCHLEJŠÍ výpočet výpočet NEVÝHODOU MŮŽE BýT SNÍŽENÍ PŘESNOSTI"
+            ]
+        },
+        {
+            "score": 2.0,
+            "answers": [
+                "pracuje s dátami a loss f. obmedzeného počtu „behov menšia časová a pamäťová náročnosť;šetkým GD opracuje 2 pri trénovaní;použitými sygenerovaný;pracovitá (oba upravujú parametre na základe zmeny loss f.)"
+            ]
+        },
+        {
+            "score": 2.5,
+            "answers": [
+                "- nepoužívám úplně všechny data, ale jen jejich vzorek - výpočet loss funkce bude rychlejší - sníží se přesnost ohodnocení navíc vzniká pravděpodobnost, že zvolím horší hodnoty, což může potom zajistit, že projde větší prostor a nezasrhnu je - musím být optimista a zkoušet nové věci"
+            ]
+        },
+        {
+            "score": 3.0,
+            "answers": [
+                "Nepočíta Gradient Descent po všechny vzorky, náhodně vybere jen některé, u kterých to spočítá. Vzniká tam možnost nepřesnosti, která ale na celém datasetu téměř zmizí. (nějak se ty hodnoty zprůměrují) Hlavní výhodou je, že je mnohem rychlejší na úkor mírné (zanedbotelné) nepřesnosti O žádné zásadní nevýhodě nevím."
+            ]
+        },
+        {
+            "score": 3.5,
+            "answers": [
+                "VÝHODA JE, ŽE STOCHASTIC/MINI-BATCH GRADIENT DESCENT JE MENEJ VÝPOČETNĚ NÁROČNÝ. DŮVODOM JE ŽE NEPRACUJE S CELOU DATOVOU SADOU Ale TBA S VYBRANOU ČASťOU DATOVEO SADY.;NEVÝHODOU JE, že zanáša ŠUM. A to z ROVNAKÉHO DŮVODU, PRETOŽE PRACUJE IBA S ČASŤOU DATOVEJ SADY. AVŠAK ŠUM SA DÁ DO ISTEJ miery minimalizovať tým, že sa zakaždým vyberie INA časť patovej sady než bolí předchádzajúce."
+            ]
+        },
+        {
+            "score": 4.0,
+            "answers": [
+                "rychlejší, není potřeba tolika paměti - neprovádí Gradient Descent na všech vstupních datech, ale náhodně vybere podmnožinu (v každém kroku jinou · vzniklá chyba se většinou srovná v dalších iteracích nevýhoda - náhodnost - některá data nemusí k výpočtu vybrat vůbec"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "questionNumber": 11,
+    "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+    "answersByScore": [
+        {
+            "score": 0.0,
+            "answers": [
+                "FORWARD;výstavný;-;-;1. VRSTVA;2. VRSTVA;3. VRSTVA;výsledný vektor 1. vrstvy (musí) vybírať na spracované v 2. v obci."
+            ]
+        },
+        {
+            "score": 1.0,
+            "answers": [
+                "D;výpočet výstupu z neuronu je váhovaný skalární součin vstupů — je zde liveární závislost, proto v neuronech bývá trv. aktivační funkce která zajišťuje nelinearitu (Retu, Softmax) DEN V OUTPU LAYER"
+            ]
+        },
+        {
+            "score": 2.0,
+            "answers": [
+                "- graf musí být anglický"
+            ]
+        },
+        {
+            "score": 3.0,
+            "answers": [
+                "Nesmie obsahovat cykli.;x;- 8- (klivace)"
+            ]
+        },
+        {
+            "score": 4.0,
+            "answers": [
+                "jedná se o orientovaný acyklický graf - tranz grafu jsou orientované a graf neobsahuje cyklus příklad;Xr Xof (69) Sx... vstupní tenzor � x3... výstupní tenzor � linear ... lineární vrstva conv. konvoluční vrstva Spas)... pooling vrstva;(linear) X IX st � Conv"
+            ]
+        }
+    ]
+}

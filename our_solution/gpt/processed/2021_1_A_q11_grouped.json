@@ -1,0 +1,36 @@
+{
+    "questionNumber": 11,
+    "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+    "answersByScore": [
+        {
+            "score": 0.0,
+            "answers": [
+                "Je to jedna z dvoch pravidiel ktoré sa využíva pri tvorbe NS. Jeho cielom je reťaziť vrstvy NS, pričom jedna vrstva NS može niekolko neuronový OBSAHOVAT"
+            ]
+        },
+        {
+            "score": 1.0,
+            "answers": [
+                "Při učení neurónových sietí dochádza k zrýchleniu vďaka vynechaniu / spojeniu derivačných krokov"
+            ]
+        },
+        {
+            "score": 2.0,
+            "answers": [
+                "Má využití v back propagate tázi (učení). Počítají se gradienty pro úpravu parametrů NS."
+            ]
+        },
+        {
+            "score": 3.0,
+            "answers": [
+                "JE TO PRŮCHOD VÝPOČETNÍM GRAFEM OD KONCE NA ZAČÁTEK, KDY NÁSOBÍME JEDNOTLIVÉ DERIVACE OPERACÍ MEZI SEBOU"
+            ]
+        },
+        {
+            "score": 4.0,
+            "answers": [
+                "chain-ruk je řetězové pravidlo provýpočet derivací v backpropagation při výpočtu v NN. Při zpětném průchodu počítám gradienty neuronů výsledek jedné derivace se poté propaguje do dalšího výpočtu a proto je to propojení jednotilených výpočtů.;o;=;5.;Modrá čára značí forward pass. Červená značí Back propagation, neboli chemin rule šíření hodnot gradientu."
+            ]
+        }
+    ]
+}

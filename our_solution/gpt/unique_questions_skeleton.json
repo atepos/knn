@@ -1,0 +1,42 @@
+[
+  {
+    "questionNumber": 5,
+    "questionText": "Co je to singularita?",
+    "bod1": "Spojení s umělou inteligencí a jejím rozvojem.",
+    "bod2": "Nebezpečí pro lidskou společnost při rychlém rozvoji umělé inteligence.",
+    "bod3": "Bod, sebezlepšování umělé inteligence.",
+    "bod4": "Umělá inteligence, kterou lidstvo již nechápe a nedokážeme odhadnout její chování v vliv na lidstvo."
+  },
+  {
+    "questionNumber": 6,
+    "questionText": "Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neuronových sítí?",
+    "bod1": "Řetězcové pravidlo říká, jak spočítat derivace složitějších funkcí (vnořených).",
+    "bod2": "Používá se pro výpočet gradientu loss funkce pro algoritmy typu gradient descent.",
+    "bod3": "Ano, má využití při učení neuronových sítí.",
+    "bod4": "Uvedení buď jednoduché rovnice d f(g(x))/ d x = d f(g(x)) / d g(x) * d g(x) / d x, nebo uvedení, že stačí znát derivaci jednotlivých funkcí podle jejich vstupů a výsledek je vynásobení těchto derivací."
+  },
+  {
+    "questionNumber": 7,
+    "questionText": "Když reprezentujeme text pomocí „word embeddings\", jaké chceme, aby tyto vektory měly vlastnosti? Co znamená pojem „Word Vector aritmetika\"?",
+    "bod1": "Podobná slova/tokeny by měly mít podobné vektory. Je možné zmínit synonyma.",
+    "bod2": "Word vektor aritmetika znamená, že je možné sémantické  ",
+    "bod3": "Nějaký příklad typu: king - man + woman = qeen",
+    "bod4": "Podobnost může být sémantická (ale je možné zmínit i syntaktickou, ...)."
+  },
+  {
+    "questionNumber": 8,
+    "questionText": "Jaký je rozdíl mezi takzvanými „on-policy\" a „off-policy\" algoritmy posilovaného učení? Které jsou lepší a proč?",
+    "bod1": "On-policy musí pro učení posbírat vždy nová data (trajektorie) s aktuální policy, off-policy mohou používat starší zážitky.",
+    "bod2": "On-policy vyžadují obecně více zážitků, off-policy jsou více data efficient.",
+    "bod3": "Nedá se říct, že jedny jsou lepší než druhé, záleží například na rychlosti prostředí.",
+    "bod4": "Odpověď neobsahuje nesmyslné a chybné informace."
+  },
+  {
+    "questionNumber": 9,
+    "questionText": "Stručně vysvětlete hlavní myšlenky shallow learning a deep learning.",
+    "bod1": "Při shallow learning se extrahují ručně definované příznaky a ty zpracovává jednoduchý machine learning model typu logistická regrese.",
+    "bod2": "Při deep learning používáme složitější (hlubší) modely typu neuronové sítě, které zpracovávají často přímo raw data.",
+    "bod3": "Shallow learning se špatně škáluje, u deep learningu většinou stačí zvětšit model a získat více trénovacích dat.",
+    "bod4": "Při shallow lerningu věnujeme úsilí extrakci příznaků, u deep learningu hlavně tvorbě datasetu a návrhu neuronové sítě."
+  }
+]

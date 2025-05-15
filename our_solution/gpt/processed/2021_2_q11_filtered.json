@@ -1,0 +1,428 @@
+[
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "rychlejší, není potřeba tolika paměti - neprovádí Gradient Descent na všech vstupních datech, ale náhodně vybere podmnožinu (v každém kroku jinou · vzniklá chyba se většinou srovná v dalších iteracích nevýhoda - náhodnost - některá data nemusí k výpočtu vybrat vůbec",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody? Nic",
+        "answerText": "pracuje s dátami a loss f. obmedzeného počtu „behov menšia časová a pamäťová náročnosť;šetkým GD opracuje 2 pri trénovaní;použitými sygenerovaný;pracovitá (oba upravujú parametre na základe zmeny loss f.)",
+        "score": 2.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "CS neriskuje, že sa dostane do vysokých lokálnych extrémoch z kterých je kaplikované a datné w všeobecnosti;presdýš!;(b)",
+        "score": 1.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "využíva delenie trénovacích dát do Stochastic gradient descent batchov. � obrovskou výhodou je, že neučí naraz nad všetkými trénovacími dátam kterých môže byť obrovské množstvo (súčasné datasety sú veľké) � z toho vyplýva že je rýchlejší - nevýhodou by mohlo byť, že dochádza k aproximácií, ale táto je vykrytá velkým počtem dát",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "radient descent má tu nevýhodu, že se může zasehnout V lokálním extrému Stochostic může jít na základě pravděpodobnosti i jiným směrem než ten, který se zdá nejlepší, tudíž po několika běžích může nalézt lepší (než GD) řešení — nevýhodou je větší časová náročnost.",
+        "score": 0.5
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "Plný gradient descent hledá globální minimum což může být výpočetně náročné.",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11.;Jaká je výhoda algoritmu Stochastic/mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "Nepočíta Gradient Descent po všechny vzorky, náhodně vybere jen některé, u kterých to spočítá. Vzniká tam možnost nepřesnosti, která ale na celém datasetu téměř zmizí. (nějak se ty hodnoty zprůměrují) Hlavní výhodou je, že je mnohem rychlejší na úkor mírné (zanedbotelné) nepřesnosti O žádné zásadní nevýhodě nevím.",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "Gundient decent je rotolu pro vylepšování gradientů za účelem zmenšování chyby Musí se vypočítat gradient pro všechny parametry pomocí christiale a následně se upravuje. � ale počítá se nad všemi vstupy, což je problém zejména v sítích s velkým počtem dat Proto se využívá stochastic verze, která gradient spočítá a upraví na malé sadě dat, a tohle opakuje pro různé školy � zdálo by se, že to způsobí chybu ale ta se ve výsledku muluje opalujeme pro různé sady � tento poistup je mnohem rychlejší a výsledky jsou stejně, zásadní nevýhody nemá",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody? vybírá náhodně podmnožinu dat, ktorou použije = � menší výpočetní náročnost - u velké síťe by bylo náročné přepočítávání modelu Jinak",
+        "answerText": "nevýhoda: větší šum",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "II. Jaká je výhoda algoritm ni-ba- Má naopak nějaké zásadní nevýhody?;Gradient Descent;ti plnému Gradient Descent?",
+        "answerText": "Výhoda je, že při výpočtu gradientu nepracujeme s celou datovou sadou, výpočet je tedy značně rychlejší (pracujeme pouze v části datové sady). Zásadní nevýhody nemá, je i tak poměrně přesný, jelikož nepracujeme stále se stejným vzorkem datové sady, ale měníme jej",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "výhodná je v pom, že oproti plnému učení neprobíhá kontrola (výpočet loss funkce) až po průchodu všemi datami, ale spouští se po malé sadě náhodných dat z datové rady výhoda je, že se rychleji a častěji volá a tím se i rychleji zpřesňuje samotná neuronová sít - nevýhoda - oproti plnému učení se neprochází všechna data, ale berou se jen náhodné vzorky, takže nemusí být vše pořádně otestováno loss funkcí",
+        "score": 2.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "-> stochastic - velikost sestupu - může najít globální extrém, který hledáme - nevýhoda: nutno spouštět vícekrát plen, - vysledkem vyhledávání může být pouze lokální extrém",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "je přesnější lebo postupuje po malích krokách ale je náročnejší na čas a výkon mienšie kroky zaručuje väčši šancu nájde nic globálneho minima",
+        "score": 0.5
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11;Jaká je výhoda algoritmu Stochastic/mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "Výhodou je to, že táto metóda počíta gradienty len pro určité části NN, nepočíta gradienty pro celú NN, vyberá napúklad náhodne, pre které vrstvy spočíta gradient. Je to rychlejšie, častokrát už nie je optimálne a rozumné rádať všetky gnadienty pre příliš velké NN strata info. Naopak nie je vhodné použiť táto metódu vždy, môže to viesť v nicktových případech na zlý spôsob optimalizácie, případne vynechávanie dôležitých gradientov čo vo výsledku vedie na Moršie natrénování sieť.",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "Jaká je výhoda algoritmu Stochastic/mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "gradient descent - počíta gradient aktuálnej hodnoty objektivnej funkcie, iterativne sa počíta gradient postupuje naproti meru nejvěšího rostu, ožkým nie je gradient nuloy číše mne našli minimu chybovej funkce gradient descent role úpravu parametrů na celem datasedi mini-botek - náhodne vyberie dáte na, kterých sa budú upravovať váhy počítat gradienty a upravit sa len tieto valy nie celeho datosetu, tento pristup je lepší protože je lepšie robiť vivero updatov vůh po menších dávkách narozdiel od celého datasetu, kde je priveľa poečtenia mini botek � rodiert descent je rychlejší efektivnější, rychlejší na sieť učí nemusím robiť velký výpočtov",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic/m Má naopak nějaké zásadní nevýhody?;ini-batch Gradient Descent oproti plnému Gradient Descent?",
+        "answerText": "Výhody: Nemusíme každé dato zvlášť vyhodnocovat a po každém vyhodnocení upravit váhy - Dáme do neuronky batch vstupů a pro jeden batch pak upravíme váhy (Rychlejší) Nevýhody: Samotné gradienty pak obsahují velice mírný šum, avšak algoritmus se s tím dokáže vyrovnat a není to zásadní nevýhoda. Nemá zásadní nevýhody",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "POTAZ DESCENT BERE V STOCHASTIC GRADIENT k lITERATIVNÍmu Menší množství parametrů VÝPOČTU � TEDY RYCHLEJŠÍ výpočet výpočet NEVÝHODOU MŮŽE BýT SNÍŽENÍ PŘESNOSTI",
+        "score": 1.5
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11.;Jaká je výhoda algoritmu Stochastic/mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "Gradient descent - loss funkce je počítána po každou kuntinaci vstupu a výstupu. Je vypočítaný gradient po každou tuto kombinaci a následně jsou aktualizovány váhy při každé kombinaci vstupu výstupu, což podlužuje počes trénování a je to časově náročné Stochastic / míni-tabule gradius dessert toto dělá pouze pro náhodně vybraný vzorek z „batch“. Dělá to však vždy pro pís náhodný vzorků, ne na tom stejném. Tímto je trénování značně zrychleno a zároveň není výrazně ovlivněna pásnost modelu po dotrénování.",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "Plný GD počítá vždy s celou trénovací sadou, naopak Stochastic / mini-batch GD počítá pouze se vzorky, které se pokaždé mění. Je tak mnohem rychlejší za cenu malé chybovosti, která ale většinou bývá zanedbatelná, nebo je eliminována úplně",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "VÝHODA JE, ŽE STOCHASTIC/MINI-BATCH GRADIENT DESCENT JE MENEJ VÝPOČETNĚ NÁROČNÝ. DŮVODOM JE ŽE NEPRACUJE S CELOU DATOVOU SADOU Ale TBA S VYBRANOU ČASťOU DATOVEO SADY.;NEVÝHODOU JE, že zanáša ŠUM. A to z ROVNAKÉHO DŮVODU, PRETOŽE PRACUJE IBA S ČASŤOU DATOVEJ SADY. AVŠAK ŠUM SA DÁ DO ISTEJ miery minimalizovať tým, že sa zakaždým vyberie INA časť patovej sady než bolí předchádzajúce.",
+        "score": 3.5
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "když máme hodně parametrů - typicky v neuronových sítích tak by bylo výpočetné a časově velmi náročné počítat vždy jako u plného Gradient Des se všemi parametry a určovat přesný směr poklesu! - proto se vybírají vždy jen některé (střídá se to), což není úplně přesné, ale k výsledky se dojde — je tam zavlečena náhoda, proto stochastic GD takhle oproti tomu plný 6D třeba u regrese: nějak by šel stochastic ítky);- nevýhody — jde delší cestu, ale jako zásadní s;ji nepovažoval",
+        "score": 1.5
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "- místo toho aby se počítal gradient pro celou frei se gradient počítá pouze pro parenetry nenacházime takto grobální minimum, pouze lokální minum, ale rozdíl je v závěru znedbatelný",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "Výpočet algoritmu gradient descent pro celou trénovací sady znamená velký výpočet, tento výpočet lze usnadnit tím, že v každé iteraci CD vezmeme nějakou malou část trénovací sady (batek) a pomocí ní provedeme výpočet gradientního sestupu a pokaždé náhodně volíme nový leatek s každou iterací Mezi nevýhody patří to, že nesmíme volit pokaždé ten samý botek trénovacích dat",
+        "score": 3.5
+    },
+    {
+        "questionNumber": 11,
+        "questionText": ". ká je výhoda algoritmu Stochastic /mi ini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "mini-batch - nahodný vyber menšího množstva dát na kterých sa bude určovať zmena váh aktivačnej funkcie menší počet operací, ktoré je potřebné vykonať a presnosť vdaka opakovaniu osmeny váh je rovnaká, pretože chyba sa vybrati",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "(optimalizacin) stochastic náhodné, vyberá náhodne vzorky na trénovanie, čo zrychluje tento proces kvůli počtu parametrov - při plném Cot by to bolo náročné nachádzajú sa iba lokálne extrémy - kvůli veľkosti NS",
+        "score": 2.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic/mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "- hlavná výhoda mini-bakk Gradent Descent spočíta vtom, že keď sa rátajú gradienty v každom uzle tak ak by sme to robili v plném gradient descent tak je to velmi pomalé a nepoužitelé. - hlavne je to nepoužitelné ak máme velmi velký dataset - mini-batch GD, funguje tak že výpočet gradienta preběhne eba na určitých datah, načehode sa z trénovacej sady vyberů data a na nich sa to spočíta a nastará sa naš hodnoty to urychluje velmi výpočet a rychlost trénovania nie žiadne zasadné nevýhody nemá, dokonco teď sa ten výpočet zrobí na malej sade jeho výsledky zú výborne a velmi totorné kely su to zobilo na celej šade, najlepšie vždy náhodne vyberať chota do miní - batek UD",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "Učení sítě může být velmi rychlé, protože vyhodnocujeme nemusí - + ale gradienty po několika vzorcích) batchy. Těch můžeme mít několik a po každé vypočítat gradiendy a upravit váhy. Jelikož jde o stochastický výběr trénovacích dat, nemusí se objevit zastoupení všech tříd v každé batchy tedy nevyváženost trénovacích dat.",
+        "score": 3.5
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11;Jaká je výhoda algoritmu Stochastic/m Má naopak nějaké zásadní nevýhody?;-batch Gradient Descent oproti plnému Gradient Descent?",
+        "answerText": "Díky přidané \"náhodnosti\"/snížení vstupních dat \"(bat ch) Může být rychlejší. Může \"hůře učit\" - měnit menší část NS. Záleží na konstantě učení.",
+        "score": 1.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "+ 11. Jaká je výhoda algoritmu Stochastic /mini- Má naopak nějaké zásadní nevýhody?;S Radien;proti plnému Gradient Descent?",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "Stochastic GD má výhodu v tom, že pri výpočte nepoužíva celý dataset, ale pri každej iterárií z neho náhodne vyberie nejaké vzorky. Velmi to zvýchla výpočet. Chyby nie ní problém, protože pri velkom počte iterácií sa vždy vyberajú rôzne vzorky a výsledná chyba je podobná, ako keby sme použili celý dataset Nevýhody to nemá, možno len o trochu menším presnosť",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11.;Jaká je výhoda algoritmu Stochastic/mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "Stoch/minimGD - zdánly náhodně vybere menší dato, na kterém NN trénuje, upravuje váhy - muže upravit jen pár hranám hodnoty GD - pracuje nad všemi daty s kterýma trénuje NN a upravuje u všech váhy (u přechodů vecerosů) Stoch/ministr - je mnohem rychlejší",
+        "score": 1.5
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "Jaká je výhoda algoritmu Stochastic/mini-batch Gradient Des Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "pracuje v jednu chvíli jen s menší částí dat a postupně je protáčí menší paměťová náročnost (může pracovat s daleko větší datovou sadou, než je dostupné operační paměti) o kvůli protáčení dat je rychlost silně limitována tím jak rychle dokáže sytém data načítat (plus data k začtení jsou vybírána náhodně, což problém prohlubuje)",
+        "score": 1.5
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "Jaká je výhoda algoritmu Stochastic Má naopak nějaké zásadní nevýhody?;ini-batch Gradient Dese nému Gradient Descent?",
+        "answerText": "nemá nevýhody trénuje celej - výhoda je že namiesto toho že sa NN na množine dát učí lka na malom množstve � nie je treba aby všethy dát prešli NN -> menší čas celkového výpočtu (pri trénovaní sa vyberajú zorky, ktoré sa preženú cez NN)",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "stochastic;výhoda;nepracují s celým datasetem - pouze vyberu určité vzorky (množinu) a pracují s němi - výpočetně velmi vlehčí práci, pro každou iteraci vyberu jiné vzorky, tedy výpočet bude srovnatelně přesný jako u plného GD;přímo zásadní nevýhodu nejspíš nemá, může vbrat za přesnosti nebo může trénování ve specifických příkladech (např. dataset obsahuje vzdálené hodnoty) trvat déle",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "- S6D má tu výhodu, že dosáhne rychlejší konvergence a to tak, že se gradient vypočte pouze na minibatelní (třeba 64 vzorků) namísto na celém datasetu - v praxi je dobré provádět skupifle datasetu mezi epochami, aby se zajistílo, že spočtený gradient bude určovat příbližní směr gradientu, který by byl vypočtem na celém datusedu - JED může mít tu nevýhodu, že směr gradientu nemusí směřovat k optimu, a v případě příliš malého minitatora budou parametry \"lskákat\" SGD re úplně správným směrem;optimun",
+        "score": 3.5
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "je hlavne efektívnější a rýchlejší, protože pri Stochastick minim tatek  Q náhodne vyberieme batch vzorka z datasetu, na kt. NN trénujeme rychle, efektívne beď to dostatočne krát opakujeme tak sa vylúči aj chyba pri trenovaní co náhodně vybratými vzorkami - mě zm si vedoucí zásadnych nevýhod - pri Fakt GD musíme počítať gradient nad celým datasetom, čo je výpočetne náročné a neefektivne",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": ";;;9. Kde se v běžném životě setkáváte s produkty využívajícími metody strojového učení a umělé inteli- gence? (stačí vyjmenovat 5)",
+        "answerText": "překladače vyhledávače (Google vyhledávač) rozpoznávače zvuků a hlasu rozpoznávače obličejů nebo jiných objektů na obrázku snímače pohybu rozpoznávání postav a objektů ve videu porozumění textu, hledání odpovědí v textu na dané otázky",
+        "score": 3.5
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "Výhoda:;- prokonať lokální extrémy a Možnost dojsť tak lepšímu výsledku;Nevýhoda: Nemůžeme;-;ni dosadit k hole. ho",
+        "score": 0.5
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "Gradient Descent počíta gradienty na celej dát. sade no Stochastic GD náhodne vyberie vzorku v každe iterácií a spočíta gradienty pre menšin dát sadu výsledku vyrába rovnaké hodnoty ale je rychlejší",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "Keďže ide o súčasť trénovania (přechod od konca na začátek) urobiť taký to prechod pre častokrát obrovské trénovacie die sady by bolo časovo neefektivne a tak je spočítavaná iba z náhodne vybranej vzorky (preto Stockastie / mini-batch) čo má za následek časovo etektivnějšie počítanie a prechody. Mohlo by sa zdať, že nevýhodou bude možná vzniknutá chyba, spôsobená výborov náhodných zložiek) tá sa však práve častim náhodným výberem vyruší.",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody!",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody!",
+        "answerText": "Stochastic / mini-batch Gradiest denect vylezá náhodne a z menšího množstva výhodou je, že je zjistější ako plý Gradient Derrert algoritmus nevýhodou je, že může dávat vduchu stochastickém prvku k výberu, který bude nereprezentujíci výsledek aloko celik, čiže k propagaci nespravedlivé",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "XI. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody? ve vybere se nutně nejlepší možnost, ale jedna z dobrých",
+        "answerText": "s zamezí se zasetnutí v lokálním extrému nebo na konstantní části může být pomalejší",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "mini-batch Gradient Descent oproti plnému Gradient Descent? 11. Jaká je výhoda algoritmu Stochastic/m Má naopak nějaké zásadní nevýhody?",
+        "answerText": "Namiesto počítania na celom testovaciom datasete počíta náhodnej len na malci vzorke. Toto je velká optimalizácia oproti plnému Gradient Descent. Mohlo by to zaviesť miernu nepresnosť výsledku ale kedže sa počíta iterativne a vzorky sú vybrané náhodne tak sa nepresnosť minimalizuje a teda nemá žiadne nevýhody. zásadné",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "Využívá náhody a pracuje s více gradientama. Výhoda tedy je, že je vyšší šance na nalezení globálního maxima (oproti lokálnímu) Nevýhoda je větší časové nároky.",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Dese ent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "Výhodou je neprovádění výpočtu pro každý vzorek, což vede ke zrychlení procesu a na celkový výsledek nemá velký vliv. Ve specitických případech může dojít k nepřesnost",
+        "score": 3.5
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "Výhodou SGD v porovnaní s GD je to, že sa vóbec reálne dá napočítať na našich strojech pri súčasných architektúrech a používaných datasetoch. Totiž tým, že stochasticky vyberá vzorky z datosetu, na kterých prebícha optimalizácia váh a nevadí to na celom datosete, je možné trénovat napr. obrázkové datasety o 100 tách tisícov obrázkov \"relatíme rýchlo\" = Keby sa však malo optimalizovat na celom datosete každý krok, to by trvalo . Nevýhody? Nemyslím si - či už klasický SED, případne jeho rôzne odaptíme varianty a lá Adam sú v súčasnej dobe to, po čom sa siahne vo väčšine projekta, minimálne pre boseline metódu... Právě to, že výber mini-batcku prebieha stochosticky zaručí, že optimalizácia nebude horšía ako keby sa použil vždy celý dataset.",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "ni-batch Gradient Descent oproti plnému Gradient Descent?",
+        "answerText": "11. Jaká je výhoda algoritmu Stochastic Má naopak nějaké zásadní nevýhody? Žádné zásadní nevýhody nemá (pracuje sice s lehce „zašuměnými\" hodnotami gradientů, tyto odchylky by se během trénování měly „vykrátit“). Naopak má velkou výhodu při spracovávání (dnes běžných) větších trénovacích sad dat — vyšší aktualizace parametrů trénovaného modelu (NN), a tedy i vyšší efektivitu (danou zpracováváním jen stochasticky volených částí trénovací sady dat najednou).",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "uvažuje pravděpodobnost, rychlejší, méně přesný",
+        "score": 1.5
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "výhodou je menší paměťová náročnost",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody? je výpočetně náročný, mini-batck je malá část, která Normální gradientní sestup je menší a rychleji se spočítá přečte se jedná o reprezentativní data pro správné určení vektoru pro gradientní sestup.",
+        "answerText": "",
+        "score": 3.5
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "DNER NÁRODNÍ ROUSES VÝHODNĚJŠÍ ŠANCE NALEZENÍ GLOBÁLNÍHO MINIMA NEVÝHODA: VĚTŠÍ PAMĚTOVÁ NÁROČNOST, musím uchovávat BODY, VE kTERÝCH UŽ JSEM SESTUPOVAL",
+        "score": 0.5
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritm u Stochastic/mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "se;Gravient Descent se snaží optimalizovat celou funkci najednou (cela položit 0), ale Stochastie GD postupně iteruje a snaží se dostat dobrodu, kdy se celá funkce bližší k 0, plný GD může mít moc složité (potencionálně neřešitelné) řešení, ke kterému je problém se dostat. Stochastik GD díky iteracím postupně přibližuje k zo nejlepšímu řešení. Nevýhoda je, že většinou nenalezne přesně (50) řešení funkce, kterou optimalizuje.",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic/m Má naopak nějaké zásadní nevýhody?;nini-batch Gradient Descent oproti plnému Gradient Descent?",
+        "answerText": "- nepoužívám úplně všechny data, ale jen jejich vzorek - výpočet loss funkce bude rychlejší - sníží se přesnost ohodnocení navíc vzniká pravděpodobnost, že zvolím horší hodnoty, což může potom zajistit, že projde větší prostor a nezasrhnu je - musím být optimista a zkoušet nové věci",
+        "score": 2.5
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic/mi ni-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "+ výhoda JGD je, že může překonat lokální extrémy, - může se ovšem stát, že degraduje na náhodnou procházku, například když je learning rate příliš vysoký pro danou úlohu;-",
+        "score": 1.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "Využiva sa pri velkem počte dát, pretože plný Grad. descent by bol na výpočet velmi náročný Je teda rychlejší ako plný a menej výpočetne náročný. Tým že si vyberá iba náhodně data (nie všethy), nemusí vrátiť optimálně minimum ako pri plnm C.D.",
+        "score": 2.5
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "Plný Gradient Descent je velmi pomalá — dělá se pro všechno data U mini-batch 60 náhodně vyberu nějakou malou část dat, provedu GD ca těchto drtech, upravím parametry a udělanu to znova. Toto je možné, protože gradient pro nějaký náhodný vzorek z použitých drt (může být i velmi malý) vypadá stejně jako když použiju všechna dstr. musí se ale vždycky vybrat nový vzorek dat, jinak by se síť snadno přetrénovala.",
+        "score": 3.5
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "Výhoda je všetrénie výpočetného času Pointou mini-batch/stochastic GD je prepočítavať váhy vektorov NN len z menšího vzorku;Ředíze na výpočet nepoužijeme všetky dáta čo máme, nemusí byť taký presný, výhody však silne převyšujú túto nedokonalosť.",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Desch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "Gradient descent je počítaný od konca ku začiatku trate Pri obrovských datach je to veľa výpočtov, tak stochastic GD náhodne vyberie N vzorkov, z kt. sa vypočíta Gradient čo (mini-batch) spôsobí ovela rýchlejšie trénovanie Nemá zásadné nevýhody, nebo chyby sa časom rovnako vyrušila",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11.",
+        "answerText": "Jaká je výhoda algoritmu Stochastic/mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody? náhodnou v každom bode počíta gradienty na malom batchi a nie na celou datasete po čase bude konvergovať za ovel a nižšiu výpočtovú cen na mieste, kde by konverzovalo počítanie celého datasetu",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "(podmoživý z data sebe) Mini-botek: výhodou je rychlejší na učení náhodně mini bolest protože vybíráme data pro trénování. náhodně z celé datové sady a po upravujeme parametry sítě každé E - návěse umeklích iterací - je pozalejší na naučení prvé učení: konverzuje rychleji výsledku",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Taká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "výhoda;- minimalizuje - rychlejší;žnost přetr;nevýhoda může vést pozobuji k nalezení optimálního řešení",
+        "score": 0.5
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "snažíme Výpočtová gradient iba na nejakem vybranom datasetě u aby vybraný dataset lol a upraví model pro celu neurónová účet pravděpodobnostní vyvážení rovněž ako celý dataset Nevýhoda by mohlo byť, že daný vzorek by tak nevyvážený a Elw) by nevadila z O ale opačně gradient v E (w) chceme aby sa blížil k 0 Stochastic / minidatek nám ušetří čas oproti plněna varianta",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "jeden model je rozložen např na 10 menších tzv. batchů. NEPRE Nepotřebujeme tolik vstupních dat. Data z každého bouhe využijeme pro následující;Vždy je lepší mít 1 model než 20 menších",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic/mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody? Výhoda - nemusímez počítat gradienty pro celou síť (někdy jsou obrovské), což by mohlo být časově i výpočetně náročné, místo toho se výpočet provede jen pro náhodně zvolenou část. Výsledky jsou stále dobré. možná nevýhoda může být v tom, že se neaktualizují všechny váhy (zanedbatelné ve velké síti)",
+        "answerText": "",
+        "score": 0.5
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "Výhoda je v tom, že dnešní datasety su obrovské a voliť zmeny nad celým katastrom je extrémně neefhorvne. Preto sa náhodne 2. datasetu vyberie minibatoli a spočítajú sa nad ním parametre. ( jako keby sme počítali nad celým datasetom) a nasledne sa aktualizuje NS Nevyhody - tak, kedže sa to vobí iba nad častou datasetu tak je to náchylne na chyby",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaká je výhoda algoritmu Stochastic /mini-batch Gradient Descent oproti plnému Gradient Descent? Má naopak nějaké zásadní nevýhody?",
+        "answerText": "- U stochastie a minibatek GD probíhá aktualizace vah NN po minibatch - malé části datasetu např 16, 32, 64 - vzorků a nebo stochastic no jednom datu - vyhoda je že je to mnohem rychlejši než aktualizace volí po celém datasetu = plny GD. to s Využití S., in b. GD nemá žádné nevyhody natrénované NN jsou stejně kvalitní jelikož upelote vah je velmi malou hodnota proto a využívá S., mb. GD v proxů",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "ni-batch Gradient Descent oproti plnému Gradient Descent? Jaká je výhoda algoritmu Stochastic/mi- 11. Má naopak nějaké zásadní nevýhody?",
+        "answerText": "Oproti klasickému gradient Descent je schopen najít lepší (hlubší) minimum, než to lokální, ke kterému by směřoval hlasický gradient Descent",
+        "score": 0.5
+    }
+]

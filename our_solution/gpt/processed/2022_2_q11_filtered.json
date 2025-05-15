@@ -1,0 +1,254 @@
+[
+    {
+        "questionNumber": 11,
+        "questionText": "11. Je možné, že při nějakých hodnotách učící konstanty (learning rate) není možné získat dobře naučený model neuronové sítě při použití algoritmů typu GD a SGD? Vysvětlete, proč to tak není, nebo uveďte, k čemu může dojít.",
+        "answerText": "hodnota 14. spôsobí, že sa model bude učiť pomaly. Priliš malá príliš veľká zas spojení, že bude odchylovať od požadov riešenia -> pak se nedá získat dobře naučený model.",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Je možné, že při nějakých hodnotách učící konstanty (learning rate) není možné získat dobře naučený model neuronové sítě při použití algoritmů typu CD a SCD? Vysvětlete, proč to tak není, nebo uveďte, k čemu může dojít.",
+        "answerText": "gradient descene / simpelar gradien descere Při vízkých hodnotách LR se může stát, že se náš model nepodaří výhru naučit, připadně že to bude trvat velmi dlouho. Především se to může stát u 6D, kdy je gradient, jenž je počítám jako derivu loss funkce počítám vždy nad celým dotazem. Toto je velmi zdlouhavé a v konvisaci s vkloutkem může teoreticky dojet i k univerzitě. Lepší může být zítra s SED, kdy k výpočtu gradientů z loss funkce dochádzí se vždy, ale po náhodném počtu kroků",
+        "score": 1.5
+    },
+    {
+        "questionNumber": 11,
+        "questionText": ";11. Je možné, že při nějakých hodnotách učící konstanty (learning rate) není možné získat dobře naučený model neuronové sítě při použití algoritmů typu GD a SGD? Vysvětlete, proč to tak není, nebo uveďte, k čemu může dojít.",
+        "answerText": "Slze získat nesprávně naučený model v případě kdy learning rate je příliž vysoký. Při učení se přeskočí hledané maximum.",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "II. Je možné, že při nějakých hodnotách učící konstanty (learning rate) není možné získat dobře naučený model neuronové sítě při použití algoritmů typu GD a SGD? Vysvětlete, proč to tak není, nebo uveďte, k čemu může dojít.",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "II. Je možné, že při nějakých hodnotách učící konstanty (learning rate) není možné získat dobře naučený model neuronové sítě při použití algoritmů typu GD a SGD? Vysvětlete, proč to tak není, nebo uveďte; k čemu může dojít.",
+        "answerText": "Learning naše nám říká, jak velké kničky děláme s každým krokem optimalizace, je možné, že kvůli velkému learningovate nikdy netrefíme minimum rozumným způsobem. Přestřelíme ho s každým krokem - příliš rychle měníme parametry) hodnot",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": ";II. Je možné, že při nějakých hodnotách učící konstanty (learning rate) není možné získat dobře naučený model neuronové sítě při použití algoritmů typu CD a SCD? Vysvětlete, proč to tak není, nebo uveďte, k čemu může dojít.",
+        "answerText": "môže nastať, že pri použití zdej hodnoty sa model až nenaučí Nic. - diruguje � stane sa tak pri použití vysokej hodnoty konstanty naopak nízka hodnota ten predlžuje učenic. - hodnotu je tuda voliť experimentálne a poctivo, ide o najdôtežitejšim hodnotu pri učení. model začne divorgovat at kroky optimalizácie sú příliš velké, teda gradientný zastup neblíži k minimu, ale „beží“ hore - dole, kedy výsledkom může byť až NaN alebo nekonečno.",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Je možné, že při nějakých hodnotách učící konstanty (learning rate) není možné získat dobře naučený model neuronové sítě při použití algoritmů typu GD a SGD? Vysvětlete, proč to tak není, nebo uveďte, k čemu může dojít.",
+        "answerText": "- při nízké hodnotě lokálním extrému;se můžeme zaseknout v nějakém;při příliš vysoké nám model nemusí konvergovat",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": ";II. Je možné, že při nějakých hodnotách učící konstanty (learning rate) není možné získat dobře naučený model neuronové sítě při použití algoritmů typu GD a SGD? Vysvětlete, proč to tak není, nebo uveďte, k čemu může dojít.",
+        "answerText": "břeh;Myslím že níe, febo cíel GB a SED menšít tu konstantu v zavislosti, od toho aby mame gradient. Ale prítom ako aj pre iných optimázatorech prílíš maly alebo veliky lz može zhoršit vysledky učení.",
+        "score": 1.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Je možné, že při nějakých hodnotách učící konstanty (learning rate) není možné získat dobře naučený model neuronové sítě při použití algoritmů typu GD a SGD? Vysvětlete, proč to tak není, nebo uveďte, k čemu může dojít.",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": ";II. Je možné, že při nějakých hodnotách učící konstanty (learning rate) není možné získat dobře naučený model neuronové sítě při použití algoritmů typu GD a SGD? Vysvětlete, proč to tak není, nebo uveďte, k čemu může dojít.",
+        "answerText": "Při zvolení příliš vysoké učící konstanty může učení divergovat! Tedy při výpočtu dalšího kroku gradientního sestupu uděláme tak mohutný krok, že můžeme výrazně překročit lokální minimum funkce, jejíž minimum hledáme, efektivně se od něj vzdálit. při volbě příliš malé učící konstanty naopak může výpočet trvat neúnosně dlouho.",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": ";11. Je možné, že při nějakých hodnotách učící konstanty (learning rate) není možné získat dobře naučený model neuronové sítě při použití algoritmů typu GD a SGD? Vysvětlete, proč to tak není, nebo uveďte, k čemu může dojít.",
+        "answerText": "že velice nelibou Ze vzorce gradient decentu víme, že se počítají odečtením gradientů vy vásobených konstantou x (learning rate) od současné hodnoty vektoru. Pokud zvolíme např. příliš malé, budeme de-fucto odečítat nulu a tím pídem by se model buď neučil vůbec, anebo příliš pomalu. Podobně, kdyby byla a příliš velká, docházelo by k rekonzistentnímu výpočtu délky gradientů by nemusel konverzovat kO)",
+        "score": 3.5
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Je možné, že při nějakých hodnotách učící konstanty (learning rate) není možné získat dobře naučený model neuronové sítě při použití algoritmů typu GD a SGD? Vysvětlete, proč to tak není, nebo uveďte, k čemu může dojít. gradient dex.",
+        "answerText": "� může dojet k tomu, že se peri skvělá informace (předchozí Váš je moc hezká) x;To se tam radši uvolňuje na velko prostě se s 60 hodin v existují nejmen a nudit se nikdy neprodaval do disciplínk. � Není to možné, jelikož LB vůbec tento alg. neovlivňuje a vždy správně najde glob. minimum velko) = o",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Je možné, že při nějakých hodnotách učící konstanty (learning rate) není možné získat dobře naučený model neuronové sítě při použití algoritmů typu GD a SGD? Vysvětlete, proč to tak není, nebo uveďte, k čemu může dojít.",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Je možné, že při nějakých hodnotách učící konstanty (learning rate) není možné získat dobře nauč- uveďte, k čemu může dojít.;model neuronové sítě při použití algoritmů typu CD a SCD? Vysvětlete, proč to tak není, nebo",
+        "answerText": "malý:;dobrý:;- pokud je learning rate příliš - malý - můžeme se „zaseknout“ v lokálním minimu a trénování se „zastaví“ velký - může se stát, že nám bude loss příliš „zkákat“ a nebudeme konverz. ovat k optimu.;moc velký prsty",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "II. Je možné, že při nějakých hodnotách učící konstanty (learning rate) není možné získat dobře naučený model neuronové sítě při použití algoritmů typu CD a SCD? Vysvětlete, proč to tak není, nebo uveďte, k čemu může dojít.",
+        "answerText": "Při velmi nízkých hodnotách se může stát, že se bude učit až velmi pomalu a třeba i nemusí dojít k řešení - neefektivní Narpsk při vyskytl hodnotěl může divergovat, napři, zkřikat např. forkú , špatně tedy modeluje postup úkol",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Je možné, že při nějakých hodnotách učící konstanty (learning rate) není možné získat dobře naučený model neuronové sítě při použití algoritmů typu GD a SGD? Vysvětlete, proč to tak není, nebo uveďte, k čemu může dojít.",
+        "answerText": "(D) když je Ir moc malá budeme se učit moc dlouho;— velká budeme divergovat � nic se nenaučíme;loss fce:;mu;ideal Tr;malá Ir;velká Ir;SGP) mini-batch � neučí se ze všech dat jen počíta gradiet z nějaké menší části dat.",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": ";II. Je možné, že při nějakých hodnotách učící konstanty (learning rate) není možné získat dobře naučený;model neuronové sítě při použití algoritmů typu GD a SCD? Vysvětlete, proč to tak není, nebo",
+        "answerText": "uveďte, k čemu může dojít.;Ano, je to možné. Príliš nízky learning rate môže viesť ku univerzitu na neuspokojivých lokálných extrémach a všeobecne ku velmi pomalému učeniu. Pri príliš vysokom learning rate môže zasa dójsť ku strate optimalizácie,",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "II. Je možné, že při nějakých hodnotách učící konstanty (izarning rate) není možné získat dobře naučený model neuronové sítě při použití algoritmů typu GD a SCD? Vysvětlete, proč to tak není, nebo uveďte, k čemu může dojít.",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": ";II. Je možné, že při nějakých hodnotách učící konstanty (learning rate) není možné získat dobře naučený model neuronové sítě při použití algoritmů typu GD a SGD? Vysvětlete, proč to tak není, nebo uveďte, k čemu může dojít.",
+        "answerText": "je to možné - při příliš velké hodnotě learning rate přeskočíme se může stát, že optimální hodnotu a dostaneme se k úplně jinému výsledku (budeme skákat o moc velkou hodnotu, nikdy se neustálíme na optime zabrd Naopak u příliš malého LR by učení příliš velké množství kroků",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "II. Je možné, že při nějakých hodnotách učící konstanty (learning rate) není možné získat dobře naučený model neuronové sítě při použití algoritmů typu GD a SGD? Vysvětlete, proč to tak není, nebo uveďte, k čemu může dojít.",
+        "answerText": "při velkých hodnotách L-R se může stát, že vždycky \"přeskočíme\" globální minimum jednotlivých vah a tedy se můžeme dostat do bodu, kdy se nikdy nedostaneme do minima algoritmus se přestane učit",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": ";11. Je možné, že při nějakých hodnotách učící konstanty (learning rate) není možné získat dobře naučený model neuronové sítě při použití algoritmů typu GD a SGD? Vysvětlete, proč to tak není, nebo uveďte, k čemu může dojít.",
+        "answerText": "u BD to možné je - učící konstanta může být velká, což vede k diregenci, která model spolehlivě rozbije - malá konstanta, pak může vést k velmi dlouhému (časové) učení u S6D je text o špatným projevům špatně zvolené učící konstanty částečné zamezena, jelikož se postupně přizpůsobuje a normalizuje. - jedním z algoritmů SGP je např. Adam",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Je možné, že při nějakých hodnotách učící konstanty (learning rate) není možné získat dobře naučený model neuronové sítě při použití algoritmů typu GD a SGD? Vysvětlete, proč to tak není, nebo uveďte, k čemu může dojít.",
+        "answerText": "Môže dojsť k pretrénovaniu a potom model neuronovej siete nemusí byť dobre naučený",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "II. Je možné, že při nějakých hodnotách učící konstanty (learning rate) není možné získat dobře naučený model neuronové sítě při použití algoritmů typu GD a SGD? Vysvětlete, proč to tak není, nebo uveďte, k čemu může dojít.",
+        "answerText": "při příliš vysokých hodnotách l. r. může ano výsledek čím dál víc skákat a pak diverguje - při příliš nízkých hodnotách bude model dobře naučený, ale vše bude trvat příliš dlouho pro komplexní úlohu);přílišná korekce způsob skok o vysokou hodnotu tak, že přesáhne chtěný výsledek až příliš a nedokáže se srovnat zpět",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": ";11. Je možné, že při nějakých hodnotách učící konstanty (learning rate) není možné získat dobře naučený model neuronové sítě při použití algoritmů typu GD a SGD? Vysvětlete, proč to tak není, nebo uveďte, k čemu může dojít.",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Je možné, že při nějakých hodnotách učící konstanty (learning rate) není možné získat dobře naučený model neuronové sítě při použití algoritmů typu GD a SGD? Vysvětlete, proč to tak není, nebo uveďte, k čemu může dojít.",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Je možné, že při nějakých hodnotách učící konstanty (learning rate) není možné získat dobře naučený model neuronové sítě při použití algoritmů typu GD a SGD? Vysvětlete, proč to tak není, nebo uveďte, k čemu může dojít.",
+        "answerText": "při příliš možná hodnotě lze je možné, že se gradient;DESCRIMENT VZORKŮ V NEVÝHODNÉM KONEČNÍM MINIMU. Malý Na obrázku a je LR příliš nízký a tady kterou při hledání minima. Tím jsme uvízly v průhodném CONVTNÍM MINIMU (kDYŽ BLÍZKO JR LEŽÍ PORICH.;U DATÁLKU B JE KLON POSTUPUJE VRCHŮ A tÍm JSAME upřemočily!!! V lepšímu výsledku. (Ta obrázky je (výpočtivě nemožné) GlObální minimum ovšem právě se nehledá zajímá náš lounářský",
+        "score": 1.5
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Je možné, že při nějakých hodnotách učící konstanty (learning rate) není možné získat dobře naučený model neuronové sítě při použití algoritmů typu GD a SGD? Vysvětlete, proč to tak není, nebo uveďte, k čemu může dojít.",
+        "answerText": "Pri použití príliš velkého hrobu learning rote je možné preskočiť lokálne (a teda aj globálne) minimum, ktoré môže výrazne ovplyvniť učenie modelu.;S - krok learning rata",
+        "score": 2.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Je možné, že při nějakých hodnotách učící konstanty (learning rate) není možné získat dobře naučený model neuronové sítě při použití algoritmů typu GD a SGD? Vysvětlete, proč to tak není, nebo uveďte, k čemu může dojít.",
+        "answerText": "- pokiaľ zvoúme príliš velký learning rate, môže sa stať že po výpočte gradientov a úprave parametrov bachpropagáciou začneme dostávat hodnoty mimo hardwarom povoleného rozsahu, hodnoty začnů divergovať - teda dostávame 00, NaN a podobné pro velmi malej učiacej konštante trvá výpočet příliš dlho, keďže parameter upravujeme ako 0 = 0 - 1.- a, kde A je učiaca konstanta, v každej úprave je rozdiel medzi póvodnou hodnotou parametru a novou hodnotou len velmi malý",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": ";11. Je možné, že při nějakých hodnotách učící konstanty (learning rate) není možné získat dobře naučený model neuronové sítě při použití algoritmů typu GD a SGD? Vysvětlete, proč to tak není, nebo uveďte, k čemu může dojít.",
+        "answerText": "Pri moc vysokých hodnotách LR môže model divagovať = a nikdy sa nedostaneme k optimálnemu riešeniu.;to tak že však tuto moc vysoká ulebo môže byť k príliž;nízky a model by sa trénoval nekonečne jiho.",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": ";11. Je možné, že při nějakých hodnotách učící konstanty (learning rate) není možné získat dobře naučený model neuronové sítě při použití algoritmů typu GD a SGD? Vysvětlete, proč to tak není, nebo uveďte, k čemu může dojít.",
+        "answerText": "Je možné že pokud bude učení konstanta nastavena na třeba větší hodnotu tak by u GD a SGD vznikl Problém že by se snažil až prološ kompenzovat za daný gradient tím pádem by se parametry v dané neuronové Siťe pořad přestahovali a nemohli se přibližit správné hodnotě",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Je možné, že při nějakých hodnotách učící konstanty (learning rate) není možning rate) není možné získat dobře naučený model neuronové sítě při použití algoritmů typu GD a SGD? Vysvětlete, proč to tak není, nebo uveďte, k čemu může dojít.",
+        "answerText": "Je to možné, při velmi vysoké hodnotě by mohlo velmi rychle dojít k přetrénování a model by pak mohl vrácet nesmysly.;Naopak při příliš nitké hodnotě by trénování mohlo trvat extrémně dě nekonečně dlouho, než by nám model začal konverzovat.",
+        "score": 1.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "II. Je možné, že při nějakých hodnotách učící konstanty (learning rate) není možné získat dobře naučený model neuronové sítě při použití algoritmů typu GD a SGD? Vysvětlete, proč to tak není, nebo uveďte, k čemu může dojít.",
+        "answerText": "Pri algoritme stochastic gradient descent sú vyberané ila mini-batche dát, které se derivují a potom následne spracovávajú na úpravu váh NS. Pri tomto algoritme teda úprava váh neprebieha na všelkých trenovacích dátach a nie pokaždom spracovaní Setrí sa tým čas Pri GD je derivovaný každý výstup a váhy sú upravované zakaždým (časovo náročné).",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "II. Je možné, že při nějakých hodnotách učící konstanty (learning rate) není možné získat dobře naučený model neuronové sítě při použití algoritmů typu GD a SCD? Vysvětlete, proč to tak není, nebo uveďte, k čemu může dojít.",
+        "answerText": "-áno, pri nesprávnou \"barning rate\" môže dojít k Stavu, že sa model pneučí a nebude klasifikovať správne tuď môzeme rozvoliť velký alebo malý krok \"learning vate\", všetko toto ouplynul výsledek;� možný scenán loss",
+        "score": 1.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Je možné, že při nějakých hodnotách učící konstanty (learning rate) není možning rate) není možné získat dobře naučený model neuronové sítě při použití algoritmů typu GD a SGD? Vysvětlete, proč to tak není, nebo uveďte, k čemu může dojít.",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": ";11. Je možné, že při nějakých hodnotách učící konstanty (learning rate) není možné získat dobře naučený model neuronové sítě při použití algoritmů typu GD a SGD? Vysvětlete, proč to tak není, nebo uveďte, k čemu může dojít.",
+        "answerText": "ANO, je to možné. Pokud zvolím příliš velkou konstantu, pak může velikost gradientu přivyšít hodnotu optima a opět bleanovat za optimum. - učení není tak jemné, aby mohlo najít optimum Zvolím-li příliš malou konstantu - může nastat chyba způsobená minimálním rozlišením floating point a ritmetiky",
+        "score": 2.5
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "II. Je možné, že při nějakých hodnotách učící konstanty (learning rate) není možné získat dobře naučený model neuronové sítě při použití algoritmů typu GD a SGD? Vysvětlete, proč to tak není, nebo uveďte, k čemu může dojít. GD hledá globální minimum, LR je koeficipní kroku Ano může. model se za pomoci GD dostat ke globálnímu Pokud bude moc nízký, nemusí minimu. Naopak pokud bude příliš vysoký, může model přejít globální minimum.",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Je možné, že při nějakých hodnotách učící konstanty (learning rate) není možné získat dobře naučený model neuronové sítě při použití algoritmů typu GD a SGD? Vysvětlete, proč to tak není, nebo uveďte, k čemu může dojít.",
+        "answerText": "- pokud learning rate bude příliš malý, pak nebudeme zohledňovat optimalizační algoritmy parametrů, jako jsou Gradient descent a Stochastic TGD.;Gradient descent funguje na principu hledání lokálního minima parametrů NS (optimalizuje tak chybu této NS) - Gradient vektor růstu funkce v daném bodě STŘEDA POZOROZENICH OBECNÍ PRÁVA Brna w - d vzorec pro gradient descent;Carring vare",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": ";11. Je možné, že při nějakých hodnotách učící konstanty (learning rate) není možné získat dobře naučený model neuronové sítě při použití algoritmů typu GD a SGD? Vysvětlete, proč to tak není, nebo uveďte, k čemu může dojít.",
+        "answerText": "Je to možné. Např. nechceme, aby učící konstanta byla příliš velká, jinak by došlo k moc velkým „skokům“.",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "II. Je možné, že při nějakých hodnotách učící konstanty (learning rate) není možné získat dobře naučený model neuronové sítě při použití algoritmů typu GD a SGD? Vysvětlete, proč to tak není, nebo uveďte, k čemu může dojít.",
+        "answerText": "learning rake;áno, je;to možné. Ak je LR příliš velká, GD sa správa ako;obrázené kyvadlo\" - skočí na jednu stranu od požadovaného výsledku, zisté že musí jíst na opačnú stranu a skočí ešte ďalej (v absolutnej hodnotě) od požadovaného výsledku. Takto to pokračuje, až pokiaľ hodnoty vypočítané CD budú příliš veliké, pojdu až do nekonečná.;ak je naopak LR příliš malá, bude výpočet trvať příliš dlho (gradient přijde po příliš malých krokoch) a my stratíme trpectivost / nebudeme mať dosť času na trénovanie - tiež nedotrénujeme model.",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Je možné, že při nějakých hodnotách učící konstanty (learning rate) není možné získat dobře naučený model neuronové sítě při použití algoritmů typu CID a SCD? Vysvětlete, proč to tak není, nebo uveďte, k čemu může dojít.",
+        "answerText": "obidra algoritmi Gradient decenda a stochastic GAGD Sledujú modelovaní funkciu - zpoužívají derivácie na určenie smeru k minimu. Avšak tým že určují iba smer k nimim sa nám pri vysokých hodnotách learning rate môže stať, že extré lokálny budeme preskakovať - v 1D že, a tak nikdy nedosiativneme dobre naučený model NS.",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": ";II. Je možné, že při nějakých hodnotách učící konstanty (learning rate) není možning rate) není možné získat dobře naučený model neuronové sítě při použití algoritmů typu GD a SGD? Vysvětlete, proč to tak není, nebo uveďte, k čemu může dojít.",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Je možné, že při nějakých hodnotách učící konstanty (learning rate) není možné získat dobře naučeny model neuronové sítě při použití algoritmů typu CD a SCD? Vysvětlete, proč to tak není, nebo",
+        "answerText": "uveďte, k čemu může dojít.;Pokud je LR příliš vysoká může model oscilovat a nikdy se nepřiblíží správnému řešení.",
+        "score": 4.0
+    }
+]

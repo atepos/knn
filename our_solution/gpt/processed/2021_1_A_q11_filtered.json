@@ -1,0 +1,518 @@
+[
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "Při učení neurónových sietí dochádza k zrýchleniu vďaka vynechaniu / spojeniu derivačných krokov",
+        "score": 1.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "Je to jedna z dvoch pravidiel ktoré sa využíva pri tvorbe NS. Jeho cielom je reťaziť vrstvy NS, pričom jedna vrstva NS može niekolko neuronový OBSAHOVAT",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "JE TO PRŮCHOD VÝPOČETNÍM GRAFEM OD KONCE NA ZAČÁTEK, KDY NÁSOBÍME JEDNOTLIVÉ DERIVACE OPERACÍ MEZI SEBOU",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řet ronových sítí?;tězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu-",
+        "answerText": "Při zpětném průchodu nemusíme počítat všechny derivace znovu. U NN značně urychluje proces trénování.",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "Má využití v back propagate tázi (učení). Počítají se gradienty pro úpravu parametrů NS.",
+        "score": 2.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11.;Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "chain-ruk je řetězové pravidlo provýpočet derivací v backpropagation při výpočtu v NN. Při zpětném průchodu počítám gradienty neuronů výsledek jedné derivace se poté propaguje do dalšího výpočtu a proto je to propojení jednotilených výpočtů.;o;=;5.;Modrá čára značí forward pass. Červená značí Back propagation, neboli chemin rule šíření hodnot gradientu.",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "- využívá se při počítání gradientů při zpětném průchodu neuronovou sítí (back propagation), kde dochází k postupným výpočtům gradientů (-derivací)",
+        "score": 2.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11;Vysvětlete, ře ronových sítí?;ězcové pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu-",
+        "answerText": "výsledky násobené je to za sebou iduácia hodnot derivácia / smezníci ak máme na vstupe X, výsledek bude je 0,05 v případě že derivačně majú hodnotu 0,5 a 0,1",
+        "score": 1.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řet ronových sítí?;tězcové\" pravidlo (chain-rule) pro výpočet deriv;rací. Má nějaké využití při učení;neu-",
+        "answerText": "gradient;hledání nových parametrů pomocí derivací různých řádů",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "� neťazové pravidla - ide o postupné zamrovanie derivácií f(g(h|x) = funkcia, derivácia funkcie � podľa � d Alginer) of (gard);3x;g(ha);dkg) d (hek);dh(A) = dflg(her) 8x;d(gener);8 (hl x);8x;� využíva sa pri spätnom šíření chyby (algoritmus back pro pergation) pre učenie a úpravu (na stavovatelných) učitelných váh a paranetrov neurónovej siete",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "Ket. pravidlo se využívá při učení rekurentních sítí. Díky věnu se dají při bechpropagation výpočtu derivací řetězit a dá se tak naučit i dlouhá / velká síť",
+        "score": 2.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "Má, při optimalizaci parametrů NN. Pro každou váhu nám stačí parciální dovolence",
+        "score": 1.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11.;Vysvětlete „ře ronových sítí?;ézcové\" pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu-",
+        "answerText": "- ide o to že sa derivuje postupne reťazovo po jednom - ano napríklad pri rozpoznávani reci sa postupne retazovo spracováva náhravka",
+        "score": 1.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "Postupné derivovanie funkcie. Má využitie pri trénovani aby sa našlo min. loss function.",
+        "score": 1.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí!",
+        "answerText": "Má využití u zpětné propagace chyby skrze NN (tedy způsobu, jak se NN učí - úprava vah)",
+        "score": 2.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "- chain ruke je pravidlo říkající, jak derivovat mořecké funkce - prvně se derivuje vnější funkce, poté vnitřní, přičemž se výsledky násobí - má využití pro zpětné zpropagování chyby během učení - umožňuje se proderírovat ke všem parametrům vcítí - vypočtelé parciální derivace se použijí při zpětném průchodu (back propagation)",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí!",
+        "answerText": "je to postupné počítanie derivácii;používa sa to pri zložitějších funkciach, které popisujú NN, napr. g(m) najskór sa vypočíta derivácia toho vnútra glm) a potom sa postupuje směrom von",
+        "score": 2.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "Při zpětné propagaci změn parametrů v rámci učení.",
+        "score": 2.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "Derivovací funkce je napro chápok jako výpočetní graf s uzly Řetězcové pravidlo umožňuje zjednodušit derivaci tak, že je postupně provede pro každý uzel v grafu zvlášť, pouze v kánislosti a jeho vstupech. Stitečné bodroty vstupů jsou nahrazeny dočasnými proměnnými (s nimi je prováděna derivace uzlů). Jakmile jsou všechny uzly zderivovány sečtou se jednotlivé derivace (jsou dosazeny konkrétní hodnoty derivací vstupů uzlubu za jeho dočasné proměnné). Výsledkem součtu (dosazení) je derivoce celé funkce. Tato přístup je v neuronových sítích použit pro svoji jednoduchost (menší derivace), ale hlavně neurová síť se také dá reprezentovat grafem výpočtu a při výpočtech derivací pro daný neuron by bylo zbytečné vícekrát derivovat jednu (stejnou) část výpočetního grafu Probo ne spočítají derivace jednotlivých uzlů a následne se pomocí Retekcového pravidla vytváří derivace taku, který potřebujeme.",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete ,řet ronových sítí?;tězco;vé\" pravidlo (chain-rule);pro výpočet derivací. Má nějaké využití při učení neu-",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11.;Vysvětlete, ře ronových sítí?;tězcové\" pravidlo (chain-rule) pro výpočet deriva;něja;ké využití při učení neu-",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "Neviem čo to je ale určitě využitie má, inak by tu taká otázku nebola.",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "I. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "Derivácie je možné počítat postupne po malých častiach. Nemusí sa spočítať derivácia pri celú neuronoví sieť zařaz.;Využíva sa pri počítaní gradientu. Potřebujeme vediet gradient aby me mohli upravit váhy podľa gradientního zastupu. w = w n - s t d - (-gradient) staré váh - učiaca konštantu nové vahy",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete ,ře ronových sítí?;ězcové pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu-",
+        "answerText": "Derivace složení funkce je součin derivací postupně těchot funkcí (bl gIx) = b|g|XII- g'x) Používá se a bach pronagation - průchod od konce neuronové sítě k počasí a zněva vah.",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "využití u backpropagation algoritmu",
+        "score": 1.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "- jednotlivé derivace lze rozepsat pro každý parametr funkce zvlášť a poskládat za sebe - ano, při výpočtu lze tyto troky také rozdělit",
+        "score": 2.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet deriva ronových sítí?;Má nějaké využití při učení neu-",
+        "answerText": "Při učení neuronových sítí se využívá pro loss function",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "pri výpočte gradientu pri učení neurónových sietí voči loss funkcii derivácia boss funkcie Šla vzhladom k váham vypočítame ako súčin derivácii v jednotlivých častiach výpočetného grafu - vynásobeném týhlo derivácií zistime akcí, smerom sa meni výstup pri zmeně váh",
+        "score": 2.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "při učení NN pomocí gradientů se podle něj počítají úpravy jednotlivých parametrů.;z loss-funkce se potřebuji naučit, proto vypočítám gradienty jako parciální derivace fce právě pomocí chriv-rule - je to řetezec postupného zásobení parciálních derivací",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "Jedná se o diskrétní způsob aproximace výpočtu derivace;Derivace se v NS používá k propagaci chyby v backtrackingu pro úpravu parametrů sítě. Potřebujeme derivace aktivačních funkcí",
+        "score": 2.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "Pravidlo může využít pro výpočet lokálních minim funkce pro gradient decent",
+        "score": 1.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "Používá se při jednotlivých parametrů, které se snažíme naučit.;Korekc",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "Derivací složené funkce je derivace vnější fce - derivace vnitřní funkce. Dokud je minimální funkce složenou f-cí, dále se derivuje. Např. a c (= 2x) ux 3x Např. f(gex) y = f(gex) y = f(gex) . g (x) Jelikož neuronové sítě tvoří výpočetní graf, ale na pos jsou na vstupní data postupně aplikovány všech vrstev sítě. Při učení neuronových sítí se používá operace gradient descent + backpropagation, Backpropagation je algoritmus pro výpočet gradientu parametrů modelu na základě a objektivní funkce. Objektivní (loss) funkce je chybový signál, vyhodnocení který je zpětně propagován sítí. V každém uzlu výpočetního grafistě je využito chován rule takovým způsobem, že upstream gradient posílaný \"nahoru\" zpět sítí je součinem downstream gradientu vypočítaného níže vsíti a lokálního gradientu z dané operace local gradient = 1 výpočetního grafu.;V",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "- používá se v NN při zpětném šíření vylepšených parametrů pro jednotlivé vrstvy (případně spíše šíření změny, která se má v konkrétním parametru provést). Vružiní se při snaze o gradientní sestup pomocí loss funkce - snaha o snížení chyby NN - učení. platí že: dal se dva dny dva dny dva dva dva;kde JG je výsledek loss funkce;a wx jsou parametry neuronů ve vrstvě x (od konce). lze takto optimalizovat lučit, jak váhy pro vstupy neuronů, tak blask neuronů.",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "rediziové pravidlo se využívá při trénovaní neuronových sítí k natrénování vrh neuronové sítě. Nejprve se provede forwarding a z výstupu se vytvoří chybová funkce která porovná vystup s očekávanými hodnotami. Z toho funkce se pouta parcelní chrivace k vahám ze přední vrstvy až k sadní. Nějaká čast vynořím se znovu využije při počítání využije a využívá se od oktuálních vah se gradient; odečítá x learning rote",
+        "score": 2.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "Derivace, lze počítat postupně, ti nejdříve zdevinujeme podle X nich to podle více proměnných podle y a tak dále Při učení je lze nejdříve Výsledky z jednotlivých vrstev si lze předávat a přizpůsobit tam před algoritmus",
+        "score": 2.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí? DETRIVÁCIE VYUŽÍVA SA NA VÝPOČET ZLOŽENOJ FUNKCIE. ZÁKLADNÍ PCINCÍP je v nahradení vlastnEj funkcie najavým prvým výrazom KT. SA ČAMŠIE POČÍTA. VYUŽÍVA SA PRI VÝPOČTĚ GRADIENTU PRI UČENÍ NN. GRADIENT JE VEKTOR OBSAHUJÍCÍ DERIVÁCIE FUNKCIE PODLA JEDNOTLIVÝCH PREMENNÝCH.",
+        "answerText": "",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "Je používáno pro počítání gradientů při trénování. Funguje na tom principu, že prochází výpočetním grafem od konce na začátek a jednotlivé derivace násobí mezi sebou.",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "Pomocí výpočtu derivace získáme vektor který nám udává směr k extrému a svou velikostí nám udává „strmost“ funkce. Toto má využití při hledání vhodných parametrů které se nachází v extrémech. Velikost vektoru nám bude udávat jak moc je vhodné parametr změnit.",
+        "score": 2.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí? se na výpočet vah v neuronových sítích",
+        "answerText": "Používa příklad:;KART. VÝ OZNAMUJEME MÍR;E=1/2 ly;+);dědy dwí dy ta dwi DE de dvůr do dané;X1. X2 - VSTUP regi W2 - váhy f - aktivační funkce E - chybací (loss) funkce",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové ronových sítí?;pravidlo (chain-;ile) pro výpočet deri;vací. Má;nějaké využití při učení neu-",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "Retězové pravidlo umožňuje vyjádřit derivaci výpočetního grafu, jako součin chovací padesátky částí tohoto grebu. Využívá se při výpočtu derivací parametrů v neuronových sítích. Derivace se skládají odrady (od výstupu sítě) směru k parametru, čímž se usnadní výpočet pro parametry se společnými částmi výpočetního grafu",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11.;Vysvětlete „ře\" ronových sítí?;tězcové pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu-",
+        "answerText": "- dajú sa reťaziť derivacie, napríklad tomto příklade všem určitú denních dx dz Má to využitek ukradne bude propagativu. v - spätné sklenic chyby - on Př Takže všem, ako sa bude na konci siete meniť hodnota pri zmene na začintky sjete;XX dy dý dz",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "využívá se při trénování NN. NN prošla vstupní data, z výsledku NN a očekávaného výsledku se vyhodnotí loss fce, dle které se právě za pomocí chain rule ve zpětném průchodu NN skrze bný modifikují parametry NN, aby příští výsledek byl méně",
+        "score": 2.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "II. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "Při výpočtu derivací se dají výsledky řetězit a počítat efektivněji.",
+        "score": 2.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí!",
+        "answerText": "Při učení NS se používá při sestupu pomoc�í gradientů",
+        "score": 1.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet ronových sítí?;derivac;Má;nějaké využití při učení neu-",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "Podle tohoto pravidla můžeme opakovaně přičítat odevzdat derivace konkrétní minima maximální funkce;parametry Využívá se u algoritmu gradient decent, pomocí kterého jsou upravovány, v neuronové síti (resp. pomocí kterého je optimalizována,",
+        "score": 1.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "Každú operacím neurónovej sixte zderivujeme samostatne a tie derivácie následne zreťazíme za sebou tak, že ich postupne vynásobíme. Využíva sa to pri spätnom prechode NS a distribuované chyby",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "Chain - rul v deriváciad na noužíva na deriváciu funkcií s argumentami, které môž katova je dalši funkci. Princíp spočíva v 1 = 1. nastan f = vonlajšia funkcia 2. zderivuj celú f (teda nie argumenty, len funkciu (six (2a) = costex ... 3. nastor f = argument povolnej f (2x) 4. pridaj derivovanu povodnu f do F 5. stož na 2, at nebolo možné zvoliť dalšie f, vykonej TT F Ppi NN má chain rule vyznam pri odvodázovaní gradientnej funkci, teda nájdemí gradientu argumentu dát.",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11.;Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "REK Neviem čo to je ale použiva sa pri gradisent descente, pomocou kterého sa upravují váhy v neurónovej sieti,",
+        "score": 1.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11.;Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má ronových sítí?;nějaké využití při učení neu-",
+        "answerText": "Posloupnost derivací, zjednodušuje výpočet.;Slouží k výpočtu backpropagation.",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "- používá se při back-passingu pro úpravu učených parametrů sítě.",
+        "score": 2.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "Chain - vole: je pravidlo, ktoré slúži na úpravu výpočtou derivácií gradientov, a pre spätnu úpravu váh podlah. dopředných Používa sa v backpropagation učení NN, kedy sa počíta vplyv váh na odzvu a ich na sledná změna / úprava",
+        "score": 2.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "Chain-vule se využívá při zpětném průchodu neuronové sítě s cílem optimalizovat/upravit váhy jednotlivých přechodů mezi neurony. Udělá se jeden krok zpět v neuronové síti, vypočítá se příslušný gradient a ten je posléze využít v druhém kroku zpětného průchodu při výpočtu dalšího. Takto se zpětně projde celá síť a upraví se její parametry pro další trénovací běh",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí? - jedná sa o pravidla kde rovno derivácii sa postupne vypočíta a aktualizuje sa váha; a ta sa pošle \"predkony\" a na základě toho, tieč si aktualizuje váhy a pošle tvojmu \"prodkovy\" - toto pravidlo má využité pri NN, lelo týmto sa počíta gradient a pomocou gradient descent su ten gradient vypočíta a aktualizuje - a presne týmito krokmnč za NN socia lebo menia si poznatky váhy jednotlivé neuróny",
+        "answerText": "",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "Knihovna;v predchádzajúcom uzle počítanie cherivácií a využití výsledku v nasledujúcom uzle pre urychlenie výpočtu",
+        "score": 2.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "ŘETĚZKOVÉ PRAVIDLO NÁM UMOŽňUJE SKLÁDAT VÝPOČET PERIVACÍ PRO NÁHY NEURONŮ PŘES JEDNOTLIVÉ VRSTVY.;Toto pravidlo se využívá například v ALGORITMU BACK PROPAGATION KTERÝ JE ASI NEJZNÁMEJČÍ ALGORITMUS PRO UČENÍ VAH AUKCICKÝCH NEURONOVÝCH PŘI UČENÍ SÍTĚ V BACK PROPAGATION JE víří. JÁDEK ZAČÍNAJÍ UPRAVOVAT OD VÝSTUPNÍ VRSTVY Dále se pomocí CHAIN PULE uPRAVUJÍ JÍ NÁHY VE Druhé vrstvě od konce, a takto se postupuje až KE VSTUPNÍ VRSTVĚ.",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "Vysvětlete „řetězcové“ pravidlo (chain-rule) pro vý ronových sítí?;vpočet;vací. M;nějaké využití při učení neu-",
+        "answerText": "Jedná sa o to, že jednotlivé výsledky pri výpočte si možne ukladať. Výsledek další derivacie podle parametru v danom bode potom vyplým předešlého výsledku. Využíva pri trénovaní NS u metódy gradient descend, kterou optimalizujeme parametre.",
+        "score": 2.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "Řetězové pravidlo je postupné aplikování jednotlivých operací;U neuronových sítí je celá síť rozdělená na vrstvy, které se postupně mezi sebou násobí. Jednotlivé vrstvy, části jsou bloky, které se postupně násobí se vstupními daty. yšty",
+        "score": 1.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí!",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí? = nejsem si jist kdo z nich to je, proto napíšu co si myslím co se pod tím myslí 1. pokud by byla limitární funkce právě To už wím. když provádíme derivaci loss funkce, (myslím že se tomu říká gradient desent), můžem e postupovat následovně 1. výpočet derivací normálně zleva � a dojdeme k výsledku dané derivace, pro aktuální hodnoty - 2. Zvolíme si krok kterým posuneme danou derivací víc smorem k nule. Nová derivace nám slouží jako startovní hod Pote se s touto novou derivací, vracíme zpátky zprava doleva a provádíme investované operace k těm původním 5 - - 1 Díky tomu vypočteme a nalezneme nové hodnoty s nižší chybou. Tyto hodnoty slouží právě k učení neuronový je to ono a není to s tím, že nemůže donekonečna k LS at spát lih funkcí do lin funkcí, protože výsledek je taky ku funkci a je to partu.",
+        "answerText": "",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „ře- ronových sítí?;ězcové\" pravidlo (cha;ule) pro;výpo-;et derivací.;využití při učení neu-",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "ly(v) to = v x)",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "II. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpo- ronových sítí?;derivací. Má nějaké využití při učení neu-",
+        "answerText": "Využívá se pro eFEKTIVNÍ VÝPOČET GRADIERT DESCONT RôJHO FUNKCI 1= 2x13, DoplNACE PODLE X JE v prey digi ROVNO POČINY součinu dílčích derivac At Ad 2. 32x. Jan 3x öx KOS a = 2x",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí!",
+        "answerText": "parciální derivace � vektor parctálních derivací podle různých proměnných �",
+        "score": 1.0
+    }
+]

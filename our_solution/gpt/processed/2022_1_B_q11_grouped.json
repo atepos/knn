@@ -1,0 +1,36 @@
+{
+    "questionNumber": 11,
+    "questionText": "11. 2D konvoluční síť začíná dvěma konvolučními vrstvami. První vrstva má 16 jader o velikosti 3x3 a druhá 32 jader o velikosti 5x5. Velikost vstupního obrázku je 64x64 a má 3 kanály. Napište velikost perceptive field aktivací druhé vrstvy (tedy na jaké oblasti závisí hodnoty v jednom „pixelu“ výstupu druhé vrstvy). Velikost perceptive field napište jak v pixelech vstupního obrázku, tak výstupní „ak- tivační mapy“ první vrstvy. Odpověď nesmí obsahovat žádný souvislý text delší než dvě slova.",
+    "answersByScore": [
+        {
+            "score": 0.0,
+            "answers": [
+                "16x3x3;64x64x116 prvá vrstva;aktivacie;druhá vrstva = prvá ž"
+            ]
+        },
+        {
+            "score": 1.0,
+            "answers": [
+                "3x3x16 - vstup 6 5x5x32 - výstup"
+            ]
+        },
+        {
+            "score": 2.0,
+            "answers": [
+                "Ex5r;ŠTORSKÝ VE;St 513 = 79"
+            ]
+        },
+        {
+            "score": 3.0,
+            "answers": [
+                "1 vrstva;x16;vstup;x;vstup � 1 vrstva + 2 vrstva;2 vrstva;* 32;64/63 � 2 64/62 � 3 64/3 � 62;64x64x3 62x62x16 48x48x32;velkost v parloch vstupného obrázku � velkost v preloch \"aktivační mapy\" první vrstvy Odpoveď: a 5x5;6215"
+            ]
+        },
+        {
+            "score": 4.0,
+            "answers": [
+                "Perceptive fild (L2) = 7x7 px Perceptive field (L22 = 4) = 5x 5 1/4X"
+            ]
+        }
+    ]
+}

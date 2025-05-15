@@ -1,0 +1,422 @@
+[
+  {
+    "questionNumber": 1,
+    "actual_score": "0.0",
+    "predicted_score": "0",
+    "hidden_answer": "NIJAKO. VYLEPŠENIE ALPHA BETA PŘEDPOKLÁDÁ ŽE NÁM CHCE PROTHRÁČ CO NAJVÍAC UŠKOMIT."
+  },
+  {
+    "questionNumber": 1,
+    "actual_score": "0.5",
+    "predicted_score": "4",
+    "hidden_answer": "Úprava by spočívala v povídaní pravdepodobnosti ťahu protihráča. Ako napr. v projekte, z niektorých políček bolo možne proto ač by sme ako akciu tahat 2 smermy, indel, 3, 4 ... brali smer těhu tak by to bolo 100% / počet smorov. Heuristiku minimax by sme doplnili vhodne o túto pravdep."
+  },
+  {
+    "questionNumber": 1,
+    "actual_score": "1.0",
+    "predicted_score": "0",
+    "hidden_answer": "všim, že hráč vdí svoje tahy náhodne, tz. nehladá stále min a nežádí Dovoluje mi to zarukovať a vybrať si ten tah, kde dosiahnem maximum, nehľadieť, na to čo si zadí protahuje;MAX;MIN;� Hrozí, že protihráč zvolí cestu, kt. má hodnotu -> 5, je pre mňa nevyhodná ak by však náhodne zvolil 50, představuje to pre mně velké plus, preto si zatím tak, kt. cesta je v lavom podstrome"
+  },
+  {
+    "questionNumber": 1,
+    "actual_score": "1.25",
+    "predicted_score": "0",
+    "hidden_answer": "Přidal bych prořezávání podle užitku, které by vedly k průměrně nižšímu užitku;navazoval bych akce"
+  },
+  {
+    "questionNumber": 1,
+    "actual_score": "1.5",
+    "predicted_score": "1",
+    "hidden_answer": "242 Změnil bych výběr tahu: vybíral by se vždy tak, který má nejlepší poměr získaná cena: riziko jelikož protivník volí svoje akce náhodně, v dlouhodobém měřítku se tato strategie vyplatí víc"
+  },
+  {
+    "questionNumber": 1,
+    "actual_score": "1.75",
+    "predicted_score": "3.0",
+    "hidden_answer": "upravil by som ho tak, že hráč najednotu ale nejakú nád hodnotou ale náhodnú, hráč MAX by volil tú akciu, ktorej získa vykonaním hráč MIN najväčšie priemerné ohodnotenie hci"
+  },
+  {
+    "questionNumber": 1,
+    "actual_score": "2.0",
+    "predicted_score": "2",
+    "hidden_answer": "Dal by sa vytvoriť 2-3 pruning, v ktorom by sa zohľadňovala stredná hodnota možností pre ťah súpera./ Najlepšou variantou potom bude vetva s najnižšou absolútnou hodnotou rozdielu nášho vybraného čísla a priemeru súperových možností."
+  },
+  {
+    "questionNumber": 1,
+    "actual_score": "2.5",
+    "predicted_score": "2.0",
+    "hidden_answer": "v minimax se počítá s tím, že protivník vždy udělá nejlepší svůj tah tady v tomto případě bychom počítali s tím, že protivníky vždy náhodně znovu zvolí ten nejlepší tah. Tím se růžene při prohledávání obírat o přesnost. Já bych sám udělal to, že bych pro protivníku vždy vygeneroval x nejlepších tahů a pak bych z nich jeden náhodně vybral (čili simuloval bych různou nedokonalost, ale stále bych byl připravený regogovat na dobré tahy). Extrémně pak mohu generovat všechny tahy a z nich vybírat náhodný (jak je to ve skutečnosti) ale to by dle ně bylo hodně nepřesné a nedosahovalo dobrých výsledků. Velikost x bych volil podle hry (cca 10% dostupných nejlepších tahů a z nich náhodný výběr třeba)."
+  },
+  {
+    "questionNumber": 1,
+    "actual_score": "3.0",
+    "predicted_score": "3",
+    "hidden_answer": "prorežívání - neprohledávat stavy, které;jedou k ničemu;věci při vyhodnocování akcí protivníka brát průměr jeho možností, protože nám primárně nechce svými akcemi škodit"
+  },
+  {
+    "questionNumber": 1,
+    "actual_score": "3.5",
+    "predicted_score": "2",
+    "hidden_answer": "JASNIC SYCH PŘIDAL BYCH ALFA-BERT PRVNING, VÝBĚR TAHU BYCH VOLIL PODLE TOHO kde mám největší průměrné očekávání ROK 1965 podíl na vzorno KOMUNIKACE VI2 KONVOLUČNÍ SÍRALU NA KONCI"
+  },
+  {
+    "questionNumber": 1,
+    "actual_score": "3.75",
+    "predicted_score": "3",
+    "hidden_answer": "5+6 = 9, 5;V kroku min, kdy táhne protivník, nepředpokládám, že vybere tak vedoucí k minimálnímu ohodnocení, ale protože vybírá tahy náhodně, spočítám průměrné ohodnocení možných tahů, a vyberu ten, který je průměru nejblíže"
+  },
+  {
+    "questionNumber": 1,
+    "actual_score": "4.0",
+    "predicted_score": "4",
+    "hidden_answer": "Za předpokladu, že my vyberáme max a super min(resp. by vybrat min, keby nepraco potom vyberieme ten stav, ktorého priemerné ohodnotenie náhodné jež najvyššie (teďže nevieme, či skutočne vyberie min akciu, musíme počítať s každou možnosťou a preto priemerujeme;20 . 6,5"
+  },
+  {
+    "questionNumber": 2,
+    "actual_score": "0.0",
+    "predicted_score": "2",
+    "hidden_answer": "BELIET STATE SA POUŽÍVA KEď NEMÁME INFO. O OKOLÍ A tým pádem NEVIEME KEDY SKONČIT S PŘEMLADÁVANÍM. PROLESTOR obsahuje všetky možné stavy vlt. můžu nastat."
+  },
+  {
+    "questionNumber": 2,
+    "actual_score": "0.25",
+    "predicted_score": "1",
+    "hidden_answer": "jsou všechny možné stavy kombinací, Belief states kam se mohu dostat po aplikaci akcí. Nejde však používat všude, protože množina těchto stavů velmi narůstá. Používá se tam, kde máme konečný ideálně malý počet počet stavů a 8 stavů existuje 82 belit states Pro"
+  },
+  {
+    "questionNumber": 2,
+    "actual_score": "0.5",
+    "predicted_score": "1",
+    "hidden_answer": "Belief state je stav v akci agent verí, že sa nachádza Vztahuje sa na vlastnosti které sú ne/přítomné v danou stave Množina bs je variána všetkých stavou a množin počet vlastností na Osmu"
+  },
+  {
+    "questionNumber": 2,
+    "actual_score": "0.75",
+    "predicted_score": "1.0",
+    "hidden_answer": "Belief state je stav který se při prohledávání stavového prostoru snažíme prohledávat za cílem vyřešení úlohy a belieb state je množina všech stavu které mohou nastat. Musí nastat 8 obechisk statu pkus"
+  },
+  {
+    "questionNumber": 2,
+    "actual_score": "1.0",
+    "predicted_score": "1",
+    "hidden_answer": "Belief state je vyjádření jistoty či důvěry agenta o aktuálním stavu. Pro N stavů je z belief states, takže pro 8 stavů existuje B = 256 belief states."
+  },
+  {
+    "questionNumber": 2,
+    "actual_score": "1.25",
+    "predicted_score": "2",
+    "hidden_answer": "� eo k prostředí, ve kterém nevíme, jaký je přesný stav a tak si v - všechmožných stavů prost - všechny přípustné stavy. Je to tedy mnoa stavů. belief states udržujeme v prostředí s 8 stavy může existovat až 8 stavů, ve kterých se reálně můžeme nacházet. stochastických) Typicky v nedeterministických prostředích nebo i v determ., pokud neznáme poč. stav. viz. ten vysavač, který byl náhodně spuštěn někde v prostoru."
+  },
+  {
+    "questionNumber": 2,
+    "actual_score": "1.5",
+    "predicted_score": "1",
+    "hidden_answer": "belief state se vztahuje k situaci, kdy prozkoumáváne prostor, o kterém nemáme žádné informace o aktuálním stavu prostředí. Množina všech belief states je množina všech stavů, ve kterém se prostředí může rozházet a je jich tedy stejné, jako je stavů prostředí, tedy pokud má prostředí 8 stavů, bude existovat 8 belief states. Příklad takového uvažování je na \"dank-page\" na konci testu, kde je vysavač, který se snaží vysát místnost o dvou políčkách, ta může být čistá/špinavá a také obsahovat/repsano vrstvač -> 8 stavů. Vysavač ale neumí věřit špinavos, ani jestli naváží do zdi a proto musí věřit \"(believe) že je v jedroh z uvedených stavů."
+  },
+  {
+    "questionNumber": 2,
+    "actual_score": "1.75",
+    "predicted_score": "1",
+    "hidden_answer": "1. V nedeterministickém prostředí;2. všech belief states = potenční množina všech stavů - množina všech možných podmnožin;3. je jich 2"
+  },
+  {
+    "questionNumber": 2,
+    "actual_score": "2.0",
+    "predicted_score": "1",
+    "hidden_answer": "Vstahuje sa k prastrediam, ktoré nie sú plne pozorovatelné alebo nie sú deterministické (neúplná informacia) Ak je v prostredí 8 stavu tak existuje 2 betieb states"
+  },
+  {
+    "questionNumber": 2,
+    "actual_score": "2.25",
+    "predicted_score": "0",
+    "hidden_answer": "PROSTŘEDÍ NENÍ BELEF STATES JSOU POMNOŽINA VŠECH STAVŮ REPREZENTUJE MNOŽINY MOŽNÝCH STAVŮ, VE KTERÝCH JEDEN BELIEF STATE SE PROSTŘEDÍ MŮŽE NACHÁZET;PLNĚ POZOROVATELNÉ;2) + 18 + 1;3) 2 stavů;ABGEFIH;13. 1 GSEM;120"
+  },
+  {
+    "questionNumber": 2,
+    "actual_score": "2.75",
+    "predicted_score": "1",
+    "hidden_answer": "vztahuje se k částečně pozorovatelnému prostředí 8 stavů � 2 belief states - množina všech belief states = množina možných pozorování (získaných zkušeností)"
+  },
+  {
+    "questionNumber": 2,
+    "actual_score": "3.0",
+    "predicted_score": "4",
+    "hidden_answer": "Pokud máme prostředí, které není pozorovatelné pro agenta, vražujeme tzv. belieb state. Množina všech belief statů je množina stavů, které mohou být dosaženy na základě akcí, které byly vykonány Pro u stavů máme 2^ belieb statů, pokud je tedy v statu prostředí 8 stavů, existuje 28 belief statů. � 256 belief"
+  },
+  {
+    "questionNumber": 2,
+    "actual_score": "3.25",
+    "predicted_score": "2",
+    "hidden_answer": "Jde o množinu stupů o které můžeme říct že mají stejnou vlastnost Například u úlohy s vybudujem kde existuje více možných stavů u kterém je vybavně v pravo ale ve všech je vybaveně vpravo. všecho belief states je potenční množina na množině všech stavů. Tedy množinu všech podmnožin na množině všech stavů. A;Bude jich 2;1 = 2 0; 2 = 4 0,1, 2, 12 3 = 8 0, 1, 2, 3, 12, 13, 13;123,"
+  },
+  {
+    "questionNumber": 2,
+    "actual_score": "3.5",
+    "predicted_score": "1",
+    "hidden_answer": "Ak nevieme získať o svojom okolí žiadne informacie (vysávač nemá senzory a nevic kde je a či je povysávané) Prosto/množina belit statou je množina všetkých situací, které mohli nastať"
+  },
+  {
+    "questionNumber": 2,
+    "actual_score": "4.0",
+    "predicted_score": "4",
+    "hidden_answer": "Belief state je množina stavů, ve kterých se agent může nacházet a postupným prováděním akcí se tato množina zmenšuje;belief states je 28°, je to potenčení množina všech stavů"
+  },
+  {
+    "questionNumber": 3,
+    "actual_score": "0.0",
+    "predicted_score": "1",
+    "hidden_answer": "generatívny model, pretože odhaduje distribuciu hodnoty pravdepodobnosti Gaussového rozdelenia. parametre sú rozptyli smerolatná odchylka a stredná hodnota"
+  },
+  {
+    "questionNumber": 3,
+    "actual_score": "0.5",
+    "predicted_score": "1",
+    "hidden_answer": "Jedná se o generativní model, jelikož se snažíme nalézt vhodné rozdělení, které by mohlo generovat náš dataset Parametry modelu jsou střední hodnota u a směrodatná odchylka 0"
+  },
+  {
+    "questionNumber": 3,
+    "actual_score": "1.0",
+    "predicted_score": "0",
+    "hidden_answer": "Protože má vlastnosť generalizace � zavšeobecňuje vzory a dáta pomocou matematických vzorcova dokáže potom klasifikovať dobu na neviduných dátach. Gaussovský klasifikátor má parametru pr a o? Odhad parametrov W a o funguje na základe Maximum Likchood � arg mex p(x, w|o) = arg log max(x, w|o) = arg max [log = EZ N - N JsEm arg. max(... Eks + 2x4 - d) a) Eva (= 2/22 km + 2x2 - 2/3 N - N - N besed dw - - a proto 2 2 (kn - n) N2X4;- studni;hod;- rozptyl"
+  },
+  {
+    "questionNumber": 3,
+    "actual_score": "1.5",
+    "predicted_score": "1",
+    "hidden_answer": "NA ZÁKLADĚ DAT ODHADNĚNÉ ROZLOŽENÍ PRAVDĚPODOBNOSTI PRO JEDNOBNOSTI PRO JEDNOTLIVÉ TŘÍDY -> GENERUJEME ROZLOŽENÍ PRAVDĚPODOBNOSTI U GALISSOVSKÉHO KLASIFIKÁTORU PŘEDPOKLÁDÁME GAUSSOVSKÉ ROZLOŽENÍ M - STŘEDNÍ HODNOTA - ROZPTYL o OPTIMALIZUJEME MAxIMUM LIECCLYHOOD segrax p (x|m?) po PAVLY TŘÍDY PRAVDĚPODOBNOST;HLEDING;FUNKCI;PARAMETRY;roxmum"
+  },
+  {
+    "questionNumber": 3,
+    "actual_score": "2.0",
+    "predicted_score": "1",
+    "hidden_answer": "Parametry modelu jsou u a c takové, které maximalizují pravděpodobni daných vstupních dat. max p (x|qu) g 20 vektor vstupů arg max [log] IN(x win, or) moc u hledané n- té dato z rektoru dat parametry"
+  },
+  {
+    "questionNumber": 3,
+    "actual_score": "2.5",
+    "predicted_score": "1",
+    "hidden_answer": "Jedná se o generativní model protože podle trénovacích dat se snaží vymodelovat gaussovo rozložení jednotlivých výstupních tříd. Parametry modelu je střední hodnota a rozptyl pro každou výstupní třídu. Odhad střední hodnoty m = v ? 7; Kde N je počet prvků ve třídě a x; jsou jednotlivé prvky. Odhad rozptylu o = 1/2 (x1- u) kde N e x; je popsáno P a u je výše vypočíta"
+  },
+  {
+    "questionNumber": 3,
+    "actual_score": "3.0",
+    "predicted_score": "2",
+    "hidden_answer": "- protože modeluje rozložení vstupních dat p(x|c) a používá Bayesovo pravidlo k určení posterdorní pravd. p(c|x) (generativní modely navíc modelují ještě apriorní pravděpodobnosti tříd p(c). parametry jsou střední hodnota gaussový M a rozptyl v B. - optimalizujeme L(no?) = argmax N (x|m, o?) obecně LIO) = argmax p(x|o) = argmex II p(x|e) věrohodnost pravděpodobnost dat x v případě parametrů vrácí parametry o - optimalizujeme tuto objektivní funkci, protože chceme zjistit parametry takové, které maximalizují někohodnost dat - takové parametry budou nejlepším odhadem vzorových dat"
+  },
+  {
+    "questionNumber": 3,
+    "actual_score": "3.5",
+    "predicted_score": "1",
+    "hidden_answer": "objednána tmlecia :;arg max;plzan);= argumenty p1 a o2 pre všechny dáta prejden a dosúdzam hodnoty ML odhad jednotlivých argumentov u = = 1/3 0 22 (x1 - 19);- - je založený na generativnom modele keďže sa snaží modelovat rozloženia pravdepodobností a na základe toho až odvodiť či vstupní tab patrí do hdanej triedy. (využívá na odrovnie apoštolovnu pravdepodobnos)"
+  },
+  {
+    "questionNumber": 3,
+    "actual_score": "4.0",
+    "predicted_score": "1",
+    "hidden_answer": "Jelikož se jedná o rozložení hustoty pravděpodobnosti. Klasifikátor nám říká;s jak velkou pravděpodobností patří nějaká hodnota do dané třídy. Parametry modelu jsou: η - střední hodnotu třídy a variance azademika;Optimalizujeme funkci Maximum likelihood, můžeme získat odhad parametrů s maximální věrohodností, hledáme takové parametry pro které p (X, η) maximum, pro každé trenovací dato vyhodnotíme;e 77;ML 14 = arg max p (x|n) = arg max II (p(x|n)"
+  },
+  {
+    "questionNumber": 4,
+    "actual_score": "0.0",
+    "predicted_score": "1",
+    "hidden_answer": "Je to špecialny případ, pretože vhodnou kombináciou viacerých lineárnych funkcí vřeme vytvoriť požadovanú polynomialnu funkciu v K_TOM ráde.;Parametrom polynomialnej funkcie je K-ty zád, kde KZ1, který určuje chovanie danej funkcie. Pri polynomialnej regresií sa snažíme naučiť vytvoriť správný polynom který prechádza cez dáta. Snažíme sa odhadnuť stupeň polynomu K tak aby čo najdeálnejšie prechádzal cez dáta (kopiroval ich funkčně hodnoty v grafe). Pomocou objektivnej funkcie spresňujeme parametre aby x sme našli vhodné K."
+  },
+  {
+    "questionNumber": 4,
+    "actual_score": "0.5",
+    "predicted_score": "2",
+    "hidden_answer": "předpis;Pohynomiál na regresia je dineárnou regresion, nakolko jej zapisu- jeme v lineárnom tvaru rovnice, napr. 3x2x2x = y. snažíme sa naučiť preložiť vzorové (trénovacie) dáta (body) pomocou krivky tak, aby im čo najvice zodpovedala. Parametrom je stupeň polynómu danej krivky a jednotlivé váhy. Loss funkciu reěšime pomocou gausoveho rozloženia, znažíme a o čo najlepsie preloženie dát trivkou, no snažíme sa vyhnuť protrénovaniu, proto napr. obmedzíme max. stupeň polip."
+  },
+  {
+    "questionNumber": 4,
+    "actual_score": "1.0",
+    "predicted_score": "1",
+    "hidden_answer": "- skor naopak lineárna regresea je specialny případ polynomickej regrese keď sa k =1 -> tedy hovoříme o liveárnej regresii je to preto, lebo pri regresii máme w way - ax ka, všetko vektory Wo - a tvar funkce je slx) = wo + w1 + w X ... w w v- - takže sa snažíme najit nejakú polynomiální - id priamku k - rádu tak, aby co najlyšie fungovala na náš problém; w - sú parametre - môžeme použiť loss - rozdíl obsahu štvírca aby sme majlejšie našli parametr - provedeme tak, že vypočítane gradient a postupně pojdeme proti jeho směru na 0 aby sme optimalizovali řešené"
+  },
+  {
+    "questionNumber": 4,
+    "actual_score": "1.5",
+    "predicted_score": "1",
+    "hidden_answer": "Polynomiální regresí se model snažíme naučit polynomiální funkci. (U lineární regrese se jedná o polnom prvního stupně). polynomiální regrese má vždy stupeň X, který definuje maximální exponent polynomu, přičemž se v regresi nacházejí všechny předcházející polynomy. Y = wo + w1. X + w1. X2... + w2 x K Í = LWO; w1; 4. J.;snažíme se optimalizovat metodu nejmenších čtverců."
+  },
+  {
+    "questionNumber": 4,
+    "actual_score": "2.0",
+    "predicted_score": "0",
+    "hidden_answer": "pokynová negamen lze napsat jako: ry = Bax + B + B + ... + B + B + B + B B B parametry jsou knihovny..., 3o tyto pamatuj se snažíme odhadnout, optim případu je potupňuje ke loss function - - snažíme se minimalizovat sumu nejmenších d. - j.) čtverců pro nějaké data (např. MSE) die = požadovaný vý Úvod. jsi = výstup verg"
+  },
+  {
+    "questionNumber": 4,
+    "actual_score": "2.5",
+    "predicted_score": "2",
+    "hidden_answer": "- lebo pomooci kombinávie viovených lineárnych parametrov vieme jadriť pohynomiálne funkcie - Parametry sú váhy a snažíme sa optimalicivať napr minimalizovaním funkcie najmenších štrorcov f 1/2 2 (x - w) D=W1 + W1 x 1 x 1 1/2 2 ...;Pak by to nebolo generované podľa gausovko šumu tak nemusíme použít na jmenších štvorcov ale môžeme absolutnych hodnot f = 2 IX - w1 pre Laplasov šum"
+  },
+  {
+    "questionNumber": 4,
+    "actual_score": "3.0",
+    "predicted_score": "2",
+    "hidden_answer": "funkcia;Lineárna je polynóm stupňá). Polynomialní funkcia je pobyvacím stupňa K. Lineárna regresia sa snaží naučiť fulaci s polynómom 0, stupňa 1. V polynomiálnej regresii sa snažíme naučiť fuleai f(X), která je definovaná následovne: f(A) = wX, wz 2 + w|x + w|wo - napríklad vektor V tomto případe sa snažíme odhadnúť váh w Sors funktion je mean squared error (súčel chyby štvacov) definovaný ato 22 (ti-filti - filtři), kde Di je očekávana hodnota a fci) je výstup z odhodovanej funkci. Podľa výsledku chdy E (X), ktery vráti gradient, aktualizujeme váhy,"
+  },
+  {
+    "questionNumber": 4,
+    "actual_score": "3.5",
+    "predicted_score": "1",
+    "hidden_answer": "Regresní křivka � Piwo = x w kde x = a w nie). Toto platí jak pro polynomiální regresi kde u =1 tak pro lineární, kde u =1 Parametry funkce jsou w, což je rektor N vah. Parametry u měníme tak, abychom minimalizovali loss Funkci, která nám říká jak daleko jsme od očekávaného výsledku. Tuto optimalizaci můžeme dělat např. pomocí gradient descent algoritmu."
+  },
+  {
+    "questionNumber": 4,
+    "actual_score": "4.0",
+    "predicted_score": "1",
+    "hidden_answer": "Polynomiální ryse je totiž hledání vhodné konference lizeární kombinace vah jednoduchých polynomiálních funkcí (x, 2, 3), která sčítá součiny těchto vah a funkcí; hledáme tedy pouhý vektor vak no = tzv. w n. v. I Snažíme se naučit funkci f (x, w| = wo + w1 + w2 + w2 ? w2 w x kde x je vstupní hodnota a že je vektor vah Snažíme se optimalizovat součet čtverců, tedy součet druhých nočních odchylek výsledných hodnot oproti trénovacím datům tak, aby byl co nejnižší Efektivně provedene pomocí alg. gradient descent."
+  },
+  {
+    "questionNumber": 5,
+    "actual_score": "0.0",
+    "predicted_score": "0",
+    "hidden_answer": "Je to vyjadreme rozsahu výstupu v intervale <-1, pomocou funkcie signoridu."
+  },
+  {
+    "questionNumber": 5,
+    "actual_score": "1.0",
+    "predicted_score": "1",
+    "hidden_answer": "Bod zlomu."
+  },
+  {
+    "questionNumber": 5,
+    "actual_score": "2.0",
+    "predicted_score": "0",
+    "hidden_answer": "V AI chápat;to AI;asi bot, kde prostaveme"
+  },
+  {
+    "questionNumber": 5,
+    "actual_score": "3.0",
+    "predicted_score": "4",
+    "hidden_answer": "generuje data do trénovací sady z jiš která Je to metoda existujících záznamů. Příklad datová sada obrázků které mohou být komplikované na získání. Různým pootočením, deformací, změnou vlivu světla lze do datové sady získat další záznamy. Úpravy se však nesmí přehnat!"
+  },
+  {
+    "questionNumber": 5,
+    "actual_score": "4.0",
+    "predicted_score": "4",
+    "hidden_answer": "Stav hl. AI se stane „inteligentnější“ než lidé a budo schopní se sumu zlepšovat, získávat si zdvoje a kdo ví co vše pokud bude připojenu do internezu tak vůbec. Point of no vetuvu."
+  },
+  {
+    "questionNumber": 6,
+    "actual_score": "0.0",
+    "predicted_score": "3",
+    "hidden_answer": "Retězové pravidlo umožňuje vyjádřit derivaci výpočetního grafu, jako součin chovací padesátky částí tohoto grebu. Využívá se při výpočtu derivací parametrů v neuronových sítích. Derivace se skládají odrady (od výstupu sítě) směru k parametru, čímž se usnadní výpočet pro parametry se společnými částmi výpočetního grafu"
+  },
+  {
+    "questionNumber": 6,
+    "actual_score": "1.0",
+    "predicted_score": "1",
+    "hidden_answer": "- ide o to že sa derivuje postupne reťazovo po jednom - ano napríklad pri rozpoznávani reci sa postupne retazovo spracováva náhravka"
+  },
+  {
+    "questionNumber": 6,
+    "actual_score": "2.0",
+    "predicted_score": "2",
+    "hidden_answer": "- používá se při back-passingu pro úpravu učených parametrů sítě."
+  },
+  {
+    "questionNumber": 6,
+    "actual_score": "3.0",
+    "predicted_score": "3",
+    "hidden_answer": "ŘETĚZKOVÉ PRAVIDLO NÁM UMOŽňUJE SKLÁDAT VÝPOČET PERIVACÍ PRO NÁHY NEURONŮ PŘES JEDNOTLIVÉ VRSTVY.;Toto pravidlo se využívá například v ALGORITMU BACK PROPAGATION KTERÝ JE ASI NEJZNÁMEJČÍ ALGORITMUS PRO UČENÍ VAH AUKCICKÝCH NEURONOVÝCH PŘI UČENÍ SÍTĚ V BACK PROPAGATION JE víří. JÁDEK ZAČÍNAJÍ UPRAVOVAT OD VÝSTUPNÍ VRSTVY Dále se pomocí CHAIN PULE uPRAVUJÍ JÍ NÁHY VE Druhé vrstvě od konce, a takto se postupuje až KE VSTUPNÍ VRSTVĚ."
+  },
+  {
+    "questionNumber": 6,
+    "actual_score": "4.0",
+    "predicted_score": "0",
+    "hidden_answer": "� neťazové pravidla - ide o postupné zamrovanie derivácií f(g(h|x) = funkcia, derivácia funkcie � podľa � d Alginer) of (gard);3x;g(ha);dkg) d (hek);dh(A) = dflg(her) 8x;d(gener);8 (hl x);8x;� využíva sa pri spätnom šíření chyby (algoritmus back pro pergation) pre učenie a úpravu (na stavovatelných) učitelných váh a paranetrov neurónovej siete"
+  },
+  {
+    "questionNumber": 7,
+    "actual_score": "0.0",
+    "predicted_score": "0",
+    "hidden_answer": "- ABY BYLI KRÁTKÉ, DLOUHÉ SLOŽITÉ VĚTY SE ŠPATNÉ ANALÝZUJÍ;- WORD VETOR ARITMETIKA POČÍTÁ PRAVDĚPODOBNOSTI VÝSKYTU SLOV U OKOLÍ DANÉHO SLOVA NA"
+  },
+  {
+    "questionNumber": 7,
+    "actual_score": "1.0",
+    "predicted_score": "2",
+    "hidden_answer": "Word embeddings fungujú ako lookup tables. Pri one-hot vector reprezentacii zakažkým násobíme vektor slova s maticon váh, pri word embeddings máme tento súčin už uložený v tabulke Chceme aby sa zachovával kontext vety, takže na slovo mali uplyn aj slova které sa vo vete často vyskytujú okolo něho."
+  },
+  {
+    "questionNumber": 7,
+    "actual_score": "2.0",
+    "predicted_score": "2",
+    "hidden_answer": "Word aritmetika - počítáním s rektory slov dostanu jiné slova, která spolu nějak souvisejí (sčítání vektorů, přičítání konstantních vektorů,...)"
+  },
+  {
+    "questionNumber": 7,
+    "actual_score": "3.0",
+    "predicted_score": "3",
+    "hidden_answer": "vlastnosti LOCKUP tabulky, abychom byli schopni skvěle přímo vyhledávat;pokud dvě slova mají po době vektory nejspíše budou mít blízko např. Symonyma;k"
+  },
+  {
+    "questionNumber": 7,
+    "actual_score": "4.0",
+    "predicted_score": "2",
+    "hidden_answer": "Chceme, aby slovo, ktoré je v jazykovej relácii s jiným slovem, boli pri sebe. Každú dimenzín ale odčítane reprezentuje a určuje nejakú jazykovu určitú hodnotu od vlastnost mosta v ose x, dostaneme hlavně město. Pri WV antimetike chceme, aby sme vedeli robit arit. operacíe nad slovami, napríklad: krídla + trup = lietadlo;praha;Bratislara;lstandu česko Slovensko;-urecko;mezi takzvanými „on-policy“ a „off-policy“ algoritmy posilo;aného učení? Které jsou"
+  },
+  {
+    "questionNumber": 8,
+    "actual_score": "0.0",
+    "predicted_score": "0",
+    "hidden_answer": "mění pouze nenulové cesty. on-policy: při posilovaném učení se off-policy: mění se celá síť, nevyužité (nulové) spoje ještě snižují své váhy.;lepší je on-policy"
+  },
+  {
+    "questionNumber": 8,
+    "actual_score": "1.0",
+    "predicted_score": "1",
+    "hidden_answer": "On-policy algoritmy provádí akce podle fixní strategie spolicy“ a ve učení využívají velké množství zážitků agerta, jedná se např. o genetické algority ore-policy na druhou stranu často mění strategií agerta a jde spíše po odměnách za akce. off-policy algoritmy jsou lepší, protože mnohdy rychleji najdou řešení dané úlohy"
+  },
+  {
+    "questionNumber": 8,
+    "actual_score": "2.0",
+    "predicted_score": "2",
+    "hidden_answer": "AGENTŮ OFF-POCICY ALGORITMY - vÝCHÁZÍ Z PŘEDCHOZÍCH ZKUŠENOSTÍ PRO LEPŠÍ VÝSLEDKY. ON-POLICY - MŮŽE VÝCHÁZET POUZE ZE ZLUŠENOSTÍ AKTUÁLNÍHO AGENTA;LEŠÍ BUDOU ON-pOLICY: PROTOŽE SE NEMŮŽE SÁM, ŽE BY DOŠLO K PŘETRÉNOVÁNÍ A budou méně naročné na ramet"
+  },
+  {
+    "questionNumber": 8,
+    "actual_score": "3.0",
+    "predicted_score": "4.0",
+    "hidden_answer": "ON-policy: pro každou změnu policy se musí celý systém celý přetrénovat Off-policy: změny policy se mohou postupně přidávat a nemusí se zahazovat ty staré. Lepší jsou off-policy - protože se mohou snáze iterativně učit."
+  },
+  {
+    "questionNumber": 8,
+    "actual_score": "4.0",
+    "predicted_score": "4",
+    "hidden_answer": "On-policy RL algoritmy sbírají informace o prostředí způsobem, který je závislý na strategii (policy) agenta, což znemožňuje to, aby se agent učil z historických zkušeností z dřívějších “epoch“, kdy používal jinou strategii. V důsledku toho je pro natrénování takovéhoto modelu potřeba více dat než u off-policy přístupů. Mezi takovéto přístupy patří např. policy gradient, nebo (trochu mimo RL svět) genetické algoritmy. Off-policy algoritmy (informace s prostředí takovým způsobem, fungují tak, že dokážou pracovat i s daty nasbíranými při použití jiných strategií. Proto pvyžaduje jejich trénování méně dat. Při stejné ceně získávání dat a učení modelu je off-policy výhodnější. Jelikož ale on- policy přístupy mohou mít jiné výhody (efektivnější učení modelu pro daný úkol, levná simulace prostředí)."
+  },
+  {
+    "questionNumber": 9,
+    "actual_score": "0.0",
+    "predicted_score": "1",
+    "hidden_answer": "shallow learning použivaú algoritmy na vzorkovanie, človek musí monuálne spraviť vzorkovanie deep learning sa učí sám, pomocou ohodnocovacích funkcií sa snaží da zpět k správnému riešeniu, dopredu však neví co je správne ohodnocovacia funkcia snaviguje ako ma danú úlohu riešiť"
+  },
+  {
+    "questionNumber": 9,
+    "actual_score": "1.0",
+    "predicted_score": "2",
+    "hidden_answer": "shallow - plytké, využitelné len pro úlohy romakého typu, pri mých úlohách je potrebné celý proces učenia pozmeniť a vytvořiť odznova deep - hluboké, adaptabilné voči shallow, univerzitujšky, umožňuje využitie na rozvych vstupoch"
+  },
+  {
+    "questionNumber": 9,
+    "actual_score": "2.0",
+    "predicted_score": "3",
+    "hidden_answer": "shallow learning - nedokáže zpracovat komplikovanější problém sama o sobě (musí se jí připravit data) nedokáže si sám získat;deep leanning - dokáže si z dat získat informace sám lépe zpracovává komplikovanější problémy"
+  },
+  {
+    "questionNumber": 9,
+    "actual_score": "3.0",
+    "predicted_score": "2",
+    "hidden_answer": "Deep karning často používá velké množství vrstev s velkým množstvím neuronů. Shallow learning je například logistická regrese."
+  },
+  {
+    "questionNumber": 9,
+    "actual_score": "4.0",
+    "predicted_score": "4",
+    "hidden_answer": "shallow learning používá jednoduší metody, ale vyžaduje předpřípravení dat - extrakci příznaků, model potom na základě příznaků vykonává danou funkci, extrakce příznaků se provádí manuálně a příznaky jsou dané řešeným problémem;deep learning používá složitější modely, které řeší extrakci příznaků uvnitř, samy se učí jaké příznaky extrahovat pro dosažení správných výsledků, např. neuronová síť pro klasifikaci objektů v obrázcích se sama naučí detekci hran objektů atd."
+  }
+]

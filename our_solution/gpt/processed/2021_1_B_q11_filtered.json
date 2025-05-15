@@ -1,0 +1,404 @@
+[
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)? Nakreslete příklad.",
+        "answerText": "- graf musí být anglický",
+        "score": 2.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)! Nakreslete příklad.",
+        "answerText": "FORWARD;výstavný;-;-;1. VRSTVA;2. VRSTVA;3. VRSTVA;výsledný vektor 1. vrstvy (musí) vybírať na spracované v 2. v obci.",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)? Nakreslete příklad.",
+        "answerText": "Nesmie obsahovat cykli.;x;- 8- (klivace)",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)? Nakreslete, příklad.",
+        "answerText": "jedná se o orientovaný acyklický graf - tranz grafu jsou orientované a graf neobsahuje cyklus příklad;Xr Xof (69) Sx... vstupní tenzor � x3... výstupní tenzor � linear ... lineární vrstva conv. konvoluční vrstva Spas)... pooling vrstva;(linear) X IX st � Conv",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)? Nakreslete příklad.",
+        "answerText": "D;výpočet výstupu z neuronu je váhovaný skalární součin vstupů — je zde liveární závislost, proto v neuronech bývá trv. aktivační funkce která zajišťuje nelinearitu (Retu, Softmax) DEN V OUTPU LAYER",
+        "score": 1.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)? Nakreslete příklad.",
+        "answerText": "acyklický, orientovaný;w1 - vývoj x1 - 3 max(verst s X2 (C) x pr max (4, XX, 0) acyklický - neobsahuje cykly (teda bez zpátných väsieb), inak by sa mohol zaseknut (zacyklit) - orientovaný - dáta idú jedným superarm;Balík;75 navštěvující",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat přednášky)? Nakreslete příklad;výpočetní graf u dopředných;tí (ty, o kterých byly",
+        "answerText": "každá vrstva ovlivňuje pouze následující vrstvy (nemůže mít cyklus) vstup;skryté vrstvy;vnější vrstva;a výstup",
+        "score": 2.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)? Nakreslete příklad.",
+        "answerText": "klav, b);Lupení;Kungbal;January",
+        "score": 1.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)? Nakreslete příklad.",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)? Nakreslete příklad.",
+        "answerText": "- třeba zajistit rovnokú náročnos;výpočtu;x3;1x1;1x1;1x1",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)? Nakreslete příklad.",
+        "answerText": "Nesmí obsahovat cykly, musí být konečný, musí být orientovaný.;člověk - o 5",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)? Nakreslete příklad.",
+        "answerText": "O;·W1;vz;ReLU;� output bias;- musí fungovať chain rule pravidlo - sme schopný počítať jednotlivé neurony vo vrstvách paralelní musíme najpro maticu vstupných dát vynásobiť vektorom váh a až potom sčítat výsledky aplikovať bčas a nelinearitu na výsledek (signorid, ReLU)",
+        "score": 1.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)? Nakreslete příklad.",
+        "answerText": "musí být;orientovan;a cyklický;-8- výstup vstup Není možné se např. vracet od součtu k násobení zpětnou hranou raf se může větvit",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)? Nakreslete příklad.",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11.;Jaké podmínky musí splňovat přednášky)? Nakreslete příklad.;početní graf u dopředných neuro-;ch sítí (ty, o kterých byly",
+        "answerText": "musí byť acyklicky, išť jedným dopredným smerem može sa vetviť mať všacého výstupov vstup nemoc 50 Počasí DO-LE",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11.;Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)? Nakreslete příklad.",
+        "answerText": "Musí splňovať že grat je acyklický a vždy metzi linuamymi transformací činni je nelincama transformácia.;w 6;andrej vrativ Kub;JZD;ex;any Kč;(a);ústupní vektor nočnost;Nemôže byť napriklad;nikdy by sme su nedopočítali;v;-> kul;Řeky",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "Jaké podmínky musí splňovat přednášky)? Nakreslete příklad.;výpočetní graf u dopředných neuronových;sítí (ty, o kterých byly",
+        "answerText": "Př;Podmínky: vazby pouze mezi neurony sousedních vrstev bez rekurentních vazeb bez zpětných razeb dopředné jsou podmnožinou agitacy NN, kde ale mohou byt vztahy mezi vrstvami co spolu nesousedi;01 -82;LIFT. Pro;->",
+        "score": 2.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)? Nakreslete příklad.",
+        "answerText": "se dají dané vrsty počítají s tím, co dostanou, nekoukají se nikam do minulosti jako třeba RNN nebo jiné věci, pouze dostanou vstup, spočítají a pošlou dál;- pr;XI;Keln;max(van, o);maturitní;XI.;signore output 3);6 (wsx);stále je to vstup - váhy (bias ve vektoru vah)",
+        "score": 1.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11.;Jaké podmínky musí splňovat výpočet přednášky)? Nakreslete příklad.;ní graf u dopředných neuronových sítí (ty, o kterých byly",
+        "answerText": "vstup x;nesmie byť cyklický (musí byť acyklický) - musí byť orientovaný (postupovať jedným smerem) na vstupe máme dato p prehálza bez jednotlivé vrstvy/mané aplikujú sa váhy, operácie - trénujú sa a n postupuje sa dalej jedným smerom „W2X was 69 on;n3x -;výstupy",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)? Nakreslete příklad. HRADI JSOU UDISKOVANÉ 6200 Nosní cvičení.",
+        "answerText": "-;W;D",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)? Nakreslete příklad.",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)? Nakreslete příklad.",
+        "answerText": "data;model;fitmodel;- aktualizace parametrov v modely;pridopredigen světiach sa trénuje tak, že na vstup model dostane dáta na základe, kterých sa učí, výstup z modelu za hodnotí loss funkcion vypočítaj sa rozdiel skutečnej hodnoty a daného výstupu, následne preběhne spätné šírenie priktorom su počítejú derivácie a na základě nových parametrov sa aktualisujú váhy v modely",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí sp ovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)? Nakreslete příklad.",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)? Nakreslete příklad.",
+        "answerText": "— dopředný průchod - zjištění loss funkce - zpětné prupasování — u polité patametrů",
+        "score": 1.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)? Nakreslete příklad.",
+        "answerText": "musí být anglický, musí obsahovat smer výpočtu",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)? Nakreslete příklad.",
+        "answerText": "jde o orientovaný graf bez cyklů;n 0 3. července 1978",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)? Nakreslete příklad.",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly i anglické názvy, když jsou přednášky)? Nakreslete příklad. mohli byste prosím uvádět přednášky v angličtině?",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)? Nakreslete příklad.",
+        "answerText": "Nesmú sa v ňom nachádzať cykly. X2 W1 ->0-17 x o 3/X3 -8-IX-",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)? Nakreslete příklad.",
+        "answerText": "ziadne cykly a musíme byť schopný Nesmú tam by spočítať pre daný graf parciálne derivácie. grat reprezentuje wy= ex + 3x + w, Usne;12;vp;akcísto aby sa gradienti nepočítaly pre celý set dát tak sa využívajú mini-batche.",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)? Nakreslete příklad.",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)? Nakreslete příklad.",
+        "answerText": "NESMÍ OBSAHOVAT CENLY.;PŘÍKLAD:;A;+;A, B JSOU VSTUPU je VÝSTUP UNIVERSITACE V UALECH;a",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných přednášky)? Nakreslete příklad.;neuronových sítí (ty, o kterých byly",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových přednášky)? Nakreslete příklad;sítí (ty, o kterých byly",
+        "answerText": "Např;x2 ->;Nemu být cyklický;- tohle ne;ohledno XI;40;�x;x;tu",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "Používá se při jednotlivých parametrů, které se snažíme naučit.;Korekc",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)? Nakreslete příklad.",
+        "answerText": "Musí být acyklický, musí mít aktivační funkci, nelinearitu XI;-;(Fanta solt nah)",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11.;Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)? Nakreslete příklad.",
+        "answerText": "- musí byť orientovaný a zcyklický;2);C;en 5;narozeninám;avogenommen",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u přednášky)? Nakreslete příklad.;dopředných neuronových sítí (ty, o kterých byly;Weights",
+        "answerText": "acyklicky;- o;poslance;P(POX)",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "aké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)? Nakreslete příklad",
+        "answerText": "vstupem a výstupem je vektor (typicky reálných čísel, typicky normalizovaných na rozsah 20;17 nebo 2-1; 17, ale ne nutně, skryté vrstvy jsou definovány maticemi vah, případně aktivační funkcí, která je aplikována na výstupní součet vážených hodnot (vážený součet hodnot) z přechozí vrstvy / vstupů skryté vrstvy;X.;vstup;výstup",
+        "score": 1.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)? Nakreslete příklad.",
+        "answerText": "D XV;jednej vrstve sa nesmú navzájem ovplyvňova neuróny (nie sú váhy medzi nimi) - neuróny ovplyňují iba neuróny nasledujúcej vrstvy - žiadne spätne vázby v neurónový D o vrstva Vrstva vrstva",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)? Nakreslete příklad.",
+        "answerText": "Výpočtový graf je orientovaný a acyklický;člověk toto môže byť (nie je cyklos) graf (EFSE NN) môže mať viac vstupov alebo výstupov, avšak nesmie sa vytvoriť cyklus",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)? Nakreslete příklad.",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)? Nakreslete příklad.",
+        "answerText": "Musí být acyklický, v jedné vrstvě nejsou vzájemně propojeny uzly, uzel přijíma pouze z předchozí vrstvy;so o 0-SO O",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "7. Jednou z objektivních funkcí (loss function) používaných ve strojovém učení je suma čtverců (sum- of-squares, nebo také střední kvadratická chyba - Mean Square Error). Pro řešení jakého typu problémů se tato objektivní funkce používá? Uveďte alespoň jeden konkrétní model, který tuto objektivní funkci využívá. Čím je použití této funkce motivováno (oproti např. sumě absolutních odchylek)?;POUŽÍVÁ SE PRO LINEÁRNÍ REGRESI. POUŽÍVÁ SE PROTO, ŽE LÉPE POPISUJE ODCHYLKY ZPŮSOBENÉ GAUSSOVSKÝM ŠUMEM.;69",
+        "answerText": "",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)? Nakreslete příklad.",
+        "answerText": "Dopředné neuronové sítě neobsahují cykly ani propojení neuronů v rámci vrstvy. Z toho vychází, že vypočetní graf je taktéž acyklický a obsahuje pouze operace jež jsou diferencovatelné (jejich derivaci dokážeme analiticky vyjádřit) - pro zpětnou propagaci chyby;.;III. -;al;DATY",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)? Nakreslete příklad.",
+        "answerText": "- je úplný (mimo konvoluční) C - výpočet se propaguje jedním směrem žádné cykly nebo návratové hrany - každýuozel obsahuje aktivační funkci (jinak k ničemu) - každý neuron má váhu, kterou se násobí suma vstupů - počet výstupů je u klasifikátoru roven počtu tříd, u regrese 1 výstup graf lze rozdělit na logické celky - vrstvy",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)? Nakreslete příklad.",
+        "answerText": "-;odhAdnout některé Musí jít DOPŘEDU NONSTOF musí být umožněn v běh;události",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)! Nakreslete příklad.",
+        "answerText": "NPVY;Exing;RELU;BLOKY JDE NA SEBE VZÁJEMNĚ NAPOJOVAT GRAF NESMÍ OBSAHOVAT CYKLY.;K. K.;schém a řetězení bloků sítě n... VSTUPY x n n... SUMA VÁHOVANÝCH VSTUPŮ (SKALÁRNÍ SOUČIN);relu;VII;EX;SGTMAX;OUTPUT;SOFIMAY... AKTIVAČNÍ FUNKCE VOLANÁ NAD Z x ním",
+        "score": 2.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "Retězové pravidlo umožňuje vyjádřit derivaci výpočetního grafu, jako součin chovací padesátky částí tohoto grebu. Využívá se při výpočtu derivací parametrů v neuronových sítích. Derivace se skládají odrady (od výstupu sítě) směru k parametru, čímž se usnadní výpočet pro parametry se společnými částmi výpočetního grafu",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných neu přednášky)? Nakreslete příklad.;nových sítí (ty, o kterých byly",
+        "answerText": "orientovaný a acyklický;-3-;-II-",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)? Nakreslete příklad.",
+        "answerText": "orientovaný graf, nesmí obsahovat cyklus XI - B (mal) - XII",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)? Nakreslete příklad",
+        "answerText": "Mělo by se jednat o acyklický orientovaný graf, a úplně nejlépe by se měl sestávat z operací, které lze derivovat. Např. pro síť;y = tanh(Wx + b) bude graf následující Genesung 8;násobení",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)? Nakreslete příklad.",
+        "answerText": "musí byť acyklický a orientovaný, nesmí tam byť smyčky. Inak máme slobodní ruku. W1 O x1 - výsledek;D",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat přednášky)? Nakreslete příklad.;výpočetní graf u dopředných neuronových sítí (ty, o kterých byly",
+        "answerText": "x - Nesmie obsahovať cykly KÁNO od - NIE;+;6;408 Dominikal;VSTUP",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat vý přednášky)? Nakreslete příklad.;Početní graf u dopředných;ovýc;sítí (ty, o kterých byly",
+        "answerText": "Nesmí obsahovat cykly, musí být spojitý, musí být orientovaný výstup o Opis;vstup",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)? Nakreslete příklad",
+        "answerText": "váha;první stav;abin;No se pin W2 � odvodnotuje môže buť steôn něco vystudný vektor � výstupný stav;jednotlivé výtvory",
+        "score": 1.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11.;Jaké podmínky musí splňovat přednášky)? Nakreslete příklad.;výpočetní graf u dopředných;ronových sítí (ty, o kterých byly",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)? Nakreslete příklad.",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)? Nakreslete příklad.",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)? Nakreslete příklad.",
+        "answerText": "Nejsem si jist které jsou dopředné, ale pokud se jedná o residuální, tak ty Fungují tak, že si přeposílají vstup do předu, po určitém počtu vrstev, aby se zrychlilo učení. Na začátku učení, tedy nebude procházet sítí náhodný šum ale vstup pozměněný náhodným šumem.",
+        "score": 1.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete „řetězcové“ pravidlo (chain-rule) pro výpočet derivací. Má nějaké využití při učení neu- ronových sítí?",
+        "answerText": "ly(v) to = v x)",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)? Nakreslete příklad.",
+        "answerText": "acyklický w, ot;max(x, w1, 0) =;we Rok;max(x2w2, 0) V",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)? Nakreslete příklad. Aktivační",
+        "answerText": "W,;funkce;W,;B2;X sis;moc -;Sostmax;vstup;Násobení vstupu s Maticí vah;přičtení vektory bias ke vstupu;Výstup;Výpočetní graf � Musí být orientovaný, acyklický.",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (ty, o kterých byly přednášky)? Nakreslete příklad.",
+        "answerText": "",
+        "score": 0.0
+    }
+]

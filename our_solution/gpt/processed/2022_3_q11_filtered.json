@@ -1,0 +1,128 @@
+[
+    {
+        "questionNumber": 11,
+        "questionText": "III. Vysvětlete, jestli se obecně něčím systematicky liší vzory v obraze, na které reagují konvoluční jádra na začátku konvoluční sítě a konvoluční jádra hlouběji v sítí. (Například ve VGG sítí, ale platí to i pro ostatní architektury?);",
+        "answerText": "Na začátku siete jadra reasujú na hrany, Farby, základné věci.;čím hibšie sme, tým viac sa to potom podoba veciam čo hladáme. Pri konci, kde máme napríklad už dalšíu vrstvu hlasů obohaci, tak tam sú už objekty.;Možeme menť sieť;Kadlec směrom nore vrsty dostávající informace doe stratilo aby viděli kde bolí hrany a podobne. Lebo to sa cestou;tu se už 1 pixel a;určí pa čo to je.",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": ";11. Vysvětlete, jestli se obecně něčím systematicky liší vzory v obraze, na které reagují konvoluční jádra na začátku konvoluční sítě a konvoluční jádra hlouběji v sítí. (Například ve VGG sítí, ale platí to i pro ostatní architektury?)",
+        "answerText": "Obecne čím hlouběji je konvoluční jádro ve sítí tím větším částem obrazů pracuje, KJ na začátku KS extrahují tzv. low - lesech příznaky, hloubější KJ extrahují high-level příznaky.;",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete, jestli se obecně něčím systematicky liší vzory v obraze, na které reagují konvoluční jádra na začátku konvoluční sítě a konvoluční jádra hlouběji v sítí. (Například ve VGG sítí, ale platí to i pro ostatní architektury?);",
+        "answerText": "Na začátku konvoluční vítěz JDR převážně o \"hrubé\" vzory Jako jsou například hrany, odpod.;hlouběji v síti se pak jedná o konkrétnější prvky například spacifický tvor v oblasti brody, atd. Mombinace hrubších vzorů z předchozích vrstev",
+        "score": 3.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete, jestli se obecně něčím systematicky liší vzory v obraze, na které reagují konvoluční jádra na začátku konvoluční sítě a konvoluční jádra hlouběji v sítí. (Například ve VCG sítí, ale platí to i pro ostatní architektury?)",
+        "answerText": "hlbšie jadrá sa zameria vracejí na hladanie lokálnych príznakov, které bývají špecifickejšie pre konkrétne briedy, zatiať čo jadrá na začátku ní shor vyhodnejšie na detekciu celého objektu, alebo jeho lokalizácne v přestože na základe jeho tvaru",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "II. Vysvětlete, jestli se obecně něčím systematicky liší vzory v obraze, na které reagují konvoluční jádra na začátku konvoluční sítě a konvoluční jádra hloubějí v sítí. (Například ve VCG sítí, ale platí to i pro ostatní architektury?)",
+        "answerText": "líšia sa tým, že čím hlbšůe sú v sieti daně konvolučně jadrá, tak daný vstup má niacero príznaka (resp. väčšia hľbku), hedže po každej konvolučnej vrstve je polling vrstva, kt. zmenšuje daný vstup, ale zato vstup do dalšej vrstvy je \"hlbší\" 17/11 až výsledek bude například 128 x 1 + 1",
+        "score": 1.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete, jestli se obecně něčím systematicky liší vzory v obraze, na které reagují konvoluční jádra na začátku konvoluční sítě a konvoluční jádra hlouběji v sítí. (Napříkladve VGG sítí, ale platí to i pro ostatní architektury?)",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": ";11. Vysvětlete, jestli se obecně něčím systematicky liší vzory v obraze, na které reagují konvoluční jádra na začátku konvoluční sítě a konvoluční jádra hlouběji v sítí. (Například ve VGG sítí, ale platí to",
+        "answerText": "i pro ostatní architektury?);- na začiatku unímame iba hrany a velmi malé časti potom sú ta menšie časti velkých objektov nakoniec sú to celé objekty alebo velké časti -;v její starosti si m do surongské dopravy interpretuje;získat, pozdě až na 1A Jaroslavi v obci se budou Snadno se slavíme v pod 700",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete, jestli se obecně něčím systematicky liší vzory v obraze, na které reagují konvoluční jádra na začátku konvoluční sítě a konvoluční jádra hlouběji v sítí. (Například ve VGG sítí, ale platí to i pro ostatní architektury?)",
+        "answerText": "",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete, jestli se obecně něčím systematicky liší vzory v obraze, na které reagují konvoluční jádra na začátku konvoluční sítě a konvoluční jádra hlouběji v sítí. (Například ve VGG sítí, ale platí to i pro ostatní architektury?)",
+        "answerText": "Na začátku je velký obrázek, který pomocí max-pooling (pooling vrstev zmenšujeme",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete, jestli se obecně něčím systematicky liší vzory v obraze, na které reagují konvoluční jádra na začátku konvoluční sítě a konvoluční jádra hlouběji v sítí. (Napříkladve VGG sítí, ale platí to i pro ostatní architektury?);VÝRAZNÉ",
+        "answerText": "ZAČÁTEK � ZACHRÁNÍ VZORY ZOBRAZUJÍ MRAVY, BARVA STŘED O OBSAHUJÍ VĚTŠÍ ČÁSTI OBjEKTŮ KONEC - vZORY OBSAHUJÍ OBJEKTIVECKÉ ČÁSTI OBJEKTU;Čím jsme hlouběji v ks, tím budou vZORY ZANLEJŠÍ VĚTŠÍ ČÁSTI OBJEKTŮ D1",
+        "score": 3.5
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete, jestli se obecně něčím systematicky liší vzory v obraze, na které reagují konvoluční jádra na začátku konvoluční sítě a konvoluční jádra hlouběji v sítí. (Například ve VCC sítí, ale platí to i pro ostatní architektury?)",
+        "answerText": "na začátku se oběvují \"lov - level\" vrvy, které větžinou kopírují tvory filtrů - např., vertikální, horizontální čáry následují tvory \"mid-lievel\" vrury, který už mají zajímavější - menší dataily se projevují nejhlouběji jsou \"high-losevel“ vrvy, které už můžu připomínat složitější útvary s většími detaily",
+        "score": 3.5
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete, jestli se obecně něčím systematicky liší vzory v obraze, na které reagují konvoluční jádra na začátku konvoluční sítě a konvoluční jádra hlouběji v sítí. (Například ve VGG sítí, ale platí to i pro ostatní architektury?)",
+        "answerText": "wir thun würden es gelangen: ob die Freitags Ver- zastoupit všechen svých aktů 300 m nebo na den ich das ganze geboten bis zum Anfang šel den ersten nejprv vystavět svůj závod na shromáždění v Praze. A tak také celkem 54. po světě to však začlo starat.",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete, jestli se obecně něčím systematicky liší vzory v obraze, na které reagují konvoluční jádra na začátku konvoluční sítě a konvoluční jádra hlouběji v sítí. (Například ve VGG sítí, ale platí to i pro ostatní architektury?)",
+        "answerText": "- dá se říci, že hlouběji v KN by měly být vzory více extrahovány, respektive můžou se případně i ztratit k jestliže jedna vrstva zpracuje NXN pixelů a vytvoří z nich 1 sixel;čím dál - obrazy jsou daleko více zpracované, méně se podobají původnímu",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": ";11. Vysvětlete, jestli se obecně něčím systematicky liší vzory v obraze, na které reagují konvoluční jádra na začátku konvoluční sítě a konvoluční jádra hlouběji v sítí. (Například ve VGG sítí, ale platí to i pro ostatní architektury?)",
+        "answerText": "Jednotlivé vrstvy mohou pracovat v různých doménách, což může mít ze výsledek odlišnou reprezentaci informací v jednotlivých částech.",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete, jestli se obecně něčím systematicky liší vzory v obraze, na které reagují konvoluční jádra na začátku konvoluční sítě a konvoluční jádra hlouběji v sítí. (Například ve VGG sítí, ale platí to i pro ostatní architektury?)",
+        "answerText": "svou orientací - konvoluční orientované;jádra reagují na útvary - kuzelosečky atp.;barven",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete, jestli se obecně něčím systematicky liší vzory v obraze, na které reagují konvoluční jádra;;na začátku konvoluční sítě a konvoluční jádra hlouběji v sítí. (Například ve VCG sítí, ale platí to",
+        "answerText": "i pro ostatní architektury?);obecně a nevyhnutelně se liší velikostí — hlouběji v síti je větší receptive field;prakticky to bývá posun od geometrických vzorů k sémantickým",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete, jestli se obecně něčím systematicky liší vzory v obraze, na které reagují konvoluční jádra na začátku konvoluční sítě a konvoluční jádra hlouběji v sítí. (Například ve VGG sítí, ale platí to ostré hraje, zakřivení hran i pro ostatní architektury?) čněna barev zejména na jednoduché Konvoluční jÁDRA na začátku sítě reagují vzory. To je způsobeno tím, že při běžné velikosti konvolučního jádra (nejčastěji 3x3) není možné moc dobře odhalit nějaké složitější vzory;JÁDRA HLOUBEJÍ sítě jsou pak schopná rozpoznávat více komplexní vzory � to je způsobeno tím, že v průběhu zpracování obrázku sítí se tento obrázek zmenšuje a z toho důvodu obsahuje jeho výseč mnohem více informací. Je pak možné rozpoznávat komplexní vzory jako např: geometrické tvary (kruh, obdélník) popřípadě i jednotlivé objekty (automobil, dům...)",
+        "answerText": "",
+        "score": 4.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete, jestli se obecně něčím systematicky liší vzory v obraze, na které reagují konvoluční jádra na začátku konvoluční sítě a konvoluční jádra hlouběji v sítí. (Například ve VGG sítí, ale platí to i pro ostatní architektury?)",
+        "answerText": "Lišin na počtu neurónov;Monze;Môžu sa léčiť počtou neurónov.;",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete, jestli se obecně něčím systematicky liší vzory v obraze, na které reagují konvoluční jádra na začátku konvoluční sítě a konvoluční jádra hlouběji v sítí. (Například ve VGG sítí, ale platí to i pro ostatní architektury?);",
+        "answerText": "Na začiatku konvolučných sietí sa často aplikujú fitre, kt. detegují malé lokálne príznaky -> ako napríklad hrany, kde na začiatku sa aplikují napríklad tri konvoluční pravé hran a horizontálne jadná na lávě hrany hrany a dálej v sieti sa potom aplikujú jadrá které konvolvují a detegují trany kruhov a vých. travou a na konci sa delegují už zložité obrazce z pretošlých layerov.;",
+        "score": 2.5
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "II. Vysvětlete, jestli se obecně něčím systematicky liší vzory v obraze, na které reagují konvoluční jádra na začátku konvoluční sítě a konvoluční jádra hlouběji v sítí. (Například veVGG sítí, ale platí to i pro ostatní architektury?)",
+        "answerText": "mezi vrstvami ničím,;jde pouze o hodnotu;exactlo de jasan. 14 války konservatoř a nyní",
+        "score": 0.0
+    },
+    {
+        "questionNumber": 11,
+        "questionText": "11. Vysvětlete, jestli se obecně něčím systematicky liší vzory v obraze, na které reagují konvoluční jádra na začátku konvoluční sítě a konvoluční jádra hlouběji v sítí. (Například ve VGG sítí, ale platí to i pro ostatní architektury?)",
+        "answerText": "na začiatku CNN rozoznávajú filtre velmi jednoduché vzory - vodorovné a zvířaté hrany, kruhy, bodky (tečky), ... čím blbšíe do sieke postupujeme, tým zbožitejšie vzory jadrá vedia rozoznávať, - tvar zvieracej hlavy, vzor včelicho úla, obrys človeka, ...;Pod nápisem",
+        "score": 4.0
+    }
+]
